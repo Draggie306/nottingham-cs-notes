@@ -1,0 +1,9 @@
+I was one of 2 guys in a class of 24. I had no native speakers in my household, no fluent parents, my dad could not speak a word of any foreign language, and I had no connections to French people at all or French culture. None of my A Level subjects remotely complemented French. I was also not going to do French at uni or had it in mind for any career path - I had applied for a STEM degree (computer science with AI) so I quite literally had no use for the language and was just learning out of passion because "why not". I had no chance to live in France, no real immersion, save for a visit to Paris in Year 9, and a French exchange in year 12... where my partner didn't even like talking with me.
+
+This time last year (February) I got a D in one of my mock papers and my teachers told me I write "really bad Franglais". I had almost given up trying to get better because no matter what I did, my writing never improved; instead my papers stared back at me in disappointment. In addition, due to the amount of native/bilingual speakers who take a language subject making the grade boundaries insanely difficult, I always believed a top grade was completely out of reach.
+
+Fast forward to A Level results: I get an A* in French, my highest grade! I got almost full marks on speaking, and went from 20/40 marks in my best mock to 35/40 - even on the book I hated reading and was utterly hopeless at analysing (my friends carried me though this part - thanks Jess!). I was well into the A* range, despite me always believing it was impossible!
+
+Lesson learnt: you've always got a good chance with languages, even if you're not sure about how the exam went, whether you did a good translation, what that word meant etc. so never give up - improvement happens when you least expect it. And for Year 12s, don't ever discount or underestimate the subject you care the least about from your future, beyond A Levels.
+
+(if you have any questions, I'd be happy to give advice!)

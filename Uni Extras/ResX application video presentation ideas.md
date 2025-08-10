@@ -1,0 +1,5 @@
+- spoken to some ResX members and they said and I agree that I would be a good fit
+- so far i've had experience in proactively going up to people at uni and i've met one of my best friends here by doing that, and my close friendship group has gone from a duo to trio to a "special quartet" is what our group chat is called!
+- i really enjoy helping out and I've applied to be a mentor and subject ambassador to here
+- before uni I was head student - involved lots of people coming to me with suggestions, and I've had to speak out and signpost people with issues such as safeguarding -> looking forward to scaling this support I can give up at uni. 
+- like working in a team aiming to benefit as many people as i can - software engineering  
