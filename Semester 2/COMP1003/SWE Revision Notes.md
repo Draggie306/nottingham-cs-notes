@@ -104,8 +104,7 @@ Personas are useful to make designers think about how their designs will be used
 Multiple personas can be put in a table to categorise and compare different user needs and to ensure all types of interaction is covered.
 
 ##### Use case diagrams
-
-![](Images/Pasted%20image%2020250521164641.png)
+![](Pasted%20image%2020250521164641.png)
 
 #### User stories
 Common, fast and easy to produce in Agile teams.
@@ -183,7 +182,7 @@ Diamonds represent decisions, thick bars represent the splitting and joining of 
 Transforms a use case diagram into one that shows the sharing of information between different people and systems and messages between components (e.g. functions).
 
 ![Pasted image 20250522195721](Images/Pasted%20image%2020250522195721.png)
-
+ 
 
 
 
