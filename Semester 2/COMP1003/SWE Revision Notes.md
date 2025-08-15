@@ -106,6 +106,8 @@ Multiple personas can be put in a table to categorise and compare different user
 ##### Use case diagrams
 ![](Pasted%20image%2020250521164641.png)
 
+
+
 #### User stories
 Common, fast and easy to produce in Agile teams.
 
