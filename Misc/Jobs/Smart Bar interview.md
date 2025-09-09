@@ -1,0 +1,5 @@
+A student explains to you that they were working on a word document on a Library computer and cannot find it anymore. It is the only copy of an assignment due in 20 minutes. You help them check their UoN One Drive and the document was never saved. Discussing with them you realised they saved the doc to the computer C:Drive, which has been wiped overnight. Tell us what you will say to the customer?
+ 
+The Smart Bar Assistant next to you is serving a student with a speech impediment, which makes it very difficult to understand their questions. After the user has left, they mock the user by mimicking their speech. How do you react? 
+ 
+ You are on shift at a Smart Bar, the other tutors are all busy. You are helping a student with formatting a Word document when a member of Library staff comes to you and requests you come with them to a printer on another level to help a student with a printing query, what do you do?
