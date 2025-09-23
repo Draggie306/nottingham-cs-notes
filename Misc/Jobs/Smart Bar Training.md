@@ -87,7 +87,7 @@ Everywhere:
 - Uni is very data-driven: important part is to run survey data
 - Uni has not been in the best financial situation so there is pressure that every pound the uni spends, it is spent well - so surveys ensure the service keeps running. We are in the position to capture data that nobody else can
 - THere are 2 surveys:
- - Service Activity Survey for every transaction we make: short, where we work, who was being served, and the type of issue with resolution/unresolved. takes 20 seconds but can be hard to do at the start of the session. It is a core part of the day, and to justify the budget. Quality management information. If interaction is not recorded, it did not happen
+ - Service Activity Survey for every transaction we make: short, where we work, who was being served, and the type of issue with resolution/unresolved. takes 20 seconds but can be hard to do at the start of session. It is a core part of the day, and to justify the budget. Quality management information. If interaction is not recorded, it did not happen
  - Customer satisfaction survey: ask each user to fill a survey about how they used the service; at each location there are QR codes and flyers
  
  
