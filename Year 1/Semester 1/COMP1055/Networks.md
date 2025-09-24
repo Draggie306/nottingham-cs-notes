@@ -551,7 +551,7 @@ Within the TCP packet, there is a source and destination port in the header. Whe
 ## Windowing
 If there was just one stream of SYN/SEND/ACK, then there would be lots of idle time on the network. The sender can send multiple packets with different data ranges to combat this; as ACKS also state the sequence number, we can almost continuously be receiving data without much waiting - making the best use of the available bandwidth.
 
-The window field in the TCP header can adjust this to handle more/less data dependent on conditions at any point. The receiver can say to stop sending if e.g. there is no space left on it.
+The window field in the TCP header can adjust this to handle more/less data, depending on the conditions of the network, at any point. The receiver can say to stop sending if e.g. there is no space left on it.
 
 
 ## SYN

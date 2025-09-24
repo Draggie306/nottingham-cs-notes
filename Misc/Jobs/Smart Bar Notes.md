@@ -1,3 +1,16 @@
+# Quick access
+
+Fill in after each interaction: [SB staff page](https://forms.office.com/pages/responsepage.aspx?id=7qe9Z4D970GskTWEGCkKHrD7NcXXkf9CvFlZEZD7gIVUM0lRVklGODQ4OExFUko2TzRINTBVWjdORCQlQCN0PWcu)
+
+
+
+IT Service Desk: https://www.nottingham.ac.uk/dts/help/it-support.aspx
+
+Eduroam domain suffix/domain etc.:
+`radius.nottingham.ac.uk`
+
+
+## Training notes
 - DOn't be shy of helping others around
 - Can be challenging, can be rewarding; each interaction helps someone else be connected
 - Jeremie's favourite things are doing the covering letters and references for Smart Bar future workers and seeing LinkedIn popups
