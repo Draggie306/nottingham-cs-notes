@@ -15,7 +15,7 @@ Unicore timesheets login (if 2x jobs, must submit both at the same time, cannot 
 
 
 ## Training notes
-- DOn't be shy of helping others around
+- Don't be shy of helping others around
 - Can be challenging, can be rewarding; each interaction helps someone else be connected
 - Jeremie's favourite things are doing the covering letters and references for Smart Bar future workers and seeing LinkedIn popups
 

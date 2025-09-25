@@ -9,3 +9,7 @@ Every night at midnight, a cron job on my homelab syncs a S3-compatible storage 
 > If the homelab is off (which should be never) then this repository will not be updated; usually, this should only be the case for a few days at most.
 
 > Sometimes I write notes in a hurry and this (especially for mathematics notes) causes the Jekyll build to fail. I am notified when this happens and notes are usually fixed for the next day; if this persists, feel free to open a PR. It should be an easy fix.
+
+
+## Maintenance
+If the remote repository is pushed to, a manual push and sync is required to avoid conflicts before the cron job can run again successfully.
