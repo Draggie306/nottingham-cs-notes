@@ -1,4 +1,4 @@
-
+> **Note: this is incomplete and misses various information beyond Lecture 10, especially proofs, axioms and induction.**
 
 ## Sets
 A set is an unsorted/unordered collections of items, with no quantities. Don’t care about the quantities - only concept is what is/is not in a set. The item can be anything.
@@ -176,12 +176,10 @@ When dealing with predicates, if we look for an element in X where X is an empty
 
 We write all premises down that are to the left of the operator on the top of the page, and the one to the right at the bottom of the page.
 
-A *flag* is like a temporary premise 
+A *flag* is like a temporary premise.
 
 
 # Axioms
-
-
 
 ## AA5 - mathematical induction for predicates
 
