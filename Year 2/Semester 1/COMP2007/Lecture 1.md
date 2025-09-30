@@ -50,10 +50,12 @@ User programs will be prevented from doing things e.g. illegal memory access by 
 
 The idea of a machine being able to do multiple things is required: I/O is very slow, a 7200rpm HDD and a 3.6ghz processor means that there would be over 13m operations wasted.
 
-
+The OS can be considered a resource manager. It should share resources fairly for each program
 
 
 
 > “All problems in computer science can be solved by adding another level of indirection.”
 
 
+An OS is the fundamental abstraction that lets us safely and efficiently run programs on the hardware.
+Do not forget about brushing up on C code!
