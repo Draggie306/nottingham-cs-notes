@@ -58,3 +58,11 @@ Details very by the OS: modern CPU designers may avoid these as it does involve 
 
 ## The C language
 An OS must be fast enough for as many users as possible. A slow OS slows every programs that runs; energy efficiency is a concern (especially for mobile), so there is a bias towards performance over elegant and simple code, BUT it must be correct.
+
+It should be written once as they are difficult to write, and thus simply recompiled for different  hardware. It should be predictable for user programs - it takes X for Y to happen. If there is e.g. a garbage collection system, this takes a while and risks the caller to be killed instead.
+
+The 3 Ps:
+- Performant
+- Portable
+- Predictable
+
