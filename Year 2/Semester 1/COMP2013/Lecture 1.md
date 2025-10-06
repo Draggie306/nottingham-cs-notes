@@ -1,6 +1,6 @@
-Taught by Max Wilson: taught Intro to Software Engineering for 10 years
+Developing Maintainable Software
 
-Y1 modules - Intro to Software Engineering
+Taught by Max Wilson: taught Intro to Software Engineering for 10 years
 
 Software maintenance is central to software development: it involves **maintainable software** and **software maintenance**. The goal of this module is to ensure we can write maintainable code.
 
