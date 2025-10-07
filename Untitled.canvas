@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"11e57eef5c730701","type":"file","file":"Year 1/Semester 1/COMP1001/Maths in CS - Tutorial 1 - Propositions.md","x":-20,"y":-200,"width":520,"height":460},
-		{"id":"e90091452830da8b","type":"text","text":"","x":-380,"y":-120,"width":250,"height":50}
+		{"id":"e90091452830da8b","type":"text","text":"","x":-380,"y":-120,"width":250,"height":50},
+		{"id":"11e57eef5c730701","type":"file","file":"Year 1/Semester 1/COMP1001/Maths in CS - Tutorial 1 - Propositions.md","x":-60,"y":-240,"width":520,"height":460}
 	],
 	"edges":[]
 }

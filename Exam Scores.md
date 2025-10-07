@@ -9,7 +9,6 @@
 | COMP 1055 | Networks                      | 10     | 93     |
 | COMP 1056 | Computer Architecture         | 10     | 84     |
 
-
 ### Semester 2
 
 | code      | module                         | credit | mark % |

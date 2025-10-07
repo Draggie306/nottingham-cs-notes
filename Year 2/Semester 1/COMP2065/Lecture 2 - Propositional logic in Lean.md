@@ -68,20 +68,12 @@ theorem C : (P → Q) → (Q → R) → (P → R) := by
 #print I
 #print C
 
-  
 theorem swap : (P → Q → R) → (Q → P → R) := by
+	intro pqr q p
+	apply pqr
 
-intro pqr q p
-
-apply pqr
-
-  
-
-assumption
-
-assumption
-
-  
+	assumption
+	assumption  
   
 
 #print swap

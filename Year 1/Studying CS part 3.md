@@ -1,7 +1,5 @@
-
-
-
-Open book exams: false friend - instrad 
+	
+Open book exams: false friend.
 
 Mocks:
 - providing exam papers are not expected

@@ -1,10 +1,17 @@
+All notes for Developing Maintainable Software (COMP2013) at the University of Nottingham School of Computer Science.
 
-Developing Maintainable Software 
+Notes for this module are not complete.
 
-## Lecture Notes
-Lecture 1: Introduction
+## Main document
+These are more finished, cover multiple lectures, and have better explanations.
 
-[Lecture 2: Introduction to DevOps](Lecture 2 - Intro to DevOps)
+- Unavailable.
+
+## All Draft/Lecture Notes
+These notes may be lecture-specific, include unorganised information and may not polished or finalised.
+
+- Lecture 1: Introduction
+- [Lecture 2: Introduction to DevOps](Lecture 2 - Intro to DevOps)
 
 ## Full Module Revision
 Full notes for the module have not been made yet.

@@ -31,6 +31,8 @@ Interrupts and system calls control these transitions. When a system call is mad
 
 The operating system’s central data structure are queues. Admitted processes in the ready queue may be dispatched for the CPU to run. Then, different events e.g. I/O can be waited and processes added to these queues, and/or processes time out if they occupy too much CPU time.
 
+![[Pasted image 20251007115338.png]]
+
 ### Context switching
 
 CPU access must be shared in modern, multiprogramming,  single-processor system. **Time slicing** is used by interleaving the execution of processes. Control is given and passed between processes using context switching. There is a tradeoff between the time slice length and context switch time.
