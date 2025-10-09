@@ -11,7 +11,8 @@ These are more finished, cover multiple lectures, and have better explanations.
 ## All Draft Notes
 These notes may be lecture-specific, include irrelevant information and are not polished or finalised. They are not recommended to read.
 
-\[no notes present.]
-
+- [L2](/Year 1/Semester 1/COMP1005/L2)
+- [Tuesday lecture](/Year 1/Semester 1/COMP1005/COMP1005 Tues)
+- [Week 4 Lecture 1](/Year 1/Semester 1/COMP1005/Week 4 - Lecture 1)
 
 

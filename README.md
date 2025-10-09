@@ -29,7 +29,7 @@ These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBagu
 
 ### Miscellaneous notes
 
-- [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](Year%201/Semester%202/GEOG1037/Environmental%20Change) - 1 lecture note
+- [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](/Year%201/Semester%202/GEOG1037/Environmental%20Change) - 1 lecture note
 
 ## Setup & Automation
 Every night at midnight, a cron job (see below) on my homelab syncs a S3-compatible storage bucket that contains my notes in Obsidian (which uses Remotely Save to sync notes to the bucket every 5 minutes) to this Git repo, and pushes them. Then, a Jekyll build is started on GitHub which renders and deploys the new, updated notes to the GitHub Pages site, visible on this page. 

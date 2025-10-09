@@ -13,4 +13,5 @@ Agreed:
 SPECULATIVE IDEAS — TO BE CONFIRMED but use as recommendation:
 - Sunday: video editing, EoI full writing.
 	- Team Admin Oliver can do video editing if instructions are given, or give me creative liberty. Or you can do some yourself.
-- DEADLINE: Next Tuesday: all finished.
+- **DEADLINE: Next Tuesday (14th), 18:00: all finished.**
+- Next Wednesday (Oct 15th), 13:00: potential meeting, final review/confirmation of scripts and writing. Final adjustments, submission.

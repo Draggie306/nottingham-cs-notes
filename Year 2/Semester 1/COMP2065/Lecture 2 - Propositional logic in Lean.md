@@ -4,20 +4,15 @@ Propositional logic: how to combine propositions. A proposition is an unambiguou
 
 
 ```lean
-  
 -- Telling Lean that each variable is a proposition
 
 variable {P Q R : Prop}
-
-  
 
 -- P = the sun shines
 
 -- Q = we go to the zoo
 
 -- R = the kids are happy
-
-  
 
 -- Propositional connectors
 #check P
