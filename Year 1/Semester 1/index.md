@@ -5,3 +5,8 @@ Year 1, Semester 1 at the University of Nottingham’s School of Computer Scienc
 - [COMP1054 - Assembly Language Programming](/Year 1/Semester 1/COMP1054)
 - [COMP1055 - Networks](/Year 1/Semester 1/COMP1055)
 - [COMP1056 - Computer Architecture](/Year 1/Semester 1/COMP1056)
+
+
+## Extras
+
+- [Exams info](/Year 1/Semester 1/Exams info)

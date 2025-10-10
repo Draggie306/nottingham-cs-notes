@@ -6,11 +6,11 @@ CSMA/CA (wifi) - different natures of the medium require different algorithms of
 centred around one key idea: the packet will be sent eventually. there may be issues, but there will be systems in place to eventually send it correctly.
 
 ## ethernet
-we put data in packts to allow data to be multilexed across the network with data from other machines.
+we put data in packets to allow data to be multiplexed across the network with data from other machines.
 
 at the packet level (around level 2), it is connectionless
 
-frame is made of different sections as it is transmitted. voltage chaneges 
+frame is made of different sections as it is transmitted. voltage changes 
 
 ### make up of a frame
 There are three sections - the header, data, and error checking.
@@ -28,17 +28,17 @@ The 48-bit MAC of the destination is sent after this. it is sent first so that t
 
 It is then followed by the source address
 
-THe frame type is a 16bit/2-byte standardised number to show the type of data.
+The frame type is a 16bit/2-byte standardised number to show the type of data.
 
 To know the size of the packet (it's dynamic), we can determine if the carrier disappears and the line is empty. The standard shows the line must be idle for 96 bits
 
-CRC enables us to chek for errors in transmission, 4 bytes (32bit) at the end that is generated from the packet's data. The sender and receiver generate the same number using the same algorithm to determine if a transmission at the end.
+CRC enables us to check for errors in transmission, 4 bytes (32bit) at the end that is generated from the packet's data. The sender and receiver generate the same number using the same algorithm to determine if a transmission at the end.
 A simple checksum can add up all values in the data and check that - but burst errors are common on a network, causing various changes to the data around a single point. 
 
 
 ### Part 2 - Lecture 10 
 
-A more advanced cyclical redundany check (CRC) uses the xor OPERATOR and the shift register.
+A more advanced cyclical redundancy check (CRC) uses the xor OPERATOR and the shift register.
 
 Smallest valid Ethernet frame: 672 bits long
 largest; 12304 bits

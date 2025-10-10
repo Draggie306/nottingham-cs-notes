@@ -19,7 +19,16 @@ Index file for the Computer Science course at the University of Nottingham, Year
 - [COMP1043 - Mathematics for Computer Scientists 2](/Year 1/Semester 2/COMP1043)
 
 
-### Bonus notes
+# Extras
+
+## Out-of-school
+
 Additional lectures were also attended during this period.
 
 - [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](/Year%201/Semester%202/GEOG1037/Environmental%20Change) - 1 lecture note
+
+## Misc Lectures
+
+- [Software Engineering Talk](/Year 1/SWEng Talk)
+- [Studying CS Effectively (Lecture 1)](/Year 1/Studying CS Effectively Lecture 1)
+

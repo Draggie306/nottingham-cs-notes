@@ -45,7 +45,7 @@ Serial: uses less (one) wire and sends bits bit-by-bit
 
 
 ### Determining different bytes
-So that the computer can correctly dertermine different bits from each other, there is a mechanism to handle this - start and stop bits. In serial:
+So that the computer can correctly determine different bits from each other, there is a mechanism to handle this - start and stop bits. In serial:
 
 - the start bit is always 0
 - the stop bit is always 1 and the line is held at 1
@@ -379,13 +379,13 @@ printf("connecton made on %d")
 To read a line from a network:
 ```c
 do {
-n = recv(sd, &c, 1, 0);
-buf[i] = c;
-
-if (i > 0 && buf[i] == '\n' && buf[i-1] == '\r')
-{
+	n = recv(sd, &c, 1, 0);
+	buf[i] = c;
 	
-}
+	if (i > 0 && buf[i] == '\n' && buf[i-1] == '\r')
+	{
+		/* read it */
+	}
 }
 ```
 

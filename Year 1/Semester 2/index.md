@@ -7,5 +7,7 @@ Year 1, Semester 2 at the University of Nottingham’s School of Computer Scienc
 - [COMP1043 - Mathematics for Computer Scientists 2](/Year 1/Semester 2/COMP1043)
 
 
-### Bonus Notes
+## Extras
+### Out-of-school
+
 - [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](/Year%201/Semester%202/GEOG1037/Environmental%20Change) - 1 lecture note

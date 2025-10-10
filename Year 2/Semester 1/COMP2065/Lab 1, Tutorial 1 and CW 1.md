@@ -17,19 +17,20 @@ Lean is slightly different; in IFR:
 - To prove a disjunction: just prove one side. In Lean: we choose which one - `left` or `right`. 
 - To say A implies B, we can write down `intro` with a name with the assumption, e.g. variable name `a` (or anything) becomes the left side to prove the other side.
 
-For a conjunction: 
+For a conjunction, we use **constructor** and **cases**.
 ```
+constructor
+
 cases assump with
 | intro p q => assumption
 ```
 This gets 2 new assumptions
 
-For a disjunction, we can also use proof by cases: the case of the left and the right.
-
+For a disjunction, we can also use proof by cases: the case of the left and the right. There are two ways to prove it.
 ```
 cases assump with
 | inl lhs => -- FOr the left hand side
-| inr rhs => -- FOr the right hand side
+| inr rhs  => -- FOr the right hand side
 ```
 
 For an assumption:
