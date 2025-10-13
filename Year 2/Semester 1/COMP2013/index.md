@@ -11,7 +11,8 @@ These are more finished, cover multiple lectures, and have better explanations.
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 
 - Lecture 1: Introduction
-- [Lecture 2: Introduction to DevOps](Lecture 2 - Intro to DevOps)
+- [Lecture 2: Introduction to DevOps](/Year 2/Semester 1/COMP2013/Lecture 2 - Intro to DevOps)
+- [Lecture 3: Refactoring](/Year 2/Semester 1/COMP2013/Lecture 3 - Refactoring)
 
 ## Full Module Revision
 Full notes for the module have not been made yet.
