@@ -66,6 +66,18 @@ Typically, CPU usage will drop to zero and neither process/thread will make any 
 > a set of threads is deadlocked if each thread in the set is waiting for an event that only another thread in the set can use.
 
 
+There are four minimum conditions for deadlocks to occur:
+
+- mutual exclusion: a resource can be assigned to at most one process.
+- hold and wait condition: a resource can be held whilst requesting new resources
+- no preemption: resources cannot be taken away forcefully from a process
+- circular wait: there is a circular chain of two or more process, waiting for a resource held by the other process.
+
+No deadlocks can occur if one condition is not satisfied.
+
+> This is likely to occur in coursework. If so, check the order in which order of resources are requested.
+
+
 
 
 

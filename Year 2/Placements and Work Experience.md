@@ -61,6 +61,44 @@ Pick and choose elements of a CV for some roles where appropriate (e.g. more Pyt
 
 Placement applying is very organic: it cannot be predicted; all placements are different. Don’t guess, start now and learn.
 
+## HackSo
+
+
+### Lana Valentine
+
+In video interviews:
+
+- Many companies are interested in seeing candidates seeming interested in the company; go to Google news about the company and find something that is interesting
+
+
+- situation
+- 
+
+One way interview: should say strongly agree or disagree
+
+Two-way interviews and programming interviews: usually a lot easier "going to make optimisations, subroutines, thinking about edge cases". Also may ask about why you like the company
+
+
+
+### Arm - Sammy Sahnine
+
+Applied for 3 jobs at ARM - "hardware based"/random job but applied anyway.
+
+Then got a job offer for a final stage interview 
+
+Asked for the codebase for one codebase - got PGP coursework out. 
+
+70-80 
+
+
+## Graduate jobs - Dom Bunks
+
+
+
+![[IMG_20251016_191343.jpg]]
+
+- In person technical interview: what is your thought process behind it, not just "do it"
+
 
 
 

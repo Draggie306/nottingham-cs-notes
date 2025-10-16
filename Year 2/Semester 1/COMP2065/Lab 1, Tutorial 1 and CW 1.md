@@ -26,19 +26,22 @@ cases assump with
 ```
 This gets 2 new assumptions
 
-For a disjunction, we can also use proof by cases: the case of the left and the right. There are two ways to prove it.
-```
+For a disjunction, we can also use proof by cases: the case of the **left** and the **right** (of the \or statement). There are two ways to prove it.
+```haskell
 cases assump with
 | inl lhs => -- FOr the left hand side
+	left (or right) -- prove either the left or right is needed
 | inr rhs  => -- FOr the right hand side
 ```
 
 For an assumption:
+- If, above the turnstile, there s the same statement as below the turnstile, you can say `assumption`
 
-- we call `apply` with the assumption to get the new proof goal.
-- we then `assumption` or `apply`
+Cases lets prove either P or Q is true
 
-
+Assumptions (everything above turnstile is true)
+`⊢` 
+Goal (to show it is true)
 
 ### `example : P → P → P := by`
 
@@ -86,3 +89,8 @@ Conjunction binds stronger than implication
 
 -/	
 ```
+
+
+
+
+![[IMG_20251009_165557.jpg]]

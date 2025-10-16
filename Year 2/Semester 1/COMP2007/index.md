@@ -21,8 +21,9 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Processes 3 - Threads](/Year 2/Semester 1/COMP2007/Processes 3 - Threads)
 
 ### Concurrency
-[Introduction to Concurrency](/Year 2/Semester 1/COMP2007/Lecture 5 - Introduction to Concurrency)
-
+- [Introduction to Concurrency](/Year 2/Semester 1/COMP2007/Lecture 5 - Introduction to Concurrency)
+- [Concurrency 2](/Year 2/Semester 1/COMP2007/Concurrency 2)
+- 
 
 
 
