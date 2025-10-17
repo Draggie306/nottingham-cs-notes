@@ -90,7 +90,11 @@ Conjunction binds stronger than implication
 -/	
 ```
 
-
-
-
 ![[IMG_20251009_165557.jpg]]
+
+- AND: both cases have to be true, so we intro (assume) both sides as they have to be true
+- OR: only one case has to be true
+
+- IFF: is two implications joined with an `AND`. Can be broken up into cases.
+
+When proving False, use `cases` for the proposition/variable

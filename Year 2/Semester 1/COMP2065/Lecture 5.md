@@ -22,7 +22,9 @@ theorem dm2 : ¬ (P ∧ Q) ↔ (¬ P) ∨ (¬ Q) := by
   constructor
   . intro npq
   -- Classical unlocks the power of truth tables
-    have pnp : P ∨ ¬ P := by
+    have pnp : P ∨ ¬ P := by 
+    -- Have means to add something to the assumption 
+    
       apply em
     cases pnp with
     | inl p => -- no cats

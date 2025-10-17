@@ -88,7 +88,7 @@ Then got a job offer for a final stage interview
 
 Asked for the codebase for one codebase - got PGP coursework out. 
 
-70-80 
+70-80 applications.
 
 
 ## Graduate jobs - Dom Bunks
