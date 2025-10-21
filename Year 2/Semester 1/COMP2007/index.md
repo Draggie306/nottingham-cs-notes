@@ -23,7 +23,8 @@ These notes may be lecture-specific, include unorganised information and may not
 ### Concurrency
 - [Introduction to Concurrency](/Year 2/Semester 1/COMP2007/Lecture 5 - Introduction to Concurrency)
 - [Concurrency 2](/Year 2/Semester 1/COMP2007/Concurrency 2)
-- 
+- [Concurrency 3](/Year 2/Semester 1/COMP2007/Concurrency 3)
+- [Concurrency 4](/Year 2/Semester 1/COMP2007/Concurrency 3)
 
 
 
