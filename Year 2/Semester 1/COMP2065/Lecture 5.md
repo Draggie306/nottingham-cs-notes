@@ -76,7 +76,7 @@ theorem byContradiction : ¬ ¬ P → P := by
 -- ?!?!
 
 --  ¬ ¬( P ∨ ¬ P )
--- should be called principle of omnistions: exclude the middle
+-- should be called principle of omissions: exclude the middle
 
 theorem nnem : ¬ ¬ ( P ∨ ¬ P ) := by
   intro npnp

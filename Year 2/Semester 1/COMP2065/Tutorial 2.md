@@ -161,3 +161,39 @@ sorry
 -------------------------
 
 ```
+
+
+
+
+- To **prove** True, we just use `constructor` (because `True` is just `\and`).  We can't use True.
+
+- To use assumption: the goal needs to be the same as one of the assumptions.
+- `have` can be used to take existing assumptions and create new assumptions. 
+
+- If the goal matches the right hand side of an existing implication assumption, you can just apply it.
+
+- To prove an or (i.e. there's a `Q \or P`goal and we already have a `Q`), we use `left`/`right`
+
+  have qp : Q → P := by 
+
+![[IMG_20251009_165557.jpg]]
+
+
+- Cases on False kills it.
+
+When there is a contradiction, the below boilerplate can instantly "solve" it as being false.
+
+```haskell
+have pcf : False := by 
+	apply nnp
+	assumption
+
+cases pcf
+```
+
+
+
+
+
+
+
