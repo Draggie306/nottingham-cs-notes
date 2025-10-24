@@ -38,8 +38,6 @@ theorem dm2 : ¬ (P ∧ Q) ↔ (¬ P) ∨ (¬ Q) := by
 
 
 ```haskell
-
-
 /-
 
 Alternative to em:

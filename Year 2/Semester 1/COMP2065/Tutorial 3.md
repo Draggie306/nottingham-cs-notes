@@ -14,10 +14,8 @@ Use `apply` with the    %%
 ### Nots
 NOT something is just `implies False`, so we can `intro` it. 
 
-
 ### Exists
 Very similar to conjunction: we use constructor.
-
 
 If I have an equality and want to use it:
 - Tactic `rw` (rewrite) changes the goal 

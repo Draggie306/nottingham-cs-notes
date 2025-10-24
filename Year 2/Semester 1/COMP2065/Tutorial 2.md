@@ -1,4 +1,4 @@
-
+q
 Classical logic is:
 - when it can be proved (in addition to all principals and tactics)
 - with the law of the excluded middle:
