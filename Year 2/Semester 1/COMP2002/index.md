@@ -13,6 +13,7 @@ These notes may be lecture-specific, include unorganised information and may not
 
 - [Lecture 1 - CVs, module breakdown and project information](/Year 2/Semester 1/COMP2002/Lecture 1)
 - [Lecture 2 - EoI and Pitch Submission](/Year 2/Semester 1/COMP2002/Lecture 2 - EoI and Pitch Submission)
+- [Lecture 3 - Scrum and Info session](/Year 2/Semester 1/COMP2002/Scrum and Info session)
 
 ## Extras
 
