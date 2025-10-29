@@ -10,12 +10,16 @@ These are more finished, cover multiple lectures, and have better explanations.
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 
-- Lecture 1: Introduction
+- [Lecture 1: Introduction](/Year 2/Semester 1/COMP2013/Lecture 1)
 - [Lecture 2: Introduction to DevOps](/Year 2/Semester 1/COMP2013/Lecture 2 - Intro to DevOps)
 - [Lecture 3: Refactoring](/Year 2/Semester 1/COMP2013/Lecture 3 - Refactoring)
+- [Lecture 4: Refactoring Continued](/Year 2/Semester 1/COMP2013/Lecture 4 - Refactoring Continued)
+- [Lecture 5: Refactoring principles and Design Patterns](/Year 2/Semester 1/COMP2013/Lecture 5 - Refactoring principles and Design Patterns)
+- [Lecture 5.1: Testing for Software Maintenance](/Year 2/Semester 1/COMP2013/Lecture 5.1 Testing for Software Maintenance)
+
 
 ## Full Module Revision
 Full notes for the module have not been made yet.
 
-> This module is 100% coursework
+> This module is 100% coursework. Coursework notes are hidden from public browser pages.
 
