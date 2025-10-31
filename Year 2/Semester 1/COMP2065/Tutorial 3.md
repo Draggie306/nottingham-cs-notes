@@ -1,5 +1,18 @@
 
 
+## Quantifiers
+
+How to PROVE them (when they are in the goal):
+- `∀ x, P x`: Use `intro x`. This gives an arbitrary `x : A` and a new goal `P x`.
+- `∃ x, P x`: Use `exists x` to provide the witness
+              and get the goal `P x` immediately.
+
+How to USE them (when they are hypotheses):
+- `h : ∀ x, P x`: Use `apply h`. Or, create a specific copy by `have`.
+- `h : ∃ x, P x`: Use `cases h with | intro x hx => ...`. This gives you
+                  a *specific* element `x` and a hypothesis `hx : P x`.
+
+
 ### Foralls/universal quantifier
 When we want to prove a forall, we should use intro (similar to implication).
 
@@ -26,6 +39,15 @@ Can rewrite an equality at an assumption with:
 To prove equality:
 - Tactic `rfl` 
 
+
+
+
+The `rw` tactic uses equality.
+- `rw [h]`: If `h : x = y`, changes `x` to `y` in the goal.
+- `rw [← h]`: If `h : x = y`, changes `y` to `x` in the goal.
+- `rw [h] at p` : If `h : x = y`, changes `x` to `y` in the assumption `p`.
+
+The `rfl` tactic proves any goal of the form `t = t`.
 
 
 
