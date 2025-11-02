@@ -4,19 +4,6 @@ All my notes for the University of Nottingham’s Computer Science (with Artific
 These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBaguette](https://ibaguette.com/cheatsheets); they are nowhere near as polished, but should remain useful to an extent.
 
 ## View notes
-### [Year 1 - All Notes](/Year%201)
-- [Semester 1 modules](/Year%201/Semester%201), including:
-	- COMP1001 - Mathematics for Computer Scientists 1 (Discrete Mathematics)
-	- COMP1005 - Programming and Algorithms (ANSI C)
-	- COMP1054 - Assembly Language Programming (theory & ARM32 assembly)
-	- COMP1055 - Networks (theory & C implementations)
-	- COMP1056 - Computer Architecture (theory, Hardware Description Language)
-- [Semester 2 modules](/Year%201/Semester%202), including:
-	- COMP1003 - Introduction to Software Engineering (theory)
-	- COMP1004 - Databases and Interfaces (SQL, HTML, CSS and JS)
-	- COMP1008 - Fundamentals of Artificial Intelligence (theory)
-	- COMP1009 - Programming Paradigms (theory, Java and Haskell)
-	- COMP1043 - Mathematics for Computer Scientists 2 (Linear Algebra)
 
 ### [Year 2 - All Notes](/Year%202/)
 - [Semester 1 modules](/Year%202/Semester%201), including:
@@ -26,6 +13,21 @@ These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBagu
 - Semester 2 modules, coming soon.
 - All-year modules, including:
 	-  COMP2002 - Software Engineering Group Project
+
+
+### [Year 1 - All Notes](/Year%201)
+- [Semester 2 modules](/Year%201/Semester%202), including:
+	- COMP1003 - Introduction to Software Engineering (theory)
+	- COMP1004 - Databases and Interfaces (SQL, HTML, CSS and JS)
+	- COMP1008 - Fundamentals of Artificial Intelligence (theory)
+	- COMP1009 - Programming Paradigms (theory, Java and Haskell)
+	- COMP1043 - Mathematics for Computer Scientists 2 (Linear Algebra)
+- [Semester 1 modules](/Year%201/Semester%201), including:
+	- COMP1001 - Mathematics for Computer Scientists 1 (Discrete Mathematics)
+	- COMP1005 - Programming and Algorithms (ANSI C)
+	- COMP1054 - Assembly Language Programming (theory & ARM32 assembly)
+	- COMP1055 - Networks (theory & C implementations)
+	- COMP1056 - Computer Architecture (theory, Hardware Description Language)
 
 ### Miscellaneous notes
 

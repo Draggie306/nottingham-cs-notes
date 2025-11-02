@@ -17,7 +17,7 @@ Feedback queues allow priorities to change dynamically. Jobs can move between qu
 ### Inversion of control
 
 
-![](../../../Pasted%20image%2020251013151223.png)
+![](Pasted%20image%2020251013151223.png)
 Having 3 processes:
 - Even though the first process A is low priority, it runs first and holds the resource. 
 - Process B has high priority, so it starts running. However it wants the same resource as Process A, so it is blocked. 
@@ -28,7 +28,7 @@ Having 3 processes:
 > Higher priority have lower numbers. 
 
 
-![](../../../Pasted%20image%2020251013151421.png)
+![](Pasted%20image%2020251013151421.png)
 
 To prevent starvation, MLFQs can temporarily promote processes, and demote resource hogs to lower levels.
 
@@ -83,7 +83,7 @@ The recorded virtual time on the CPU is the realtime scaled by the weight of the
 
 Unlike time slicing, tasks will be given different time windows to run in.
 
-![](../../../Pasted%20image%2020251013153357.png)
+![](Pasted%20image%2020251013153357.png)
 
 To avoid ”pathological” behaviours:
 - new tasks will have their virtual run time set to the current minimum virtual tun time - else it would start at zero, and would run for a *very* long time
@@ -105,7 +105,7 @@ Related threads: those that communicate with one another and run together (e.g. 
 
 Unrelated threads: independent processes - different users/programs
 
-![](../../../Pasted%20image%2020251013154255.png)
+![](Pasted%20image%2020251013154255.png)
 
 
 **Space** and **gang** sharing are approaches to get collaborating threads running at the same time across multiple CPUs.

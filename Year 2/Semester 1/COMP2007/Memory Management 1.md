@@ -52,7 +52,7 @@ This has one single user process; no multi-programming. A fixed region of memory
 There are 4 key components: machine code, data (constants declared), heap (dynamic memory), and the other side is the stack (e.g. stack frame). The heap and stack are placed on opposite sides of the address space: the heap grows and the stack grows down with recursive calls. 
 
 
-![](../../../Pasted%20image%2020251028123129.png)
+![](Pasted%20image%2020251028123129.png)
 
 > This used to be easy to work out: get the pointer of the main function (code), a pointer to an int (stack) and a malloc’d pointer (heap) and printing the memory address. However, the OS now applies some randomisation to reduce security risks.
 
@@ -68,7 +68,7 @@ Mono-programming results in low CPU utilisation: if a process uses I/O 80% of th
 
 The more processes we have, the more chance there is that a process wants to actually use the CPU. If each process `n` has a chance `p` of using I/O then we can use `p^n` for the chance of using the CPU resources.    
 
-![](../../../Pasted%20image%2020251028124123.png)
+![](Pasted%20image%2020251028124123.png)
 
 ### Multi-programming
 

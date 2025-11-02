@@ -40,14 +40,14 @@ int main() {
 }
 ```
 
-![](../../../Pasted%20image%2020250930122623.png)
+![](Pasted%20image%2020250930122623.png)
 
 We cannot know the exact physical address, so the compiler optimistically assumes that it its base address is address zero. If it is not, then an offset can be added - addresses cannot be fixed.
 
 There are two address spaces: the **logical address** space, and **physical address** “where in memory at runtime”. When we compile, we do not know where it will be physically, so the logical address is used by the compiler.
 The logical address consists of the physical address plus an offset.
 
-![](../../../Pasted%20image%2020250930123418.png)
+![](Pasted%20image%2020250930123418.png)
 Given a memory range and two running programs.
 
 This is important enough that modern hardware has specialist units (the **memory management unit**) to apply this offset. The state of the MMU is part of the state of the running program.

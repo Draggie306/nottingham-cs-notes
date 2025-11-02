@@ -24,7 +24,7 @@ CI/CD steps allow us to do this automatically. The same goals are achieved with 
 
 Allows us to automate the running of a test across a range of values, done with `@ParameterizedTest` wither from an explicit list `@ValueSource` or `@CsvSource`. This allows us to more easily specifiy edge cases, boundary tests, etc.
 
-![](../../../Pasted%20image%2020251027141437.png)
+![](Pasted%20image%2020251027141437.png)
 
 #### Repeated tests
 
@@ -33,14 +33,14 @@ Good for non-deterministic tests, e.g. remote access, network issues. ‘If it f
 > coursework: probably not useful
 
 
-![](../../../Pasted%20image%2020251027141455.png)
+![](Pasted%20image%2020251027141455.png)
 
 
 #### Performance testing
 
 Useful for algorithms
 
-![](../../../Pasted%20image%2020251027141518.png)
+![](Pasted%20image%2020251027141518.png)
 
 
 #### Test tagging
@@ -101,7 +101,7 @@ While it is important to do this, it is not always easy to achieve. Comprehensiv
 
 Tests are designed to work on a specific area - however it is hard to partial RTs without running the whole system. “Mocking” classes and services on the system (e.g. “always assume the database outputs this whenever I say this”) is commonly used. Mockito is used for Java with mock classes with `@Mock`.
 
-![](../../../Pasted%20image%2020251027143457.png)
+![](Pasted%20image%2020251027143457.png)
 
 In documentation: “All of my tests will assume that X will return Y”
 
@@ -119,7 +119,7 @@ E2E is the closes to acceptance testing. It is even more time consuming and reso
 
 ### E2E with JavaFX / TestFX
 
-![](../../../Pasted%20image%2020251027144343.png)
+![](Pasted%20image%2020251027144343.png)
 
 Allows a test to press each button and verify that it has become clickable 
 and states of each interface object is as expected.
@@ -132,7 +132,7 @@ This module uses Maven
 
 `pom.xml` 
 
-![](../../../Pasted%20image%2020251027144953.png)
+![](Pasted%20image%2020251027144953.png)
 
 If goal is to check vs release: use different plugins for checking and releasing.
 

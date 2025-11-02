@@ -25,21 +25,21 @@ A more sophisticated solution:
 	- the neighbors wake up the philosopher if they have finished eating
 - `sync`: one to enforce mutual exclusion of the critical section when updating the states.
 
-![](../../../Pasted%20image%2020251023151439.png)
+![](Pasted%20image%2020251023151439.png)
 
 There is no capacity in the philosopher semaphore at initialisation: they block by default.
 
 - Pointer magic to deduce current ID
 - Forever: think, take forks, eat, put forks away.
 
-![](../../../Pasted%20image%2020251023151622.png)
+![](Pasted%20image%2020251023151622.png)
 
 i is the philosopher. Straightforward maths to work out who is on left/right. If the philosopher interested in is hungry, and both the neighbours are not eating (so do not have forks claimed), then post to the philosopher.
 
 !! State change: `state[i]` changes, so may cause a race condition. This means that there should be a semaphore/mutex lock further out, before calling this function. !! 
 
 
-![](../../../Pasted%20image%2020251023151820.png)
+![](Pasted%20image%2020251023151820.png)
 
 lock: prevents messing with shared state in an uncontrolled manner.
 
@@ -60,7 +60,7 @@ The aim is to exploit the ability to have multiple readers to efficiently synchr
 
 
 Solution 1: no parallelism
-![](../../../Pasted%20image%2020251023153001.png)
+![](Pasted%20image%2020251023153001.png)
 
 
 Solution 2 allows parallel reading. A correct implementation requires:
@@ -71,7 +71,7 @@ Solution 2 allows parallel reading. A correct implementation requires:
 
 
 
-![](../../../Pasted%20image%2020251023153220.png)
+![](Pasted%20image%2020251023153220.png)
 
 - Lock count mutex.
 - First reader to arrive, so check wait and there is nothing.

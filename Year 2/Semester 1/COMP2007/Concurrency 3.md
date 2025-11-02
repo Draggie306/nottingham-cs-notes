@@ -58,7 +58,7 @@ and a `post()` function that:
 
 ### Examples
 
-![](../../../Pasted%20image%2020251020152033.png)
+![](Pasted%20image%2020251020152033.png)
 
 This wait and post operations must behave atomically, naively this can be done with a mutex `lock` and `unlock` when called.
 
@@ -103,7 +103,7 @@ Then, the producer drops in to the sem_wait(sync), which is 1, and enters the re
 
 [… more notes]
 
-![](../../../Pasted%20image%2020251020153933.png)
+![](Pasted%20image%2020251020153933.png)
 
 Any manipulation of items must be synchronised. However, it is not safe.
 

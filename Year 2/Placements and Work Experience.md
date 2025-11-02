@@ -14,18 +14,18 @@ Reflect on:
 
 ### Where to look
 
-![](../Pasted%20image%2020251007131751.png)
+![](Pasted%20image%2020251007131751.png)
 > Ratemyplacement is now higherin
 
 LinkedIn + Indeed: often scrape from different jobs boards - is there a named employee, then go to a website to check if the role is still available.
 
 Use different search terms - a title may not be fully accurate.
 
-![](../Pasted%20image%2020251007132033.png)
+![](Pasted%20image%2020251007132033.png)
 
 
 ### When to start applying 
-![](../Pasted%20image%2020251007132138.png)
+![](Pasted%20image%2020251007132138.png)
 
 Large companies: already advertising. Medium and smaller companies will be offering later on.
 
@@ -55,7 +55,7 @@ Pick and choose elements of a CV for some roles where appropriate (e.g. more Pyt
 
 
 ### Drop-in sessions
-![](../Pasted%20image%2020251007133911.png)
+![](Pasted%20image%2020251007133911.png)
 
 
 

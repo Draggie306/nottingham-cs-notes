@@ -25,7 +25,7 @@ The whole point of developing software is that it is maintainable and can be re-
 	- The behaviour can be extended (not just fixing bugs but adapt to new requirements) but nobody can make source code changes to it.
 	- The idea is the main class is kept in-tact and change subclasses.
 
-![](../../../Pasted%20image%2020251027132322.png)
+![](Pasted%20image%2020251027132322.png)
 
 - Liskov Substitution: subtypes must be substitutable for their base types.
 	- Methods that use reference to base classes must be able to use objects of derived classes without knowing it - a way of using inheritance properly.
@@ -40,14 +40,14 @@ The whole point of developing software is that it is maintainable and can be re-
 
 > In coursework, always justify why in comments/video
 
-![](../../../Pasted%20image%2020251027133239.png)
+![](Pasted%20image%2020251027133239.png)
 
 
 - Dependency Inversion Principle: High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details; details should depend on abstractions.
 
 
-![](../../../Pasted%20image%2020251027133656.png)
-![](../../../Pasted%20image%2020251027133715.png)
+![](Pasted%20image%2020251027133656.png)
+![](Pasted%20image%2020251027133715.png)
 
 
 A programmer without code sense can recognise a messy module. A programmer with good code-senes will see options and variations in the mess, and will be able to chose the best variation to plot transformations to make it better.

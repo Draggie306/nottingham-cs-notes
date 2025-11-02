@@ -2,8 +2,8 @@ Index file for the Computer Science course at the University of Nottingham, Year
 
 
 Semester 1 modules include:
-- [COMP2013 - Developing Maintainable Software](/Year 2/Semester 1/COMP2013)
 - [COMP2007 - Operating Systems and Concurrency](/Year 2/Semester 1/COMP2007)
+- [COMP2013 - Developing Maintainable Software](/Year 2/Semester 1/COMP2013)
 - [COMP2065 - Introduction to Formal Reasoning](/Year 2/Semester 1/COMP2065)
 
 All-year modules include:
