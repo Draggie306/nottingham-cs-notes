@@ -1,0 +1,109 @@
+
+Present: All
+
+Bid/feedback session went well. (feedback not out)
+
+### Background
+
+Mendi headband uses NIFRA light to measure brain activity - different to normal EEG (electrodes). Blood generally absorbs light - on a pulse, a larger amount of blood can be detected going through veins, working out the heart rate. A wide distance between sensor and light allows the headset to go through the blood and skull, into the brain tissue. Light can also be used to find tumours. Using sensors to measure light, we can measure changes in brain activation, tumours, etc.. There are limitations: light scatters; we cannot measure the interior of the brain. 
+
+The headband has 2 channels: source on the right and left, and a complementary detector for both. More absorption = less light. Thus we can determine oxygenated blood levels over time. Cognitive load increases require neurones to have energy, which uses oxygen, which is done through blood. It can take 2-4-5 seconds until the body responds. The effects can be measured with the headband.
+
+Blood can be 2 types: oxygenated/deoxygenated. This can be measured with complex maths
+### NDA
+
+Communication protocol between the device and an app is not public. Company have their own pipeline that is private. Protocols are hidden. 
+
+The code describing how the protocol work cannot be shared. However, it can be demonstrated and showcased. 
+
+
+### Logistics
+
+1 headset per group, can be picked up probably towards the next week. 10am next Monday, in the MRL 
+
+### Brain interest group
+
+Project is in collab with Mendi and the Brain Data Group. We can say we had work experience with the brain interest group on LinkedIn
+
+“worked 6 months on the brain data group as a software engineer”.
+
+15-minute fast meeting every Monday at 10am in-person (MRL meeting area) and online. The research group has a bunch of lecturers, PhDs, masters, etc. Can ask questions, get feedback, and look at others’ projects. 
+
+Meeting next week: online, then in-person.
+
+### Pitch feedback
+
+- Should document requirements:
+	- Team will lead the requirements, and feedback will be given by the team.
+	- **Meeting on requirements next week.**
+	- Act as the tech provider, and the Mendi and braind ata group are customers. Ask: text based UI, an app, website, will there be audio, will a story be different or is there a main storyline
+	- Figure out the requirements from the academic and industry sponsor. 
+
+
+### Last year: 3d printed brain
+
+Finalised a working prototype by February; mid-February demonstration in a science festival to 500 people. Depending on the stage (e.g. in March) it can be arranged to have an “impact session” to show and inspire people - gives weight to the project. *Idea: by then, we will have a working prototype at X stage.*
+
+Asking other people for feedback: boring, ethics stuff.
+
+### Tips
+
+Think about communication channels. A good team is not the best project - everyone should be a high contributor. There are scores about how the whole team works. Make sure there is good communication, and everyone checks on each other - in parallel, pair up, make sure everyone contributes.  
+
+- Create a list of tools we will be using (in a way that a new team member joining can understand) in the Git repo. 
+	- Mustafa/Horia could look and make suggestions
+
+### Cadence
+
+Weekly meetings: make sure there are things to discuss, come up with a weekly agenda with discussion points. Someone to prepare the agenda weekly - cover the whole team’s discussion. Themes can be  used e.g. only requirements today. 
+
+If there are new tasks coming in, then old tasks should be distributed and written up. 
+
+All data should be kept into one place: a OneDrive folder? 
+
+### The final project
+
+The way the project should be thought about:
+- It is a final product at the end, not a working prototype (not a script that runs a script)
+- It will be used by users without any computer science history.
+- It is a product that may need a user manual, maybe even printed.
+- Works but has a good experience over working 3/5 time
+- Find a balance between ambitious (text, video, audio) but something that is feasible in the time. It should have the feel of a final product. 
+- User manual: the product should be finished early so that the user manual can be written with screenshots/installation guide. The little things that look insignificant are all parts of the final criteria: a finished product.
+- Planning is super important.
+- 80k users have a band like this, we have the potential to create something that is used by real users if it is good. Most projects end up shelved, but this may reach real people. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
