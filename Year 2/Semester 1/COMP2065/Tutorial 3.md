@@ -16,7 +16,7 @@ How to USE them (when they are hypotheses):
 ### Foralls/universal quantifier
 When we want to prove a forall, we should use intro (similar to implication).
 
-`intro x` gives us a term inside the 
+`intro x` gives us a term inside the forall.
 
 Naming conventions: big propositions can be introduced with a capital. 
 
@@ -39,9 +39,6 @@ Can rewrite an equality at an assumption with:
 To prove equality:
 - Tactic `rfl` 
 
-
-
-
 The `rw` tactic uses equality.
 - `rw [h]`: If `h : x = y`, changes `x` to `y` in the goal.
 - `rw [← h]`: If `h : x = y`, changes `y` to `x` in the goal.
@@ -50,6 +47,8 @@ The `rw` tactic uses equality.
 The `rfl` tactic proves any goal of the form `t = t`.
 
 
+**Whenever we have (notequals), it can be rewritten and applied:**
+`a ≠ a3` is equivalent to `(a = a3) -> False`
 
 
 
