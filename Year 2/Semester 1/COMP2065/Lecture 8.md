@@ -23,8 +23,6 @@ def P1 : Prop :=
 	
 -- forall people, there exists a person such that x loves y and x is not y.
 
-
-
 ```
 
 ### Equivalence 2

@@ -13,13 +13,18 @@ How to USE them (when they are hypotheses):
                   a *specific* element `x` and a hypothesis `hx : P x`.
 
 
+
+
+
+
+
+
 ### Foralls/universal quantifier
 When we want to prove a forall, we should use intro (similar to implication).
 
 `intro x` gives us a term inside the forall.
 
 Naming conventions: big propositions can be introduced with a capital. 
-
 
 %% ### Existential quantifiers
 Use `apply` with the    %%
@@ -45,7 +50,6 @@ The `rw` tactic uses equality.
 - `rw [h] at p` : If `h : x = y`, changes `x` to `y` in the assumption `p`.
 
 The `rfl` tactic proves any goal of the form `t = t`.
-
 
 **Whenever we have (notequals), it can be rewritten and applied:**
 `a ≠ a3` is equivalent to `(a = a3) -> False`
