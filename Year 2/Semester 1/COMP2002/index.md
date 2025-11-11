@@ -16,7 +16,12 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Lecture 3 - Scrum and Info session](/Year 2/Semester 1/COMP2002/Scrum and Info session)
 
 ## Extras
-
 - [Project Handbook PDF](/Year 2/Semester 1/COMP2002/UoN-SoftwareEngineeringGroupProject-projectHandbook2.0.11.pdf)
+
+### Meeting Minutes
+
+- [Mendi Meeting 1]((/Year 2/Semester 1/COMP2002/Mendi Meeting 1)
+- [10.11.2025 Brain Data Group 1](/Year 2/Semester 1/COMP2002/10.11.2025 Brain Data Group 1)
+- 
 
 

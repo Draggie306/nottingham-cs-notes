@@ -16,7 +16,9 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Lecture 4: Refactoring Continued](/Year 2/Semester 1/COMP2013/Lecture 4 - Refactoring Continued)
 - [Lecture 5: Refactoring principles and Design Patterns](/Year 2/Semester 1/COMP2013/Lecture 5 - Refactoring principles and Design Patterns)
 - [Lecture 5.1: Testing for Software Maintenance](/Year 2/Semester 1/COMP2013/Lecture 5.1 Testing for Software Maintenance)
-- [Lecture 5.1: Testing for Software Maintenance](/Year 2/Semester 1/COMP2013/Lecture 6 - Refactoring Patterns)
+- [Lecture 6 - Refactoring Patterns](/Year 2/Semester 1/COMP2013/Lecture 6 - Refactoring Patterns)
+- [Lecture 7 - Architecture and Developer Tools](/Year 2/Semester 1/COMP2013/Lecture 7 - Architecture and Developer Tools)
+- [Lecture 7.1 - DevTools](/Year 2/Semester 1/COMP2013/Lecture 7.1 - DevTools)
 
 
 ## Full Module Revision
