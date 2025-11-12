@@ -14,11 +14,6 @@ How to USE them (when they are hypotheses):
 
 
 
-
-
-
-
-
 ### Foralls/universal quantifier
 When we want to prove a forall, we should use intro (similar to implication).
 

@@ -98,6 +98,6 @@ If there is a TLB hit (may take 20ms to lookup)
 Given a page size of 4Kb:
 ![](../../../Pasted%20image%2020251110154644.png)
 
-
+Exam: based on what you know about paging, give the correct address translations for a given example. 
 
 
