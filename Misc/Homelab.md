@@ -152,7 +152,7 @@ Restart: `docker compose down && docker compose up -d`
 Notes:
 - Immich app's `thumbs`, the `postgres` database, `backups`, `profile` and `upload` temp cache directories are located on the SSD cache at `/mnt/ssd1/immich-cache`. The `library` and `encoded-video` are on `/mnt/mega/immich/library`
 
-	
+
 docker-compose.yml: 
 ```yml
 # The location where your uploaded files are stored
@@ -193,6 +193,16 @@ Purpose: Handles face recognition, object tagging, and clustering.
 
 - Note: Immich ML is set to be offloaded to the PC's 4070 super via remote ML, but gracefully fallsback
 - TODO: Set up Cloudflare Tunnel for remote ML beyond LAN.
+
+#### Remote ML from Eduroam/uni networks
+
+Eduroam blocks HTTP3/QUIC dialing that is required by Cloudflare Tunnels (and obviously, port forwarding is unavailable). To solve this:
+- Run the cloudflared tunnel Docker run script and append `--protocol http2` to the command. This will look something like `docker run cloudflare/cloudflared:latest tunnel --no-autoupdate run --token xxx --protocol http2`
+- The immich-ml container typically runs on port 3003. To expose this port from the host machine, but from within the Cloudflared container, in the Cloudflare Zero Trust dashboard, set the host to be `http://` `host.docker.internal:3003`.
+- The terminal output should show something like: 
+	- `2025-11-15T20:37:56Z INF Registered tunnel connection connIndex=0 connection=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx event=0 ip=198.41.192.7 location=lhr16 protocol=http2`
+	- `2025-11-15T20:40:40Z INF Updated to new configuration config="{\"ingress\":[{\"hostname\":\"ai.oling.dev\",\"originRequest\":{},\"service\":\"http://host.docker.internal:3003\"},{\"service\":\"http_status:404\"}],\"warp-routing\":{\"enabled\":false}}" version=2`
+
 
 ### Immich Postgres  
 Access: Internal only (5432).  
