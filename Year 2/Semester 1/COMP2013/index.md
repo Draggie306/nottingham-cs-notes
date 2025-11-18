@@ -19,6 +19,9 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Lecture 6 - Refactoring Patterns](/Year 2/Semester 1/COMP2013/Lecture 6 - Refactoring Patterns)
 - [Lecture 7 - Architecture and Developer Tools](/Year 2/Semester 1/COMP2013/Lecture 7 - Architecture and Developer Tools)
 - [Lecture 7.1 - DevTools](/Year 2/Semester 1/COMP2013/Lecture 7.1 - DevTools)
+- [Lecture 8 - DevOps talk](/Year 2/Semester 1/COMP2013/Lecture 8 - DevOps talk)
+- [Lecture 8.1 - CI, CD pipelines and YAML](/Year 2/Semester 1/COMP2013/Lecture 8.1 - CI, CD pipelines and YAML)
+- 
 
 
 ## Full Module Revision

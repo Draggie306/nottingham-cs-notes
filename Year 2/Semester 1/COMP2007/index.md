@@ -34,6 +34,8 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Memory Management 2](/Year 2/Semester 1/COMP2007/Memory Management 2)
 - [Memory Management 3](/Year 2/Semester 1/COMP2007/Memory Management 3)
 - [Memory Management 4](/Year 2/Semester 1/COMP2007/Memory Management 4)
+- [Memory Management 5](/Year 2/Semester 1/COMP2007/Memory Management 5)
+- [Memory Management 6](/Year 2/Semester 1/COMP2007/Memory Management 6)
 
 
 

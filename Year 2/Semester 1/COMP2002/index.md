@@ -22,6 +22,7 @@ These notes may be lecture-specific, include unorganised information and may not
 
 - [Mendi Meeting 1]((/Year 2/Semester 1/COMP2002/Mendi Meeting 1)
 - [10.11.2025 Brain Data Group 1](/Year 2/Semester 1/COMP2002/10.11.2025 Brain Data Group 1)
-- 
+- [Mendi Meeting 2]((/Year 2/Semester 1/COMP2002/Mendi Meeting 2)
+- [17.11.2025 Minutes - Prototypes](/Year 2/Semester 1/COMP2002/17.11.2025 Minutes - Prototypes)
 
 
