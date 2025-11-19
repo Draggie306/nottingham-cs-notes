@@ -191,9 +191,7 @@ External access: https://p.oling.dev (Cloudflare Tunnel) (**P**hotos)
 Access: http://192.168.1.3:3003/  
 Purpose: Handles face recognition, object tagging, and clustering.  
 
-- Note: Immich ML is set to be offloaded to the PC's 4070 super via remote ML, but gracefully fallsback
-- TODO: Set up Cloudflare Tunnel for remote ML beyond LAN.
-
+- Note: Immich ML is set to be offloaded to the PC's 4070 super via remote ML, but gracefully falls back
 #### Remote ML from Eduroam/uni networks
 
 Eduroam blocks HTTP3/QUIC dialing that is required by Cloudflare Tunnels (and obviously, port forwarding is unavailable). To solve this:
