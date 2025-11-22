@@ -37,6 +37,9 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Memory Management 5](/Year 2/Semester 1/COMP2007/Memory Management 5)
 - [Memory Management 6](/Year 2/Semester 1/COMP2007/Memory Management 6)
 
+### File Systems 
+- [File Systems 1](/Year 2/Semester 1/COMP2007/File Systems 1)
+- [File Systems 2](/Year 2/Semester 1/COMP2007/File Systems 2)
 
 
 
