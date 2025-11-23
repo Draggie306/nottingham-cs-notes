@@ -12,6 +12,17 @@
 - Get all container status system-wide
 	- `docker ps`
 
+Settings:
+- /etc/docker/daemon.json
+
+```json
+{
+	"min-api-version": "1.41",
+	"data-root": "/mnt/ssd1/docker"
+}
+```
+- https://github.com/portainer/portainer/issues/12925#issuecomment-3560758801
+
 ## Misc
 
 - Get hard drive temperatures:
