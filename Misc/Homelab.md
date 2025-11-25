@@ -11,6 +11,8 @@
 	- `docker compose logs | tail`
 - Get all container status system-wide
 	- `docker ps`
+- Prune all unused images in the last 24 hours
+	- `docker image prune -a --filter "until=24h"`
 
 Settings:
 - /etc/docker/daemon.json
@@ -22,6 +24,8 @@ Settings:
 }
 ```
 - https://github.com/portainer/portainer/issues/12925#issuecomment-3560758801
+
+
 
 ## Misc
 
