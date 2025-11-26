@@ -85,9 +85,7 @@ If we want to write some information in one page within the block, we need to er
 
 Reading takes 10s of microseconds, but erasing takes a very long time (milliseconds). Writing takes 100s microseconds, but it is the erase operation that takes the longest.
 
-This is write amplification: 1 page must be written, but all the remaining pages must be erased and re
+This is write amplification: 1 page must be written, but all the remaining pages must be erased and re-written. 
 
-## Access times
+![[Pasted image 20251118124830.png]]
 
-
-## Disk scheduling

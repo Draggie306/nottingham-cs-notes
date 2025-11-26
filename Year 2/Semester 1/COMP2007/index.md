@@ -40,6 +40,7 @@ These notes may be lecture-specific, include unorganised information and may not
 ### File Systems 
 - [File Systems 1](/Year 2/Semester 1/COMP2007/File Systems 1)
 - [File Systems 2](/Year 2/Semester 1/COMP2007/File Systems 2)
+- [File Systems 3](/Year 2/Semester 1/COMP2007/File Systems 3)
 
 
 

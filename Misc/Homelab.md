@@ -1,6 +1,25 @@
 
-
 # Cheat Sheet
+
+### Known Issues
+
+#### OOM/system freezes:
+
+
+
+```sh
+draggie@rpi:~ $  journalctl -p err -b
+
+Nov 25 13:55:16 rpi systemd[1]: systemd-journald.service: Watchdog timeout (limit 3min)!
+Nov 25 18:14:16 rpi kernel: Out of memory: Killed process 1406387 (ffmpeg) total-vm:4514288kB, anon-rss:2414912kB, file-rss:0kB, shmem-rss:0kB, UID:0 pgtables:2096 oom_score_adj:0
+```
+
+```
+draggie@rpi:~ $ dmesg | egrep -i "error|sdhci|mmc|timeout|I/O"
+
+[86409.553009] systemd[1]: systemd-journald.service: Failed with result 'timeout'.
+```
+
 
 ## Docker
 - Update all containers in current directory with docker compose:
@@ -27,13 +46,11 @@ Settings:
 
 
 
-## Misc
+## Misc Tools
 
 - Get hard drive temperatures:
 	- `sudo smartctl -a /dev/sdb | grep "194"`
 	- `sudo smartctl -a /dev/sdb` *(all SMART data)*
-
-
 
 ## System
 
