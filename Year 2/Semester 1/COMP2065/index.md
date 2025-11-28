@@ -11,6 +11,7 @@ These are more finished, cover multiple lectures, and have better explanations.
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 
 ### Tutorials
+- [Tutorial 8](/Year 2/Semester 1/COMP2065/Tutorial 8)
 - [Tutorial 6](/Year 2/Semester 1/COMP2065/Tutorial 6)
 - [Tutorial 5](/Year 2/Semester 1/COMP2065/Tutorial 5)
 - [Tutorial 3](/Year 2/Semester 1/COMP2065/Tutorial 3)
@@ -24,4 +25,3 @@ These notes may be lecture-specific, include unorganised information and may not
 
 ## Full Module Revision
 Full notes for the module have not been made yet.
-Semester 1 modules include
