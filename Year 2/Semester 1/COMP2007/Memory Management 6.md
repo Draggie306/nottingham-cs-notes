@@ -53,7 +53,7 @@ This is not perfect but is easy to understand and implement.
 ### Least recently used
 Least recently used: keeps track with an ordered list. We use the past (what hasn’t been used for the longest time) and based on this, what is likely to not be accessed for a long time. 
 
-![](../../../Pasted%20image%2020251117151157.png)
+![](Pasted%20image%2020251117151157.png)
 
 
 > Resident set: pages in memory belonging to a process.

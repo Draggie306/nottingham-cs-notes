@@ -37,7 +37,7 @@ This is the joining of two adjacent entries when the linked list becomes free. B
 
 ### Taking a step back
 
-![](../../../Pasted%20image%2020251104122641.png)
+![](Pasted%20image%2020251104122641.png)
 
 We are expecting everything to be contiguous in address space. For example, if the heap gets too big between other processes, we are forced to move it out into another range. It would be good to say: “this gap is now used up, let’s add another one somewhere else”.
 
@@ -49,7 +49,7 @@ Paging uses fixed partitioning an code re-location, a non-contiguous memory mana
 Benefits of non-contiguous schemes include that internal fragmentation is reduced to a few last blocks only, and there is no external fragmentation (no gaps between each block).
 
 
-![](../../../Pasted%20image%2020251104123206.png)
+![](Pasted%20image%2020251104123206.png)
 
 A page is a block of contiguous memory in logical address space, and a frame is a contiguous block in physical memory. 
 
@@ -59,7 +59,7 @@ Pages are mapped onto frames, of commonly the same size between 512bytes and 1gb
 
 A page number of 0000 means it is the lowest in the page (start of the program), and it may be mapped to a frame number 1010 meaning there are 10 frames below. With a 12 bit offset, we have 4KB pages. Once the offset is all 1s, we then flip to zero and go to the next page, until we reach the end of the page number (e.g. 4 bits gives us 16 pages, with these 12 bit offset, we get 16x4KB pages each).
 
-![](../../../Pasted%20image%2020251104124543.png)
+![](Pasted%20image%2020251104124543.png)
 
 Translating can be done by mapping the page number in the page table to the physical address. There is one page table per process 
 

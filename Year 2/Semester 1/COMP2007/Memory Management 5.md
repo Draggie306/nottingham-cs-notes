@@ -31,10 +31,10 @@ Pre-fetching involves bringing the working set into memory at once, reducing pag
 ### Page fetching
 
 Avoiding unnecessary pages and page replacement is important. 
-![](../../../Pasted%20image%2020251111123307.png)
+![](Pasted%20image%2020251111123307.png)
 
 For a single page table with a memory access time of 100ns, and requiring two memory accesses (200ns), and a page fault time of 8ms… the page fault dominates
-![](../../../Pasted%20image%2020251111123415.png)
+![](Pasted%20image%2020251111123415.png)
 
 ### Page replacements
 
