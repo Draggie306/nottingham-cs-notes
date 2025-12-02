@@ -21,7 +21,12 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Lecture 7.1 - DevTools](/Year 2/Semester 1/COMP2013/Lecture 7.1 - DevTools)
 - [Lecture 8 - DevOps talk](/Year 2/Semester 1/COMP2013/Lecture 8 - DevOps talk)
 - [Lecture 8.1 - CI, CD pipelines and YAML](/Year 2/Semester 1/COMP2013/Lecture 8.1 - CI, CD pipelines and YAML)
-- 
+- [Lecture 9 - CI, CD and the Pipeline](/Year 2/Semester 1/COMP2013/Lecture 9 - CI, CD and the Pipeline)
+- [Lecture 10 - DevSecOps - Final Lecture](/Year 2/Semester 1/COMP2013/Lecture 10 - DevSecOps - Final Lecture)
+- [Lecture 10.1 - Docker and Containerisation](/Year 2/Semester 1/COMP2013/Lecture 10.1 - Docker and Containerisation)
+
+
+
 
 
 ## Full Module Revision

@@ -5,8 +5,6 @@
 
 #### OOM/system freezes:
 
-
-
 ```sh
 draggie@rpi:~ $  journalctl -p err -b
 

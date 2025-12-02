@@ -2,9 +2,6 @@
 
 - Use lesser-compatible JDK releases - JDK 23/21
 
-
-
-
 ## CI/CD
 
 - When doing a project, changes will be pushed (to keep track, latest verison)
