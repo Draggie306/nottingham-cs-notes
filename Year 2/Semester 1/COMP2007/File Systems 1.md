@@ -27,7 +27,7 @@ Transfer times is given by N bytes take 1 revolution (16.7ms) b contiguous bytes
 
 The access time is the access time + rotational delay + transfer time.
 
-![[Pasted image 20251118121528.png]]
+![[Pasted image 20251118121528 1.png]]
 
 The estimated seek time `Ts` to move the arm from one track to another is approximated by: Ts = n× m +s (1)
 
@@ -79,7 +79,7 @@ Disturbance: if 1 is written is one place, 1 may be accidentally written in anot
 
 SSDs are organised into pages (individual blocks), which are grouped into blocks, and these are located in banks. There is also a flash controller and memory used for caching.
 
-![[Pasted image 20251118124457.png]]
+![[Pasted image 20251118124457 1.png]]
 
 If we want to write some information in one page within the block, we need to erase the entire block, before we can write data to one page. On modern blocks, they contain 1024 pages. 
 
@@ -87,5 +87,5 @@ Reading takes 10s of microseconds, but erasing takes a very long time (milliseco
 
 This is write amplification: 1 page must be written, but all the remaining pages must be erased and re-written. 
 
-![[Pasted image 20251118124830.png]]
+![[Pasted image 20251118124830 1.png]]
 

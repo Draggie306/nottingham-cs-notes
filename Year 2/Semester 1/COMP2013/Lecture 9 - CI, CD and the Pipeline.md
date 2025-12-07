@@ -73,7 +73,7 @@ When running in shell, the server can be clogged with remnants of many jobs. RUn
 ## Coursework pipeline and Task 6
 
 
-![](Pasted%20image%2020251124133020.png)
+![](../../../Images/Pasted%20image%2020251124133020.png)
 
 
 ```yml
@@ -100,11 +100,11 @@ Code quality check
 > Coursework: The job needs tagging with: “comp2013_2025_production”.  The checks are implemented in the “quality.sh” script.  The script generates a code quality artifact report. This should be imported into GitLab’s “codequality” report. https://docs.gitlab.com/ci/yaml/artifacts_reports/#artifactsreportscodequality
 
 
-![](Pasted%20image%2020251124133547.png)
+![](../../../Images/Pasted%20image%2020251124133547.png)
 
-![](Pasted%20image%2020251124133532.png)
+![](../../../Images/Pasted%20image%2020251124133532.png)
 
-![](Pasted%20image%2020251124133600.png)
+![](../../../Images/Pasted%20image%2020251124133600.png)
 
 
 

@@ -13,7 +13,7 @@ If we increase block size, we reduce size of the bitmap/linked list, but the mor
 
 Linked lists can be modified by tracking the number of sequential free blocks for each entry.
 
-![](../../../Pasted%20image%2020251202120832.png)
+![](Pasted%20image%2020251202120832.png)
 
 Bitmaps are the most commonly used today.
 
@@ -45,12 +45,12 @@ Extended file system 3 and 4 added journaling.
 
 Compared to the Unix filesystem, the ext2 has a metadata section within each block group. This is to reduce seek times versus the traditional one which stores all metadata at the start, and data at MAX. 
 
-![](../../../Pasted%20image%2020251202122922.png)
+![](Pasted%20image%2020251202122922.png)
 
 
 Every directory entry contains the fixed length fields of i-node number, entry size in bytes, type field, and file
 
-![](../../../Pasted%20image%2020251202123217.png)
+![](Pasted%20image%2020251202123217.png)
 
 
 ## Knowledge test

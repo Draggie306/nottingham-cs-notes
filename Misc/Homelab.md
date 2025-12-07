@@ -89,7 +89,7 @@ Check logs with `docker logs gluetun | tail`
 
 Depends on: internet access to `ibaguette.com`
 
-![[Pasted image 20251106001330.png]]
+![[Pasted image 20251106001330 1.png]]
 
 ```yaml
   gluetun:

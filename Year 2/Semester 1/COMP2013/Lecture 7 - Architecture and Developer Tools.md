@@ -1,5 +1,5 @@
 
-![](Pasted%20image%2020251110130650.jpg)
+![](../../../Images/Pasted%20image%2020251110130650.jpg)
 
 160 who have not done anything. 
 
@@ -37,11 +37,11 @@ Non-functional requirements such as:
 
 ... are all important to define and document, else a company may lose reputation and money (e.g. recent M&S breach -> passwords should be secure)
 
-![](Pasted%20image%2020251110133427.png)
+![](../../../Images/Pasted%20image%2020251110133427.png)
 
 
 Example: here, there is no right or wrong solution. Left is slower because of shared database and right is faster, but syncing databases may involve complex logic. It is up to the company.
-![](Pasted%20image%2020251110133613.png)
+![](../../../Images/Pasted%20image%2020251110133613.png)
 
 Regular product improvements are required for a long-term product lifecycle. 
 
@@ -54,7 +54,7 @@ Trade-off: security versus usability:
 
 Abstraction lets developers focus on elements essential for the system without necessary implementation detail. 
 
-![](Pasted%20image%2020251110134443.png)
+![](../../../Images/Pasted%20image%2020251110134443.png)
 
 
 ### Security architecture
@@ -80,7 +80,7 @@ Different technologies are used at different layers, from accessing a database t
 
 > Coursework: lower level, at a refactoring level “what are the decisions you made for this” - in terms of implementation decisions. 
 
-![](Pasted%20image%2020251110141158.png)
+![](../../../Images/Pasted%20image%2020251110141158.png)
 
 ### Debt
 

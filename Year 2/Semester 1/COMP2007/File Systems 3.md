@@ -39,7 +39,7 @@ The key issue is the pointer being stored as part of the block. Instead, there c
 
 Linked list pointers are stored in a separate index table.
 
-![[Pasted image 20251125122017.png]]
+![[Pasted image 20251125122017 1.png]]
 
 The first block of jack.doc is in location 10. In the FAT, it says that in block 10, the next block is 26.
 
@@ -65,7 +65,7 @@ They are made of:
 
 If we have 12 direct blocks, we can can store 4 * 12 = 48kb data.
 
-![[Pasted image 20251125122842.png]]
+![[Pasted image 20251125122842 1.png]]
 
 
 Similar to page tables, we can have many levels of indirections
@@ -79,12 +79,12 @@ A triple indirect pointer is:
 
 Once we know the name of a directory, we have the index, then we can read the i-node which allows us to reconstruct the file. A directory simply contains the filename and i-node pointer. All metadata for the file (type, size, date, owner, block pointers, permission) are stored in the i-node. 
 
-![[Pasted image 20251125123551.png]]
+![[Pasted image 20251125123551 1.png]]
 
 
 ### Lookup example
 
-![[Pasted image 20251125123738.png]]
+![[Pasted image 20251125123738 1.png]]
 
 The root i-node will always sit at 0 or 1. This will say that the contents of the directory is stored in block 2. REading the data in block 2, we read the contents  - the mappings. In this, we can work out the i-node representing the file is in block 6. Reading this i-node, /urs data is in block 132. Reading gdm, it says that the inode is in block 26, readin this we see that mbox is in block 60.
 
@@ -121,7 +121,7 @@ However:
 
 ### Test
 
-![[Pasted image 20251125124612.png]]
+![[Pasted image 20251125124612 1.png]]
 
 
 
