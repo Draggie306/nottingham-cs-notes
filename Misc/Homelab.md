@@ -40,33 +40,41 @@ Settings:
 	"data-root": "/mnt/ssd1/docker"
 }
 ```
+
+**TODO: Temporary change due to a Portainer bug. When updating Portainer, refer to this issue.**
 - https://github.com/portainer/portainer/issues/12925#issuecomment-3560758801
 
 
 
 ## Misc Tools
-
 - Get hard drive temperatures:
 	- `sudo smartctl -a /dev/sdb | grep "194"`
 	- `sudo smartctl -a /dev/sdb` *(all SMART data)*
 
 ## System
-
+### Commands
 - Reboot
 	- `sudo reboot`
 - Update all packages system-wide:
 	- `sudo apt-get update && sudo apt-get upgrade --autoremove -y`
 - Current usage/task manager
 	- `htop`
-	- Normal mem usage: 4-5G/7.87G (Swap usage often gets to 2gb, do not worry.)
+	- Normal mem usage: 4-5G/7.87G (Swap usage often gets to 2gb, with default swappiness, do not worry.)
 
+### Configs
 - Fstab entries `sudo nano /etc/fstab`
 	- SSD Cache (usb3->sata) (256gb) `UUID=d6ecfcd5-2703-41bf-9301-10c403b6fb0c /mnt/ssd1 ext4 nofail,defaults 0 2`
 	- External 20tb drive (usb3) `UUID=302749e2-3434-4b3f-b3b8-d36a7df58ac0 /mnt/mega ext4 nofail,defaults 0 2`
-- Swapfile/ram config `sudo nano /etc/dphsys-swapfile`
+- Swapfile/ram config: `sudo nano /etc/dphsys-swapfile`
 	- `CONF_SWAPFILE=/mnt/ssd1/swap`
 	- `CONF_SWAPSIZE=2048`
-# Services Breakdown
+- Swappiness config: `sudo nano /etc/sysctl.conf`, at the bottom:
+	- `vm.swappiness = 15`
+		- Else, the swap eventually fills up with data while ram is left over.
+	- apply with `sudo sysctl -p`
+
+
+# Services: Docker, containerised
 
 ## arr stack
 *For: Media management/downloads, music, streaming, TV* 
@@ -89,7 +97,7 @@ Check logs with `docker logs gluetun | tail`
 
 Depends on: internet access to `ibaguette.com`
 
-![[Pasted image 20251106001330 1.png]]
+![[Pasted image 20251106001330.png]]
 
 ```yaml
   gluetun:
@@ -300,7 +308,7 @@ External access: https://vw.oling.dev (Cloudflare Tunnel) (**V**ault**w**arden)
 
 ---
 
-## Network & Monitoring Stack  
+## Network & Monitoring
 *For: Network control, dashboards, uptime, and utilities*  
 
 Location: `services/network/`  
@@ -334,18 +342,9 @@ External access: https://s.oling.dev (Cloudflare Tunnel) (**S**tatus)
 
 ### Anisette-V3  
 Access: http://192.168.1.3:6969/  
-Purpose: Apple ID server for sign-in/token services.  
+Purpose: Fake Apple ID server for sign-in/token services.  
 
-### Pi-hole
-Access: http://192.168.1.3/admin
-Purpose: Assign DHCP addresses to all devices on the network and act as an authoritative DNS server for each
-
-
----
-
-## Misc / Bots  
-Location: `services/misc/`  
-Restart: `docker compose restart`  
+External access: https://a.oling.dev/ (Cloudflare Tunnel) (**A**pple)
 
 ### MinMaxOctopusBot  
 Access: Internal only.
@@ -357,6 +356,31 @@ Automation:
 
 Documentation:
 - https://github.com/eelmafia/octopus-minmax
+
+### Wakapi  
+Access: https://c.oling.dev
+Purpose: Code time tracker for me + invite-only uni friends.
+
+Location: `services/wakapi/`  
+Restart: `docker compose restart`  
+
+Documentation: https://github.com/muety/wakapi
+
+External access: https://c.oling.dev (Cloudflare Tunnel) (**C**ode)
+
+
+---
+
+# Services: Non-containerised
+
+## Network
+### Pi-hole
+Access: http://192.168.1.3/admin
+Purpose: Assign DHCP addresses to all devices on the network and act as an authoritative DNS server for each that can block ads and malicious 
+
+## Misc / Bots  
+Location: `services/misc/`  
+Restart: `docker compose restart`  
 
 
 ### BrigadersHelper
@@ -386,6 +410,7 @@ WorkingDirectory=/home/draggie/services/BrigadersHelper
 WantedBy=multi-user.target
 ```
 
+External access: https://brigaders-stats.ibaguette.com
 
 ### DraggieGamesServer
 Purpose: Python webserver for Draggie Games accounts, auth, downloading, etc. Used to be my A Level NEA. 
@@ -414,16 +439,68 @@ WantedBy=multi-user.target
 
 External access: `client.draggie.games` (Cloudflare Tunnel)
 
+
+### hacknotts-25
+Purpose: Python webserver for running the HackNotts 25 project leaderboard
+
+Location: `/mnt/ssd1/services/hacknotts-25`
+Restart: `sudo systemctl restart hacknotts-25`
+
+Automation:
+- Auto-runs as a systemctl service in `/etc/systemd/system/hacknotts-25.service`
+
+```[Unit]
+Description=HackNotts 25 Leaderboard SEvice
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=draggie
+ExecStart=/mnt/ssd1/services/hacknotts-25/run.sh
+WorkingDirectory=/mnt/ssd1/services/hacknotts-25
+
+[Install]
+WantedBy=multi-user.target
+```
+
+External access: `hn25.ibaguette.com` (Cloudflare Tunnel)
+
+### minecraft-whitelist
+Purpose: Python Discord bot configured to run whitelist commands for a given server
+
+Location: `/mnt/ssd1/services/minecraft-whitelist`
+Restart: `sudo systemctl restart minecraft-whitelist`
+
+Automation:
+- Auto-runs as a systemctl service in `/etc/systemd/system/minecraft-whitelist.service`
+
+```[Unit]
+Description=Minecraft Whitelist Bot
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=draggie
+ExecStart=/mnt/ssd1/services/minecraft-whitelist/run.sh
+WorkingDirectory=/mnt/ssd1/services/minecraft-whitelist
+
+[Install]
+WantedBy=multi-user.target
+```
+
+
 ## Remote Access
 
 ### pivpn
-
 Runs on startup. Use Wireguard app to connect.
 
 Run `pivpn -a` to setup a new QR code to scan in the Wireguard app.
 
-
-# Automations
+# Automated tasks
 
 ## Cron jobs
 
@@ -434,7 +511,7 @@ Run `pivpn -a` to setup a new QR code to scan in the Wireguard app.
 	- `0 19 * * * bash /home/draggie/services/immich-app/agile-cron-restart-jobs.sh`
 
 - Auto-commit uni notes Obsidian changes and update the Git repo with new changes
-	- `0 0 * * * cd /mnt/mega/uni-notes-git/ && /usr/bin/rclone sync --exclude .git/ r2:notes . -v && /usr/bin/git add . && /usr/bin/git commit -m "[cron] auto commit: update note>0 0 * * * cd /mnt/mega/uni-notes-git/ && /usr/bin/rclone sync --exclude .git/ --exclude .github/ r2:notes . -v && /usr/bin/git add . && /usr/bin/git commit -m "[cron] auto commit: update notes" && /usr/bin/git push &>> /mnt/mega/notes_sync.log`
+	- `0 0 * * * cd /mnt/mega/uni-notes-git/ && /usr/bin/rclone sync --exclude .git/ --exclude .github/ r2:notes . -v && /usr/bin/git add . && /usr/bin/git commit -m "[cron] auto commit: update notes" && /usr/bin/git push &>> /mnt/mega/notes_sync.log`
 
 - iPlayer Download task
 	- `53 19 * * * bash /home/draggie/iplayer.sh > /mnt/mega/ipayer_log.txt`
