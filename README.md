@@ -7,9 +7,9 @@ These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBagu
 
 ### [Year 2 - All Notes](/Year%202/)
 - [Semester 1 modules](/Year%202/Semester%201), including:
-	- COMP2007 - Operating Systems and Concurrency
-	- COMP2013 - Developing Maintainable Software
-	- COMP2065 - Introduction to Formal Reasoning
+	- COMP2007 - Operating Systems and Concurrency (C and theory)
+	- COMP2013 - Developing Maintainable Software (Java and theory)
+	- COMP2065 - Introduction to Formal Reasoning (Lean 4)
 - Semester 2 modules, coming soon.
 - All-year modules, including:
 	-  COMP2002 - Software Engineering Group Project
