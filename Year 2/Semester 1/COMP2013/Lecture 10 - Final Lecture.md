@@ -3,14 +3,13 @@ Delphi evaluation - this module has changed a lot.
 
 ## Final Coursework Stats
 
-![](Pasted%20image%2020251208133446.png)
+![](../../../Pasted%20image%2020251208133446.png)
 
-![](Pasted%20image%2020251208133521.png)
+![](../../../Pasted%20image%2020251208133521.png)
 
-![](Pasted%20image%2020251208133538.png)
+![](../../../Pasted%20image%2020251208133538.png)
 
-![](Pasted%20image%2020251208133602.png)
-
+![](../../../Pasted%20image%2020251208133602.png)
 
 - ﻿﻿NOTE: 3pm instead of 1pm
 - ﻿﻿12th - 23rd December, remote support during working hours

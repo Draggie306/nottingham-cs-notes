@@ -8,7 +8,7 @@ Recap:
 
 > CPU Burst Time: the amount of time the process needs to complete execution. Just the time it needs to compute on the CPU.
 
-![](Pasted%20image%2020251009150752.png)
+![](../../../Images/Pasted%20image%2020251009150752.png)
 
 ## Threads
 
@@ -24,7 +24,7 @@ Every thread has its own execution context (PC, stack, registers) and all thread
 
 Similar to processes, threads have states and transitions (new, running, blocked, ready and terminated). There is a thread control block (TCB), a thread table of TCB, and each thread has a thread ID (TID) - can say in code “wait for ThreadTable\[id] to finish”.
 
-![](Pasted%20image%2020251009151632.png)
+![](../../../Images/Pasted%20image%2020251009151632.png)
 
 It is considered practice to have a multiprocess (and/or fork()) AND multi-thread program.
 
@@ -60,7 +60,7 @@ Disadvantages:
 
 In kernel space: the kernel is aware of the process able. Above, in user space, the thread table and runtime system lives in user space.
 
-![](Pasted%20image%2020251009153146.png)
+![](../../../Images/Pasted%20image%2020251009153146.png)
 
 #### Kernel threads
 
@@ -70,7 +70,7 @@ This allows true parallelism, and be preemptive, with no management needed in us
 
 There is a one-to-one map between threads in kernel-space and user-space.
 
-![](Pasted%20image%2020251009153555.png)
+![](../../../Images/Pasted%20image%2020251009153555.png)
 
 Null fork: overhead in creating, scheduling, running and terminating a null process/thread.
 Signal wait: overhead in syncing threads.
@@ -78,7 +78,7 @@ Signal wait: overhead in syncing threads.
 #### Hybrid implementations
 A hybrid threading model has some kernel threads which support multiple user threads. This multiplexes user threads onto kernel threads: the kernel sees and schedules a number of kernel threads while the user application sees and creates an unrestricted number of them. 
 
-![](Pasted%20image%2020251009154014.png)
+![](../../../Images/Pasted%20image%2020251009154014.png)
 
 > Exam Q: In which situations would you favour user level threads? In which situation would you definitely favour kernel level threads?
 
@@ -87,7 +87,7 @@ A hybrid threading model has some kernel threads which support multiple user thr
 
 Thread libraries provide an API to manage threads entirely in user space or be based on system calls. POSIX’s PThreads can do both and is a standard.
 
-![](Pasted%20image%2020251009154232.png)
+![](../../../Images/Pasted%20image%2020251009154232.png)
 
 
 Threads are of type `pthread_t`
