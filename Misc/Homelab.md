@@ -32,8 +32,9 @@ draggie@rpi:~ $ dmesg | egrep -i "error|sdhci|mmc|timeout|I/O"
 	- `docker image prune -a --filter "until=24h"`
 
 Settings:
-- /etc/docker/daemon.json
+- Container/image data root is located on the external SSD to prevent extra SD card wear and to improve speed
 
+Located at `/etc/docker/daemon.json`:
 ```json
 {
 	"min-api-version": "1.41",
@@ -69,8 +70,9 @@ Settings:
 	- `CONF_SWAPFILE=/mnt/ssd1/swap`
 	- `CONF_SWAPSIZE=2048`
 - Swappiness config: `sudo nano /etc/sysctl.conf`, at the bottom:
-	- `vm.swappiness = 15`
+	- `vm.swappiness = 10`
 		- Else, the swap eventually fills up with data while ram is left over.
+		- *2025-12-25: set swappiness to 10 from previous value 15. Testing if this reduces swap usage more.*
 	- apply with `sudo sysctl -p`
 
 
@@ -191,7 +193,7 @@ Notes:
 - Immich app's `thumbs`, the `postgres` database, `backups`, `profile` and `upload` temp cache directories are located on the SSD cache at `/mnt/ssd1/immich-cache`. The `library` and `encoded-video` are on `/mnt/mega/immich/library`
 
 
-docker-compose.yml: 
+`.env` config (secrets removed):
 ```yml
 # The location where your uploaded files are stored
 UPLOAD_LOCATION=/mnt/mega/immich/library/
@@ -217,6 +219,97 @@ DB_PASSWORD=<Check Bitwarden>
 THUMBS_LOCATION=/mnt/ssd1/immich-cache/thumbs/
 PROFILE_LOCATION=/mnt/ssd1/immich-cache/profile/
 BACKUP_LOCATION=/mnt/ssd1/immich-cache/backups/
+```
+
+docker-compose.yml
+```yml
+name: immich
+
+services:
+  immich-server:
+    container_name: immich_server
+#    image: ghcr.io/immich-app/immich-server:1.132.3
+    image: ghcr.io/immich-app/immich-server:${IMMICH_VERSION:-release}
+    # extends:
+    #   file: hwaccel.transcoding.yml
+    #   service: cpu # set to one of [nvenc, quicksync, rkmpp, vaapi, vaapi-wsl] for accelerated transcoding
+    volumes:
+      # Do not edit the next line. If you want to change the media storage location on your system, edit the value of UPLOAD_LOCATION in the .env file
+      - ${UPLOAD_LOCATION}:/usr/src/app/upload
+      - /etc/localtime:/etc/localtime:ro
+      - /mnt/mega/Immich-Takeout-Test/:/mnt/mega/Immich-Takeout-Test
+      - ${THUMBS_LOCATION}:/usr/src/app/upload/thumbs
+      - ${PROFILE_LOCATION}:/usr/src/app/upload/profile
+    env_file:
+      - .env
+    ports:
+      - '2283:2283'
+    depends_on:
+      - redis
+      - database
+    restart: always
+    healthcheck:
+      disable: false
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"
+
+# DISABLE THIS to prevent unnecessary memory/loading (the model is only loaded for 5 minutes when requested, but still). It is about 20x faster to configure this to run remotely. No config change is needed within Immich itself if this is updated
+
+#  immich-machine-learning:
+#    container_name: immich_machine_learning
+    # For hardware acceleration, add one of -[armnn, cuda, openvino] to the image tag.
+    # Example tag: ${IMMICH_VERSION:-release}-cuda
+#    image: ghcr.io/immich-app/immich-machine-learning:${IMMICH_VERSION:-release}
+#    # extends: # uncomment this section for hardware acceleration - see https://immich.app/docs/features/ml-hardware-acceleration
+#    #   file: hwaccel.ml.yml
+#    #   service: cpu # set to one of [armnn, cuda, openvino, openvino-wsl] for accelerated inference - use the `-wsl` version for WSL2 where applicable
+#    volumes:
+#      - model-cache:/cache
+#    env_file:
+#      - .env
+#    restart: always
+#    healthcheck:
+#      disable: false
+#    ports:
+#      - 3003:3003
+
+  redis:
+    container_name: immich_redis
+    image: docker.io/redis:6.2-alpine@sha256:eaba718fecd1196d88533de7ba49bf903ad33664a92debb24660a922ecd9cac8
+    healthcheck:
+      test: redis-cli ping || exit 1
+    labels:
+      - "com.centurylinklabs.watchtower.enable=false"
+    restart: always
+    
+    # Remote Transcoding: Expose redis
+    # ports:
+    #  - 6379:6379
+    # -- End remote transcoding -- 
+
+
+  database:
+    container_name: immich_postgres
+    image: ghcr.io/immich-app/postgres:14-vectorchord0.3.0-pgvectors0.2.0
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_DB: ${DB_DATABASE_NAME}
+      POSTGRES_INITDB_ARGS: '--data-checksums'
+      # Uncomment the DB_STORAGE_TYPE: 'HDD' var if your database isn't stored on SSDs
+      # DB_STORAGE_TYPE: 'HDD'
+    volumes:
+      # Do not edit the next line. If you want to change the database storage location on your system, edit the value of DB_DATA_LOCATION in the .env file
+      - ${DB_DATA_LOCATION}:/var/lib/postgresql/data
+    restart: always
+
+    # Remote Transcoding: Expose database
+    # ports:
+    #  - 5432:5432
+    # -- End remote transcoding --
+
+volumes:
+  model-cache:
 ```
 
 ### Immich Server  
