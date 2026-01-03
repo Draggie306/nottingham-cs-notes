@@ -471,6 +471,65 @@ External access: https://c.oling.dev (Cloudflare Tunnel) (**C**ode)
 Access: http://192.168.1.3/admin
 Purpose: Assign DHCP addresses to all devices on the network and act as an authoritative DNS server for each that can block ads and malicious 
 
+
+
+## Radio
+
+
+
+### welle-CLI
+Required to receive DAB/DAB+ streams.
+
+Multiplex block for talkSPORT: 11D
+Search for all broadcasting from 11D: `welle-cli -c 11D`, output example:
+
+Link to Icecast forwarding: `https://community.home-assistant.io/t/icecast-an-oldschool-and-audio-specific-complement-to-ha/325680/4`
+
+Start webserver for multiplex block (connect at http://192.168.1.3:9876/)
+`welle-cli -c 11D -w 9876`
+
+```sh
+nsemble label: D1 National     
+Service list
+  [0xc4cd] Radio X           [component 0 ASCTy: DAB+ ] [subch 17 bitrate:40 at SAd:330]
+  [0xcae9] Heart  70s        [component 0 ASCTy: DAB+ ] [subch 19 bitrate:32 at SAd:306]
+  [0xc0c0] talkSPORT         [component 0 ASCTy: DAB ] [subch 2 bitrate:64 at SAd:0]
+MP2Decoder: using decoder 'NEON64'.
+  [0xcee8] Gold Radio UK     [component 0 ASCTy: DAB+ ] [subch 8 bitrate:40 at SAd:156]
+  [0xcfd1] Heart UK          [component 0 ASCTy: DAB+ ] [subch 5 bitrate:40 at SAd:96]
+  [0xc1dc] Heart  80s        [component 0 ASCTy: DAB+ ] [subch 14 bitrate:40 at SAd:216]
+  [0xc4f0] GB News Radio     [component 0 ASCTy: DAB+ ] [subch 24 bitrate:24 at SAd:486]
+  [0xc9ed] Capital DANCE     [component 0 ASCTy: DAB+ ] [subch 23 bitrate:40 at SAd:438]
+  [0xc246] Hits Radio 00s    [component 0 ASCTy: DAB+ ] [subch 32 bitrate:40 at SAd:828]
+  [0xc0c2] LBC               [component 0 ASCTy: DAB ] [subch 15 bitrate:64 at SAd:48]
+MP2Decoder: using decoder 'NEON64'.
+  [0xc244] Grt Hits Rad 80s  [component 0 ASCTy: DAB+ ] [subch 30 bitrate:32 at SAd:744]
+  [0xc243] Grt Hits Rad 70s  [component 0 ASCTy: DAB+ ] [subch 29 bitrate:32 at SAd:720]
+  [0xc2a1] Classic FM        [component 0 ASCTy: DAB+ ] [subch 28 bitrate:64 at SAd:558]
+  [0xcfe8] Heart Dance       [component 0 ASCTy: DAB+ ] [subch 4 bitrate:40 at SAd:186]
+  [0xc8ea] LBC News          [component 0 ASCTy: DAB+ ] [subch 21 bitrate:32 at SAd:360]
+  [0xc0c6] Magic Radio       [component 0 ASCTy: DAB+ ] [subch 11 bitrate:40 at SAd:690]
+  [0xc5c0] KISS              [component 0 ASCTy: DAB+ ] [subch 10 bitrate:40 at SAd:660]
+  [0xc245] Hits Radio 90s    [component 0 ASCTy: DAB+ ] [subch 31 bitrate:40 at SAd:768]
+  [0xc4fb] Smooth Relax      [component 0 ASCTy: DAB+ ] [subch 27 bitrate:32 at SAd:606]
+  [0xc9eb] Smooth Chill      [component 0 ASCTy: DAB+ ] [subch 12 bitrate:32 at SAd:414]
+  [0xc4ca] UCB 1             [component 0 ASCTy: DAB+ ] [subch 7 bitrate:24 at SAd:468]
+  [0xc9f3] Heart 00s         [component 0 ASCTy: DAB+ ] [subch 20 bitrate:40 at SAd:528]
+  [0xcbe9] Heart  90s        [component 0 ASCTy: DAB+ ] [subch 18 bitrate:40 at SAd:246]
+  [0xcbd8] UCB 2             [component 0 ASCTy: DAB+ ] [subch 9 bitrate:32 at SAd:504]
+  [0xc6c0] Smooth UK         [component 0 ASCTy: DAB+ ] [subch 6 bitrate:40 at SAd:126]
+  [0xc5da] Capital UK        [component 0 ASCTy: DAB+ ] [subch 22 bitrate:40 at SAd:384]
+  [0xcfe6] KISSTORY          [component 0 ASCTy: DAB+ ] [subch 13 bitrate:40 at SAd:798]
+  [0xc1c0] Absolute Radio    [component 0 ASCTy: DAB+ ] [subch 3 bitrate:40 at SAd:630]
+  [0xc37b] Capital XTRA      [component 0 ASCTy: DAB+ ] [subch 16 bitrate:40 at SAd:276]
+**** Enter '.' to quit.
+{"UTCTime":{"day":2,"hour":21,"minutes":50,"month":1,"seconds":45,"year":2026}}
+[0xc0c2] rate 24000 mode MPEG 2.0 Layer II, 24 kHz Mono @ 64 kbit/s
+[0xc0c0] rate 24000 mode MPEG 2.0 Layer II, 24 kHz Mono @ 64 kbit/s
+AACDecoder: using decoder 'FAAD2'
+```
+
+
 ## Misc / Bots  
 Location: `services/misc/`  
 Restart: `docker compose restart`  
