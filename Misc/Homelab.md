@@ -181,6 +181,11 @@ Access: http://192.168.1.3:8096/
 External access: https://j.oling.dev (Cloudflare Tunnel) (**J**ellyfin)
 
 
+### Useful Commands:
+- Silent audio on TV but works on PC? Convert (usually because DTS audio cannot be played from TV easily.)
+	- Change directory on PC to `M:\jellyfin\media\shows` (where `M:\` is the Samba mount directory for `/mnt/mega`)
+	- `ffmpeg -i <input> -map 0 -c copy -c:a ac3 -b:a 640k <output>`
+
 ---
 
 ## Immich Stack  
