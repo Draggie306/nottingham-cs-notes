@@ -1,18 +1,18 @@
 I/O, keyboard, disk etc. are all every slow relative to the CPU
 
 
-Naively, the CPU executes a sequence of intructions one at a time. The basic cycle is fetch, decode and execute, in a pipeline.
+Naively, the CPU executes a sequence of instructions one at a time. The basic cycle is fetch, decode and execute, in a pipeline.
 A superscalar CPU provides instruction-level parallelism, and can fetch multiple instructions in batches and executing them. 
 
 The CPU will shuffle the order of operations to keep the pipeline busy - not always the order given in the code. Speculative evaluation: the CPU will ”guess” which branch may be taken, and preemptively begin calculations along that branch.
 
-> We must be very careful about the assumptions made about CPU behaviour. *Compiler optimisations and memory architecture complicate it further.* **Never make naive assumptions about what the CPU is doing.**
+> We must be very careful about the assumptions made about CPU behaviour. *Compiler optimisations and memory architecture complicate it further.* **Never make naïve assumptions about what the CPU is doing.**
 
 ### Registers
 Registers are small fast amount of memory close to the CPU core. There are general-purpose (”scratch”/temp data storage) registers and specialised registers:
 - the PC will count the current instruction being used
 - program status word - flags configuring the CPU state
-- general-purpose registers: storing operands for instructure
+- general-purpose registers: storing operands for instructions
 
 Registers and their content are part of the state of a program. 
 

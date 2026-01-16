@@ -4,7 +4,7 @@ Key point: to record the state of the running program, we need to store the stat
 
 ## Kernel and user space
 
-Code in userspace reads in “user” mode or normal mode - which restricts the code’s priviliges. It cannot interact directly with hardware - it has to ask something to do it for it. It cannot just tell the hard drive to delete all data.
+Code in userspace reads in “user” mode or normal mode - which restricts the code’s privileges. It cannot interact directly with hardware - it has to ask something to do it for it. It cannot just tell the hard drive to delete all data.
 
 In kernel space, we can interact directly with hardware. The CPU operates in kernel mode. Things running in the kernel mode is the kernel - for this course, this is the operating system. 
 

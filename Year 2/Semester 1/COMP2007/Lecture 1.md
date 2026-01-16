@@ -1,5 +1,4 @@
 
-
 ## Brief
 Operating Systems are the abstraction that allow normal programs to interact with hardware. They aim for extreme efficiency - but often, this requires greater complexity. They evolve to exploit the latest hardware innovations. 
 The module involves understanding how the OS improves us as computer scientists - not just mathematics. Code snippets will be given to help understand how we can achieve good performance. It will also allow us to better understand how large programs work.
