@@ -2,8 +2,8 @@
 
 Recap:
 
-- Monoprogramming alllows absolute addressing
-- Multi-programming allows non-equal partitions to improve CPU use. This requires relocation and results in internal fragmentation: if we allocate 100mb per program but it only uses 1mb, we lose 
+- Monoprogramming allows absolute addressing
+- Multi-programming allows non-equal partitions to improve CPU use. This requires relocation and results in internal fragmentation: if we allocate 100mb per program but it only uses 1mb, we lose 99mb.
 
 Overview: 
 - Code relocation, protection
@@ -14,11 +14,11 @@ Overview:
 
 ![](Pasted%20image%2020251103150947.png)
 
-The same address will be displayed if iVar is running twice simultaneously, but will have 2 values.
+The same address will be displayed if `iVar` is running twice simultaneously, but will have 2 values.
 
 The principle:
 
-There are two address spaces. The process has a logical address space between 0 and MAX, which is mapped to the physical address space. Sometimes, it will be identical “lucky”. Other times, it may be translated to another block of memory. The physical address space is the logical address *plus* the base - the addresses below.
+There are two address spaces. The process has a logical address space between 0 and MAX, which is mapped to the physical address space. Sometimes, it will be identical (“lucky”). Other times, it may be translated to another block of memory. The physical address space is the logical address *plus* the base - all the addresses below.
 
 ![](Pasted%20image%2020251103151254.png)
 
@@ -45,24 +45,23 @@ A logical address is a memory address seen by the process: it is relative to zer
 
 ![](Pasted%20image%2020251103152001.png)
 
-Two special-purpose registers are maintained by the MMU, which contains a base address and bound: the base stores the start address, and bound holds the partition side. At runtime the base register is added to the logical address to generate the physical address, and this is compared against the bounds register
+Two special-purpose registers are maintained by the MMU, which contains a base address and bound: the base stores the start address, and bound holds the partition side. At runtime the base register is added to the logical address to generate the physical address, and this is compared against the bounds register.
 
 
 
 ### Internal fragmentation
 
-Instead of declaring partitions and sizes on startup, we allocate the exact amount of contiguous memory it needs, and a variable number of partitions. 
+Instead of declaring partitions and sizes on start-up, we allocate the exact amount of contiguous memory it needs, and a variable number of partitions. 
 
 However, processes evolve over time. We can use swapping - this moves processes between the drive and main memory
-- Some processes only run occasionally, some processes may use differening sizes of memory.
+- Some processes only run occasionally, some processes may use differing sizes of memory.
 
 However, this leaves unusable chunks of memory distributed across physical memory:
 ![](Pasted%20image%2020251103152639.png)
 
 In one case, the gaps are too small to add a process, and other times the gaps are too big, which leaves small space: **external fragmentation**. Compaction (like defragging) takes a relatively long time. It is also complex to track free space and allocate memory to different locations.
 
-
-Memory however is also “wasted” in physical memory within each process, in the area between the stack and the heap, due to the sparse address space.
+Memory is further “wasted” in physical memory within each process, in the area between the stack and the heap, due to the sparse address space.
 
 The logical address does not have to be contiguous: it can be split into code, data, heap and the stack, stored anywhere in memory. Segmentation can be used to load only the relevant sections into memory, with each segment being contiguous. Each segment can have a base and bound pair, stored in a segmentation table, with part of the logical address used as an index for what segment it is. 
 

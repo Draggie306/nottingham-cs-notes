@@ -35,7 +35,7 @@ The operating system’s central data structure are queues. Admitted processes i
 
 ### Context switching
 
-CPU access must be shared in modern, multiprogramming,  single-processor system. **Time slicing** is used by interleaving the execution of processes. Control is given and passed between processes using context switching. There is a tradeoff between the time slice length and context switch time.
+CPU access must be shared in modern, multiprogramming,  single-processor systems. **Time slicing** is used by interleaving the execution of processes. Control is given and passed between processes using context switching. There is a tradeoff between the time slice length and context switch time.
 
 > Slicing time fast enough that gives the impression that different processes are using the CPU at the same time is only an emulation of parallelism: hardware support is required for true concurrency and parallel processing.
 
@@ -105,7 +105,7 @@ int main() {
 		return -1;
 	} else if(pid == 0) {
 		printf("Child process\n");
-		execl("/bin/ls", "ls", ”-l", 0);
+		execl("/bin/ls", "ls", "-l", 0);
 	} else {
 		int status = 0;
 		waitpid(pid, &status, 0);

@@ -15,12 +15,16 @@ Today:
 
 We use paging to reduce external fragmentation: we do not want tiny spaces of memory left over. Internal fragmentation: partitions were large (100mb) but only 1mb so wasted 99mb. Pages are very small here, so the potential for waste is much less. 
 
-Mapping is implemented by e.g. saying that the top of logical address is 1111. The mapping is mapped onto the lowest page in physical address space. ![](Pasted%20image%2020251110150705.png)
+---
+
+Mapping is implemented by e.g. saying that the top of logical address is 1111. The mapping is mapped onto the lowest page in physical address space. 
+
+![](Pasted%20image%2020251110150705.png)
 
 Index 15 (1111) means there are 15 frames sitting below the current frame. The offset is just index * base unit. 
 
 Simply:
-- If logical address: extract page number from lofical address
+- If logical address: extract page number from logical address
 - Use this to retrieve the frame number in the page table
 - Substitute the page number with the frame number
 
@@ -56,13 +60,13 @@ Once interrupt received, store the current process state and registers, and anal
 
 ### Processor utilisation 
 
-Virtual memory improves CPU use as each process takes up les memory, allowing more processes to be in memory. This means CPU can be more busy. *Although there is higher overhead, the chance that the CPU will need to work on something from some process also increases.*
+Virtual memory improves CPU use as each process takes up less memory, allowing more processes to be in memory, so the CPU can be busier. *Although there is higher overhead, the chance that the CPU will need to work on something from some process also increases.*
 
 This also means the page table becomes more complex. Previously, it had a mapping from page -> frame number. In practice, more information is required:
 
 ![](Pasted%20image%2020251110152734.png)
 
-If it not been referenced recently, then it could be removed from memory. If it has not been modified, then it doesn’t need to be written back to a drive. 
+If the page has not been referenced recently, then it could be removed from memory. If it has not been modified, then it doesn’t need to be written back to a drive. 
 
 Read/Write/Execute protection: can share machine code between two processes (just read permissions for machine code but no modification). 
 

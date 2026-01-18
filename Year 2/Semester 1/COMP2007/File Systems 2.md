@@ -56,7 +56,7 @@ Each partition has:
 - BIOS loads the MBR from the first physical drive
 - MBR code reads partition table on the same drive as the MBR
 - MBR looks for a **primary partition** marked as **active**
-- MBR loads the boot block (program) from the active promary partition
+- MBR loads the boot block (program) from the active primary partition
 - The boot block loads the rest of the OS starter files
 
 

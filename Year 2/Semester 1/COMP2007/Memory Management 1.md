@@ -2,7 +2,6 @@ Taught by Geert De Maere. Researcher who contributed to Heathrow Airport’s sch
 
 > Coursework: everything done so far is enough to complete the coursework.
 
-
 Today’s goals: memory management, modelling efficiency of multiprogramming, and memory management based on fixed partitioning (used in 1970s and 80s).
 
 ## Memory management
@@ -23,13 +22,13 @@ There is a hierarchy of memory:
 
 “**Higher memory**” is faster, more expensive and volatile. ”**Lower memory**” is slower and non-volatile. 
 
-The OS provides an abstraction of memory: we do not provide the location (registers, ram location) when declaring a variable. There is complex internal mechanisms that support this. At a high level, memory can be seen as a linear array of bytes, starting at 0 and going to the limit.
+The OS provides an abstraction of memory: we do not provide the location (registers, ram location) when declaring a variable. There are complex internal mechanisms that support this. At a high level, memory can be seen as a linear array of bytes, starting at 0 and going to the limit.
 
 
 ### OS responsibilities
-The OS must allocate/deallocate memory when requested. When we declare a variable, it is typically added to the stack. The compiler decides where it goes. A `malloc()` is more complicated: the OS finds a block of memory to allocate, and the OS’s standard library implements the malloc function and positions the fine malloc within this big block of memory. *This is all abstracted away.* The OS keeps track of which pieces of memory are still being used and by which process.
+The OS must allocate/deallocate memory when requested. When we declare a variable, it is typically added to the stack. The compiler decides where it goes. A `malloc()` is more complicated: the OS finds a block of memory to allocate, and the OS’s standard library implements the malloc function and positions the finer malloc within this big block of memory. *This is all abstracted away.* The OS keeps track of which pieces of memory are still being used and by which process.
 
-The OS also simulates “infinitely” large memory (compared to old computers) (this is 2^42 + number of address lines). It appears we can load as much as is needed, but the OS will give new chunks from discarded old chunks that are not needed any more.
+The OS also simulates “infinitely” large memory (compared to old computers) (this is 2^42 + number of address lines). It appears we can load as much as a process needs, but in reality the OS will give new chunks from discarded old chunks that are not needed any more.
 
 The OS also controls access. We do not deal with protection - the OS checks if the process is allowed to access memory. 
 
@@ -49,18 +48,18 @@ Multi-programming can be with fixed equal- or non-equal sized partitions, or wit
 
 This has one single user process; no multi-programming. A fixed region of memory is allocated to the kernel, and the remaining memory is reserved for a single process. The process has direct access to physical memory. This is how MS-DOS worked.
 
-There are 4 key components: machine code, data (constants declared), heap (dynamic memory), and the other side is the stack (e.g. stack frame). The heap and stack are placed on opposite sides of the address space: the heap grows and the stack grows down with recursive calls. 
+There are 4 key components: machine code, data (constants declared), heap (dynamic memory), and the other side is the stack (e.g. stack frame). The heap and stack are placed on opposite sides of the address space: the heap grows up and the stack grows down with recursive calls. 
 
 
 ![](Pasted%20image%2020251028123129.png)
 
-> This used to be easy to work out: get the pointer of the main function (code), a pointer to an int (stack) and a malloc’d pointer (heap) and printing the memory address. However, the OS now applies some randomisation to reduce security risks.
+> This used to be easy to work out: get the pointer of the main function (code), a pointer to an int (stack) and a malloc’d pointer (heap) and printing the memory address. However, the OS now applies memory address space randomisation to reduce security risks.
 
-With mono-programming, there is no protection between the user processes and direct access to physical memory - so direct access to the OS. The OS is also a process, so 2 processes must run anyway.
+With mono-programming, there is no protection between the user processes and direct access to physical memory - so direct access to the OS is possible from the user code. The OS is also a process, so 2 processes must run anyway - defeating some logical reasons for its utility.
 
-Multi-programming can be simulated by swapping: writing the process to the disk and loading a new one (very slow) or with threads within the same process. 
+Multi-programming can be simulated by swapping: writing the process to the disk and loading a new one (which is very slow), or with threads within the same process. 
 
-Mono-programming results in low CPU utilisation: if a process uses I/O 80% of the time, then it is not doing anything for 80% of the time. 
+Mono-programming results in low CPU utilisation: if a process uses I/O 80% of the time, then it is not doing anything for 80% of the time as there is simply no other process available to do work. 
 
 > Imagine a disk rotating at 7200 RPM, taking 4.2ms to rotate half a track
 > Imagine a CPU running at 3.2 GHz (approx. 3.2 ×10^9 instructions per second) 

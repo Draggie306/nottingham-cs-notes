@@ -1,6 +1,6 @@
 
 Recap:
-- Preemptive/non-preemptive schedulers - when processes are kicked off CPU time.
+- Pre-emptive/non-preemptive schedulers - when processes are kicked off CPU time.
 - Term-based scheduling: long vs short term - when different processes should be on the CPU
 - Evaluation criteria including 
 - Scheduling algorithm
@@ -26,7 +26,7 @@ Similar to processes, threads have states and transitions (new, running, blocked
 
 ![](../../../Images/Pasted%20image%2020251009151632.png)
 
-It is considered practice to have a multiprocess (and/or fork()) AND multi-thread program.
+It is considered bad practice to have a multiprocess (and/or fork()) AND multi-thread program.
 
 
 - Threads incur less overhead to create/terminate/switch as address space remains the same for same-process threads. 

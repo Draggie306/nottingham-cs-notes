@@ -8,7 +8,7 @@ There are 3 scales of scheduling to consider:
 	- This is largely absent on most modern operating systems
 2. Medium-term: controls swapping and the amount of multi-programming (number of processes using the CPU). 
 3. Short-term: decides what processes to run next
-	- Manages the **ready queue**, is invoked very frequently, usually after a certain number of cpu clock interrupts, I/O interrupts or blocking system calls.
+	- Manages the **ready queue**, is invoked very frequently, usually after a certain number of CPU clock interrupts, I/O interrupts or blocking system calls.
 
 Non-preemptive scheduling strategies rely on processes voluntarily giving away “yielding” on the CPU. Implicit strategies like I/O operations can also be used. *Risks: no way to get out of bad situations e.g. infinite loop.*
 

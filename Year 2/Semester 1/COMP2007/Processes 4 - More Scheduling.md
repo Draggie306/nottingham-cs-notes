@@ -6,7 +6,7 @@ Recap:
 - Threads are an abstraction of a thread of execution: lighter weight vs processes (as processes have address spaces and file handles)
 - Hybrid/user/kernel threads have different advantages and different advantages (genuine/emulated concurrency)
  
-> PThreads are important for coursework: they are the library upon which everything will be buit.
+> PThreads are important for coursework: they are the library upon which everything will be built.
 
 ## Multi-level feedback queues
 Feedback queues allow priorities to change dynamically. Jobs can move between queues: if too much CPU time, it can be demoted to a lower priority queue (to prioritise I/O/interactive processes - making better use of the hardware) or promoted (preventing starvation and avoid **inversion of control**).
@@ -25,7 +25,7 @@ Having 3 processes:
 - Process C (medium priority) runs. It doesn’t need the resource, just calculations on the CPU (for hours). 
 - This means that this situation has a high priority process is doing nothing whilst a lower priority process has full control over the system.
 
-> Higher priority have lower numbers. 
+> Higher priority processes have lower numbers. 
 
 
 ![](Pasted%20image%2020251013151421.png)
@@ -114,7 +114,6 @@ Unrelated threads: independent processes - different users/programs
 N related threads are allocated to *N* CPUs (when *N* CPUs are availble). 
 
 Gang scheduling groups related threads into chunks on the CPU and uses time slicing.
-
 
 
 
