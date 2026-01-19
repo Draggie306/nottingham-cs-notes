@@ -1,6 +1,6 @@
 
 
-Recap: paging with virual memory management underpins all memory management strategies today.
+Recap: paging with virtual memory management underpins all memory management strategies today.
 
 There are lots of challenges and policies required to make this work in practice today.
 

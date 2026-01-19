@@ -12,7 +12,6 @@ Interacting with `/foo/bar`: read the i-node of /foo, then read the data of the 
 Lots of data complexity occurs before data is even read/written
 
 
-
 ## Log structured filesystem
 
 The old-fashioned: i-nodes point to data blocks and directories. What would be better is that all data, i-nodes and directories are clustered together, reducing seek movement.

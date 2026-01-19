@@ -1,5 +1,4 @@
 
-
 ## Free space implementations
 
 File allocation tables and i-nodes show which blocks are in use. To keep track of free space though:
@@ -9,7 +8,7 @@ Bitmaps and linked lists can be used for free space management.
 - Bitmaps represent each block with a single bit in a map. It grows in size with the disk size but is constant for a given disk.
 - Linked lists depend on how much space is in use. 
 
-If we increase block size, we reduce size of the bitmap/linked list, but the more likely internal fragementaion within the blocks occur. (if block size is 4kb but only 1 byte is used - we waste 3.999kb). 
+If we increase block size, we reduce size of the bitmap/linked list, but the more likely internal fragmentation within the blocks occur. (if block size is 4kb but only 1 byte is used - we waste 3.999kb). 
 
 Linked lists can be modified by tracking the number of sequential free blocks for each entry.
 

@@ -1,19 +1,17 @@
 
 
-File system implementations
-
-
+# File system implementations
 
 ### File access
 
-FIles are made of multiple blocks - wither sequential or random access (Essential for databases). The key issues is how to associate and group processes together. 
+Files are made of multiple blocks - wither sequential or random access (Essential for databases). The key issues is how to associate and group processes together. 
 
 We should know: where the file starts and how large the file is, and everything can be worked out - similar to dynamic memory allocation. 
 
 When we store files in the file system, they can be stored one after another. However, over time, files are grown/shrunk or deleted, creating gaps. The same principle as memory, to find a suitable gap, is applied to the disk. 
 
 
-### Contigiuous allocaiton
+### Contiguous allocation
 
 Only the location of the first block and the length of the file must be stored, in the FCB. This also creates the optimal read/write performance: if the file is stored contiguously, blocks are located in adjacent sectors with reducing seek time and rotational latency. Even on an SSD, this is good, as each block needs to be fully accessed (all pages in the block) before writing - if they are all part of one file, there is a speed gain. 
 
@@ -116,7 +114,6 @@ These can link (almost) anything in any location. Plus, there are no issues with
 
 However:
 - We must go to find the file that contains the file, open it, read the information, find the path, and go to the path to find the file being looked up. **This requires an extra file lookup and an extra i-node for the link file.**
-
 
 
 ### Test

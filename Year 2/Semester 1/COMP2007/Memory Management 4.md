@@ -10,7 +10,7 @@ Today:
 - Logical address space: what the compiler sees and assumes, starting at 0 to maximum (the number of address lines on the CPU, e.g. 48 would have 2^48 memory locations), in evenly-sized pages.
 - Physical address space, split into frames of typically the same size as pages.
 - Non-contiguous: all pages can be stored in any arbitrary order within the frames. Frames have contiguous ordering.
-- Page table: based on oage number of the logical address, we can go to any row as an index to get a corresponding frame number for that 
+- Page table: based on page number of the logical address, we can go to any row as an index to get a corresponding frame number for that 
 - Offset within the page and frame remains the same
 
 We use paging to reduce external fragmentation: we do not want tiny spaces of memory left over. Internal fragmentation: partitions were large (100mb) but only 1mb so wasted 99mb. Pages are very small here, so the potential for waste is much less. 

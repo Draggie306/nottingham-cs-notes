@@ -1,14 +1,13 @@
 
 
-
 ## Rotational drives
 
-Rotational hard drives are made of aluminium/glass platters in magnetised materil.
+Rotational hard drives are made of aluminium/glass platters in magnetised material.
 
 - Read/write heads fly just above the surface with an actuator to make sure the heads are on the correct tracks. 
 - Data is stored on both sides of a platter.
 - They rotate at a constant speed, so near the spindle (centre) is less fast than on the outside. 
-- A disk controller abstracts the low level interface. *An additional level of indirection*. The detail of "go to track X on secotr Y" is hidden
+- A disk controller abstracts the low level interface. *An additional level of indirection*. The detail of "go to track X on sector Y" is hidden
 
 These drives are 4 orders of magnitude slower than main memory.
 
@@ -33,7 +32,7 @@ The estimated seek time `Ts` to move the arm from one track to another is approx
 
 - n the number of tracks to be crossed
 - m the crossing time per track
-- s any additional startup delay
+- s any additional start-up delay
 
 
 To read a file of 256 sectors: 

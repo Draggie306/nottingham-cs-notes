@@ -49,8 +49,6 @@ Each partition has:
 - Data blocks 
 
 
-
-
 ### Boot process
 
 - BIOS loads the MBR from the first physical drive
@@ -58,8 +56,6 @@ Each partition has:
 - MBR looks for a **primary partition** marked as **active**
 - MBR loads the boot block (program) from the active primary partition
 - The boot block loads the rest of the OS starter files
-
-
 
 
 ### Directories
