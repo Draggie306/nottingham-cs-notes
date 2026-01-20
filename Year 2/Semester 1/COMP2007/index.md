@@ -5,7 +5,7 @@ Notes for this module are not complete.
 ## Main document
 These are more finished, cover multiple lectures, and have better explanations.
 
-- [Work in Progress - Operating Systems and Concurrency Cheat Sheet](/Year 2/Semester 1/COMP2007/Operating Systems and Concurrency Cheat Sheet)
+- [Operating Systems and Concurrency Cheat Sheet](/Year 2/Semester 1/COMP2007/Operating Systems and Concurrency Cheat Sheet)
 
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.

@@ -629,6 +629,7 @@ ext2 added larger files, names and better performance.
 
 ext3 and 4 added journaling and improvements to it.
 
+Additionally, ext2 added metadata within each block group, reducing seek times 
 
 
 
