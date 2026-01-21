@@ -9,452 +9,622 @@
 
 <url>
   <loc>https://notes.oling.dev/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%202/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%202/GEOG1037/Environmental%20Change</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2065/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2065/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2002/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2002/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Welcome%20Back%20to%20CS%20Y2</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/Welcome%20Back%20to%20CS%20Y2</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Placements%20and%20Work%20Experience</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/Placements%20and%20Work%20Experience</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1001/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1001/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1005/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1005/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1054/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1054/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1056/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1056/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%202/COMP1003/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%202/COMP1004/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1004/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%202/COMP1008/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1008/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%202/COMP1009/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%202/COMP1043/</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1043/</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/SWEng%20Talk</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/GEOG1037/Environmental%20Change</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Studying%20CS%20Effectively%20Lecture%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/SWEng%20Talk</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/Studying%20CS%20Effectively%20Lecture%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%202%20-%20Intro%20to%20DevOps</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%203%20-%20Refactoring</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%204%20-%20Refactoring%20Continued</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%205%20-%20Refactoring%20principles%20and%20Design%20Patterns</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%205.1%20Testing%20for%20Software%20Maintenance</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%206%20-%20Refactoring%20Patterns</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%207%20-%20Architecture%20and%20Developer%20Tools</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%208%20-%20DevOps%20talk</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%208.1%20-%20CI,%20CD%20pipelines%20and%20YAML</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%209%20-%20CI,%20CD%20and%20the%20Pipeline</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%2010%20-%20DevSecOps%20-%20Final%20Lecture</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2013/Lecture%2010.1%20-%20Docker%20and%20Containerisation</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Operating%20Systems%20and%20Concurrency%20Cheat%20Sheet</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Lecture%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Lecture%202%20-%20Hardware%20and%20Address%20Spaces</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Lecture%203</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Processes%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Processes%202%20-%20Scheduling</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Processes%203%20-%20Threads</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Processes%204%20-%20More%20Scheduling</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Concurrency%202</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Concurrency%203</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Concurrency%204</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Concurrency%205</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Concurrency%206</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Memory%20Management%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Memory%20Management%202</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Memory%20Management%203</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Memory%20Management%204</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Memory%20Management%205</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/Memory%20Management%206</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/File%20Systems%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/File%20Systems%202</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/File%20Systems%203</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%202%20-%20Intro%20to%20DevOps</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/File%20Systems%204</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%203%20-%20Refactoring</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2007/File%20Systems%205</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%204%20-%20Refactoring%20Continued</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2065/Tutorial%208</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%205%20-%20Refactoring%20principles%20and%20Design%20Patterns</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2065/Tutorial%206</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%205.1%20Testing%20for%20Software%20Maintenance</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2065/Tutorial%205</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%206%20-%20Refactoring%20Patterns</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2065/Tutorial%203</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%207%20-%20Architecture%20and%20Developer%20Tools</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2065/Tutorial%202</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%208%20-%20DevOps%20talk</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2065/Lab%201,%20Tutorial%201%20and%20CW%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%208.1%20-%20CI,%20CD%20pipelines%20and%20YAML</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2065/Lecture%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%209%20-%20CI,%20CD%20and%20the%20Pipeline</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2002/Lecture%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%2010%20-%20DevSecOps%20-%20Final%20Lecture</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2002/Lecture%202%20-%20EoI%20and%20Pitch%20Submission</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2013/Lecture%2010.1%20-%20Docker%20and%20Containerisation</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2002/Scrum%20and%20Info%20session</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Lecture%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2002/UoN-SoftwareEngineeringGroupProject-projectHandbook2.0.11.pdf</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Lecture%202%20-%20Hardware%20and%20Address%20Spaces</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-2/semester-1/COMP2002/groupProjectRubric2025-2026.pdf</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Lecture%203</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1001/Mathematics%20for%20Computer%20Scientists%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Processes%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1005/C%20Notes%20Cheat%20Sheet</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Processes%202%20-%20Scheduling</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1005/L2</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Processes%203%20-%20Threads</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1005/COMP1005%20Tues</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Processes%204%20-%20More%20Scheduling</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1005/Week%204%20-%20Lecture%201</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Concurrency%202</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1054/Assembly%20Full</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Concurrency%203</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/Networks</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Concurrency%204</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/Networks%203</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Concurrency%205</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/Networks%204</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Concurrency%206</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/Networks%205</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Memory%20Management%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/Networks%206%20+%207</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Memory%20Management%202</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/Networks%208</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Memory%20Management%203</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/Networks%209%20+%2010%20-%20Ethernet%20in%20Packets</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Memory%20Management%204</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/NETWORKS%2011</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Memory%20Management%205</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1055/Networking%20Q&amp;A</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/Memory%20Management%206</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-1/COMP1056/Architecture%20-%20Full%20Notes</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/File%20Systems%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/SWE%20Revision%20Notes</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/File%20Systems%202</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/Software%20Engineering</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/File%20Systems%203</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/SWE%20-%20Week%205</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/File%20Systems%204</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/SWEng%20-%20Coursework%20Information</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2007/File%20Systems%205</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/SWENG%20-%20Traditional%20vs%20Agile</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2065/Tutorial%208</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/SW%20ENG%20Lecture%20-%20Release%20and%20Acceptance%20Testing</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2065/Tutorial%206</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/SWEng%20-%20Development%20Lecture%20actual%20content%20(week%205)</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2065/Tutorial%205</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/SWE%2017%20-%20Agile%20vs%20Traditional%202</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2065/Tutorial%203</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1003/SWE%20-%20Lecture%2019%20-%20Final%20Lecture</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2065/Tutorial%202</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1004/DBI%20Revision%20Notes</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2065/Lab%201,%20Tutorial%201%20and%20CW%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1004/Databases%20and%20Interfaces</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2065/Lecture%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1004/JavaScript</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2002/Lecture%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1004/Interfaces</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2002/Lecture%202%20-%20EoI%20and%20Pitch%20Submission</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1008/FAI%20Revision%20Notes</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2002/Scrum%20and%20Info%20session</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1008/AI</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2002/UoN-SoftwareEngineeringGroupProject-projectHandbook2.0.11.pdf</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1008/AI%204</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2002/10.11.2025%20Brain%20Data%20Group%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1008/AI%205%20%E2%80%94%20Part%203</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%202/Semester%201/COMP2002/17.11.2025%20Minutes%20-%20Prototypes</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1008/AI%20Lecture%20Week%206</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1001/Mathematics%20for%20Computer%20Scientists%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1008/AI%20-%20Game%20Playing</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1005/C%20Notes%20Cheat%20Sheet</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1008/AI%20-%20Blind%20searching</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1005/L2</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1008/AI%20-%20Combinatorial%20Explosion</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1005/COMP1005%20Tues</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/PGP%20Revision%20Notes</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1005/Week%204%20-%20Lecture%201</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/OO%20-%20Java</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1054/Assembly%20Full</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/FP%20-%20Haskell</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/Networks</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/Final%20and%20Nested%20Classes</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/Networks%203</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/java%20guis%20lolll</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/Networks%204</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/Java%20Week%2023%20-%20GUIs</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/Networks%205</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/Java%20-%20Iterator%20pattern</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/Networks%206%20+%207</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/Java</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/Networks%208</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/Java%2013%20-%20Anonymous%20classes%20and%20lambdas</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/Networks%209%20+%2010%20-%20Ethernet%20in%20Packets</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/Java%20-%20Revision%20Lecture</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/NETWORKS%2011</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/Parametric%20Polymorphism%20and%20Boxing</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1055/Networking%20Q&amp;A</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/Java%20-%20Final%20Lecture</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://notes.oling.dev/Year%201/Semester%201/COMP1056/Architecture%20-%20Full%20Notes</loc>
-  <lastmod>2025-12-15T00:01:27+00:00</lastmod>
+  <loc>https://notes.oling.dev/year-1/semester-2/COMP1009/Paradigms%20Wrapup</loc>
+  <lastmod>2026-01-21T15:21:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
