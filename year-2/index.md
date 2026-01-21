@@ -3,10 +3,10 @@ Index file for the Computer Science course at the University of Nottingham, Year
 
 # Semester 1
 
-[Browse Semester 1 modules](/Year 2/Semester 1), or go directly to:
-- [COMP2013 - Developing Maintainable Software](/Year 2/Semester 1/COMP2013)
-- [COMP2007 - Operating Systems and Concurrency](/Year 2/Semester 1/COMP2007)
-- [COMP2065 - Introduction to Formal Reasoning](/Year 2/Semester 1/COMP2065)
+[Browse Semester 1 modules](/year-2/semester-1/), or go directly to:
+- [COMP2013 - Developing Maintainable Software](/year-2/semester-1/COMP2013/)
+- [COMP2007 - Operating Systems and Concurrency](/year-2/semester-1/COMP2007/)
+- [COMP2065 - Introduction to Formal Reasoning](/year-2/semester-1/COMP2065/)
 
 # Semester 2
 
@@ -19,7 +19,7 @@ Semester 2 modules are not available yet. They are:
 # All-year modules 
 
 Go directly to:
-- [COMP2002 - Software Engineering Group Project](/Year 2/Semester 1/COMP2002)
+- [COMP2002 - Software Engineering Group Project](/year-2/semester-1/COMP2002/)
 
 
 # Extras
@@ -28,5 +28,5 @@ Go directly to:
 
 ## Misc Lectures
 
-- [Welcome Back to the School of Computer Science - Year 2](/Year 2/Welcome Back to CS Y2)
-- [Placements and Work Experience](/Year 2/Placements and Work Experience)
+- [Welcome Back to the School of Computer Science - Year 2](/year-2/Welcome Back to CS Y2)
+- [Placements and Work Experience](/year-2/Placements and Work Experience)

@@ -5,8 +5,8 @@ These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBagu
 
 ## View notes
 
-### [Year 2 - All Notes](/Year%202/)
-- [Semester 1 modules](/Year%202/Semester%201), including:
+### [Year 2 - All Notes](/year-2/)
+- [Semester 1 modules](/year-2/semester-1/), including:
 	- COMP2007 - Operating Systems and Concurrency (C and theory)
 	- COMP2013 - Developing Maintainable Software (Java and theory)
 	- COMP2065 - Introduction to Formal Reasoning (Lean 4)
@@ -15,14 +15,14 @@ These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBagu
 	-  COMP2002 - Software Engineering Group Project
 
 
-### [Year 1 - All Notes](/Year%201)
-- [Semester 2 modules](/Year%201/Semester%202), including:
+### [Year 1 - All Notes](/year-1/)
+- [Semester 2 modules](/year-1/semester-2/), including:
 	- COMP1003 - Introduction to Software Engineering (theory)
 	- COMP1004 - Databases and Interfaces (SQL, HTML, CSS and JS)
 	- COMP1008 - Fundamentals of Artificial Intelligence (theory)
 	- COMP1009 - Programming Paradigms (theory, Java and Haskell)
 	- COMP1043 - Mathematics for Computer Scientists 2 (Linear Algebra)
-- [Semester 1 modules](/Year%201/Semester%201), including:
+- [Semester 1 modules](/year-1/semester-1/), including:
 	- COMP1001 - Mathematics for Computer Scientists 1 (Discrete Mathematics)
 	- COMP1005 - Programming and Algorithms (ANSI C)
 	- COMP1054 - Assembly Language Programming (theory & ARM32 assembly)

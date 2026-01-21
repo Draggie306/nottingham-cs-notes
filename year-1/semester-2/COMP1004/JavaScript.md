@@ -1,4 +1,4 @@
-> Quiz is likely to be on the first wee
+> Quiz is likely to be on the first week back
 
 
 JavaScript is a scripting language that allows the implementation of dynamic content on web pages.
