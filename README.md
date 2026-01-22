@@ -54,3 +54,9 @@ where `/mnt/mega` refers to the mount point of the external drive mounted in `/e
 
 > Must exclude `.git` to reduce remote bucket Class A/B writes and storage used, and to speed up syncing.
 > Must also exclude `.github` to not overwrite/remove Jekyll build settings.
+
+
+## Star History
+A few people have found this useful so far, so here is a nice graph to visualise it.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Draggie306/nottingham-cs-notes&type=date&legend=top-left)](https://www.star-history.com/#Draggie306/nottingham-cs-notes&type=date&legend=top-left)

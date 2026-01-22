@@ -5,7 +5,7 @@ This module is largely complete.
 ## Main document
 These are more finished, cover multiple lectures, and have better explanations.
 
-- [Networks](/year-1/semester-1/COMP1055/Networks)
+- [Networks](year-1/semester-1/COMP1055/Networks.md)
 
 
 ## All Draft Notes

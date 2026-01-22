@@ -22,7 +22,7 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Processes 4 - More Scheduling](/year-2/semester-1/COMP2007/Processes 4 - More Scheduling)
 
 ### Concurrency
-- [Introduction to Concurrency](/year-2/semester-1/COMP2007/Lecture 5 - Introduction to Concurrency)
+- [Introduction to Concurrency](/year-2/semester-1/COMP2007/Concurrency 1)
 - [Concurrency 2](/year-2/semester-1/COMP2007/Concurrency 2)
 - [Concurrency 3](/year-2/semester-1/COMP2007/Concurrency 3)
 - [Concurrency 4](/year-2/semester-1/COMP2007/Concurrency 4)

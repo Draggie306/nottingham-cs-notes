@@ -3,7 +3,8 @@
 
 ### Known Issues
 
-#### OOM/system freezes:
+### OOM/system freezes
+Currently diagnosing and mitigating
 
 ```sh
 draggie@rpi:~ $  journalctl -p err -b
@@ -18,6 +19,18 @@ draggie@rpi:~ $ dmesg | egrep -i "error|sdhci|mmc|timeout|I/O"
 [86409.553009] systemd[1]: systemd-journald.service: Failed with result 'timeout'.
 ```
 
+
+## Architecture
+- Server system: Raspberry Pi 5 8GB (Raspberry Pi OS Lite)
+- Storage:
+	- SD card: boot/system/text only (e.g. `/services`).
+	- USB3->SATA-attached SSD - `/dev/sda` - (WD Green 256GB): cache, thumbnails, databases, Docker root (images, containers), temporary files, some configs in `/services`
+	- USB3-attached HDD - `/dev/sdb` - (WD Elements 20TB): bulk storage (Immich photos + videos), films, music, backups.
+- Network:
+	- Pi-hole: DNS + DHCP
+	- Unifi Controller: Wireless access + switching APs
+	- Cloudflare Tunnels
+	- SSH password disabled; private key only
 
 ## Docker
 - Update all containers in current directory with docker compose:
