@@ -74,6 +74,17 @@ Settings:
 	- `htop`
 	- Normal mem usage: 4-5G/7.87G (Swap usage often gets to 2gb, with default swappiness, do not worry.)
 
+
+#### Bulk updates
+**IMPORTANT: Before running any bulk update command, read the GitHub release notes for each service.** Most services are stable but some have breaking changes.
+
+Most services, plus system packages:
+```sh
+cd ~/services/immich-app && sudo docker compose pull && sudo docker compose up -d && echo && cd /home/draggie/services/Dawarich && sudo docker compose down && sudo docker compose pull && sudo docker compose up -d && cd ~/services/arr && sudo docker compose pull && docker compose up -d && cd ~/services/wakapi/ && sudo docker compose pull && sudo docker compose up -d && cd /mnt/ssd1/services/unifi-controller && sudo docker compose pull && sudo docker compose up -d && cd /mnt/ssd1/services/uptime-kuma && sudo docker compose pull && sudo docker compose up -d && sudo apt-get update && sudo apt-get upgrade --autoremove -y && echo PLEASE ENSURE THERE ARE NO BREAKING CHANGES TO CONFIGS BEFORE LEAVING! && cd ~
+```
+
+
+
 ### Configs
 - Fstab entries `sudo nano /etc/fstab`
 	- SSD Cache (usb3->sata) (256gb) `UUID=d6ecfcd5-2703-41bf-9301-10c403b6fb0c /mnt/ssd1 ext4 nofail,defaults 0 2`
@@ -85,6 +96,8 @@ Settings:
 	- `vm.swappiness = 15`
 		- Else, the swap eventually fills up with data while ram is left over.
 	- apply with `sudo sysctl -p`
+
+
 
 
 # Services: Docker, containerised
