@@ -14,6 +14,7 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Lecture 1 - CVs, module breakdown and project information](/year-2/semester-1/COMP2002/Lecture 1)
 - [Lecture 2 - EoI and Pitch Submission](/year-2/semester-1/COMP2002/Lecture 2 - EoI and Pitch Submission)
 - [Lecture 3 - Scrum and Info session](/year-2/semester-1/COMP2002/Scrum and Info session)
+- [Lecture 4 - ??????](/year-2/semester-1/COMP2002/Lecture 4)
 
 ## Extras
 - [University of Nottingham - Software Engineering Group Project Handbook 2025 PDF](/year-2/semester-1/COMP2002/UoN-SoftwareEngineeringGroupProject-projectHandbook2.0.11.pdf)
