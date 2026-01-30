@@ -1,5 +1,5 @@
 
-All notes for Algorithms, Data Structures, and Efficiency (COMP2054) at the University of Nottingham School of Computer Science. Taught by Andrew Parkes
+All notes for Introduction to Human Computer Interaction (COMP2004) at the University of Nottingham School of Computer Science. Taught by Neelima Sailaja.
 
 Notes for this module are currently not complete.
 
@@ -11,8 +11,7 @@ These are more finished, cover multiple lectures, and have better explanations.
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 
-- [Lecture 0 - Introduction](/year-2/semester-2/COMP2054/Lecture 0)
-- Lecture 1 - Analysis of Algorithms 
+- [Lecture 0 - Introduction](/year-2/semester-2/COMP2004/Lecture 0)
 
 
 ## Full Module Revision
