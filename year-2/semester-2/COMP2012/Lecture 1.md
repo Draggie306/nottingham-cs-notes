@@ -50,11 +50,11 @@ Decidable language: always has a stopping condition for all inputs.
 Halting problem 
 
 
+ 
 
 
 
-
-
+# 
 
 
 

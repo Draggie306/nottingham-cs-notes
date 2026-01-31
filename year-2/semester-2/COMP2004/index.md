@@ -11,7 +11,8 @@ These are more finished, cover multiple lectures, and have better explanations.
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 
-- [Lecture 0 - Introduction](/year-2/semester-2/COMP2004/Lecture 0)
+- [Lecture 1 - Introduction](/year-2/semester-2/COMP2004/Lecture 0 - Introduction to Human-Computer Interaction)
+- [Lecture 2 - Thinking about HCI](/year-2/semester-2/COMP2004/Lecture 2 - Thinking about HCI)
 
 
 ## Full Module Revision
