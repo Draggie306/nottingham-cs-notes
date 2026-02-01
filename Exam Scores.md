@@ -1,15 +1,21 @@
+
+
 ## University
 
-### Semester 1
-| code      | module                        | credit | mark % |
-| --------- | ----------------------------- | ------ | ------ |
-| COMP 1001 | Math for Comp Scientists 1    | 10     | 55     |
-| COMP 1005 | Programming & Algorithms      | 20     | 78     |
-| COMP 1054 | Assembly Language Programming | 10     | 76     |
-| COMP 1055 | Networks                      | 10     | 93     |
-| COMP 1056 | Computer Architecture         | 10     | 84     |
+### Year 2
 
-### Semester 2
+#### Semester 1
+
+| code      | module                     | credit | mark % |
+| --------- | -------------------------- | ------ | ------ |
+| COMP 2007 | Opeerating Sys and Conc    | 20     |        |
+| COMP 2013 | Devlping Maintainable Soft | 20     |        |
+| COMP 2065 | Intro to Formal Reasoning  | 10     |        |
+
+
+### Year 1 
+
+#### Semester 2
 
 | code      | module                         | credit | mark % |
 | --------- | ------------------------------ | ------ | ------ |
@@ -18,6 +24,17 @@
 | COMP 1008 | Fundmntls of Artificial Intell | 10     | 74     |
 | COMP 1009 | Programming Paradigms          | 20     | 75     |
 | COMP 1043 | Maths for Comp Scientists 2    | 10     | 57     |
+
+#### Semester 1
+| code      | module                        | credit | mark % |
+| --------- | ----------------------------- | ------ | ------ |
+| COMP 1001 | Math for Comp Scientists 1    | 10     | 55     |
+| COMP 1005 | Programming & Algorithms      | 20     | 78     |
+| COMP 1054 | Assembly Language Programming | 10     | 76     |
+| COMP 1055 | Networks                      | 10     | 93     |
+| COMP 1056 | Computer Architecture         | 10     | 84     |
+
+
 ## A Level
 ### Geography - A
 - H481/01 Physical Systems: 43/66

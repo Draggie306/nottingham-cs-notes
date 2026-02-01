@@ -22,5 +22,4 @@ The minimisation objective function for the MAX-SAT problem has a goal of minimi
 
 It is possible for multiple solutions to have the **same objective function** value, even if the problem instance is different.
 
-
-
+With pseudo-random number generators, the sequence of values to perturb are the same, so all solutions explored are the same. 

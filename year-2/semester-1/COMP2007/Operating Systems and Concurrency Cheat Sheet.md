@@ -1,5 +1,5 @@
 
-
+# Operating Systems and Concurrency Cheat Sheet
 ## Intro
 
 CPUs are designed to execute instructions sequentially. A pipeline is made of fetching, decoding and executing data. Superscalar CPUs provide instruction-level parallelism, evaluating multiple instructions in parallel. 

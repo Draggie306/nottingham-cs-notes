@@ -3,7 +3,7 @@
 
 ### Known Issues
 
-### OOM/system freezes
+#### OOM/system freezes
 Currently diagnosing and mitigating
 
 ```sh
@@ -530,11 +530,22 @@ Run `pivpn -a` to setup a new QR code to scan in the Wireguard app.
 
 ## Cron jobs
 
-\[Current user]
+### Current user
 
-- Agile Octopus: Stop immich (transcoding) jobs before peak rates, and restart them after the 12p penalty is over
+- Agile Octopus: Stop Immich (transcoding) jobs before peak rates, and restart them after the 12p penalty is over (4-7pm)
 	- `49 15 * * * bash /home/draggie/services/immich-app/agile-cron.sh`
 	- `0 19 * * * bash /home/draggie/services/immich-app/agile-cron-restart-jobs.sh`
+
+```sh
+curl -L -X PUT 'http://192.168.1.3:2283/api/jobs/videoConversion' \
+-H 'Content-Type: application/json' \
+-H 'x-api-key: XXXXX' \
+-H 'Accept: application/json' \
+-d '{
+  "command": "pause",
+  "force": true
+}'
+```
 
 - Auto-commit uni notes Obsidian changes and update the Git repo with new changes
 	- `0 0 * * * cd /mnt/mega/uni-notes-git/ && /usr/bin/rclone sync --exclude .git/ --exclude .github/ r2:notes . -v && /usr/bin/git add . && /usr/bin/git commit -m "[cron] auto commit: update notes" && /usr/bin/git push &>> /mnt/mega/notes_sync.log`
@@ -542,3 +553,9 @@ Run `pivpn -a` to setup a new QR code to scan in the Wireguard app.
 - iPlayer Download task
 	- `53 19 * * * bash /home/draggie/iplayer.sh > /mnt/mega/ipayer_log.txt`
 
+### Root
+- Stop radio decode overnight at 22:30 (saving CPU cycles)
+	- `30 22 * * * systemctl stop welle-radio.service`
+
+- Start radio in the early afternoon at 13:00
+	- `0 13 * * * systemctl start welle-radio.service`
