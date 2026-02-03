@@ -7,9 +7,9 @@ Objectives:
 Poor designs can be mundane. If the interaction design is wrong in high-stakes contexts (nuclear power plant…), they can be fatal. 
 
 
-Affordance: something that has a feature that allows us to figure out how to use it. Something that, by virtue of its design, shows how it can be used.
+**Affordance**: something that has a feature that allows us to figure out how to use it. Something that, by virtue of its design, shows how it can be used.
 
-Learnability: how quickly and easily new users can understand an interface, accomplishing tasks on their first attempt, and reach proficiently quickly.
+**Learnability**: how quickly and easily new users can understand an interface, accomplishing tasks on their first attempt, and reach proficiently quickly.
 
 Example of poor learnability:
 ![](../../../Images/Pasted%20image%2020260130111543.png)

@@ -16,7 +16,7 @@ There are already ambiguities in this definition. We usually focus on the worst-
 
 The general pattern to work it out is:
 1. Write a program
-2. Run it with inputs of various size and composision
+2. Run it with inputs of various size and composition
 3. Use a system method to get the running time
 4. Interpret and analyse the result
 
@@ -24,14 +24,16 @@ The general pattern to work it out is:
 
 ![](../../../Images/Pasted%20image%2020260129141357.png)
 
-Here, the worst case is roughly linear, the average is something else, and the best is constant. However, we should be more mathematically precise:
+Here, the worst case is roughly linear, the average is something else, and the best base is constant. 
+
+However, we should be more mathematically precise:
 
 ### Limits of experiments
 
 Experiments are good but not everything:
 - Implementing the algorithm may be difficult/time-consuming;
-- Results may not be indicative of the running time on other inputs not included in the experiment - missing the true “worst case”.
-- To compare algorithms, the same hardware and software must be used
+- Results may not be indicative of the running time on other inputs not included in the experiment - thereby missing the true “worst case”.
+- To compare algorithms, the same hardware and software must be used across all tests.
 
 
 ### Limits of theory
@@ -40,20 +42,25 @@ Experiments are good but not everything:
 
 ## Theoretical analysis
 
-We do not want a detailed implementaiton: we use a high-level description of the algorithm, instead of an implementation. This description should take into account all inputs, which evaluates the speed of an algorithm independent of the hardware, software or language. 
+We do not want a detailed implementation: we use a high-level description of the algorithm, instead of an implementation. This description should take into account all inputs, which evaluates the speed of an algorithm independent of the hardware, software or language. It characterises the runtime as a function of the input size *n*.
 
 Pseudocode is a high-level description of an algorithm. It is more structured than English prose, but less detailed than a program. It is the preferred notation for describing algorithm but hides program design issues. 
 
 
 
-### Primitive operations
+## Primitive operations
 
-Primitive operations are basic computations performed by an  algorithm. They are identifiable, language-independent, and their exact definition is not important.
+Primitive operations are **basic computations performed by an algorithm**. They are identifiable, language-independent, and their exact definition is not important.
 
-In high level languages, “hidden expenses” may occur that are not written in pseudocode. 
+In high level languages, “hidden expenses” may occur that are not written in pseudocode. Therefore we assume the RAM model - closer to assembly language.
 
 
-
+These include:
+- Assigning a value to a variable
+- Comparing two numbers
+- Performing an arithmetic operation
+- Calling a method
+- Returning a value
 
 ### Converting time
 
