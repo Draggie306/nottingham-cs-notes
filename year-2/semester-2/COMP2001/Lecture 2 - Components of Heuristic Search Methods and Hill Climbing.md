@@ -143,3 +143,10 @@ For the given problem instance,
 
 
 
+> Exploration: being able to jump to other, more promising neighbourhoods.
+> Exploitation: 
+
+
+
+
+
