@@ -28,11 +28,11 @@ $$S = \sum_{n=0}^{n} b^i = b$$
 
 $S_1 = 100 + 101 + … + 300 =$
 
-$$S_1 = \sum_{n=100}^{300} i = {{300(300+1)}\over 2} - {99(99-1)\over 2} = 40,100 $$
+$$S_1 = \sum_{n=100}^{300} n = \frac{300(301)}{2} - \frac{99(100)}{2} = 40{,}100 $$
 > Important: for this ranges, the subtraction should only go to 99, as the initial range *does* include 100.
 
 
 $S_2 = 3^4 + 3^5 + … + 3^{10}$  
 
-$$S_2 = \sum_{i = 0}^{10} b^i = {3^{11} - 1 \over 3 - 1} = {3^{4} - 1 \over 3 - 1} = 88573 - 40 = 88533 $$
+$$S_2 = \sum_{i = 0}^{10} b^i = \frac{3^{11} - 1}{3 - 1} = \frac{3^4 - 1}{3 - 1} = 88573 - 40 = 88533 $$
 Given: $S_3 = 2 + 4 + 6 + … + 64$, where the step is not incrementing by 1, we can divide everything by 2 to create a “normal” arithmetic sequence, but must remember to multiply the ending result by 2.

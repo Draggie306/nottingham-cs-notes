@@ -22,7 +22,7 @@ We are just talking about functions $f(n)$ of a single parameter $n$.
 ### Definitions
 Big-Oh is intended for functions of positive integers (size) that are positive real values. 
 
-$$f \space is \space O(g) \iff \exists c . \space \exists n0 \space [ \space \forall n \ge n0. (f(n) \lt c g (n))\space] $$
+$$f \space is \space O(g) \iff \exists c . \space \exists n_0 \space [ \space \forall n \ge n_0. (f(n) \lt c g (n))\space] $$
 
 The quantifier must be in order $\exists \exists \forall$: pick $c$, then pick $n0$. 
 
