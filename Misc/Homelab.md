@@ -557,5 +557,5 @@ curl -L -X PUT 'http://192.168.1.3:2283/api/jobs/videoConversion' \
 - Stop radio decode overnight at 22:30 (saving CPU cycles)
 	- `30 22 * * * systemctl stop welle-radio.service`
 
-- Start radio in the early afternoon at 13:00
-	- `0 13 * * * systemctl start welle-radio.service`
+- Start radio at midday, ready for football matches
+	- `0 12 * * * systemctl start welle-radio.service`
