@@ -137,3 +137,13 @@ Whilst the workload for this module on its own is manageable, the way it is time
 
 | 
 
+
+
+
+## Observations
+
+- Lecturer trying to help student with resource access, but no response via email for over a week, and in-person visit to the responsible person's office revealed nobody was there.
+
+
+
+
