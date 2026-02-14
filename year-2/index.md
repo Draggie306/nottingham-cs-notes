@@ -10,22 +10,20 @@ Index file for the Computer Science course at the University of Nottingham, Year
 
 # Semester 2
 
-Semester 2 modules are not available yet. They are:
-- Languages and Computation
-- Algorithms, Data Structures and Efficiency
-- AI Methods
-- Introduction to Human-Computer Interaction
+[Browse Semester 2 modules](/year-2/semester-2/), or go directly to:
+- [COMP2001 - AI Methods (20 credits)](/year-2/semester-2/COMP2001/)
+- [COMP2012 - Languages and Computation](/year-2/semester-2/COMP2012/)
+- [COMP2054 - Algorithms, Data Structures and Efficiency](/year-2/semester-2/COMP2054/)
+- [COMP2004 - Introduction to Human-Computer Interaction]((/year-2/semester-2/COMP2004/)
 
 # All-year modules 
 
 Go directly to:
 - [COMP2002 - Software Engineering Group Project](/year-2/semester-1/COMP2002/)
 
+> To align with the Computer Science Mentor Scheme, COMP2002 is set to be contained within the "Semester 1" category. 
 
 # Extras
-
-
-
 ## Misc Lectures
 
 - [Welcome Back to the School of Computer Science - Year 2](/year-2/Welcome Back to CS Y2)

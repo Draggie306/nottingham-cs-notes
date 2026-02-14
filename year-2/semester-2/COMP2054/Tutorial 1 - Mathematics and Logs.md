@@ -1,5 +1,5 @@
 
-$log b a = c \iff b^c = a$
+$log\space _{ba} = c \iff b^c = a$
 
 $log_216$ = how many times 2 needs to be multiplied by itself to get to 16. 2<sup>4</sup> = 16
 

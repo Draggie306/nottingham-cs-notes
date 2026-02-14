@@ -90,4 +90,3 @@ It is common to check readings: displays must be readable "at a glance"
 
 ![[../../../Images/Pasted image 20260212155332.png]]
 
-

@@ -10,7 +10,11 @@ These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBagu
 	- COMP2007 - Operating Systems and Concurrency (C and theory)
 	- COMP2013 - Developing Maintainable Software (Java and theory)
 	- COMP2065 - Introduction to Formal Reasoning (Lean 4)
-- Semester 2 modules, coming soon.
+- [Semester 2 modules](/year-2/semester-2/), including:
+	- COMP2001 - Artificial Intelligence Methods (20 credits)
+	- COMP2004 - Introduction to Human-Computer Interaction]
+	- COMP2012 - Languages and Computation (Lean 4)
+	- COMP2054 - Algorithms, Data Structures and Efficiency
 - All-year modules, including:
 	-  COMP2002 - Software Engineering Group Project
 
@@ -29,9 +33,11 @@ These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBagu
 	- COMP1055 - Networks (theory & C implementations)
 	- COMP1056 - Computer Architecture (theory, Hardware Description Language)
 
-### Miscellaneous notes
-
+### Other lectures
 - [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](year-1/semester-2/GEOG1037/Environmental%20Change.md) - 1 lecture note
+
+### Miscellaneous notes
+You can browse the miscellaneous folder [here](/Misc/).
 
 ## Setup & Automation
 Every night at midnight, a cron job (see below) on my homelab syncs a S3-compatible storage bucket that contains my notes in Obsidian (which uses Remotely Save to sync notes to the bucket every 5 minutes) to this Git repo, and pushes them. Then, a Jekyll build is started on GitHub which renders and deploys the new, updated notes to the GitHub Pages site, visible on this page. 
