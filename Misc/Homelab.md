@@ -559,3 +559,28 @@ curl -L -X PUT 'http://192.168.1.3:2283/api/jobs/videoConversion' \
 
 - Start radio at midday, ready for football matches
 	- `0 12 * * * systemctl start welle-radio.service`
+
+
+
+
+--- 
+
+
+--- 
+
+
+--- 
+
+
+--- 
+
+
+--- 
+
+
+---
+
+My keys? My Caiius!!!
+
+
+![[../Images/Gonville_&_Caius_College_Crest.svg]]![[../Images/caius.png]]

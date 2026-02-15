@@ -1,5 +1,5 @@
 # nottingham-cs-notes
-All my notes for the University of Nottingham’s Computer Science and Artificial Intelligence (with Year in Industry) BSc honours programme. Files are automatically updated and deployed at midnight UK time every day. Visible on [notes.oling.dev](https://notes.oling.dev) and on [GitHub](https://github.com/Draggie306/nottingham-cs-notes).
+All my notes for the University of Nottingham's BSc Hons Computer Science and Artificial Intelligence with Year in Industry programme. Files are automatically updated and deployed at midnight UK time every day. Visible on [notes.oling.dev](https://notes.oling.dev) and open-sourced on [GitHub](https://github.com/Draggie306/nottingham-cs-notes).
 
 These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBaguette](https://ibaguette.com/cheatsheets); they are nowhere near as polished, but should remain useful to an extent.
 
@@ -12,7 +12,7 @@ These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBagu
 	- COMP2065 - Introduction to Formal Reasoning (Lean 4)
 - [Semester 2 modules](/year-2/semester-2/), including:
 	- COMP2001 - Artificial Intelligence Methods (20 credits)
-	- COMP2004 - Introduction to Human-Computer Interaction]
+	- COMP2004 - Introduction to Human-Computer Interaction
 	- COMP2012 - Languages and Computation (Lean 4)
 	- COMP2054 - Algorithms, Data Structures and Efficiency
 - All-year modules, including:

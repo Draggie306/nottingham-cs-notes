@@ -1,4 +1,4 @@
-Index file for the Computer Science course at the University of Nottingham, Year 1. All Computer Science degrees/specialisations have the same content and modules in Year 1.
+Index file for the Computer Science course at the University of Nottingham, Year 1 (the Qualifying Year). All Computer Science degrees/specialisations have the same content and modules in Year 1.
 
 # Semester 1
 

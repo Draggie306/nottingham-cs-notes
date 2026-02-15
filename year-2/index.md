@@ -1,4 +1,4 @@
-Index file for the Computer Science course at the University of Nottingham, Year 2. Computer Science degrees/specialisations have the same content and modules in Year 2, Semester 1, but specialisation is permitted in Semester 2.
+Index file for the Computer Science course at the University of Nottingham, Year 2 (or Part I). Computer Science degrees/specialisations have the same content and modules in Year 2, Semester 1; specialisation is permitted in Semester 2.
 
 
 # Semester 1
