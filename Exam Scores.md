@@ -12,7 +12,6 @@
 | COMP 2013 | Devlping Maintainable Soft | 20     |        |
 | COMP 2065 | Intro to Formal Reasoning  | 10     |        |
 
-
 ### Year 1 
 
 #### Semester 2
@@ -26,6 +25,7 @@
 | COMP 1043 | Maths for Comp Scientists 2    | 10     | 57     |
 
 #### Semester 1
+
 | code      | module                        | credit | mark % |
 | --------- | ----------------------------- | ------ | ------ |
 | COMP 1001 | Math for Comp Scientists 1    | 10     | 55     |
@@ -43,12 +43,14 @@
 - H481/05 Investigative geography: 50/60
 
 **TOTAL MARK: 208 (69.3%) - A**
+
 ### French - A*
 - A800QS Speaking: 58/60
 - A800U20-1 Listening, Reading & Translation: 86/100
 - A800U30-1 Writing: 35/40
 
 **TOTAL MARK: 179/200 (89.5%) - A\***
+
 ### Computer Science - A
 - 01 Computer Systems:  98/140
 - 02 Algorithms and Programming:  115/140

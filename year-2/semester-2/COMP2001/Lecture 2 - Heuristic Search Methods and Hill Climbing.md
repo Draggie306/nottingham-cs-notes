@@ -1,4 +1,4 @@
-- Intro to COmbinatorial Optimisation Problem
+- Intro to Combinatorial Optimisation Problem
 - Components of meta/hyperheuristic search methods
 - Focus on hill-climbing/local search methods
 	- These are fairly easy to apply to any computationally hard problem
@@ -83,7 +83,7 @@ A neighbourhood of a solution is a set of solutions that can be reached by apply
 
 
 ### Binary-represented solutions
-A bit flip operator flips a but in a solution. 
+A bit flip operator flips a bit in a solution. 
 
 The **hamming distance** is the number of different bits. For example, `HD(00110, 00111) = 1`. 
 
