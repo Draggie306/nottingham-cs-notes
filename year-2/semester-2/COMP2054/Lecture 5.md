@@ -33,4 +33,13 @@ It is reflexive and transitive as the others, and also symmetric. It is an equiv
 ## Little-Oh
 "definitely grows not as fast as"
 
+Is 1 o(n)? In this case:
+- for all c > 0, there exists some n0 such that 1 < c n forall c $\ge$ n$_0$
 
+
+
+is n o(n)? No: 
+
+Generally, little-o is not reflective: it is more like < than $\le$ 
+
+Multplication can also be performed: $f1$ is $o(g1)$, $f2$ is $o(g2)$ implies $f1*f2$ is $o(g1*g2)$ 
