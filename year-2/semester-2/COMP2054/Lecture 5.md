@@ -22,7 +22,7 @@ If the worst case is hard to determined, we can say it is no better than $\Omega
 ## Big-Theta
 To remember these: the theta has a bar across the middle, which looks like the bar in the equals sign.
 
-$f is \Theta$ of $g$ if there exist constants $c1$ and $c2 > 0$, and $n_0 \ge 1$ such that $\forall n \ge n_0$. $f(n \le c1 \space g(n))$ AND $f(n) \ge c2 \space g(n)$ 
+$f$ is $\Theta$ of $g$ if there exist constants $c1$ and $c2 > 0$, and $n_0 \ge 1$ such that $\forall n \ge n_0$. $f(n \le c1 \space g(n))$ AND $f(n) \ge c2 \space g(n)$ 
 
 It is nothing other than saying it is Big-Oh and Big-$\Omega$. It expresses "grows 'exactly' as fast as". **The caveat is that exactly ignores constants**. 
 

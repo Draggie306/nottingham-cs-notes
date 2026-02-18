@@ -105,7 +105,7 @@ cd ~/services/immich-app && sudo docker compose pull && sudo docker compose up -
 ## arr stack
 *For: Media management/downloads, music, streaming, TV* 
 
-Location: `services/arr/
+Docker Compose location: `services/arr`
 Restart: `docker compose down && docker compose up -d`
 
 
@@ -197,8 +197,8 @@ Depends on: Jellyfin, Radarr, Sonarr.
 ## Jellyfin  
 Purpose: Media server & streaming frontend.  
 
-Location: `services/jellyfin/`  
-Restart: `docker compose restart`  
+Docker Compose location: `services/jellyfin`
+Restart: `docker compose down && docker compose up -d`
 
 Access: http://192.168.1.3:8096/  
 
@@ -210,14 +210,13 @@ External access: https://j.oling.dev (Cloudflare Tunnel) (**J**ellyfin)
 ## Immich Stack  
 *For: Self-hosted photo/video backup & AI tagging*  
 
-Location: `services/immich-app/`  
+Docker Compose location: `~/services/immich-app` 
 Restart: `docker compose down && docker compose up -d`  
 
-Notes:
+**IMPORTANT - Data Notes**:
 - Immich app's `thumbs`, the `postgres` database, `backups`, `profile` and `upload` temp cache directories are located on the SSD cache at `/mnt/ssd1/immich-cache`. The `library` and `encoded-video` are on `/mnt/mega/immich/library`
 
-
-docker-compose.yml: 
+`.env` settings:
 ```yml
 # The location where your uploaded files are stored
 UPLOAD_LOCATION=/mnt/mega/immich/library/
@@ -255,16 +254,15 @@ External access: https://p.oling.dev (Cloudflare Tunnel) (**P**hotos)
 Access: http://192.168.1.3:3003/  
 Purpose: Handles face recognition, object tagging, and clustering.  
 
-- Note: Immich ML is set to be offloaded to the PC's 4070 super via remote ML, but gracefully falls back
-#### Remote ML from Eduroam/uni networks
+**Note**: Immich ML is set to be offloaded to the PC's 4070 super via remote ML, but gracefully falls back for (slow, offline) inference.
 
-Eduroam blocks HTTP3/QUIC dialing that is required by Cloudflare Tunnels (and obviously, port forwarding is unavailable). To solve this:
+#### Remote ML from Eduroam/uni networks
+Eduroam blocks HTTP3/QUIC dialling that is required by Cloudflare Tunnels (and obviously, port forwarding is unavailable). To solve this:
 - Run the cloudflared tunnel Docker run script and append `--protocol http2` to the command. This will look something like `docker run cloudflare/cloudflared:latest tunnel --no-autoupdate run --token xxx --protocol http2`
 - The immich-ml container typically runs on port 3003. To expose this port from the host machine, but from within the Cloudflared container, in the Cloudflare Zero Trust dashboard, set the host to be `http://` `host.docker.internal:3003`.
 - The terminal output should show something like: 
 	- `2025-11-15T20:37:56Z INF Registered tunnel connection connIndex=0 connection=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx event=0 ip=198.41.192.7 location=lhr16 protocol=http2`
 	- `2025-11-15T20:40:40Z INF Updated to new configuration config="{\"ingress\":[{\"hostname\":\"ai.oling.dev\",\"originRequest\":{},\"service\":\"http://host.docker.internal:3003\"},{\"service\":\"http_status:404\"}],\"warp-routing\":{\"enabled\":false}}" version=2`
-
 
 ### Immich Postgres  
 Access: Internal only (5432).  
@@ -279,14 +277,17 @@ Purpose: Queue & caching layer.
 ## Dawarich Stack  
 *For: App hosting with Redis and PostgreSQL backend*  
 
-Location: `services/dawarich/`  
+Location: `~/services/dawarich` 
 Restart: `docker compose restart`  
 
 ### Dawarich App  
 Access: http://192.168.1.3:3246/  
 Purpose: Location history database
+
 Depends on: Dawarich Sidekiq, Dawarich DB, Dawarich Redis.  
+
 External access: https://l.oling.dev (Cloudflare Tunnel) (**L**ocation)
+
 ### Dawarich Sidekiq  
 Access: Internal only.  
 Purpose: Background jobs, async tasks.  
@@ -304,7 +305,7 @@ Purpose: Caching & queue management.
 ## Paperless Stack  
 *For: Document digitisation and management*  
 
-Location: `services/paperless/`  
+Docker Compose location: `~/services/paperless`
 Restart: `docker compose down && docker compose up -d`  
 
 ### Paperless Webserver  
@@ -323,7 +324,7 @@ Purpose: Task broker for async processing.
 ## Vaultwarden  
 *For: Self-hosted password management*  
 
-Location: `services/vaultwarden/`  
+Docker Compose location: `services/vaultwarden/`  
 Restart: `docker compose restart`  
 
 Access: http://192.168.1.3:34567/  
@@ -337,32 +338,31 @@ External access: https://vw.oling.dev (Cloudflare Tunnel) (**V**ault**w**arden)
 ## Network & Monitoring
 *For: Network control, dashboards, uptime, and utilities*  
 
-Location: `services/network/`  
-Restart: `docker compose down && docker compose up -d`  
+### Unifi Controller
+- Access: https://192.168.1.3:8443/
+- Purpose: Manages the Ubiquiti Unifi access points in the house for seamless roaming, stats etc.
 
-### Unifi Controller  
-Access: https://192.168.1.3:8443/  
-Purpose: Manages the Ubiquiti Unifi access points in the house for seamless roaming, stats etc.,  
+Docker Compose location: `/mnt/ssd1/services/unifi-controller` 
 
 ### Homepage  
-Access: http://192.168.1.3:3000/  
-Purpose: Self-hosted dashboard for all services.  
+- Access: http://192.168.1.3:3000/
+- Purpose: Self-hosted dashboard for all services. Will eventually make this the default new tab URL for parent's devices.
 
-### MySpeed  
-Access: http://192.168.1.3:5216/  
-Purpose: Internet speed testing & monitoring.  
+### MySpeed
+- Access: http://192.168.1.3:5216/  
+- Purpose: Internet speed testing & monitoring.  
 
-Automations: 
+#### Automations
 - This sends a message to the Discord server via webhooks for every speed test. 
 - Speedtests are ran according to schedule: `0,30 0-7 * * *`
 
-### Portainer  
-Access: https://192.168.1.3:9443/  
-Purpose: Docker container management UI.  
+### Portainer
+- Access: https://192.168.1.3:9443/  
+- Purpose: Docker container management UI.  
 
 ### Uptime Kuma  
-Access: http://192.168.1.3:3001/  
-Purpose: Uptime monitoring dashboard.  
+- Access: http://192.168.1.3:3001/  
+- Purpose: Uptime monitoring dashboard.  
 
 External access: https://s.oling.dev (Cloudflare Tunnel) (**S**tatus)
 
@@ -387,7 +387,7 @@ Documentation:
 Access: https://c.oling.dev
 Purpose: Code time tracker for me + invite-only uni friends.
 
-Location: `services/wakapi/`  
+Location: `~/services/wakapi/`  
 Restart: `docker compose restart`  
 
 Documentation: https://github.com/muety/wakapi
@@ -412,7 +412,7 @@ Restart: `docker compose restart`
 ### BrigadersHelper
 Purpose: Python Discord bot for server management and automation
 
-Location: `services/BrigadersHelper`
+Location: `~/services/BrigadersHelper`
 Restart: `sudo systemctl restart BrigadersHelper`
 
 Automation:
@@ -441,7 +441,7 @@ External access: https://brigaders-stats.ibaguette.com
 ### DraggieGamesServer
 Purpose: Python webserver for Draggie Games accounts, auth, downloading, etc. Used to be my A Level NEA. 
 
-Location: `services/DraggieGamesServer`
+Location: `~/services/DraggieGamesServer`
 Restart: `sudo systemctl restart draggiegames`
 
 Automation:

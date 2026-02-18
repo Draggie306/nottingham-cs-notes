@@ -9,7 +9,7 @@
 | code      | module                     | credit | mark % |
 | --------- | -------------------------- | ------ | ------ |
 | COMP 2007 | Opeerating Sys and Conc    | 20     |        |
-| COMP 2013 | Devlping Maintainable Soft | 20     |        |
+| COMP 2013 | Devlping Maintainable Soft | 20     | 73.98  |
 | COMP 2065 | Intro to Formal Reasoning  | 10     |        |
 
 ### Year 1 
