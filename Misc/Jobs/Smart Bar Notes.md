@@ -128,7 +128,14 @@ Representing DTS and UoN.
 - Exceed customer expectations and go out of your way to help them
 
 
-Smart Bar Uniform is a requirement of the role
+Smart Bar Uniform is a requirement of the role.
+
+
+#### ITSD help
+- Use Moodle login
+- Will send a response to "ServiceDesk" - only on university computers
+
+
 
 ## Safeguarding
 - Can discuss with Rob/Jeremie, or faculty lead, or DTS lead
@@ -314,6 +321,7 @@ To activate the printing account:
 - Scanning with Onedrive will scan to "My Scans" on onedrive, OR just use the email option to get it emailed.
 
 - Printing is managed by Xeroz 0115 9516677 Option 1
+
 TO debug:
 1. Make sure users have activated the account
 2. If a document shows in the list but fails, check if it has a price associated with it. If zero, document is in a size the printer doesn't recognise. Makes sure it is A4/A3 and from the desktop NOT the browser if issue.
@@ -321,9 +329,13 @@ TO debug:
 
 ### Network services
 
-
+#### Eduroam
 - Use the geteduroam app - https://geteduroam.app for Android devices.
-- UoN-halls: only registered devices
+- For https://cat.eduroam.org
+- Check: DNS being set to DHCP check
+
+
+- UoN-halls: only registered devices - DNS reset to use DHCP
  - Next Generation Network: open nottingham.campuswifi.net
  - read Ts and Cs then generate password, inputting it on the device
 - Wired network - only a dozen connections per year
@@ -332,7 +344,7 @@ TO debug:
 
 - Need to change password away from default one to get access
 - have completed registration? some issue with it account -> raise
-- can't see module - not enrolled or may be hidden; can take days/a week for manual checks to be performed; maybe module convenor hasn't made it public yet
+- can't see module - not enrolled or may be hidden; can take days/a week for manual checks to be performed; maybe module convener hasn't made it public yet
 - check if filter is "all" not in progress/future
 
 ### Turnitin
