@@ -4,260 +4,142 @@
 
 ```haskell
 
+
+
 -- Last week: Deterministic finite automata (DFA): 1 initial state (q0) and funak state (q1) and we said that
-
 -- there is an edge from q0 to q0 with "bc and an edge from q0 to q1 with "a". The whole string is accepted
+-- therefore if it has an "a" in: 
 
--- therefore if it has an "a" in:
-
-  
-  
 
 import Mathlib.Data.Fintype.Basic
-
 import Mathlib.Tactic.DeriveFintype
-
 import Mathlib.Data.Nat.ModEq
 
-  
-
 namespace Dfa
-
 open Lang
-
-  
 
 variable (Sigma : Type)[Alphabet Sigma]
 
-  
-
 structure DFA : Type 1 where
+  Q : Type
+  [alphQ : Alphabet Q]
+  s : Q
+  F : Finset Q
+  δ : Q → Sigma → Q
 
-Q : Type
-
-[alphQ : Alphabet Q]
-
-s : Q
-
-F : Finset Q
-
-δ : Q → Sigma → Q
-
-  
-  
 
 variable {Sigma : Type}[Alphabet Sigma]
-
 variable (A : DFA Sigma)
-
-attribute [instance] DFA.alphQ
-
-  
+attribute [instance] DFA.alphQ 
 
 def δ_star : A.Q → Word Sigma → A.Q
-
 | q , [] => q
-
 | q , (x :: w) => δ_star (A.δ q x) w
-
-  
 
 end Dfa
 
-  
-
 open Lang Lang.Examples SigmaABC Dfa
 
-  
-
-abbrev A_1 : Dfa SigmaABC
-
+abbrev A_1 : Dfa SigmaABC 
 := {
-
-Q := Fin 2
-
-s := 0
-
-F := { 1 }
-
-δ := λ | 0 , a => 1
-
-| 0, b => 0
-
-| 0, c => 0
-
-| 1, _ => 1
-
+  Q := Fin 2
+  s := 0
+  F := { 1 }
+  δ := λ | 0 , a => 1
+          | 0, b => 0
+          | 0, c => 0
+          | 1, _ => 1
 }
 
-  
+example : [a,b] ∈ L A_1 := by sorry 
 
-example : [a,b] ∈ L A_1 := by sorry
-
-  
-  
 
 -- A determinitstic automata needs to have output states for every letter in the alphabet.
-
 -- Non-deterministic automata:
 
-  
-
 -- Non-deterministic automata follow all possible states concurrently - having edges that go both to itself
+-- and also to another (final) state. If one of the states it goes across is the final state, the whole 
 
--- and also to another (final) state. If one of the states it goes across is the final state, the whole
-
-  
-  
 
 namespace Nfa
 
-  
-
 variable (Sigma : Type)[Alphabet Sigma]
 
-  
-
 structure NFA : Type 1 where
+  Q : Type
+  [alphQ : Alphabet Q]
+  s : Finset Q -- Set of initial states
+  F : Finset Q -- Set of final states
+  δ : Q → Sigma → Finset Q -- delta still takes in a single state, and char in alphabet, BUT gives us a set of continuing states.
 
-Q : Type
-
-[alphQ : Alphabet Q]
-
-s : Finset Q -- Set of initial states
-
-F : Finset Q -- Set of final states
-
-δ : Q → Sigma → Finset Q -- delta still takes in a single state, and char in alphabet, BUT gives us a set of continuing states.
-
-  
-  
 
 macro "⟪" q:ident " | " P:term "⟫" : term =>
-
 ( (Finset.univ).filter (fun $q => $P) ) macro "⟪" q:ident " ∈ " xs:term " | " P:term "⟫" : term => ( ($xs).filter (fun $q => $P) )
 
-  
-
 def δ_step (A : NFA Sigma) (S : Finset A.Q) (a : Sigma) : Finset A.Q :=
-
 ⟪ q | ∃ p ∈ S, q ∈ A.δ p a ⟫
 
-  
-  
 
--- the step method dtakes in all states the automata is in currectly, returning states such that some states
-
--- it is in currently are
-
-def δ_step (A : NFA Sigma) (S : Finset A.Q) (a : Sigma) : Finset A.Q :=
-
-⟨⟨ q | ∃ p ∈ S ∧ q ∈ A.δ p a ⟩⟩
-
-  
+-- the step method takes in all states the automata is in currectly, returning states such that some states
+-- it is in currently are 
+def δ_step (A : NFA Sigma) (S : Finset A.Q) (a : Sigma) : Finset A.Q  := 
+  ⟨⟨ q | ∃ p ∈ S ∧ q ∈ A.δ p a ⟩⟩
 
 def δ_star : Finset A.Q → Word Sigma → Finset A.Q
-
 | S, [] => S
-
 | S, (x::w) => δ_star (δ_step A S x) w
 
-  
-
 namespace NfaEx
-
 open Nfa Lang Lang.Examples SigmaABC
 
-  
-
 abbrev A₂ : NFA SigmaABC
-
 := {
-
-Q := Fin 2
-
-S := {0}
-
-F := {1}
-
-δ := λ | 0, a => {0, 1}
-
-| a, b => 0
-
-| 0,
-
+  Q := Fin 2
+  S := {0}
+  F := {1}
+  δ := λ | 0, a => {0, 1}
+          | a, b => 0
+          | 0, 
 }
 
-  
-  
 
 -- Lang: set of words. Words: series of symbols.
 
-  
-
--- L1 union L2 includes any word in EITHER lang, not repeated by both.
-
--- L1 concat L2 means
-
-  
+-- L1 union L2 includes any word in EITHER lang, not repeated by both.  
+-- L1 concat L2 means 
 
 -- Kleene star: for any integer m, it is the string of m concatenations
-
 -- When using the Kleene star, we always have the empty list and the language itself.
-
 -- To have a finite Kleene star, it cannot have any string of positive length. The only finite
-
 -- Kleene star langauges are the empty language, and a language that contains an empty string
 
-  
-  
-  
 
--- The states are all configurations memory configurations of a program. can be represented as an automation
 
-  
+-- The states are all configurations memory configurations of a program. can be represented as an automation 
 
--- "I do appreciate this looks chaotic but let's just continue with ehat we have"
+-- "I do appreciate this looks chaotic but let's just continue with what we have"
 
-  
-  
-  
 
--- DFAs need: a start state, a final state, acceptance of when states accept they are final, and a transition function between states.
 
-  
-  
+-- DFAs need: a start state, a final state, acceptance of when states accept they are final, and a transition function between states. 
+
 
 abbrev A_contains_a : DFA SigmaABC := {
-
-Q := Fin 2 -- set of 0 and 1
-
-s := 0 -- Start state
-
-F := {1} -- Finish state
-
-δ := λ | 0 , a => 1
-
-| 0 , _ => 0
-
-| 1 , _ => 1
-
+  Q := Fin 2 -- set of 0 and 1
+  s := 0 -- Start state
+  F := {1} -- Finish state
+  δ := λ | 0 , a => 1
+         | 0 , _ => 0
+         | 1 , _ => 1
 }
 
-  
-
 -- A DFA takes in a single state Q, any symbol in the alphabet and outputs -> a single state Q
-
 -- An NFA takes in a single state Q, any symbol, and outputs -> a powerset (set of states) Q.
+--    (for each state in the set of states that the automata is currently in, the transition function is applied, creating a new set of states, and we aggregate these by taking the union to get the new set of states.)
 
--- (for each state in the set of states that the automata is currently in, the transition function is applied, creating a new set of states, and we aggregate these by taking the union to get the new set of states.)
+-- In an 
 
-  
 
--- In an
+end Nfa 
 
-  
-  
-
-end Nfa
 ```
