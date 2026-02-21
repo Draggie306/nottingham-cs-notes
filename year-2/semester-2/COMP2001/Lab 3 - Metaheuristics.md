@@ -1,0 +1,1 @@
+Iterated Local Search with a mutation/perturbation intensity of 0 does not balance exploration and exploitation; instead, it renders it purely exploitative and will behave (but not perform) exactly the same as DBHC. 
