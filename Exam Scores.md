@@ -6,11 +6,11 @@
 
 #### Semester 1
 
-| code      | module                     | credit | mark % |
-| --------- | -------------------------- | ------ | ------ |
-| COMP 2007 | Opeerating Sys and Conc    | 20     |        |
-| COMP 2013 | Devlping Maintainable Soft | 20     | 73.98  |
-| COMP 2065 | Intro to Formal Reasoning  | 10     |        |
+| code      | module                         | credit | mark % |
+| --------- | ------------------------------ | ------ | ------ |
+| COMP 2007 | Operating Sys & Concurrency    | 20     | 71     |
+| COMP 2013 | Dvlping Maintainable Software  | 20     | 74     |
+| COMP 2065 | Introduction to Formal Reasoni | 10     | 60     |
 
 ### Year 1 
 
