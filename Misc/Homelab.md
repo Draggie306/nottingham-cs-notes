@@ -582,5 +582,4 @@ curl -L -X PUT 'http://192.168.1.3:2283/api/jobs/videoConversion' \
 
 My keys? My Caiius!!!
 
-
-![[../Images/Gonville_&_Caius_College_Crest.svg]]![[../Images/caius.png]]
+![[../../Images/Gonville_&_Caius_College_Crest.svg]]![[../../Images/caius.png]]
