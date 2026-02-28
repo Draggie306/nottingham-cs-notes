@@ -35,4 +35,4 @@ This can be paradoxical - we do more things than it looks like we need. Instead 
 
 
 ### Space usage
-The auxillary (extra) space bubble sort requires are only the indices i and j for the loop, 
+The auxillary (extra) space bubble sort requires are only the indices `i` and `j` for the loop, and the `tmp` for the element to swap. This is 3 numbers, which do not depend on `n`, so is O(1). This is very good. 

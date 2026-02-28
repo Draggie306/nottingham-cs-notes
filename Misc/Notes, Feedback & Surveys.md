@@ -134,8 +134,83 @@ Whilst the workload for this module on its own is manageable, the way it is time
 
 8) Please use the space below for any constructive comments about this module
 
-| 
 
+### Early Module Feedback: Languages and Computation
+
+Mode: Anonymous
+
+Overall Quality. The module is overall organised and delivered well.(Required field)
+
+(2)Agree
+
+Module Assessment Sheet. Is this document available in Moodle and clearly outlines assessment and feedback in this module?(Required field)
+
+(2)Agree
+
+
+Moodle Materials. The module materials are in Moodle and organised well.
+
+(2)Agree
+
+Pace of Delivery. How do you find the pace of the module?
+
+(2)Too fast
+
+Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
+
+(2)Agree
+
+Practical Sessions. Are computing/seminar/tutorial sessions delivered well to complement your learning? Are you happy with delivery methods overall?
+
+(3)Neutral
+
+
+Good Practice. Is there anything that is working particularly well for you in this module?
+
+N/A
+
+
+Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others
+
+Very challenging concepts that take a while to learn and time is never given. Assessment sheets need to be revised and looked at properly to make sure it is fully accurate. The use of the whiteboard should be minimised or significantly reduced - instead, display it on the screen, draw it there, and share a link to the drawing would be much better. My tutorial introduces new concepts and then it is clarified that they are not actually needed? Comments such as "you can use every tactic to complete the proofs" are not very helpful, as we have not been taught many tactics or the actual syntax of the Lean language really. More Cas lectures would be appreciated!
+
+
+### Early Module Feedback: Algorithms, Data Structures and Efficiency
+
+Mode: Anonymous
+
+Overall Quality. The module is overall organised and delivered well.(Required field)
+
+(2)Agree
+
+Module Assessment Sheet. Is this document available in Moodle and clearly outlines assessment and feedback in this module?(Required field)
+
+(1)Strongly Agree
+
+Moodle Materials. The module materials are in Moodle and organised well.
+
+(2)Agree
+
+Pace of Delivery. How do you find the pace of the module?
+
+(2)Too fast
+
+
+Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
+
+(2)Agree
+
+Practical Sessions. Are computing/seminar/tutorial sessions delivered well to complement your learning? Are you happy with delivery methods overall?
+
+(2)Agree
+
+Good Practice. Is there anything that is working particularly well for you in this module?
+
+I have enjoyed working out proofs on paper and improving my maths skills. It is very refreshing and much appreciated to have lecturers proactively discussing topics and the work with you in the lab/computing sessions!
+
+Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
+
+Some more exercises that explain and walk though topics, particularly the mathematics and rearranging equations and explaining the process behind calculating/proving the different Big-Oh proofs would be appreciated. I have enjoyed doing lots of calculations on paper but when it came to the exam, it felt much more difficult than tutorial questions, despite completing even the algebraically challenging sections. More focus on working out Little-Oh, big-theta and big-omega in the computing lab sessions on paper, as opposed to counting primitive operations - whilst these are done in the tutorials, it is not enough.
 
 
 
