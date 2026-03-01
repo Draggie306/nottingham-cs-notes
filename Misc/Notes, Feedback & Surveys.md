@@ -33,31 +33,36 @@ Thinking about the academic support you have received during your course, are th
 Thinking about the academic support you have received during your course, are there any areas for improvement you would like to highlight? (Optional)
 - Many students resort to utilitising AI tools to reduce mental load and increase productivity, which is demotivational for other students. This is because academic support is slow, clunky and is often inconvenent (and when help is asked for in-person, responses are often just to email). I was once told it is okay to fail a module when I asked for help in a tutorial - genuinely; a friend even overheard. Another time, during a lab session, I asked for help to understand something. I was given the answer for that question instead, but it never improved my understanding of HOW I could go about doing the content. Office hours: once were scheduled during another lecture, and when I went once, the lecturer just wasn't there. There should be more scheduled/timetabled contact time with tutors too, specifically outside of Year 1, as concerns students have can be raised to them without the pressure of having to talk to the module convener directly.
 
-\10. How clear were the marking criteria used to assess your work? **Clear**
+10. How clear were the marking criteria used to assess your work? **Clear**
+
 What influenced your response to the question about the marking criteria? (Optional)
 - Generally, most criteria is okay, particularly during first-year. Some tasks, such as Formal Reasoning, are very clear and explicit in the weightings of each component, and each coursework within that component, and each task/question within that coursework. Other times, particularly larger courseworks, become more vague with generic percentages for doing things "well" (which seems that marking would take place subjectively?) and, for the OSC module, a task list for a mega coursework was given with no examples, no explanation as to what gives marks, but lecturers were less cryptic when asked in-person for some marking hints, which I felt was good. 
 
 
-\11. How fair has the marking and assessment been on your course? **Not very fair**
+11. How fair has the marking and assessment been on your course? **Not very fair**
+
 What influenced your response to the question about how fair the marking and assessment has been on your course? (Optional)
 - Exams have only been fair when they are invigilated, during the exam period, at a specific location. In-lab tests often become rife with cheating, using AI, people discussing, and systems crashing (Lean, forcing people to use a local version with AI functionality). In-lab tests do not have invigilators checking on what people are doing, resulting in unfair marks being awarded. Additionally, there is no grace period: people submitting several-month long work just a few minutes after the deadline due to a technicality are penalised the same as people who continue to do actual work on the coursework for several hours/days afterwards. *For a "5% Early Delivery Bonus", we were not told whether this would be a flat 5%,or a 5% uplift of the grade obtained - which is a meaningful difference - over a month after the early delivery bonus deadline!*
 
 
-\12. How well have assessments allowed you to demonstrate what you have learned?
+12. How well have assessments allowed you to demonstrate what you have learned?
+
 What influenced your response to the question about how assessments have allowed you to demonstrate what you have learned? (Optional)
 - Generally, this has been positive, with exams covering most of the content that has been taught and learned, but some of the time coursework does not feel like it tests everything learned (e.g. OSC module: only the first 2 weeks of lectures was assessed for the CW, the rest was exam - so overall, decent but not perfect) and Lean - felt very much like each coursework was testing the theme of the content but I had to teach myself and get help from peers concerning how to use and demonstrate the specific criteria, lots felt like they disjointly built upon something unrelated to the previous question, so just as you feel like you're getting somewhere, you have to spend hours on thinking slightly differently and asking for help.
 
-\13. How often have you received assessment feedback on time? **Not very often**
+13. How often have you received assessment feedback on time? **Not very often**
+
 What influenced your response to the question about receiving assessment feedback on time? (Optional)
 - Exam results are supposed to all be released at the same time for everyone, but this has simply not been the case. During Y1, two of the 5 S1 modules were delivered several weeks after the exam release deadline and, although the module conveners did release it before the June exam series deadline, it still was given weeks into the next semester. Some formal reasoning courseworks feedback was quite late and I had expected the marking to be released much earlier so I could use it as feedback on how to improve. Other modules only give assessment feedback as part of the overall grade, so you never even get an independent mark or feedback for it. At the start of the year, there was even supposed to be a summit with module conveners to discuss first-year grades (good!!) BUT this was announced to be cancelled at the last minute, so I never ended up getting feedback on work!
 
-\14. How often does feedback help you to improve your work?
+14. How often does feedback help you to improve your work?
+
 What influenced your response to the question about how often feedback helps to improve your work? (Optional)
 - There is no concept of a "write -> submit -> get feedback -> improve" loop. Instead, it is very much "write -> submit -> next module and hope that was good". Some things, such as pipelines, automatically give error/success messages but that is designed by students as they write the code! And in Year 1, it was only semester 1 that was automatically graded. Semester 1, Year 2 has echoed this with Moodle email feedback messages saying "X has given feedback on your assignment" and it is only a grade percentage with nothing else, no comment saying "nice solution for q3" and instead, because these are formal proofs, we know they are correct anyway and can work out our marks. For other modules and their coursework (OSC, DMS) the only time there is opportunity to get feedback to improve work occurs in labs, but lecturers are very upfront and adamant that they cannot give direct feedback on how to improve, instead, some vague hand-wavy and sometimes obvious messages, leading to you having to decipher A) if what they say is relevant to you, and B) of the relevant things, which is actually beneficial for you to produce better work, code or a project.
 
-\17. How well organised is your course? **Not very well organised**
+17. How well organised is your course? **Not very well organised**
 
-\18. How well were any changes to teaching on your course communicated? **Not very well**
+18. How well were any changes to teaching on your course communicated? **Not very well**
 
 Thinking about the organisation and management of your course, are there any particularly positive aspects you would like to highlight? (Optional)
 - The degree structure is clearly organised.
@@ -65,11 +70,11 @@ Thinking about the organisation and management of your course, are there any par
 Thinking about the organisation and management of your course, are there any areas for improvement you would like to highlight? (Optional)
 - More time for self-directed study and to pursue and showcase personal projects. More time for discussions with academics. For people in the Year in Industry course, more resources should be given for this as it is such a huge life milestone - beyond just the degree. For example, how can the uni help them apply? How can the uni put guarantees in for accommodation, as you may or may not get a placement? Many resources given out to support YIIs with previous YII students were released after the period when many placements close.
 
-\19. How well have the IT resources and facilities supported your learning? **Well**
+19. How well have the IT resources and facilities supported your learning? **Well**
 
-\20. How well have the library resources (e.g., books, online services and learning spaces) supported your learning? **Well**
+20. How well have the library resources (e.g., books, online services and learning spaces) supported your learning? **Well**
 
-\21. How easy is it to access subject specific resources (e.g., equipment, facilities, software) when you need them? **Very easy**
+21. How easy is it to access subject specific resources (e.g., equipment, facilities, software) when you need them? **Very easy**
 
 Thinking about the learning resources available during your course, are there any particularly positive aspects you would like to highlight? (Optional)
 - Resources are usually organised well on Moodle pages.
@@ -78,22 +83,22 @@ Thinking about the learning resources available during your course, are there an
 - Linked with the university: Ethernet connections were removed in University-owned halls of residence (extremely unfair on those who bring desktop PCs, which cost more for Wi-FI cards). This is much slower, more unreliable and prone to errors than wireless connections, particularly for modules that require networking (e.g. "Y1 Networks"). Eduroam in halls and, to an extent, inside lecture halls (notably when there are many students) often takes 20 minutes to connect, and once it does, it disconnects farily soon after, which has resulted in formal complaints being made.
 
 
-\22. To what extent do you get the right opportunities to give feedback on your course? **To some extent**
+22. To what extent do you get the right opportunities to give feedback on your course? **To some extent**
 - SEM surveys for all modules are performed and some even show feedback in lectures. Good advances being made this year e.g. by ensuring that the surveys are released AFTER the exam period, so they can get feedback on the entire module AND exam. Wish there was more student-staff direct feedback with e.g. head of school, not just once per year and when only a few people turn up to it. Perhaps lecturers/staff going around in labs/just generally wanting to have a conversation with students and asking about how they feel would be better, instead of just formal forms.
 
 
-\23. To what extent are students' opinions about the course valued by staff? **To a small extent**
+23. To what extent are students' opinions about the course valued by staff? **To a small extent**
 - Some staff genuinely seem to care. Others simply do not. I was told that I could fail a module (Mathematics for Computer Scientists) and still pass the year. THere seems to be very little direct feedback from the uni as to what changes have been made since last year, or what changes will be made to ensure changes are looked at and module content/the experience revised appropriately. It seems like some do care but it just isn't shown too well.
 
-\24. How clear is it that students' feedback on the course is acted on? **Not very clear**
+24. How clear is it that students' feedback on the course is acted on? **Not very clear**
 What influenced your response to the question about how clear it is that students' feedback is acted upon? (Optional)
 - As in the previous response, there is little evidence that feedback is read, and if it is read, is considered and goes through any sort of step to becoming acted upon. It would be much more relieving if there was one (optional) lecture every semester or so that had e.g. a Sankey diagram that categories different feedback per-module/overall and then is elaborated upon, showing which category was considered (and rationale if not), and what has been acted upon, if any.
 
-\25. How well does the students' union (association or guild) represent students' academic interests? **Not at all well**
-- What influenced your response to the question about how well the Students' Union represents students' academic interests? (Optional)
-The SU have given no input to anything academic, only things beyond academics! We have not heard anything from them asking about the course, any advice from them as to how to handle it, etc. I know we can contact them regarding things - but it feels like as a member of the SU then they should have more power and be actively interested in what we are doing and want to know if we are happy with the course/workload/teaching quality. Maybe this is not what they're for? i thought I'd hear a lot more from them as part of the uni experience.
+24. How well does the students' union (association or guild) represent students' academic interests? **Not at all well**
+What influenced your response to the question about how well the Students' Union represents students' academic interests? (Optional)
+- The SU have given no input to anything academic, only things beyond academics! We have not heard anything from them asking about the course, any advice from them as to how to handle it, etc. I know we can contact them regarding things - but it feels like as a member of the SU then they should have more power and be actively interested in what we are doing and want to know if we are happy with the course/workload/teaching quality. Maybe this is not what they're for? i thought I'd hear a lot more from them as part of the uni experience.
 
-\26. How well communicated was information about your university/college's mental wellbeing support services? **Well**
+26. How well communicated was information about your university/college's mental wellbeing support services? **Well**
 Thinking about how well information about the mental wellbeing and support services at your university have been communicated, are there any particularly positive aspects you would like to highlight? (Optional)
 - Lots of signposting
 Thinking about how well information about the mental wellbeing and support services at your university have been communicated, are there any areas of improvements you would like to highlight? (Optional)

@@ -1,22 +1,22 @@
 
-A **metaheuristic** is a **high-level**, **problem-independent** framework, providing strategies for developing heuristic optimisation algorithms.
+A **metaheuristic** is a **high-level**, **problem-independent** framework that provides strategies to develop heuristic optimisation algorithms.
 
-Metaheuristics are slightly higher-level, compared to previous components of heuristic search with low-level and hill-climbing heuristics.
+Metaheuristics are slightly higher-level compared to previous components of heuristic search with low-level and hill-climbing heuristics.
 
 ### Classification and examples of metaheuristics
-- Local search *single-point, trajectory methods that impove a single solution over time.*
-	- Simulated Annealing (next week's lab - to implememt)
+- **Local search** metaheuristics are *single-point, trajectory methods that improve a single solution over time.*
+	- Simulated Annealing (next week's lab - to implement)
 	- Guided Local Search
 	- Iterated Local Search
-- Population-based - *evolve a set of solutions over time*.
-	- Genetic Algorithm
-- Constructive - *where we start from no/partial solution, to derive a complete solution*.
+- Population-based metaheuristics *evolve a set of solutions over time*.
+	- Genetic Algorithms
+- Constructive - *where we start from no/partial solution, deriving a complete solution*.
 
 
 ### Components
 The basic components of heuristic searches are still used:
-- Solution representation
-- Initialisation method
+- A solution representation - how it is encoded
+- An initialisation method
 - Neighbourhood function
 - A cost/evaluation function (helps evaluate the quality, guiding the search to a local or (hopefully) global optima)
 
@@ -27,15 +27,15 @@ We also need:
 
 ### Escaping local optima
 
-We can very quickly get stuck on local optima depending on the search landscape. The heuristics show there is no guarantee it will find the global optimum, instead, the function hopes it will improve.
+We can very quickly get stuck on local optima depending on the search landscape. The heuristics mean that there is no guarantee the global optimum will be found, instead, the heuristic function "hopes" it will improve in future iterations.
 
-- Applying a hill climbing heuristic in a local optimum will not change the result. To escape, we can either **move to a random solution**, or **generate a random solution**. 
+- Applying a hill climbing heuristic in a local optimum will not change the result (as there are no better solutions). To escape, we can either **move to a random solution**, or **generate a random solution**. 
 - We can also **change the objective function** that evaluates a solution, or use **different neighbourhood operators** - allowing us to find different solutions.
 
 - Another option is to maintain a memory to prohibit certain moves, such as Tabu Search.
-- We can also change the way to accept certain moves. Sometimes, we can get stuck on some regions, so accepting regions can escape some regions
+- We can also change the way to accept certain moves. Sometimes, we can get stuck on some regions such as plateaus, so accepting all non-worsening (therefore equal) moves can escape these regions.
 
-No mechanism is guaranteed to escape effectively from all local optima.
+**No mechanism is guaranteed to escape effectively from all local optima.**
 
 ### Termination criteria 
 We can choose to stop searching depending on many factors:

@@ -11,6 +11,8 @@ These are more finished, cover multiple lectures, and have better explanations.
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 
 ### Lectures
+- [Lecture 5 - Evolutionary Algorithms I](/year-2/semester-2/COMP2001/Lecture 5 - Evolutionary Algorithms I)
+- [Lecture 4 - Move Acceptance and Parameter Setting](/year-2/semester-2/COMP2001/Lecture 4 - Move Acceptance and Parameter Setting)
 - [Lecture 3 - Metaheuristics](/year-2/semester-2/COMP2001/Lecture 3 - Metaheuristics)
 - [Lecture 2 - Heuristic Search Methods and Hill Climbing](/year-2/semester-2/COMP2001/Lecture 2 - Heuristic Search Methods and Hill Climbing)
 - [Lecture 1 - Introduction](/year-2/semester-2/COMP2001/Lecture 1 - Introduction)
@@ -20,4 +22,4 @@ These notes may be lecture-specific, include unorganised information and may not
 
 
 
-> Coursework: delta evaluation
+ %%> Coursework: delta evaluation should be used for high marks!%%
