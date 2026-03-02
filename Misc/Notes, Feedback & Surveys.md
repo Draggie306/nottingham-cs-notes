@@ -91,16 +91,20 @@ Thinking about the learning resources available during your course, are there an
 - Some staff genuinely seem to care. Others simply do not. I was told that I could fail a module (Mathematics for Computer Scientists) and still pass the year. THere seems to be very little direct feedback from the uni as to what changes have been made since last year, or what changes will be made to ensure changes are looked at and module content/the experience revised appropriately. It seems like some do care but it just isn't shown too well.
 
 24. How clear is it that students' feedback on the course is acted on? **Not very clear**
+
 What influenced your response to the question about how clear it is that students' feedback is acted upon? (Optional)
 - As in the previous response, there is little evidence that feedback is read, and if it is read, is considered and goes through any sort of step to becoming acted upon. It would be much more relieving if there was one (optional) lecture every semester or so that had e.g. a Sankey diagram that categories different feedback per-module/overall and then is elaborated upon, showing which category was considered (and rationale if not), and what has been acted upon, if any.
 
 24. How well does the students' union (association or guild) represent students' academic interests? **Not at all well**
+
 What influenced your response to the question about how well the Students' Union represents students' academic interests? (Optional)
 - The SU have given no input to anything academic, only things beyond academics! We have not heard anything from them asking about the course, any advice from them as to how to handle it, etc. I know we can contact them regarding things - but it feels like as a member of the SU then they should have more power and be actively interested in what we are doing and want to know if we are happy with the course/workload/teaching quality. Maybe this is not what they're for? i thought I'd hear a lot more from them as part of the uni experience.
 
 26. How well communicated was information about your university/college's mental wellbeing support services? **Well**
+
 Thinking about how well information about the mental wellbeing and support services at your university have been communicated, are there any particularly positive aspects you would like to highlight? (Optional)
 - Lots of signposting
+
 Thinking about how well information about the mental wellbeing and support services at your university have been communicated, are there any areas of improvements you would like to highlight? (Optional)
 - N/A
 
