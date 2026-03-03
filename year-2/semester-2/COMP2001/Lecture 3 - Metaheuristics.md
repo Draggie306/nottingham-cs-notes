@@ -122,16 +122,14 @@ To create an ILS algorithm, we need to choose each of the following
 - Hill climbing - *Steepest Descent Hill Climbing with 1-bit-flip neighbourhood - check all variables independently and choose the best one if it is better than current.*
 - Move acceptance - *non-worsening moves only*
 
-```
-(1) (0) (1) (1) (1) (1)
 
-012345
-111100
+### ILS for the TSP
 
-```
+
+
 
 
 For long computational budgets, the strategy to initialise a solution does not matter (reconsider for low budgets). The local search should also be fast and effective - steepest descent is much slower than Davis's bit. Ideally, when choosing the pertubation operator, we do not want the local search to undo the perturbation bit - as this may cause a cycle, with hill climbing reverting the pertubation depending on its strength, so they should be unrelated.
 
-Advanced methods ma change the perturbation strength during the search or use memory to replace the current solution if it is determined to be stuck in a wider, locally-optimal space
+Advanced methods may change the perturbation strength during the search or use memory to replace the current solution if it is determined to be stuck in a wider, locally-optimal space
 
