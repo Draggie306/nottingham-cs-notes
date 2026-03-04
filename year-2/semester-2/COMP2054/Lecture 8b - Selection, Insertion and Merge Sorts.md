@@ -89,7 +89,7 @@ Therefore, $O(n)$ work per level + $O (log \space n)$ levels = $O(n\space log\sp
 ### Stability and adaptability
 Mergesort is stable, as 2 entries that compare as equal has no need to change the order, as we can keep the left-side value every time. 
 
-
+The naive mergesort is not adaptive, as it goes through the entire process even if the original list is sorted. 
 
 
 
