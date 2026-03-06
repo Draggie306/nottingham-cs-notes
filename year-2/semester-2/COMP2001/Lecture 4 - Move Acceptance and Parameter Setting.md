@@ -86,7 +86,7 @@ These determine neighbourhood move criteria based on a randomised part.
 - Dynamic methods - adjusting probability over time. 
 	- Includes *Simulated Annealing* - decreasing a "temperature" over time
 - Adaptive methods - uses some search history and feedback to adapt the search. 
-	- Simulated ANnealing - if the temp is decreased too fast, we can "reheat" - increasing the chance that worst-cost moves are accepted, to find another search place
+	- Simulated Annealing - if the temp is decreased too fast, we can "reheat" - increasing the chance that worst-cost moves are accepted, to find another search place
 
 ### Simulated Annealing
 

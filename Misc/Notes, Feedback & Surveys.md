@@ -221,9 +221,84 @@ Additional Comments. Please give any comments and suggestions on improvements in
 
 Some more exercises that explain and walk though topics, particularly the mathematics and rearranging equations and explaining the process behind calculating/proving the different Big-Oh proofs would be appreciated. I have enjoyed doing lots of calculations on paper but when it came to the exam, it felt much more difficult than tutorial questions, despite completing even the algebraically challenging sections. More focus on working out Little-Oh, big-theta and big-omega in the computing lab sessions on paper, as opposed to counting primitive operations - whilst these are done in the tutorials, it is not enough.
 
+## Early Module Feedback: Human-Computer Interaction 
+
+Overall Quality. The module is overall organised and delivered well.(Required field)
+
+(2)
+Agree
+
+Module Assessment Sheet. Is this document available in Moodle and clearly outlines assessment and feedback in this module?(Required field)
+
+(1)
+Strongly Agree
+
+(2)
+Agree
+
+(3)
+Neutral
+
+(4)
+Disagree
+
+(5)
+Strongly Disagree
+Moodle Materials. The module materials are in Moodle and organised well.
+
+Moodle Materials. The module materials are in Moodle and organised well.
+
+(1)
+Strongly Agree
+
+(2)
+Agree
+
+(3)
+Neutral
+
+(4)
+Disagree
+
+(5)
+Strongly Disagree
+Pace of Delivery. How do you find the pace of the module?
+
+Pace of Delivery. How do you find the pace of the module?
+
+(1)
+About right
+
+(2)
+Too fast
+
+(3)
+Too slow
+Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
+
+Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
+
+(1)
+Strongly Agree
+
+(2)
+Agree
+
+(3)
+Neutral
+
+(4)
+Disagree
+
+(5)
+Strongly Disagree
+Good Practice. Is there anything that is working particularly well for you in this module?
+Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
+Very little guidance provided/taught about how to actually design a user interface with tools like Figma, with requirements for what platform to use to make the coursework being very vague too which all is disappointing. Conflicting messages sent - coursework can be done on paper with sketches but needs to be interactive? 
 
 
-## Observations
+
+# Miscellaneous Observations
 
 - Lecturer trying to help student with resource access, but no response via email for over a week, and in-person visit to the responsible person's office revealed nobody was there.
 

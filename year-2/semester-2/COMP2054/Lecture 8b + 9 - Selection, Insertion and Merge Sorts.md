@@ -89,7 +89,13 @@ Therefore, $O(n)$ work per level + $O (log \space n)$ levels = $O(n\space log\sp
 ### Stability and adaptability
 Mergesort is stable, as 2 entries that compare as equal has no need to change the order, as we can keep the left-side value every time. 
 
-The naive mergesort is not adaptive, as it goes through the entire process even if the original list is sorted. 
+The naive mergesort is not adaptive, as it goes through the entire process even if the original list is sorted. However, in the middle of the search process, we can consider if there is a subarray that is in the correct order (a "**run**" - of correctly ordered pairs). In standard mergesort, runs of size 1 are created. 
+
+For example, if A1 is already sorted, naive mergesort will split the array and recombine it. Mergesort can be made more adaptive by firstly checking if subarrays are already sorted.  Even better results could be achieved by realising the first 6 elements are sorted, so change the position of the split to be later.
+
+![[../../../Images/Pasted image 20260305141240.png]]
+
+
 
 
 

@@ -113,7 +113,7 @@ If the **perturbation strength** (CRUCIAL) is too high (e.g. 10 bits vs 1 bit), 
 
 ![[../../../Images/Pasted image 20260210164334.png]]
 
-To improve this, we can have **acceptance criteria** - e.g. non-worsening or stricly improving moves only - a move acceptance method (see Lecture 4), or memory - if details are remembered and the algorithm realises it is stuck, then restart by generating a random solution.
+To improve this, we can have **acceptance criteria** - e.g. non-worsening or strictly improving moves only - a move acceptance method (see Lecture 4), or memory - if details are remembered and the algorithm realises it is stuck, then restart by generating a random solution.
 
 ### Creating an ILS algorithm
 To create an ILS algorithm, we need to choose each of the following
@@ -122,14 +122,12 @@ To create an ILS algorithm, we need to choose each of the following
 - Hill climbing - *Steepest Descent Hill Climbing with 1-bit-flip neighbourhood - check all variables independently and choose the best one if it is better than current.*
 - Move acceptance - *non-worsening moves only*
 
+Generally:
+- The local search must be fast and effective - steepest descent is much slower than Davis's bit.
+- With high computational budgets, the strategy to initialise a solution does not matter.
+- The choice of the perturbation operator should be such that it is not easily undone by the local search operator. This may cause a cycle, with hill climbing reverting the perturbation.
+- Advanced methods may adapt the permutation strength during the search and use memory to replace the solution if it is determined to be stuck in a local optimum.
 
-### ILS for the TSP
 
-
-
-
-
-For long computational budgets, the strategy to initialise a solution does not matter (reconsider for low budgets). The local search should also be fast and effective - steepest descent is much slower than Davis's bit. Ideally, when choosing the pertubation operator, we do not want the local search to undo the perturbation bit - as this may cause a cycle, with hill climbing reverting the pertubation depending on its strength, so they should be unrelated.
-
-Advanced methods may change the perturbation strength during the search or use memory to replace the current solution if it is determined to be stuck in a wider, locally-optimal space
+### Tabu search
 
