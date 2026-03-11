@@ -11,7 +11,7 @@ These are more finished, cover multiple lectures, and have better explanations.
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 
-- [Lecture 0 - Introduction](/year-2/semester-2/COMP2054/Lecture 0)
+- [Lecture 0 - Introduction](/year-2/semester-2/COMP2054/Lecture%200)
 - Lecture 1 - Analysis of Algorithms 
 
 

@@ -26,7 +26,7 @@ public class Singleton
 }
 ```
 
-![[Pasted image 20250324141914.png]]
+![Pasted image 20250324141914](../../../Images/Pasted%20image%2020250324141914.png)
 
 
 #### Factory
@@ -40,7 +40,7 @@ It is useful to hide the actual classes that are used, so implementations deal w
 
 It also allows side effects of the creation method, e.g. allowing us to keep track of the number of objects creared.
 
-![[Pasted image 20250324144238.png]]
+![Pasted image 20250324144238](../../../Images/Pasted%20image%2020250324144238.png)
 
 
 Data hiding

@@ -22,6 +22,6 @@ To understand key issues in program design, with good knowledge of some common a
 
 Designing data structures and algorithms that express this functionality to make efficient use of **time**, **memory**, **CPU usage**, and to evaluate a given implementation in terms of its efficiency.
 
-![](../../../Images/Pasted%20image%2020260126134110.png)
+![Pasted image 20260126134110](../../../Images/Pasted%20image%2020260126134110.png)
 
 

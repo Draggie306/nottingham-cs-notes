@@ -22,5 +22,5 @@ typedef struct hurricane Hurricane;
 ```
 
 
-![[IMG_5242.jpeg]]
+![IMG_5242.jpeg](IMG_5242.jpeg)
 

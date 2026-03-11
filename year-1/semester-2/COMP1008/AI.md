@@ -179,7 +179,7 @@ However, a discovered correlation between data may not be causation.
 we can then show the centroids with:
 1. kmeans.show_centroids_
 or show the results:
-![[Pasted image 20250206103955.png]]
+![Pasted image 20250206103955](../../../Images/Pasted%20image%2020250206103955.png)
 
 
 

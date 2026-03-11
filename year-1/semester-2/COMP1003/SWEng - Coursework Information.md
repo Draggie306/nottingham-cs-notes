@@ -7,16 +7,16 @@ Do not think: 1 person is doing Git, one person is doing code. Everyone must be 
 
 Majority of marks will be how tests are made and code is integrated together.
 ### Timeline
-![[Pasted image 20250317090805.png]]
+![Pasted image 20250317090805](../../../Images/Pasted%20image%2020250317090805.png)
 
 > There is no expectation to work over Easter as work is made to be done in labs. However, it is possible to get ahead
 
-![[Pasted image 20250317091431.png]]
+![Pasted image 20250317091431](../../../Images/Pasted%20image%2020250317091431.png)
 
 
 ### Marking Criteria
 
-![[Pasted image 20250317091508.png]]
+![Pasted image 20250317091508](../../../Images/Pasted%20image%2020250317091508.png)
 - Don’t just do the testing, also write it into reports
 - Must assign people to approve things
 

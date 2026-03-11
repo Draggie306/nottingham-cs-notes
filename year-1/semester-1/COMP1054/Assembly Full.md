@@ -32,7 +32,7 @@ If statements: best practice to **revert the conditional** and branch to another
 
 
 ## And Conditionals
-![[Pasted image 20241028134056.png]]
+![Pasted image 20241028134056](../../../Images/Pasted%20image%2020241028134056.png)
 
 
 ## Lecture 7
@@ -86,7 +86,7 @@ When looping over addresses, we need to add the correct size of bytes. For integ
 
 ## Addressing modes
 
-![[Pasted image 20241118131150.png]]
+![Pasted image 20241118131150](../../../Images/Pasted%20image%2020241118131150.png)
 
 
 Post offset: load/store address in register, and after, post increment it by e.g. #4. This is a free operation.
@@ -106,7 +106,7 @@ R15 is the program counter
 ### APCS register use convention
 Arm Procedure Call Standard
 
-![[Pasted image 20241202135907.png]]
+![Pasted image 20241202135907](../../../Images/Pasted%20image%2020241202135907.png)
 
 Values in the registers may be corrupted when a new function calls. To fix this issue, we can simply store the value and load it after the function call.
 
@@ -152,7 +152,7 @@ offset: -4, store the value in R4, then writeback the result of address (r13 -4)
 
 
 ### ARM-provided instructions
-![[Pasted image 20241202134133.png]]
+![Pasted image 20241202134133](../../../Images/Pasted%20image%2020241202134133.png)
 
 Only can be done with registers
 
@@ -161,7 +161,7 @@ STMFD R13!, {R3-R4}
 LDMFD R13!, {R3-R4}
 ```
 
-![[Pasted image 20241202135722.png]]
+![Pasted image 20241202135722](../../../Images/Pasted%20image%2020241202135722.png)
 To follow APACS, we should stack everything from R4-R8 -- the values at the beginning and at the end should be the same. 
 
 

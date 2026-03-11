@@ -1,7 +1,7 @@
 ”Easy marks”
 
 
-![[IMG_5070.jpeg]]
+![IMG_5070.jpeg](IMG_5070.jpeg)
 
 
 In every stage on a ”proof table”, base all new lines on the lines above.

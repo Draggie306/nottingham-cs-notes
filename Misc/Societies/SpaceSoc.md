@@ -10,7 +10,7 @@ Should: goal
 
 Inspection, analysis, demonstration and test
 
-![[IMG_5314.jpeg]]
+![IMG_5314.jpeg](IMG_5314.jpeg)
 
 Roles signed up to: 
 - Lead: Optics and image processing

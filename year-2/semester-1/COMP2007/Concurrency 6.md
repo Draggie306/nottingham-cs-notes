@@ -9,7 +9,7 @@ Solution 3 gives priority to writers.
 - Semaphore sResource to synchronise the resource for reading/writing.
 
 
-![](../../../Images/Pasted%20image%2020251027151417.png)
+![Pasted image 20251027151417](../../../Images/Pasted%20image%2020251027151417.png)
 
 - Firstly, the readers would like to read. Checks capacity in the readTry semaphore (1 -> 0) and then locks the read semaphore to increment the count.
 - First arrival: different behaviour.

@@ -176,7 +176,7 @@ sorry
 
   have qp : Q → P := by 
 
-![[IMG_20251009_165557.jpg]]
+![IMG_20251009_165557.jpg](IMG_20251009_165557.jpg)
 
 
 - Cases on False kills it.

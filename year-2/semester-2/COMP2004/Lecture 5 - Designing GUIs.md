@@ -70,13 +70,13 @@ Preventing accidental operation can be done with:
 - To do this in a GUI, we can use colours (e.g. greyed-out operations), make buttons smaller, hide them, show an icon etc. 
 
 ### Affordance of control types
-![[../../../Images/Pasted image 20260212154631.png]]
+![Pasted image 20260212154631](../../../Images/Pasted%20image%2020260212154631.png)
 
 ### Display types
 
 Digital vs analogue: displays for quantitative and qualitative readings.
 
-![[../../../Images/Pasted image 20260212154745.png]]
+![Pasted image 20260212154745](../../../Images/Pasted%20image%2020260212154745.png)
 
 Tell a story with just an image - the user should not sit and read, but the right type of images/graphs/videos can be used to show something more easily. 
 
@@ -84,9 +84,9 @@ Tell a story with just an image - the user should not sit and read, but the righ
 ### Grouping
 
 It is common to check readings: displays must be readable "at a glance"
-![[../../../Images/Pasted image 20260212155311.png]]
+![Pasted image 20260212155311](../../../Images/Pasted%20image%2020260212155311.png)
 
-![[../../../Images/Pasted image 20260212155321.png]]
+![Pasted image 20260212155321](../../../Images/Pasted%20image%2020260212155321.png)
 
-![[../../../Images/Pasted image 20260212155332.png]]
+![Pasted image 20260212155332](../../../Images/Pasted%20image%2020260212155332.png)
 

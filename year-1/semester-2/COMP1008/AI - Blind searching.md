@@ -83,10 +83,10 @@ Search space: all possible solutions of a problem. This can be then replicated a
 - Weights are a black box, not easy to display
 
 
-![[Pasted image 20250320105501.png]]![[Pasted image 20250320105816.png]]
+![Pasted image 20250320105501](../../../Images/Pasted%20image%2020250320105501.png)![Pasted image 20250320105816](../../../Images/Pasted%20image%2020250320105816.png)
 
 
 
-![[Pasted image 20250320105935.png]]
+![Pasted image 20250320105935](../../../Images/Pasted%20image%2020250320105935.png)
 - remove extremities
 - choose the best visualisation tool

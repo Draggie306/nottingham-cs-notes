@@ -9,7 +9,7 @@ Means the function is unchangeable/immutable. Variables can be final -> they can
 A function made final means it cannot be overridden - a subclass cannot have a new implementation of that function - cannot be extended. *A benefit of this is a speed gain as there is no need to check the version to run.*
 
 
-![[Pasted image 20250310141428.png]]
+![Pasted image 20250310141428](../../../Images/Pasted%20image%2020250310141428.png)
 
 **Strategy pattern**
 - One class has multiple responsibilities. Wants the ability to mix and mach responsibility

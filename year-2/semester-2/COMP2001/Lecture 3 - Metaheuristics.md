@@ -111,7 +111,7 @@ We perturb the solution (could be better/worse than current), then immediately i
 
 If the **perturbation strength** (CRUCIAL) is too high (e.g. 10 bits vs 1 bit), then we may jump over something a better region (an optimum), into somewhere different in the search space - essentially a random walk. **Generally, for all search landscapes, we want to stay in regions that are "close" to the same region** (unless we are stuck). Likewise, if the strength is too small, we may end up back in a valley of a local optimum.
 
-![[../../../Images/Pasted image 20260210164334.png]]
+![Pasted image 20260210164334](../../../Images/Pasted%20image%2020260210164334.png)
 
 To improve this, we can have **acceptance criteria** - e.g. non-worsening or strictly improving moves only - a move acceptance method (see Lecture 4), or memory - if details are remembered and the algorithm realises it is stuck, then restart by generating a random solution.
 

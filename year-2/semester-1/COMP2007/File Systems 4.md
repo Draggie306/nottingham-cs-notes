@@ -7,7 +7,7 @@ A traditional file system does:
 
 Interacting with `/foo/bar`: read the i-node of /foo, then read the data of the directory. Then, read the data of the 
 
-![](../../../Images/Pasted%20image%2020251201151208.png)
+![Pasted image 20251201151208](../../../Images/Pasted%20image%2020251201151208.png)
 
 Lots of data complexity occurs before data is even read/written
 
@@ -17,10 +17,10 @@ Lots of data complexity occurs before data is even read/written
 The old-fashioned: i-nodes point to data blocks and directories. What would be better is that all data, i-nodes and directories are clustered together, reducing seek movement.
 
 Before:
-![](../../../Images/Pasted%20image%2020251201151523.png)
+![Pasted image 20251201151523](../../../Images/Pasted%20image%2020251201151523.png)
 
 After:
-![](Pasted%20image%2020251201151539.png)
+![Pasted image 20251201151539](../../../Images/Pasted%20image%2020251201151539.png)
 
 The solution to this is buffering: if we buffer writing into memory, we can then organise similar data to be in the same place to minimise delays. 
 
@@ -29,11 +29,11 @@ However, processes and files are alike: they come and go. If they are clustered 
 The solution is to have a writer and cleaner thread at different ends of the filesystem. 
 
 Before:
-![](../../../Images/Pasted%20image%2020251201151837.png)
+![Pasted image 20251201151837](../../../Images/Pasted%20image%2020251201151837.png)
 
 After:
 
-![](../../../Images/Pasted%20image%2020251201151859.png)
+![Pasted image 20251201151859](../../../Images/Pasted%20image%2020251201151859.png)
 
 This greatly increases disk performance, but the cleaner thread needs overhead CPU time. Writes are more robust, as multiple are performed as a single operation (multiple small writes are more likely to cause inconsistencies).
 
@@ -56,7 +56,7 @@ The solution to this is to have a logical address space in the filesystem that i
 
 This is not difficult: somewhere on the drive there is a mapping table, that will be inspected to be mapped to the correct physical address. It may begin by every logical address has the same physical address location, but it may eventually look like this:
 
-![](../../../Images/Pasted%20image%2020251201152648.png)
+![Pasted image 20251201152648](../../../Images/Pasted%20image%2020251201152648.png)
 
 
 ## Journalling file system
@@ -71,7 +71,7 @@ We usually have to:
 If there is a crash anywhere here, we can lose references to i-nodes, data blocks and have inaccessible blocks. 
 
 A journalling FS logs all events before they take place. The general concept is thus:
-![](../../../Images/Pasted%20image%2020251201153112.png)
+![Pasted image 20251201153112](../../../Images/Pasted%20image%2020251201153112.png)
 
 
 ## Virtual file systems
@@ -88,6 +88,6 @@ Each file system will implement a function that includes the address for differe
 
 Every file system is registered with the VFS.
 
-![](../../../Images/Pasted%20image%2020251201154232.png)
+![Pasted image 20251201154232](../../../Images/Pasted%20image%2020251201154232.png)
 
 

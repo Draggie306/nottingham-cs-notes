@@ -18,14 +18,14 @@ Human-Computer Interaction is a dicipline concerned with:
 - Evaluating according to requirements and usability (is the design good enough? if not, is it iterableon?)
 
 
-![](../../../Images/Pasted%20image%2020260129151358.png)
+![Pasted image 20260129151358](../../../Images/Pasted%20image%2020260129151358.png)
 
 
-![](../../../Images/Pasted%20image%2020260129151609.png)
+![Pasted image 20260129151609](../../../Images/Pasted%20image%2020260129151609.png)
 
 The basic features are the functional: it needs to e.g. play a game. Then comes usability: ensuring how the game can be interacted with. The function itself is to make it engaging and fun. 
 
-![](../../../Images/Pasted%20image%2020260129152905.png)
+![Pasted image 20260129152905](../../../Images/Pasted%20image%2020260129152905.png)
 
 ”Usable” interfaces are designed to put the user, not the system, as the central focus. This includes the **time to learn**, the **speed of performance** once learned, the **rate of errors**, users’ **retention over time** (do users remember over time, making it easier the next time), and **user satisfaction** (the hierarchy of needs).
 

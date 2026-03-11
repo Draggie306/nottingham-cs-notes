@@ -30,4 +30,4 @@ When working with the frame, work with the content pane of the frame and not the
 
 
 
-![[Pasted image 20250224144750.png]]
+![Pasted image 20250224144750](../../../Images/Pasted%20image%2020250224144750.png)

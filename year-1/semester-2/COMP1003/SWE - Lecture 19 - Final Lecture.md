@@ -5,7 +5,7 @@ Activities should produce a measurable outcome so progress can be assessed - suc
 
 
 ### PERT chart
-![[Pasted image 20250502161622.png]]
+![Pasted image 20250502161622](../../../Images/Pasted%20image%2020250502161622.png)
 
 B can only be done once A has been completed. Once A is completed, then C can also start. Once C and B are completed then D can be completed. This is the final result/product.
 
@@ -19,7 +19,7 @@ It is easy to see dependencies - task 3 only starts when task 2 is completed. Mi
 Milestones are times to review the progress and plan. Plans are estimates, so slippage must be accounted for - a conservative plan should include time for this. When minor, the project’s later stages can accompany this. It is normal for this to occur, and therefore the start Gantt chart is probably going to look much different than the final, submitted one.
 
 ### Staff Allocation Chart
-![[Pasted image 20250502163245.png]]
+![Pasted image 20250502163245](../../../Images/Pasted%20image%2020250502163245.png)
 
 This is very useful to see when people are free, and when e.g. someone is ill, and their work needs to be transferred to someone else.
 

@@ -13,7 +13,7 @@ There are certain fundamentals that, even if most people never write OS code, ar
 
 The Thursday lecture is only present for the first 4 weeks. Slides are online before lectures.
 
-![](../../../Images/Pasted%20image%2020250929151429.png)
+![Pasted image 20250929151429](../../../Images/Pasted%20image%2020250929151429.png)
 
 The labs will teach:
 - more OS concepts, not covered by lectures
@@ -39,7 +39,7 @@ The exam, worth 50%, is an in-person closed-book ExamSys exam for 2 hours on kno
 
 ## Contact Info
 
-![](../../../Images/Pasted%20image%2020250929152914.png)
+![Pasted image 20250929152914](../../../Images/Pasted%20image%2020250929152914.png)
 
 Email both if there is any question.
 

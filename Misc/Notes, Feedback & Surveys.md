@@ -10,7 +10,7 @@
 
 onlinesurveys.jisc.ac.uk
 
-![[../Images/Pasted image 20260131162238.png]]
+![Pasted image 20260131162238](../Images/Pasted%20image%2020260131162238.png)
 Thinking about the teaching on your course, are there any particularly positive aspects you would like to highlight? (Optional)
 - There are one or two lecturers who go out of their way to be proactive and support students, making the material more engaging. 
 
@@ -18,7 +18,7 @@ Thinking about the teaching on your course, do you have any suggestions for impr
 - Many lectures are either dry with little engaging/stimulating content in high levels of difficulty, or too long with filler content added for the sake of it, with surface-level concepts whilst courseworks are expected to have extremely deep, intuitional understanding of the subject matter. Courseworks are challenging, but (DMS) are often too large in scope that over 100 hours of writing code did not complete the task to my "best" standard. Timetabling is dressed up as being manageable but with extreme amount of long tasks, I was unable to complete all tasks to a good level even coding for 100 hours/month during the term (which excludes independent study, reading and lectures).
 
 
-![[../Images/Pasted image 20260131162329.png]]
+![Pasted image 20260131162329](../Images/Pasted%20image%2020260131162329.png)
 Thinking about the learning opportunities on your course, are there any particularly positive aspects you would like to highlight? (Optional)
 - Some content within Software Engineering and Developing Maintainable Software is very useful for the future but much other content is dry and far too abstract for modern industrial applications.
 
@@ -26,7 +26,7 @@ Thinking about the learning opportunities on your course, do you have any sugges
 - There is very little time for self-directed, independent learning apart from exam revision (which may be considered to be directed, anyway) leading to burnout and a lack of passion. Additionally, there is little time for breaks and time off or societies, which further hinder opportunities.
 
 
-![[../Images/Pasted image 20260131162735.png]]
+![Pasted image 20260131162735](../Images/Pasted%20image%2020260131162735.png)
 Thinking about the academic support you have received during your course, are there any particularly positive aspects you would like to highlight? (Optional)
 - There are some, indeed very few, lecturers who seem genuinely enthusiastic and actively want to help out students proactively, which is great to see. 
 
@@ -115,7 +115,7 @@ Survey complete, Response ID: cml2wt4bv007902jshh3gj8qw
 
 
 ### SEM Survey: IFR
-![](Images/Pasted%20image%2020260127151333.png)
+![Pasted image 20260127151333](../Images/Pasted%20image%2020260127151333.png)
 7) The workload associated with this module is manageable.
 
 7a) You selected 'disagree' or 'strongly disagree' with this statement. Please tell us why.
@@ -139,7 +139,7 @@ Whilst the workload for this module on its own is manageable, the way it is time
 
 
 ### SEM Survey: OSC
-![](../Images/Pasted%20image%2020260127154203.png)
+![Pasted image 20260127154203](../Images/Pasted%20image%2020260127154203.png)
 
 8) Please use the space below for any constructive comments about this module
 

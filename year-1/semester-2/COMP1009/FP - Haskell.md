@@ -82,7 +82,7 @@ In Haskell, function application is denoted using a space, with function argumen
 Function application has higher priority than all other operators - `f a + b` means `(fa) + b`.
 
 
-![[Pasted image 20250131141651.png]]
+![Pasted image 20250131141651](../../../Images/Pasted%20image%2020250131141651.png)
 
 
 #### Naming requirements
@@ -133,7 +133,7 @@ If the expression `e` produces a value of type `t`, then `e` has type `t`. This 
 
 Generically, `[t]` is the type of lists with elements of type `t` - be it a list of lists, tuples, functions, characters, etc.
 
-`[['a'], ['b','c']] :: [[char]]`
+`['a']('a') :: [char](char)`
 > a nested character list - a list of lists! This can be nested as many times as needed
 
 **The type of a list says nothing about its length**, i.e. there can be a list with 5 True/False values and another with 200 and they both `:: [Bool]`.
@@ -220,7 +220,7 @@ Internally, lists are built up with the **cons**(truct) operator: `:`, so \[1,2,
 ### Lambda functions
 The lambda funciton is a nameless function denoted with the `\` symbol
 
-![[Pasted image 20250207142530.png]][https://youtu.be/psmu_VAuiag](https://youtu.be/psmu_VAuiag "https://youtu.be/psmu_vauiag")
+![Pasted image 20250207142530](../../../Images/Pasted%20image%2020250207142530.png)[https://youtu.be/psmu_VAuiag](https://youtu.be/psmu_VAuiag "https://youtu.be/psmu_vauiag")
 
 ### Lazy Evaluation
 Functions will return e.g. 
@@ -386,7 +386,7 @@ putStr (x:xs) = do putChar x
 				   putChar xs
 ```
 
-![[Pasted image 20250313112341.png]]
+![Pasted image 20250313112341](../../../Images/Pasted%20image%2020250313112341.png)
 
 
 

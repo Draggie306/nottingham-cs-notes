@@ -100,5 +100,5 @@ print(f”Number of outputs: {mlp.num_imputs}”)
 
 ```
 
-![[Pasted image 20250220104520.png]]
+![Pasted image 20250220104520](../../../Images/Pasted%20image%2020250220104520.png)
 

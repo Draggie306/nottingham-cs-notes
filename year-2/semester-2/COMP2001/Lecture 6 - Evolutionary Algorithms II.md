@@ -30,11 +30,11 @@ Modality: uni-modal means it can contain one local optima or **multimodal** with
 ### Sphere function (unimodel)
 This is a continuous, differentiable, separable and scalable (modality can be increased) function. It is easy to arrive at local optima very quickly, because of the gradient. 
 
-![[../../../Images/Pasted image 20260303162409.png]]
+![Pasted image 20260303162409](../../../Images/Pasted%20image%2020260303162409.png)
 
 Separable functions allow delta evaluation. 
 
-![[../../../Images/Pasted image 20260303162704.png]]
+![Pasted image 20260303162704](../../../Images/Pasted%20image%2020260303162704.png)
 
 Here, the sequence represents numbers squared. The delta is simply the difference between the last and the first. 
 
@@ -89,7 +89,7 @@ Different memes yield different performances, so to tackle a problem, we should 
 
 A bianry representation is not suitable for the TSP, as it can cause illegal tours to form - including not all cities being visited, undefined city codes, visiting cities multiple times and loops forming within the tour. Therefore, **repair algorithms** are needed.
 
-![[../../../Images/Pasted image 20260303170751.png]]
+![Pasted image 20260303170751](../../../Images/Pasted%20image%2020260303170751.png)
 
 
 ## Generic permutation-based genetic operators
@@ -132,7 +132,7 @@ They feature:
 
 ### Implementation
 
-![[../../../Images/Pasted image 20260303173843.png]]
+![Pasted image 20260303173843](../../../Images/Pasted%20image%2020260303173843.png)
 
 TO propagate genetic material into offspring, we look at 
 
@@ -148,7 +148,7 @@ The concentration of a meme is the total number of individuals that carry the me
 
 The evolutionary activity of a meme is the accumulation of a meme conenctration until a given generation (how many times a meme has been used in a population). The slope in a plot represents the rate of meme concentration increase.
 
-![[../../../Images/Pasted image 20260303174808.png]]
+![Pasted image 20260303174808](../../../Images/Pasted%20image%2020260303174808.png)
 
 
 

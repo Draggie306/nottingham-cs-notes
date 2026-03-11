@@ -20,7 +20,7 @@ It uses 2 shared variables:
 - `bool flag[2]`: indicates in slot `i` that the `i`th process is ready to enter the critical section (can be made bigger/generalised, usually 2 processes).
 - The algorithm satisfies all the critical section requirements (mutual exclusion, progress, fairness)
 
-![](../../../Images/Pasted%20image%2020251016151208.png)
+![Pasted image 20251016151208](../../../Images/Pasted%20image%2020251016151208.png)
 
 The program is polite: it waits for permission to get into the critical section. Process `i` does the same thing as process `j`.
 
@@ -46,7 +46,7 @@ Progress
 Fairness/bounded waiting:
 - It is fairly distributed, process cannot be made to wait indefinitely
 
-![](../../../Images/Pasted%20image%2020251016152440.png)
+![Pasted image 20251016152440](../../../Images/Pasted%20image%2020251016152440.png)
 
 
 ## Hardware approaches
@@ -68,12 +68,12 @@ To use:
 - As the old value will be returned, 
 
 
-![](../../../Images/Pasted%20image%2020251016153203.png)
+![Pasted image 20251016153203](../../../Images/Pasted%20image%2020251016153203.png)
 
 
 
 
-![](Pasted%20image%2020251016153406.png)
+![Pasted image 20251016153406](../../../Images/Pasted%20image%2020251016153406.png)
 
 If the value returned is false, the lock was just obtained. Else something else has it, so it infinitely loops.
 
@@ -91,7 +91,7 @@ Only the thread that acquired the lock can release the mutex.
 
 This can be implemented in any way, as an abstraction.
 
-![](Pasted%20image%2020251016154317.png)
+![Pasted image 20251016154317](../../../Images/Pasted%20image%2020251016154317.png)
 
 `pthread_mutex_init` - common in coursework
 

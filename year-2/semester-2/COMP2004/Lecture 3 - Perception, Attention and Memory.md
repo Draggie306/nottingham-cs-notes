@@ -27,7 +27,7 @@ Wherever we are looking, there is high resolution. In the periphery, there is lo
 
 Colour is a valuable tool to grab attention. Having good contrast is important, but even with contrast, colours may not be complementary: 
 
-![](../../../Images/Pasted%20image%2020260205150900.png)
+![Pasted image 20260205150900](../../../Images/Pasted%20image%2020260205150900.png)
 
 Colour stereoscopy: light colours make rooms appear larger, a red background is perceived as closer, and blue is better for a background. Colours at opposite ends of the spectrum will focus on different parts of the retina. Red = bad, green = ”good” implication of an action.
 

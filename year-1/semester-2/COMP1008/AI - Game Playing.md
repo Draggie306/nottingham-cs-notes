@@ -52,7 +52,7 @@ When doing the MiniMax technique, we can cut off and remove entire branches if i
 - DFS, BFS, A* Algorithm
 - Game Playing (MiniMax, Alpha-Beta)
 
-![[Pasted image 20250327103144.png]]
+![Pasted image 20250327103144](../../../Images/Pasted%20image%2020250327103144.png)
 - Human/computer interaction: LLMs
 
 Exam

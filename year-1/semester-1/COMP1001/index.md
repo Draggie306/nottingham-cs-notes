@@ -5,7 +5,7 @@ This module is not complete.
 ## Main document
 These are more finished, cover multiple lectures, and have better explanations.
 
-- [Mathematics for Computer Scientists 1](/year-1/semester-1/COMP1001/Mathematics for Computer Scientists 1)
+- [Mathematics for Computer Scientists 1](Mathematics%20for%20Computer%20Scientists%201.md)
 
 
 ## All Draft Notes

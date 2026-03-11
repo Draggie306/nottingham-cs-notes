@@ -38,7 +38,7 @@ The project allocation is based on sponsor/team preferences, the average team ra
 
 ### Assessment
 
-![](../../../Images/Pasted%20image%2020250929114216.png)
+![Pasted image 20250929114216](../../../Images/Pasted%20image%2020250929114216.png)
 
 Group elements are weighted as 80% and are scaled based on individual report, deliverables, peer assessment and supervisor moderation (independent voice to balance risk of bias).
 

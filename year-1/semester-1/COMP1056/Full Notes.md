@@ -3,7 +3,7 @@ Computer Architecture - COMP1056 - University of Nottingham - Year 1, Autumn Sem
 
 Taught through a) synchronous online lessons through demonstrations and theory, b) pre-recorded videos and c) other things on Moodle
 
-![[Pasted image 20241030091527.png]]
+![Pasted image 20241030091527](../../../Images/Pasted%20image%2020241030091527.png)
 
 #### Definitions
 von Neumann:  data and instruction in memory.
@@ -58,7 +58,7 @@ All Boolean functions can be expressed in terms of just AND, OR and NOT applied 
 These have their own symbols that can be used to write down logic equations.
 This is similar to how to write mathematical equations (i.e. `x` for multiplication).
 
-![[Pasted image 20241101120639.png]]
+![Pasted image 20241101120639](../../../Images/Pasted%20image%2020241101120639.png)
 
 XOR can be defined as:
 `NOT A AND B OR A AND NOT B.`
@@ -67,7 +67,7 @@ After writing an expression and producing a working logic circuit, it may work -
 
 Thus, the aim is to use as few gates as possible. This saves money and also reduces propagation delay - of which, there is such a delay of ~10ns for each logic gate.
 
-![[Pasted image 20241106092308.png]]
+![Pasted image 20241106092308](../../../Images/Pasted%20image%2020241106092308.png)
 A ripple carry adder is known as such as each result "ripples" through into the next full adder. In this case (4\*30ns), the propagation delay will be around 120ns.
 
 A carry occurs when there is a result larger than e.g. 4-bits. This bit is preserved by the CPU with the carry flag.
@@ -168,19 +168,19 @@ There are 2 inputs: R and S. They both go into one NOR gate each. The output of 
 
 The use of this gate is that it can be used to store the state of bits!
 
-![[30-SR-flipflop-circuit.png]]
+![30-SR-flipflop-circuit](../../../Images/30-SR-flipflop-circuit.png)
 
 #### 1-bit register
 It has a multiplexer with a flipflop, with the output of the flipflop going into the multiplexor.
 #### Flip-flops
 
 (D-latch)
-![[d-type-latch.png]]
+![d-type-latch](../../../Images/d-type-latch.png)
 
 
 ### Half and full adders
 
-![[half-full-adder.png]]
+![half-full-adder](../../../Images/half-full-adder.png)
 ## An example - The 6502
 
 It is a simple 8bit CPU released ~50 years ago.
@@ -364,7 +364,7 @@ Why?
 
 ## Hardware Multithreading
 
-![[Pasted image 20241129122901.png]]
+![Pasted image 20241129122901](../../../Images/Pasted%20image%2020241129122901.png)
 
 We can also use hardware multithreaded processors. This is one CPU, but it presents as two cores to the system. Both of those cores have their own program counters and registers, but share L1/L2 caches, register banks and ALUs. 
 
@@ -449,7 +449,7 @@ We assume that, during the Fetch-Decode-Execute cycle, that each instruction wil
 
 Furthermore, accessing RAM isn't instant. It's fast, but not particularly fast. It will take between 10-20ns to access data (the memory latency), once it receives the signal to begin reading.
 
-![[Pasted image 20241209131217.png]]
+![Pasted image 20241209131217](../../../Images/Pasted%20image%2020241209131217.png)
 *Expectations vs. reality.*
 
 It used to be much more symmetrical, but as CPUs have become considerably faster over time (and RAM hasn't), there is this gap. During this fetch, the CPU is in a **wait state** - and reduces the amount of operations that can be carried out significantly. 

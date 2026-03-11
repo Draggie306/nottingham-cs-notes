@@ -71,7 +71,7 @@ One-point crossover: generate a random number from 0-1. If it is smaller than th
 
 otherwise, copy the individuals. 
 
-![[../../../Images/Pasted image 20260224171705.png]]
+![Pasted image 20260224171705](../../../Images/Pasted%20image%2020260224171705.png)
 
 
 

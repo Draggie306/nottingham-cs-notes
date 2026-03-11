@@ -259,7 +259,7 @@ Inheritance (sub-type polymorphism) is an ==**IS-A**== relationship. A car is a 
 - Is-A/type of/inherits: x IS A y; \[y]<|-----\[x]
 	- Triangle points at base class
 
-![[Pasted image 20250517164715.png]]
+![Pasted image 20250517164715](../../../Images/Pasted%20image%2020250517164715.png)
 
 ### Exceptions 
 If an exception occurs, the function will end unless the thrown exception is caught. It should be caught in the function or the function labelled as `throws Exception` and caught by the caller.

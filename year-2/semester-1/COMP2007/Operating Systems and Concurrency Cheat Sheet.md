@@ -138,7 +138,7 @@ A process is made of two units:
 
 Threads have the same states and transitions as processes, a thread control block, and thread table of TCBs and a thread ID.
 
-![](../../../Images/Pasted%20image%2020251009151632.png)
+![Pasted image 20251009151632](../../../Images/Pasted%20image%2020251009151632.png)
 
 ### Why threads
 

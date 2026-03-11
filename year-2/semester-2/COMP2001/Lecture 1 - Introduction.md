@@ -16,7 +16,7 @@ AI tools can be used, but only if you can explain your implementation.
 Anything said, presented, written, on discussion forums, in demos, formative assessments is examinable. Lab material is examinable for coursework.
 
 ### Activities and Coursework
-![](../../../Images/Pasted%20image%2020260127163715.png)
+![Pasted image 20260127163715](../../../Images/Pasted%20image%2020260127163715.png)
 
 
 
@@ -49,7 +49,7 @@ The **local optimum** is better than all other solutions in a given neighbourhoo
 
 Algorithms should not stop at local optimums. It is common to get stuck at locally optimum locations.
 
-![](../../../Images/Pasted%20image%2020260127170225.png)
+![Pasted image 20260127170225](../../../Images/Pasted%20image%2020260127170225.png)
 
 
 ### Continuous vs Discrete Search Spaces

@@ -8,7 +8,7 @@ Development concerns are in secrtion 2 and 3 in the main books. This includes mo
 Clean Code book: 
 Section 1 has inspirational, relevant info
 Section2-7 is about development and coding
-![[Pasted image 20250228160535.png]]
+![Pasted image 20250228160535](../../../Images/Pasted%20image%2020250228160535.png)
 
 When joining a company, we may need to adjust our code style to match their style and implementation.
 
@@ -83,7 +83,7 @@ Always fix the bug not the symptom. if A calls B, catching it in B fixes the pro
 
 
 ### Important - Rubber Duck Debugging
-![[Pasted image 20250303091915.png]]
+![Pasted image 20250303091915](../../../Images/Pasted%20image%2020250303091915.png)
 
 Can also print out a section of code to review and give many people a chance to look at it, with the author explaining what and why it is doing what it’s doing.
 

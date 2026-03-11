@@ -13,7 +13,7 @@ For each set of parents/children, we need to make a decision on which are proces
 - Postorder: children then parent afterwards.
 
 The preorder processes the parent first, for each set of parent and children. 
-![[../../../Images/Pasted image 20260223131525.png]]
+![Pasted image 20260223131525](../../../Images/Pasted%20image%2020260223131525.png)
 ```
 Preorder(Node n) { 
 	process(n) 
@@ -25,7 +25,7 @@ Preorder(Node n) {
 
 
 For post-order, we recursively process the children first, and the parent last. 
-![[../../../Images/Pasted image 20260223131819.png]]
+![Pasted image 20260223131819](../../../Images/Pasted%20image%2020260223131819.png)
 
 We do not do anything immediately on A or B, but then as C does not have any children (leaf node) we process C first, then going to node D. As D has a child E, we process E second, then go back to D (as E is a leaf node)
 
@@ -43,7 +43,7 @@ In a binary tree, there are at most 2 children: left and right. Another option i
 ### In-order
 It is conventional to process the left child (and the left sub-tree), then the parent, and then the right child (and right sub-tree)
 
-![[../../../Images/Pasted image 20260223132153.png]]
+![Pasted image 20260223132153](../../../Images/Pasted%20image%2020260223132153.png)
 
 ```
 Inorder(Node n) {
@@ -63,7 +63,7 @@ Linked lists are easier to do insertions/deletions, but uses more space and has 
 
 We could order the tree by levels: shallower nodes are earlier in the tree, with left earlier than right. By labelling the root as 1, the left child will be 2. The left child of this will be 4. This allows integer division by 2 to return to the parent of the current node. 
 
-![[../../../Images/Pasted image 20260223133453.png]]
+![Pasted image 20260223133453](../../../Images/Pasted%20image%2020260223133453.png)
 
 
 This allows:

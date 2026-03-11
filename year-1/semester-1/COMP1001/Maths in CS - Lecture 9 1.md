@@ -3,7 +3,7 @@ For proofs, we don’t like disjunction (OR) - try to use implication
 
 For the premises, the approach is to work downwards one at a time to a conclusion. If this doesn’t work, try to prove by contradiction.
 
-![[Pasted image 20241028110513.png]]
+![Pasted image 20241028110513](../../../Images/Pasted%20image%2020241028110513.png)
 
 With AND, get 2 pieces of information.
 

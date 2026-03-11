@@ -90,7 +90,7 @@ Conjunction binds stronger than implication
 -/	
 ```
 
-![[IMG_20251009_165557.jpg]]
+![IMG_20251009_165557.jpg](IMG_20251009_165557.jpg)
 
 - AND: both cases have to be true, so we intro (assume) both sides as they have to be true
 - OR: only one case has to be true

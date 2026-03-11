@@ -118,7 +118,7 @@ However:
 
 ### Test
 
-![[Pasted image 20251125124612 1.png]]
+![Pasted image 20251125124612 1.png](Pasted%20image%2020251125124612%201.png)
 
 
 

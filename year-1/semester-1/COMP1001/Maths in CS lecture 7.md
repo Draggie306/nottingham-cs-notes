@@ -15,8 +15,8 @@
 For all will always be True regardless of what the predicate is if it is applied to the empty set. (Forall) s (in) empty set (P (s) )
 This is called a Vacuous truth: a statement which is true because you are working over the empty set, automatically true because there are no elements.
 
-![[IMG_5063.jpeg]]
-![[IMG_5064.jpeg]]
+![IMG_5063.jpeg](IMG_5063.jpeg)
+![IMG_5064.jpeg](IMG_5064.jpeg)
 
 
 

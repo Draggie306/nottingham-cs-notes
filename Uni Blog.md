@@ -29,7 +29,7 @@ Did I mention there were also exams immediately as we go back?
 
 At Nottingham - at least for CS - there are 2 completely different sets of modules - 5 in S1, 5 in S2. I had heard that S2 modules are better, slightly less fast paced than S1 with less continuous assessment. 
 
-By this point, I had done some independent organisation with a particular friend from another, slightly more prestigious, educational establishment that also coincided with being closer to home. In fact, I was so inspired and excited to go, I made one of my favourite websites so far: [Stories](stories.ibaguette.com), and its first accompanying story/entry: [Morning at Caius](caius.md), out of boredom in a mathematics lecture.
+By this point, I had done some independent organisation with a particular friend from another, slightly more prestigious, educational establishment that also coincided with being closer to home. In fact, I was so inspired and excited to go, I made one of my favourite websites so far: [Stories](stories.ibaguette.com), and its first accompanying story/entry: [Morning at Caius](Misc/stories.ibaguette.com/caius.md), out of boredom in a mathematics lecture.
 
 # The Best Day Out Ever
 > I am not sure why this was so meaningful for me.

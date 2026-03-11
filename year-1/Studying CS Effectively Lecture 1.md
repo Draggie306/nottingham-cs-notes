@@ -73,7 +73,7 @@ Allowed to make mistakes but still give 100%.
 
 > **Even if fail and retake, the first mark will be visible.**
 
-![[efficient-time.jpg]]
+![efficient-time.jpg](efficient-time.jpg)
 1. Lectures
 - standard
 - interactive

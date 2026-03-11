@@ -11,9 +11,9 @@ The structure of bubble sort is:
 	- An inner loop, on each scan, compare with the immediate neighbours. Swap to make sure the largest number moves to the end
 - After each inner loop, the size of the scan can be decremented, as the end element is the largest 
 
-![[../../../Images/Pasted image 20260226142628.png]]
+![Pasted image 20260226142628](../../../Images/Pasted%20image%2020260226142628.png)
 
-![[../../../Images/Pasted image 20260226142637.png]]
+![Pasted image 20260226142637](../../../Images/Pasted%20image%2020260226142637.png)
 
 Bubble sort is **stable**. This means because the order of duplicates is preserved. Here, 8' comes after the 8, and the final result keeps 8' after the 8. 
 

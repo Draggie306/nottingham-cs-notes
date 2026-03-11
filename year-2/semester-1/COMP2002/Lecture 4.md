@@ -1,15 +1,15 @@
 Semester 2: delivering an actual project. There are less concrete goals: 
 
-![](../../../Images/Pasted%20image%2020260126160400.png)
+![Pasted image 20260126160400](../../../Images/Pasted%20image%2020260126160400.png)
 
 This term: group projects, presentation deliverables, demo. 
 
-![](../../../Images/Pasted%20image%2020260126160654.png)
+![Pasted image 20260126160654](../../../Images/Pasted%20image%2020260126160654.png)
 
 
 ## Group Report and Manuals 
 
-![](../../../Images/Pasted%20image%2020260126161207.png)
+![Pasted image 20260126161207](../../../Images/Pasted%20image%2020260126161207.png)
 
 Strongly recommended to build the user manual/“how-to-use” within the software itself to help people understand what has been done. It doesn’t have to be big at all, or overly formal: keep is short, clear and concise (e.g. examples on standard things). If it gets too long, the software design might not be very good.
 
@@ -24,7 +24,7 @@ Manual testing: if the product does not support automatic testing, more writing 
 
 ### Showcase: Wednesday 13th May
 
-![](../../../Images/Pasted%20image%2020260126161953.png)
+![Pasted image 20260126161953](../../../Images/Pasted%20image%2020260126161953.png)
 
 The showcase will be described in more detail towards the Easter holidays. 
 
@@ -40,7 +40,7 @@ There are 2 people marking each session stream, 1 person marking each stall, a p
 
 ### Showcase Format
 
-![](../../../Images/Pasted%20image%2020260126162514.png)
+![Pasted image 20260126162514](../../../Images/Pasted%20image%2020260126162514.png)
 
 ### Prizes
 
@@ -72,7 +72,7 @@ The submitted peer review is marked and will be used to scale marks. Good peer r
 
 Be creative with the reports!
 
-![](../../../Images/Pasted%20image%2020260126163814.png)
+![Pasted image 20260126163814](../../../Images/Pasted%20image%2020260126163814.png)
 
 
 

@@ -47,4 +47,4 @@ To have multiple parameters, the lambda can be defined as `(x,y)->x+y`
 Lambdas can capture any variable that is effectively “final” - its value cannot be changed later on. As long as the variable in the function does not change it can be captured in the 
 
 
-![[Pasted image 20250319105007.png]]
+![Pasted image 20250319105007](../../../Images/Pasted%20image%2020250319105007.png)

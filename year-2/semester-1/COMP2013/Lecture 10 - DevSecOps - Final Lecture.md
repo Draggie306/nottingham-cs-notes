@@ -1,8 +1,8 @@
 ## Coursework update
 
-![](../../../Images/Pasted%20image%2020251201130541.png)
+![Pasted image 20251201130541](../../../Images/Pasted%20image%2020251201130541.png)
 
-![](../../../Images/Pasted%20image%2020251201130517.png)
+![Pasted image 20251201130517](../../../Images/Pasted%20image%2020251201130517.png)
 
 Coursework Update: 
 - Task 6 has had many extra changes due to security and permission changes, so check the extra document on Moodle
@@ -35,7 +35,7 @@ DevSecOps gives everyone the ability to contribute to security. Security is one 
 - 
 ### Vulnerability hotspots
 
-![](../../../Images/Pasted%20image%2020251201132425.png)
+![Pasted image 20251201132425](../../../Images/Pasted%20image%2020251201132425.png)
 
 
 

@@ -48,7 +48,7 @@ Given the branch settings:
 - Accepted = 50
 - Candidate = 60
 
-![[../../../Images/Pasted image 20260217163304.png]]
+![Pasted image 20260217163304](../../../Images/Pasted%20image%2020260217163304.png)
 
 Here, we initially reject the solution (as we are trying to minimise; 60 is **greater** than 50). When $L$ is 3, we look at the 3rd previous iteration: 
 
@@ -90,17 +90,16 @@ These determine neighbourhood move criteria based on a randomised part.
 
 ### Simulated Annealing
 
-Cooling metal down too fast creates weak crystals. Instead, we can control it with a gradual temperature reduction, creating stronger formations. 
+> Analogy: Cooling metal down too fast creates weak crystals. Instead, we can control it with a gradual temperature reduction, creating stronger formations.  Similarly, if temperatures reduce too fast, we get worse results. If we simulate temperature in a specific way, it is more likely to find an optimal solution.
 
-Similarly, if temperatures reduce too fast, we get worse results. If we simulate temperature in a specific way, it is more likely to find an optimal solution.
+It is a dynamic, stochastic move acceptance method that accepts worst cost moves based on a probability that decreases over time and based on the change rate.
 
 
-![[../../../Images/Pasted image 20260217164757.png]]
+![Pasted image 20260217164757](../../../Images/Pasted%20image%2020260217164757.png)
 
-`coolTemperature` reduces value `t` which is used in the acceptance criteria, 
+It accepts all improving moves, whilst non-improving moves are accepted using the Boltzmann probability:  $e ^{(- \frac \Delta T)}$ if the random number is less than the value. $T = \alpha \space T$
 
-Boltzmann probability:
-- 
+A high temperature allows more, worsening moves to be accepted. A low temperature rejects worsening moves, instead only accepting a few minor worsening moves. Decreasing T decreases the chance that a worsening move is accepted. 
 
 
 
@@ -111,7 +110,6 @@ Boltzmann probability:
 - If the temperature is too low, worsening moves are rejected, accepting only a few minor worsening moves (getting stuck...)
 
 We generally specifcy an **initial** and **final** temperature, a mechanism/function to decrease it (**linear** cooling), and a number of iterations per temperature setting (only cool after 50 iterations, or cool  a small amount every iteration).
-
 We usually assume the final temperature should be close to 0 - to balance exploration (at the start) and exploitation (at the end, to find the best solution in a small search space). 
 
 
@@ -139,6 +137,7 @@ In a single-stage search method,
 ## Parameter Configuration 
 
 ### Tuning Methods
+These are set offline, before the process starts.
 - Arbitrary choice - randomly pick a value in the set of options
 - Trial and error - maybe with some intuition
 - Sequential tuning - fix parameter settings of all parameters and, one-by-one, try all possible settings of $a$ when $b$ is fixed, then fix $a$ to the best found and try all in $\beta$. 

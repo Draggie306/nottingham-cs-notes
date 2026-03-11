@@ -72,7 +72,7 @@ Burger menus are built when we are concerned about space, such as on mobile devi
 
 Having a top tab menu on mobile is inconvenient: the thumb cannot reach it easily. Integrating gesture-based navigation is important.
 
-![](../../../Images/Pasted%20image%2020260219154758.png)
+![Pasted image 20260219154758](../../../Images/Pasted%20image%2020260219154758.png)
 *Mirror this for left-handedness.*
 
 Responsive designs are handled by the device: it handles display changes. Adaptive designs are handled by the server depending on the device’s reported screen size.
@@ -83,7 +83,7 @@ Consider that connections can be lost: data should be retained if the connection
 
 Use a cohesive design language and e.g. colours when doing.
 
-![](../../../Images/Pasted%20image%2020260219155122.png)
+![Pasted image 20260219155122](../../../Images/Pasted%20image%2020260219155122.png)
 
 
 

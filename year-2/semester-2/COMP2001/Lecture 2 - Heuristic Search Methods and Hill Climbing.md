@@ -29,7 +29,7 @@ $$( \lor ) \land ( \lor ) \land ( \lor )$$
 > If there is a yes/no output (binary function) , such problems are decision problems.
 > Combinatorial optimisation problems seek the best solution
 
-![[../../../Images/Pasted image 20260203162441.png]]
+![Pasted image 20260203162441](../../../Images/Pasted%20image%2020260203162441.png)
 
 Decision problems can be turned into combinatorial optimisation problems by saying "can the truth assignment that maximises the number of satisfied clauses". A simple yes/no is not sufficient.
 

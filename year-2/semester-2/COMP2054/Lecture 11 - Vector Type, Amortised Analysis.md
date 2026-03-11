@@ -1,4 +1,4 @@
-
+ 
 ## Resizable arrays
 **These are arrays that automatically extend in size and capacity when another entry is added, that would otherwise overrun/run out of space.** This is hidden to the user. Useful for when data is coming in but the amount is unknown ahead of time. 
 

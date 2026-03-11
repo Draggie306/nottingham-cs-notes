@@ -7,7 +7,7 @@ Summary:
 
 > Assume bad stuff will happen and you’ll be in a good place….
 
-![](../../../Images/Pasted%20image%2020251014121104.png)
+![Pasted image 20251014121104](../../../Images/Pasted%20image%2020251014121104.png)
 
 `counter++` does three things: read it from memory into a register, adds one to the value in register, and stores the value back into memory. This is not atomic.
 
@@ -24,7 +24,7 @@ This means that there were 2 additions by 1, but `counter` is still 2, not 3.
 
 Equally:
 
-![](../../../Images/Pasted%20image%2020251014122018.png)
+![Pasted image 20251014122018](../../../Images/Pasted%20image%2020251014122018.png)
 This results in e.g. `b` being inputted, but `bb` being displayed the user.
 
 
@@ -60,7 +60,7 @@ Mutexes and other concurrency primitives - semaphores - introduce deadlocks.
 
 > Race conditions are a “beginner” mistake; deadlocks are difficult to analyse and resolve 
 
-![](../../../Images/Pasted%20image%2020251014123837.png)
+![Pasted image 20251014123837](../../../Images/Pasted%20image%2020251014123837.png)
 Typically, CPU usage will drop to zero and neither process/thread will make any progress.
 
 > a set of threads is deadlocked if each thread in the set is waiting for an event that only another thread in the set can use.

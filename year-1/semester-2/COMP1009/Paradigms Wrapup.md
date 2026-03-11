@@ -32,7 +32,7 @@ Equational reasoning about programs:
 
 # Java
 
-![[Pasted image 20250326102225.png]]
+![Pasted image 20250326102225](../../../Images/Pasted%20image%2020250326102225.png)
 
 
 If object that is contained is removed when container is removed, it is composition. If it does have another object reference, then it is aggregation.
@@ -42,7 +42,7 @@ Generics (parametric polymorphism): built on inheritance. Class parameterised on
 Design patterns are the key for modern OO programming. “we need a generic solution for this” - 6 covered in the module, very common globally.
 
 Key features and concepts to know
-![[Pasted image 20250326102800.png]]
+![Pasted image 20250326102800](../../../Images/Pasted%20image%2020250326102800.png)
 Also: explain design pattern (from diagram X)
 
 

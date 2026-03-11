@@ -43,20 +43,20 @@ build:
 ```
 
 Will only run tests JUnit tagged with prod. 
-![](../../../Images/Pasted%20image%2020251117143825.png)
+![Pasted image 20251117143825](../../../Images/Pasted%20image%2020251117143825.png)
 
 If the commit branch is main, just run all the tests 
 
-![](../../../Images/Pasted%20image%2020251117143913.png)
+![Pasted image 20251117143913](../../../Images/Pasted%20image%2020251117143913.png)
 
 
 ### Docker
 
-![](../../../Images/Pasted%20image%2020251117144447.png)
+![Pasted image 20251117144447](../../../Images/Pasted%20image%2020251117144447.png)
 
 Or, we can write our own docker image with a Dockerfile.
 
-![](../../../Images/Pasted%20image%2020251117144540.png)
+![Pasted image 20251117144540](../../../Images/Pasted%20image%2020251117144540.png)
 
 
 

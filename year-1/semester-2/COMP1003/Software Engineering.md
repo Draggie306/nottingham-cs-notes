@@ -34,7 +34,7 @@ Green ones are team activities with teammates rating other teammates, so they ar
 
 Weekly team assessed exercises
 
-![[Pasted image 20250131161302.png]]
+![Pasted image 20250131161302](../../../Images/Pasted%20image%2020250131161302.png)
 
 ## What is software?
 Software is such that it is a big process - e.g. a phone game app with global scoreboard, social media platform, Google Chrome, the whole Universal Credit System for the Government.
@@ -241,7 +241,7 @@ Additionally, they define the boundaries of the system and what should not be de
 
 They are part of the nonfunctional requirements - being simple or detailed, or showing parts of a multi-part system.
 
-![[Pasted image 20250210092531.png]]
+![Pasted image 20250210092531](../../../Images/Pasted%20image%2020250210092531.png)
 
 
 #### Hierarchical task analysis
@@ -287,7 +287,7 @@ At the end, this document is useful to tick boxes for each list with “acceptan
 For the next stages of development and how the software evolves, this document becomes the foundation.
 
 A table can simply be made:
-![[Pasted image 20250214162250.png]]
+![Pasted image 20250214162250](../../../Images/Pasted%20image%2020250214162250.png)
 > note: don’t just stop at “importance” - can do risk too e.g. is there going to be a legal issue with adding a feature.
 
 These documents are looked at by customers, managers, developers (so diagrams could be used to explain how things link and the operations between them), testers, maintainers. Therefore, d**o not make any assumptions** as to who will read it and **tailor the document to what groups of users will be using it**. Customers especially need a simple overview.
@@ -339,7 +339,7 @@ When we have a system description, we can work out many of the objects with each
 
 
 ## Lab 2 Feedback
-![[Pasted image 20250217091812.png]]
+![Pasted image 20250217091812](../../../Images/Pasted%20image%2020250217091812.png)
 
 - See evidence that git pushed, involved in discussions, raised issues, commented, etc.
 
@@ -431,7 +431,7 @@ Non-functional, high-level or general model that is linked but nothing close to 
 In software, this involves pen and paper sketching to create different parts of the system - still, we get a good overview as to what the product will do. It focuses on the underlying ideas and key functionality, creating many possible ideas and helps communicate and get confirmation from the client. It minimises committment to any design as it is very early on.
 
 For web design, we can use wireframing:
-![[Pasted image 20250221163714.png]]
+![Pasted image 20250221163714](../../../Images/Pasted%20image%2020250221163714.png)
 
 #### High fidelity
 A functional, working thing with high functionality that people can try and use it but not the final product.

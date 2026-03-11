@@ -45,17 +45,17 @@ Spaced retrieval (e.g. flashcards) forces repeated revision the same thing at in
 Forgetting and remembering te
 
 
-![[Pasted image 20241129103822.png]]
+![Pasted image 20241129103822](../Images/Pasted%20image%2020241129103822.png)
 
 Asking why makes you understand at a higher level
 S
 
 
-![[Pasted image 20241129104103.png]]
+![Pasted image 20241129104103](../Images/Pasted%20image%2020241129104103.png)
 
-![[Pasted image 20241129104306.png]]
+![Pasted image 20241129104306](../Images/Pasted%20image%2020241129104306.png)
 
-![[Pasted image 20241129104511.png]]
+![Pasted image 20241129104511](../Images/Pasted%20image%2020241129104511.png)
 
 
 

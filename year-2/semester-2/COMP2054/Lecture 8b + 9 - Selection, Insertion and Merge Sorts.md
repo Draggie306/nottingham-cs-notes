@@ -17,7 +17,7 @@ sort (int[] A)
 
 The first pass scans the first $n-1$ elements, selecting the largest and moves it to the end. 
 
-![[../../../Images/Pasted image 20260302130719.png]]
+![Pasted image 20260302130719](../../../Images/Pasted%20image%2020260302130719.png)
 
 As elements may jump over others, it is not stable.
 
@@ -31,7 +31,7 @@ In bubble and selection sort, we build an already-sorted subarray at the end.
 
 In insertion sort, it builds this already-sorted subarray at the start. It takes elements, one at a time, from the array, inserting them at the right place in the already-sorted subarray at the beginning. It goes backwards through the subarray at the beginning, swapping elements around until they fit.
 
-![[../../../Images/Pasted image 20260302131350.png]]
+![Pasted image 20260302131350](../../../Images/Pasted%20image%2020260302131350.png)
 
 The advantage of insertion sort is that the backwards scan can stop immediately. In bubble and selection sort, it must compare all elements.
 
@@ -65,12 +65,12 @@ mergeSort(int[] A) {
 
 The merge step compares the first elements of A1 and A2 while they are not empty, and moving the smallest into A.
 
-![[../../../Images/Pasted image 20260302133031.png]]
+![Pasted image 20260302133031](../../../Images/Pasted%20image%2020260302133031.png)
 
 
 
 This can be represented as a tree:
-![[../../../Images/Pasted image 20260302133639.png]]
+![Pasted image 20260302133639](../../../Images/Pasted%20image%2020260302133639.png)
 
 The height of the tree, given n = $2^k$, we need to divide $k$ times to reach 1. Therefore the height is $log_2(n)$ when $n = 2^k$
 
@@ -80,7 +80,7 @@ We need to store markers - at each level, there are double the number of markers
 
 When merging subarrays, we must read each element of the subarrays. With each level, it requires $O(n)$ work per level. 
 
-![[../../../Images/Pasted image 20260302134201.png]]
+![Pasted image 20260302134201](../../../Images/Pasted%20image%2020260302134201.png)
 
 Therefore, $O(n)$ work per level + $O (log \space n)$ levels = $O(n\space log\space n)$. This uses all the division and merges combined. 
 
@@ -93,7 +93,7 @@ The naive mergesort is not adaptive, as it goes through the entire process even 
 
 For example, if A1 is already sorted, naive mergesort will split the array and recombine it. Mergesort can be made more adaptive by firstly checking if subarrays are already sorted.  Even better results could be achieved by realising the first 6 elements are sorted, so change the position of the split to be later.
 
-![[../../../Images/Pasted image 20260305141240.png]]
+![Pasted image 20260305141240](../../../Images/Pasted%20image%2020260305141240.png)
 
 
 

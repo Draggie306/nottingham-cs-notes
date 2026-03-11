@@ -123,7 +123,7 @@ Check logs with `docker logs gluetun | tail`
 
 Depends on: internet access to `ibaguette.com`
 
-![[Pasted image 20251106001330.png]]
+![Pasted image 20251106001330](../Images/Pasted%20image%2020251106001330.png)
 
 ```yaml
   gluetun:
@@ -582,4 +582,4 @@ curl -L -X PUT 'http://192.168.1.3:2283/api/jobs/videoConversion' \
 
 My keys? My Caiius!!!
 
-![[../../Images/Gonville_&_Caius_College_Crest.svg]]![[../../Images/caius.png]]
+![Gonville_&_Caius_College_Crest](../Images/Gonville_&_Caius_College_Crest.svg)![caius](../Images/caius.png)

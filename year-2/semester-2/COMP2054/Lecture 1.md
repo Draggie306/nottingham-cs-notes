@@ -22,7 +22,7 @@ The general pattern to work it out is:
 
 > Even though n<sup>2</sup> has an exponent, it is NOT exponential growth. For exponential growth, the size n must be in the exponent.
 
-![](../../../Images/Pasted%20image%2020260129141357.png)
+![Pasted image 20260129141357](../../../Images/Pasted%20image%2020260129141357.png)
 
 Here, the worst case is roughly linear, the average is something else, and the best base is constant. 
 

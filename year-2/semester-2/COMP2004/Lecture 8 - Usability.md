@@ -18,7 +18,7 @@ We can use several measures to analyse the usability of a design or implementati
 
 ## Higher-order usability components
 
-![](../../../Images/Pasted%20image%2020260220112414.png)
+![Pasted image 20260220112414](../../../Images/Pasted%20image%2020260220112414.png)
 
 - Guessability - particularly for lesser-used items e.g. a fire extinguisher. It should be intuitive to learn, at a glance.
 - Learnability - how fast to reach a reasonable level of understanding
@@ -29,12 +29,12 @@ We can use several measures to analyse the usability of a design or implementati
 The more labels you need, the less usable a system is. 
 
 Each component maps to the 3 main component:
-![](../../../Images/Pasted%20image%2020260220114222.png)
+![Pasted image 20260220114222](../../../Images/Pasted%20image%2020260220114222.png)
 
 There are seven principles for 
 
 
-![](../../../Images/Pasted%20image%2020260220114406.png)
+![Pasted image 20260220114406](../../../Images/Pasted%20image%2020260220114406.png)
 
 
 2. There should not need to be lots of time to plan a task.

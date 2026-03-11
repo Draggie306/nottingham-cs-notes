@@ -60,7 +60,7 @@ Agile, iterative processes have this the other way round: fixed time and cost, v
 
 Depending on the developer needs, we can be more or less agile. The overall approach can be agile, with **requirements, design, implementation and testing** all being agile, or perhaps changing design to have a traditional documentation with UML diagrams instead of an agile way.
 
-![[Pasted image 20250324093725.png]]
+![Pasted image 20250324093725](../../../Images/Pasted%20image%2020250324093725.png)
 
 ### Techniques
 

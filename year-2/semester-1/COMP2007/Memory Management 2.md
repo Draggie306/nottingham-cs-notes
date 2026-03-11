@@ -12,7 +12,7 @@ Overview:
 
 ## Relocation and protection
 
-![](../../../Images/Pasted%20image%2020251103150947.png)
+![Pasted image 20251103150947](../../../Images/Pasted%20image%2020251103150947.png)
 
 The same address will be displayed if `iVar` is running twice simultaneously, but will have 2 values.
 
@@ -20,11 +20,11 @@ The principle:
 
 There are two address spaces. The process has a logical address space between 0 and MAX, which is mapped to the physical address space. Sometimes, it will be identical (“lucky”). Other times, it may be translated to another block of memory. The physical address space is the logical address *plus* the base - all the addresses below.
 
-![](../../../Images/Pasted%20image%2020251103151254.png)
+![Pasted image 20251103151254](../../../Images/Pasted%20image%2020251103151254.png)
 
 In the C code, both processes have the same logical address for iVar. Different offsets result in different physical addresses:
 
-![](../../../Images/Pasted%20image%2020251103151343.png)
+![Pasted image 20251103151343](../../../Images/Pasted%20image%2020251103151343.png)
 
 There are three approaches to this:
 
@@ -41,7 +41,7 @@ A logical address is a memory address seen by the process: it is relative to zer
 
 ### Protection
 
-![](../../../Images/Pasted%20image%2020251103152001.png)
+![Pasted image 20251103152001](../../../Images/Pasted%20image%2020251103152001.png)
 
 Two special-purpose registers are maintained by the MMU, which contains a base address and bound: the base stores the start address, and bound holds the partition side. At runtime the base register is added to the logical address to generate the physical address, and this is compared against the bounds register.
 
@@ -55,7 +55,7 @@ However, processes evolve over time. We can use swapping - this moves processes 
 - Some processes only run occasionally, some processes may use differing sizes of memory.
 
 However, this leaves unusable chunks of memory distributed across physical memory:
-![](../../../Images/Pasted%20image%2020251103152639.png)
+![Pasted image 20251103152639](../../../Images/Pasted%20image%2020251103152639.png)
 
 In one case, the gaps are too small to add a process, and other times the gaps are too big, which leaves small space: **external fragmentation**. Compaction (like defragging) takes a relatively long time. It is also complex to track free space and allocate memory to different locations.
 
@@ -63,7 +63,7 @@ Memory is further “wasted” in physical memory within each process, in the ar
 
 The logical address does not have to be contiguous: it can be split into code, data, heap and the stack, stored anywhere in memory. Segmentation can be used to load only the relevant sections into memory, with each segment being contiguous. Each segment can have a base and bound pair, stored in a segmentation table, with part of the logical address used as an index for what segment it is. 
 
-![](../../../Images/Pasted%20image%2020251103153756.png)
+![Pasted image 20251103153756](../../../Images/Pasted%20image%2020251103153756.png)
 
 This becomes simple: look at the 2 highest bits, to lookup into a table, which says the base and bound, and then read the offset. Segments can have protection bits (read/write/execute) and be shared between processes. If there is a read-only element then two processes can share the same variable.
 

@@ -48,7 +48,7 @@ Proxies indicative of humans are **spheroidal carbonaceous particles**. These ar
 
 An example is Tasik Chini, Malaysia. When reading the sediment core record, and comparing this to other lakes, correlations can be mapped out.  
 
-![[Pasted image 20250311114331.png]]
+![Pasted image 20250311114331](../../../Images/Pasted%20image%2020250311114331.png)
 
 The use of different proxies highlight different environmental changes: multiple lines of evidence are required to understand the changes that have occurred, and how this may be changed by humans. 
 

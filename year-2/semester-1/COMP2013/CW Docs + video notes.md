@@ -3,7 +3,7 @@
 28-10-2025
 - Made heavy use of the "Due date" with earlier (weekly) deadlines than was added by default for planning.
 
-![[Pasted image 20251028143455.png]]
+![Pasted image 20251028143455](../../../Images/Pasted%20image%2020251028143455.png)
 
 
 

@@ -38,7 +38,7 @@ Database design
 - Other types of database can be specified.
 
 
-![[Pasted image 20250224092452.png]]
+![Pasted image 20250224092452](../../../Images/Pasted%20image%2020250224092452.png)
 
 Class description documents add detail to classes, guiding developers and acts as a “v1” of documentation.
 For each variable, the data format is specified.

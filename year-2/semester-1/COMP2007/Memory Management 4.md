@@ -19,7 +19,7 @@ We use paging to reduce external fragmentation: we do not want tiny spaces of me
 
 Mapping is implemented by e.g. saying that the top of logical address is 1111. The mapping is mapped onto the lowest page in physical address space. 
 
-![](../../../Images/Pasted%20image%2020251110150705.png)
+![Pasted image 20251110150705](../../../Images/Pasted%20image%2020251110150705.png)
 
 Index 15 (1111) means there are 15 frames sitting below the current frame. The offset is just index * base unit. 
 
@@ -64,7 +64,7 @@ Virtual memory improves CPU use as each process takes up less memory, allowing m
 
 This also means the page table becomes more complex. Previously, it had a mapping from page -> frame number. In practice, more information is required:
 
-![](../../../Images/Pasted%20image%2020251110152734.png)
+![Pasted image 20251110152734](../../../Images/Pasted%20image%2020251110152734.png)
 
 If the page has not been referenced recently, then it could be removed from memory. If it has not been modified, then it doesn’t need to be written back to a drive. 
 
@@ -72,7 +72,7 @@ Read/Write/Execute protection: can share machine code between two processes (jus
 
 For a 16-bit machine, the address space is 2^16. Given 10 bits for an offset, and 6 for page number, that allows us to maintain 2^6 = 64 pages.
 
-![](../../../Images/Pasted%20image%2020251110153114.png)
+![Pasted image 20251110153114](../../../Images/Pasted%20image%2020251110153114.png)
 
 As page tables become bigger and bigger, we can no longer store them in registers; instead, main memory (100x slower than CPU). To maintain speed of address translation, this needs to be addressed (increasing page size reduces page table but increases fragmentation).
 
@@ -100,7 +100,7 @@ If there is a TLB hit (may take 20ms to lookup)
 ### EXAMples 
 
 Given a page size of 4Kb:
-![](../../../Images/Pasted%20image%2020251110154644.png)
+![Pasted image 20251110154644](../../../Images/Pasted%20image%2020251110154644.png)
 
 Exam: based on what you know about paging, give the correct address translations for a given example. 
 

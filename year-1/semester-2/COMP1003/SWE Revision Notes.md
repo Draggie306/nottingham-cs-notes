@@ -104,7 +104,7 @@ Personas are useful to make designers think about how their designs will be used
 Multiple personas can be put in a table to categorise and compare different user needs and to ensure all types of interaction is covered.
 
 ##### Use case diagrams
-![](Pasted%20image%2020250521164641.png)
+![Pasted image 20250521164641](../../../Images/Pasted%20image%2020250521164641.png)
 
 
 
@@ -183,7 +183,7 @@ Diamonds represent decisions, thick bars represent the splitting and joining of 
 #### Sequence diagrams
 Transforms a use case diagram into one that shows the sharing of information between different people and systems and messages between components (e.g. functions).
 
-![Pasted image 20250522195721](Images/Pasted%20image%2020250522195721.png)
+![Pasted image 20250522195721](../../../Images/Pasted%20image%2020250522195721.png)
  
 
 
@@ -191,11 +191,11 @@ Transforms a use case diagram into one that shows the sharing of information bet
 #### Class diagrams
 Models like an E-R diagram the classes and relationships in OO code.
 
-![[Pasted image 20250522195741.png]]
+![Pasted image 20250522195741](../../../Images/Pasted%20image%2020250522195741.png)
 
 Can also be used for hierarchical inheritance:
 
-![[Pasted image 20250522195842.png]]
+![Pasted image 20250522195842](../../../Images/Pasted%20image%2020250522195842.png)
 
 
 #### State diagrams

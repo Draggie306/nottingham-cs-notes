@@ -116,7 +116,7 @@ Binary trees:
 Proper binary trees:
 - A proper binary tree is one where all nodes have either 0 or 2 children. It is not allowed to have 1 child.
 
-![](../../../Images/Pasted%20image%2020260219144519.png)
+![Pasted image 20260219144519](../../../Images/Pasted%20image%2020260219144519.png)
 
 Levels:
 - A level refers to the set of nodes of a specified depth. 
@@ -128,12 +128,12 @@ Perfect trees:
 - The depth of every leaf node is the same as the tree’s height
 - These are conceptual trees when analysing merge sort.
 
-![](../../../Images/Pasted%20image%2020260219144500.png)
+![Pasted image 20260219144500](../../../Images/Pasted%20image%2020260219144500.png)
 
 Complete trees:
 - A tree is complete if every level (**except the last**) is full, and every node must be as far left as possible
 
-![](../../../Images/Pasted%20image%2020260219144450.png)
+![Pasted image 20260219144450](../../../Images/Pasted%20image%2020260219144450.png)
 
 
 > To test if it is a tree, cutting an edge falls it into two pieces. A graph will remain whole. **Ask for clarification in lab.**

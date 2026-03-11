@@ -1,7 +1,7 @@
 ## OO
 OOP: thinking of a program as interacting objects.
 
-Procedural decomposition: split a problem into sub-tasks, e.g. fu[]()nctions calling other functions.
+Procedural decomposition: split a problem into sub-tasks, e.g. fu[OO - Java](.md)nctions calling other functions.
 
 In OO, we still have these functions and procedures, but we perform these on the objects.
 
@@ -149,7 +149,7 @@ Strings are built in to the language. With classes, we cannot simply do +, so th
 
 When we concatenate strings, be careful, as addition works from left to right.
 
-![[Pasted image 20250203143448.png]]
+![Pasted image 20250203143448](../../../Images/Pasted%20image%2020250203143448.png)
 
 
 #### Command line arguments
@@ -296,7 +296,7 @@ It is standard that we keep the access priviliges the same if we extend in a sub
 - Anything can access this
 
 So far:
-![[Pasted image 20250220110525.png]]
+![Pasted image 20250220110525](../../../Images/Pasted%20image%2020250220110525.png)
 
 
 ### Class Diagrams 
@@ -316,7 +316,7 @@ Then, we can join a line for each relationship:
 
 > **The diamond always goes on the container, and triangle on the base class, end.**
 
-![[Pasted image 20250220111334.png]]
+![Pasted image 20250220111334](../../../Images/Pasted%20image%2020250220111334.png)
 PGPText has a list that is essential to it, so it is composition. The strings added to the ArrayList could just be literal strings, so exist outside the array list.
 
 
@@ -364,7 +364,7 @@ RuntimeExceptions happen because something common happens, instead of ‘excepti
 
 Therefore, when we need to throw an Exception, don’t use a RuntimeException and instead use an Exception (or subclass of). 
 
-![[Pasted image 20250220114101.png]]
+![Pasted image 20250220114101](../../../Images/Pasted%20image%2020250220114101.png)
 
 Exceptions from a constructor (`new()`)stop the creation of a new object and allow us to handle an error, since they do not return a value
 

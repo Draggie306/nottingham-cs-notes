@@ -18,7 +18,7 @@ There is a delay consumer semaphore that is used like a thread to wake up the co
 
 There is also a producer thread that locks the buffer (this case, a counter). If it is the first thing in the items, it notifies the other side, waking up the consumer, and releases the lock.
 
-![](../../../Images/Pasted%20image%2020251021121217.png)
+![Pasted image 20251021121217](../../../Images/Pasted%20image%2020251021121217.png)
 
 The issue here is there is an implicit relationship between `items` and the semaphore `delay_consumer`. 
 
@@ -26,12 +26,12 @@ The issue here is there is an implicit relationship between `items` and the sema
 
 Solving this with unlocks can result in deadlocks.
 
-![](../../../Images/Pasted%20image%2020251021121501.png)
+![Pasted image 20251021121501](../../../Images/Pasted%20image%2020251021121501.png)
 
 
 To solve the problem, we can use a temporary variable, to store the value of items inside the critical section, and decrement delay_consumer semaphore for consistency.
 
-![](../../../Images/Pasted%20image%2020251021121707.png)
+![Pasted image 20251021121707](../../../Images/Pasted%20image%2020251021121707.png)
 
 Instead of testing `items`, we are testing “temp” - an earlier source of truth, which can be referred to after 
 
@@ -54,7 +54,7 @@ A different problem has n consumers, m producers and a buffer size N, based on 3
 - full - counting semaphore, the number of full buffers, set to 0
 
 
-![](../../../Images/Pasted%20image%2020251021122528.png)
+![Pasted image 20251021122528](../../../Images/Pasted%20image%2020251021122528.png)
 
 Producer: waits for some capacity in the empty slot. It then waits for the lock, put things in to it, and frees the lock. Repeats, as there is space in the semaphore left, until its capacity is zero.
 
@@ -76,7 +76,7 @@ This is a limited set of resources (forks) and processes (philosophers)
 
 Forks are represented by semaphores, initialised to 1. 1 if the fork is available and 0 if not; and the philosopher goes to sleep. The approach: each philosopher picks up a fork and waits for the second one to become available (without putting the first down).
 
-![](../../../Images/Pasted%20image%2020251021123426.png)
+![Pasted image 20251021123426](../../../Images/Pasted%20image%2020251021123426.png)
 
 This means that every process is waiting for other process, causing deadlock. We can attempt to prevent deadlocks by:
 - Putting the forks down and waiting at a random time - back off for a while if can’t pick up the second. 
@@ -86,7 +86,7 @@ This means that every process is waiting for other process, causing deadlock. We
 - Putting an extra fork on the table - cheating!
 - Lock the whole table “global mutex” - set by one philosopher at a time.
 
-![](../../../Images/Pasted%20image%2020251021124131.png)
+![Pasted image 20251021124131](../../../Images/Pasted%20image%2020251021124131.png)
 
 This is a ”big” lock: locking the whole table (don’t really need the other semaphores). Only one philosopher can use the table at a time, so there is no real issue/nothing complex can happen.
 

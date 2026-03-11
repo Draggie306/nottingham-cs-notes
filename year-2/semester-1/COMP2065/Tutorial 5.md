@@ -1,6 +1,6 @@
 Coursework 4: always use cases where something is contradictory. Do not use contradiction 
 
-![[Pasted image 20251107112451 1.png]]
+![Pasted image 20251107112451 1.png](Pasted%20image%2020251107112451%201.png)
 
 ```
 /-

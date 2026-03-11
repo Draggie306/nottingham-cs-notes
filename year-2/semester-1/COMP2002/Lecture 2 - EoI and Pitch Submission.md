@@ -79,7 +79,7 @@ Risk analysis could include skill gaps (only certain languages), availability (p
 ### Style
 Have things in a logical order - good editorial standards, try to make it look interesting. Have something interesting looking in the slides to break it up (pictures, diagrams, examples, analogies). This 10% is spread across the video, EoI, etc.
 
-![](Pasted%20image%2020251006114059.png)
+![Pasted image 20251006114059](../../../Images/Pasted%20image%2020251006114059.png)
 
 
 

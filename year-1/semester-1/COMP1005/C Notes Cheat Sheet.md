@@ -60,7 +60,7 @@ We can be very specific about how things are formatted, including precision, amo
 A floating point to 2dp is conversion specifier'd with `%0.2f`. 
 
 Format specifiers:
-![[Pasted image 20241013190004.png]]
+![Pasted image 20241013190004](../../../Images/Pasted%20image%2020241013190004.png)
 
 Escape sequences are special character combinations to insert within a `printf` string argument to perform certain tasks, such as carriage returns, backspaces, and printing out keys like the `\` or `"` that would otherwise interfere with the string handling itself.
 
@@ -668,7 +668,7 @@ Data strctres have differnet operations with different efficiencies
 - can **randomly access** any element as fast as any other
 - insertion will be slower as we need to keep the sequential property of arrays.
 
-![[Pasted image 20241124195916.png]]
+![Pasted image 20241124195916](../../../Images/Pasted%20image%2020241124195916.png)
 
 ## Linked list
 - Ordered list of elements with each element containing a reference to the next entry and stores the data
@@ -685,7 +685,7 @@ typedef struct Node {
 } Node;
 ```
 
-![[Pasted image 20241124201732.png]]
+![Pasted image 20241124201732](../../../Images/Pasted%20image%2020241124201732.png)
 
 
 ```c
@@ -703,7 +703,7 @@ node = (Node *) malloc(sizeof(Node));`
 node->next = NULL; /* The tail node (or orphan node) - else this would access a random address and segfault*/
 ```
 
-![[Pasted image 20241130112604.png]]
+![Pasted image 20241130112604.png](Pasted%20image%2020241130112604.png)
 
 ## Generic lists
 Instead of replacing all `int`s to `double`s (etc) we *can* just replace all int with double.
@@ -844,14 +844,14 @@ Sorting can be used when solving other (more complex) problems
 
 ## Merge sort
 
-![[Pasted image 20241203142430.png]]
+![Pasted image 20241203142430](../../../Images/Pasted%20image%2020241203142430.png)
 ### Complexities
 In terms of time complexity, merge sort is O(n log n) or loglinear for all worst, average and best cases.
 For space complexity, the merge sort as implemented as an array is O(n) and O(log n) as a linked list implementation.
 
 ## Insertion sort
 
-![[Pasted image 20241203142405.png]]
+![Pasted image 20241203142405](../../../Images/Pasted%20image%2020241203142405.png)
 ### Complexities
 In terms of time complexity, insertion srt is O(n^2^) for worst and average and O(n) for best case.
 it is, however, constant in terms for space (memory) complexity, O(1).
@@ -893,7 +893,7 @@ Starting from the first element:
 - if it is an operator, we peek at the operator stack. If the element at the top of the stack is greater than the input element, then we "perform" the operation of the greater precedence, i.e. popping it from the operator stack and appending it to the output list and repeat. Once we peek at the same or lower precedence, we move the input element to the operator stack.
 - Once the input list is empty, we pop the elements from the operator stack and into the output list.
 
-![[Pasted image 20241130155417.png]]
+![Pasted image 20241130155417.png](Pasted%20image%2020241130155417.png)
 
 
 A token may be a number, operator or bracket. We can read numbers as strings and the others as single characters, and write a function to test what a token is (`is_number(char c)`, `is_operator(char c)`)
@@ -903,7 +903,7 @@ We can also use `while is_number(c)` to build strings of the number.
 We can give operators integer values with greater precedence values having greater integers.
 We could then have a function to get an `operator_precendence`, `test_precedence(a, b)` an check associativity for left/right associative.
 
-![[Pasted image 20241130221246.png]]
+![Pasted image 20241130221246](../../../Images/Pasted%20image%2020241130221246.png)
 
 
 # Recursion

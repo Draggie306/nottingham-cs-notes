@@ -14,18 +14,18 @@ Reflect on:
 
 ### Where to look
 
-![](Pasted%20image%2020251007131751.png)
+![Pasted image 20251007131751](../Images/Pasted%20image%2020251007131751.png)
 > Ratemyplacement is now higherin
 
 LinkedIn + Indeed: often scrape from different jobs boards - is there a named employee, then go to a website to check if the role is still available.
 
 Use different search terms - a title may not be fully accurate.
 
-![](Pasted%20image%2020251007132033.png)
+![Pasted image 20251007132033](../Images/Pasted%20image%2020251007132033.png)
 
 
 ### When to start applying 
-![](Pasted%20image%2020251007132138.png)
+![Pasted image 20251007132138](../Images/Pasted%20image%2020251007132138.png)
 
 Large companies: already advertising. Medium and smaller companies will be offering later on.
 
@@ -55,7 +55,7 @@ Pick and choose elements of a CV for some roles where appropriate (e.g. more Pyt
 
 
 ### Drop-in sessions
-![](Pasted%20image%2020251007133911.png)
+![Pasted image 20251007133911](../Images/Pasted%20image%2020251007133911.png)
 
 
 
@@ -95,7 +95,7 @@ Asked for the codebase for one codebase - got PGP coursework out.
 
 
 
-![[IMG_20251016_191343.jpg]]
+![IMG_20251016_191343.jpg](IMG_20251016_191343.jpg)
 
 - In person technical interview: what is your thought process behind it, not just "do it"
 

@@ -60,7 +60,7 @@ Bonus marks for early delivery:
 - If version 3 of the software is submitted before the end of term (dec 12) then a 5% bonus is eligible, of the grade. E.g. 5% of 80%.
 	- The video can be submitted after the end of term
 
-![](Pasted%20image%2020251020141149.png)
+![Pasted image 20251020141149](../../../Images/Pasted%20image%2020251020141149.png)
 
 ### LLM Policy
 

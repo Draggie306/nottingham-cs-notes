@@ -11,7 +11,7 @@ Ownership over the project is required: it is not the business sponsor or team l
 
 Expected to use SCRUM processes and Git - the repositories provided, which will be used as evidence. 
 
-![](Pasted%20image%2020251027111549.png)
+![Pasted image 20251027111549](../../../Images/Pasted%20image%2020251027111549.png)
 
 Product backlog:
 - user story: AS a [role], I want [feature] so that [result].
@@ -33,7 +33,7 @@ They should be locked to 15 minutes to not take too much time.
 
 ### Sprint Review
 
-![](Pasted%20image%2020251027114142.png)
+![Pasted image 20251027114142](../../../Images/Pasted%20image%2020251027114142.png)
 
 
 

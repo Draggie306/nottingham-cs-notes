@@ -5,16 +5,16 @@ This module is largely complete.
 ## Main document
 These are more finished, cover multiple lectures, and have better explanations.
 
-- [Software Engineering Revision Notes](/year-1/semester-2/COMP1003/SWE Revision Notes)
-- [Software Engineering](/year-1/semester-2/COMP1003/Software Engineering) (Multiple notes taken in-lecture)
+- [Software Engineering Revision Notes](SWE%20Revision%20Notes.md)
+- [Software Engineering](Software%20Engineering.md) (Multiple notes taken in-lecture)
 
 ## All Draft Notes
 These notes may be lecture-specific, include irrelevant information and are not polished or finalised. They are not recommended to read.
 
-- [Week 5](/year-1/semester-2/COMP1003/SWE - Week 5)
-- [Coursework Information](/year-1/semester-2/COMP1003/SWEng - Coursework Information)
-- [Traditional vs Agile](/year-1/semester-2/COMP1003/SWENG - Traditional vs Agile)
-- [SW ENG Lecture - Release and Acceptance Testing](/year-1/semester-2/COMP1003/SW ENG Lecture - Release and Acceptance Testing)
-- [SWEng - Development Lecture actual content (week 5)](/year-1/semester-2/COMP1003/SWEng - Development Lecture actual content (week 5))
-- [SWE 17 - Agile vs Traditional 2](/year-1/semester-2/COMP1003/SWE 17 - Agile vs Traditional 2)
-- [SWE - Lecture 19 - Final Lecture](/year-1/semester-2/COMP1003/SWE - Lecture 19 - Final Lecture)
+- [Week 5](SWE%20-%20Week%205.md)
+- [Coursework Information](SWEng%20-%20Coursework%20Information.md)
+- [Traditional vs Agile](SWENG%20-%20Traditional%20vs%20Agile.md)
+- [SW ENG Lecture - Release and Acceptance Testing](SW%20ENG%20Lecture%20-%20Release%20and%20Acceptance%20Testing.md)
+- [SWEng - Development Lecture actual content (week 5)](week%205)))
+- [SWE 17 - Agile vs Traditional 2](SWE%2017%20-%20Agile%20vs%20Traditional%202.md)
+- [SWE - Lecture 19 - Final Lecture](SWE%20-%20Lecture%2019%20-%20Final%20Lecture.md)

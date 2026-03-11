@@ -1,7 +1,7 @@
 
 REMINDER:
 
-![[../../../Images/Pasted image 20260209130432.png]]
+![Pasted image 20260209130432](../../../Images/Pasted%20image%2020260209130432.png)
 
 
 

@@ -22,7 +22,7 @@ For zero or more repetitions of `ab`:
 
 To have an NFA:
 
-![[Screenshot_2026-02-17-09-28-03-09_92460851df6f172a4592fca41cc2d2e6.jpg]]
+![Screenshot_2026-02-17-09-28-03-09_92460851df6f172a4592fca41cc2d2e6.jpg](Screenshot_2026-02-17-09-28-03-09_92460851df6f172a4592fca41cc2d2e6.jpg)
 
 `b a*` -> `append (sym b) (star a)`
 

@@ -5,7 +5,7 @@ This module is not complete.
 ## Main document
 These are more finished, cover multiple lectures, and have better explanations.
 
-- [Assembly Full](/year-1/semester-1/COMP1054/Assembly Full)
+- [Assembly Full](Assembly%20Full.md)
 
 
 ## All Draft Notes

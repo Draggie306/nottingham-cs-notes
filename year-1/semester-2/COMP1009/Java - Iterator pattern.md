@@ -1,6 +1,6 @@
 
 **Coursework hints** - 17/03/2025
-![[Pasted image 20250317140426.png]]
+![Pasted image 20250317140426](../../../Images/Pasted%20image%2020250317140426.png)
 
 
 Look at the simple text view which has all functionality for the view - but just as text.

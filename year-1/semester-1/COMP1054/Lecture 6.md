@@ -8,4 +8,4 @@ If statements: best practice to **revert the conditional** and branch to another
 
 
 ## And Conditionals
-![[Pasted image 20241028134056.png]]
+![Pasted image 20241028134056](../../../Images/Pasted%20image%2020241028134056.png)

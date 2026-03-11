@@ -309,7 +309,7 @@ WHERE bouquet_name LIKE “H%”;
 
 The wildcards are `%` and `_`, where % means any sequence of 0 or more characters and `_` is a specific single character. 
 
-![[Pasted image 20250303122509.png]]
+![Pasted image 20250303122509](../../../Images/Pasted%20image%2020250303122509.png)
 
 
 #### LIMIT

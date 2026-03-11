@@ -46,7 +46,7 @@ In 20 time slices:
 
 **Exam question calculation example**
 
-![](../../../Images/Pasted%20image%2020251007124038.png)
+![Pasted image 20251007124038](../../../Images/Pasted%20image%2020251007124038.png)
 
 
 

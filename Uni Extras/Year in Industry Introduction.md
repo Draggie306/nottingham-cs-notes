@@ -10,7 +10,7 @@ Could also be anywhere in the world - some in Canada.
 - Will develop skills. Transferable (time management, communication) and technical (project management, machine learning model dev, anything at a very high level in industry for a year). Many like it
 69% of YII placement students were offered a graduate position at their placement company. If not, you will have 1 year of experience: compared to other graduates, makes it more attractive and valuable.
 
-![[Pasted image 20241025132300.png]]
+![Pasted image 20241025132300](../Images/Pasted%20image%2020241025132300.png)
 59% get a first with, 39% without.
 
 ## The Degree
@@ -55,5 +55,5 @@ Must finish their degree. Record a presentation for Year2 students - 10 mins lon
 ## Assessments
 Not graded but need to past to proceed to the final year.
 
-![[Pasted image 20241025133638.png]]
+![Pasted image 20241025133638](../Images/Pasted%20image%2020241025133638.png)
 

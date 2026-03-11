@@ -62,7 +62,7 @@ This data can be represented with
 
 This should be presented to the user to refine the process. Discussing with the user is important to resolve/understand any misunderstandings, and discussions with designers to identify consequences is important too.
 
-![](../../../Images/Pasted%20image%2020260226153400.png)
+![Pasted image 20260226153400](../../../Images/Pasted%20image%2020260226153400.png)
 
 The base level is “atomic” - it cannot be broken down any more. Even if it was to be broken down, it does not serve much purpose. 
 

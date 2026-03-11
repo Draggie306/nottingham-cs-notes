@@ -25,10 +25,10 @@ Index file for the Computer Science course at the University of Nottingham, Year
 
 Additional lectures were also attended during this period.
 
-- [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](semester-2/GEOG1037/Environmental%20Change) - 1 lecture note
+- [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](semester-2/GEOG1037/Environmental%20Change.md) - 1 lecture note
 
 ## Misc Lectures
 
-- [Software Engineering Talk](/year-1/SWEng Talk)
-- [Studying CS Effectively (Lecture 1)](/year-1/Studying CS Effectively Lecture 1)
+- [Software Engineering Talk](SWEng%20Talk.md)
+- [Studying CS Effectively (Lecture 1)](Lecture%201))
 

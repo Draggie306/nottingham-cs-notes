@@ -26,7 +26,7 @@ There are two types:
 	- The logical filesystem manages metadata, directory structures and access protections.  
 Applications define the structure of their files.
 
-![](../../../Images/Pasted%20image%2020251124151145.png)
+![Pasted image 20251124151145](../../../Images/Pasted%20image%2020251124151145.png)
 
 
 
@@ -106,7 +106,7 @@ Retreiving a file comes down to searching a directory file as fast as possible. 
 
 **However, we still are missing: how blocks are linked to files, and what file control blocks contain.**
 
-![](../../../Images/Pasted%20image%2020251124154734.png)
+![Pasted image 20251124154734](../../../Images/Pasted%20image%2020251124154734.png)
 
 
 

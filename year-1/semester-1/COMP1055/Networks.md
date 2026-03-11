@@ -418,7 +418,7 @@ To do this, the IP address is split up. The first two sections identify the netw
 
 ### IP address classes
 
-![[Pasted image 20241127122822.png]]
+![Pasted image 20241127122822](../../../Images/Pasted%20image%2020241127122822.png)
 
 CIDR allows us to use blocks to slow down exhaustion of addresses
 
@@ -469,7 +469,7 @@ Each machine looks up what the next hop is in a routing table and send it to it 
 
 >Maps a destination address to the next hop - the address of the next machine to send to,
 
-![[Pasted image 20241203115528.png]]
+![Pasted image 20241203115528](../../../Images/Pasted%20image%2020241203115528.png)
 
 Computer would take the l3 packet, wrap it to a L2 packet (ethernet) and sets the frame header to say it will came from machine A and go to machine B, for example.
 
@@ -490,12 +490,12 @@ It is typvally construvtd automatically by the router as it connects and talks t
 
 Netmask: used to separate IP between network and machine part.
 
-![[Pasted image 20241204124402.png]]
+![Pasted image 20241204124402](../../../Images/Pasted%20image%2020241204124402.png)
 
 
 Dynamic routing table; program on router builds an initial routing table at boot, as network conditions change, it gets updated. Routers can talk to each other informing them of changes, making it fully autonomous. The sytem will route around breaks and interruptions on the network
 
-![[Pasted image 20241210111233.png]]
+![Pasted image 20241210111233](../../../Images/Pasted%20image%2020241210111233.png)
 
 
 The static routing table (construted when the router boots) fills in the table at boot and doesn't change - good but if there is a change
@@ -508,7 +508,7 @@ to build outing tables:
 
 ### Distributed routing algorithms
 
-![[Pasted image 20241210115032.png]]
+![Pasted image 20241210115032](../../../Images/Pasted%20image%2020241210115032.png)
 
 
 # DNS
