@@ -12,7 +12,7 @@ These are more finished, cover multiple lectures, and have better explanations.
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 
 - [Lecture 1 - Introduction](/year-2/semester-2/COMP2004/Lecture%200%20-%20Introduction%20to%20Human-Computer%20Interaction)
-- [Lecture 2 - Thinking about HCI](Lecture%202%20-%20Thinking%20about%20HCI.md)
+- [Lecture 2 - Thinking about HCI](Lecture%202%20-%20Thinking%20about%20HCI)
 
 
 ## Full Module Revision

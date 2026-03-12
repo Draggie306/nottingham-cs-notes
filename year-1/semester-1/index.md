@@ -9,4 +9,4 @@ Year 1, Semester 1 at the University of Nottingham’s School of Computer Scienc
 
 ## Extras
 
-- [Exams info](Exams%20Info.md)
+- [Exams info](Exams%20Info)

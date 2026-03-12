@@ -21,3 +21,14 @@ Solving: `T(n) = 4 T(n/2)` with `T(1)=1`
 1. Start from the base case, use the recurrence to work out many cases. Substitute and work upwards in terms of `n`.
 2. Look for a pattern and make a hypothesis for the results.
 3. Attempt to prove the hypothesis, using a form on induction.
+
+
+
+## Tutorial Notes
+
+### Exact Solutions
+Given a recursive solution, how can we work out what the exact solution is?
+
+
+
+

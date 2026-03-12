@@ -10,4 +10,4 @@ Year 1, Semester 2 at the University of Nottingham’s School of Computer Scienc
 ## Extras
 ### Out-of-school
 
-- [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](GEOG1037/Environmental%20Change.md) - 1 lecture note
+- [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](GEOG1037/Environmental%20Change) - 1 lecture note

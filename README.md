@@ -34,7 +34,7 @@ These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBagu
 	- COMP1056 - Computer Architecture (theory, Hardware Description Language)
 
 ### Other lectures
-- [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](year-1/semester-2/GEOG1037/Environmental%20Change.md) - 1 lecture note
+- [University of Nottingham - GEOG1037 - Planet Earth: Exploring the Physical Environment](year-1/semester-2/GEOG1037/Environmental%20Change) - 1 lecture note
 
 ### Miscellaneous notes
 You can browse the miscellaneous folder [here](/Misc/).

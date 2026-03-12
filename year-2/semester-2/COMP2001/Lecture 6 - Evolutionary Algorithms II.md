@@ -6,9 +6,9 @@ This lecture teaches how to identify types of evolutionary algorithms, the issue
 
 Based on experience, memetic algorithms perform very well. Even with the same population time and generations, the performance can vary.
 
-> A **meme** means hill climbing/local search. For example, random mutation hill climbing or Davis's Bit hill climbing
+> A **meme** means hill climbing/local search. For example, random mutation hill climbing or Davis's Bit hill climbing.
 
-A genetic algorithm in 1 iteration creates 2 solutions, iterates and evaluates them. With a memetic algorithm, we do not just mutate and evaluate: we mutate and apply hill climbing to evaluate a candidate solution. 
+A genetic algorithm in 1 iteration creates 2 solutions, iterates and evaluates them. With a memetic algorithm, we do not just mutate and evaluate: we mutate *and* apply hill climbing to evaluate a candidate solution. 
 
 We may also benefit from combining several memes, and if this makes a difference to the \[] algorithm.
 
@@ -119,7 +119,7 @@ It preserves the absolute positions of elements from the parent sequence.
 
 This introduces memetic material for each individual, to co-evolve genetic and memetic material. 
 
-This allows a meme to encode how to apply an operator, when to apply it, where to apply it and how frequently to apply it. The meme of each operator can be combined under a **memeplex** - the algorithm decides when to apply each of these. 
+This allows a meme to encode *how* to apply an operator, when to apply it, where to apply it and how frequently to apply it. The meme of each operator can be combined under a **memeplex** - the algorithm decides when to apply each of these. 
 
 ### Features
 
@@ -128,7 +128,9 @@ They feature:
 - Interaction between memes and genes are not direct
 - Memes can evolve and change 
 
-%%He goes from "easy to understand" to "if you can understand it, that's great" in 15 minutes. %%
+%%
+He goes from "easy to understand" to "if you can understand it, that's great" in 15 minutes. 
+%%
 
 ### Implementation
 
@@ -136,7 +138,7 @@ They feature:
 
 TO propagate genetic material into offspring, we look at 
 
-> Innovation rate (IR) between 0-1: the probability of mutating memes (memetic material). 
+> Innovation rate (IR) between 0-1: **the probability of mutating memes** (memetic material). 
 > At 0, there is no innovation. With all the memetic material in a population, it never changes in offspring and children. 
 > At 1, all different strategies implied by all available memes, $M$, may be used equally. 
 

@@ -5,7 +5,7 @@ This module is not complete.
 ## Main document
 These are more finished, cover multiple lectures, and have better explanations.
 
-- [Assembly Full](Assembly%20Full.md)
+- [Assembly Full](Assembly%20Full)
 
 
 ## All Draft Notes
