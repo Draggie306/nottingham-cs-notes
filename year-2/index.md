@@ -11,10 +11,10 @@ Index file for the Computer Science course at the University of Nottingham, Year
 # Semester 2
 
 [Browse Semester 2 modules](/year-2/semester-2/), or go directly to:
-- [COMP2001 - AI Methods (20 credits)](20%20credits))
+- [COMP2001 - AI Methods (20 credits)](/year-2/semester-2/COMP2001/)
 - [COMP2012 - Languages and Computation](/year-2/semester-2/COMP2012/)
 - [COMP2054 - Algorithms, Data Structures and Efficiency](/year-2/semester-2/COMP2054/)
-- [COMP2004 - Introduction to Human-Computer Interaction]((/year-2/semester-2/COMP2004/)
+- [COMP2004 - Introduction to Human-Computer Interaction](/year-2/semester-2/COMP2004/)
 
 # All-year modules 
 

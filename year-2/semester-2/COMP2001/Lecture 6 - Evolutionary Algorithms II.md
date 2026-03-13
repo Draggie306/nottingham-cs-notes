@@ -39,7 +39,7 @@ Separable functions allow delta evaluation.
 Here, the sequence represents numbers squared. The delta is simply the difference between the last and the first. 
 
 ### Rastrign's function
-
+![16](../../../Images/Pasted%20image%2020260312130129.png)
 
 ### Ackley's function
 It inly has 2 variables, x1 and x2, 

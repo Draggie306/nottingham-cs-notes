@@ -18,7 +18,7 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Lecture 1 - Introduction](Lecture%201%20-%20Introduction)
 
 ### Labs
-
+- [Lab 1](Lab%20%1)
 
 
 
