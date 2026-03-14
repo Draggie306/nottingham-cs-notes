@@ -18,9 +18,9 @@ Benchmark functions are used to test performance comparison for any given search
 These are functions with a known global minimum, can be computed easily, and represent different real-world problems - such as separable vs non-separable. 
 
 ### Benchmark functions, classified
-Generally, we classifiy benchmark functions in terms of continuity: discontinuous and continuous. 
+Generally, we classify benchmark functions in terms of continuity: discontinuous and continuous. 
 
-We also have dimensionality: a 3D benchmark function is harder to solve than 2D, etc. The question raised is: can we use the same funciton on multiple dimentions? If true, the function is known as scalable. 
+We also have dimensionality: a 3D benchmark function is harder to solve than 2D, etc. The question raised is: can we use the same function on multiple dimensions? If true, the function is known as scalable. 
 
 Separability is a property: given a function p variables, can all p variables be minimised individually \[]. IT helps with delta/incremental evaluation. 
 
@@ -42,7 +42,7 @@ Here, the sequence represents numbers squared. The delta is simply the differenc
 ![16](../../../Images/Pasted%20image%2020260312130129.png)
 
 ### Ackley's function
-It inly has 2 variables, x1 and x2, 
+It only has 2 variables, x1 and x2, 
 
 
 ## Optimisation representation
@@ -113,7 +113,8 @@ It preserves the absolute positions of elements from the parent sequence.
 
 1. Randomly select a starting point in `p1`.
 2. Follow the mapping from this point to the next.
-3. Once a starting point maps to 
+3. Once a point on maps to the starting point, it recognises this and completes.
+4. Element indexes that have not been visited are 
 
 ## Multimeme memetic algorithms
 
@@ -142,7 +143,7 @@ TO propagate genetic material into offspring, we look at
 > At 0, there is no innovation. With all the memetic material in a population, it never changes in offspring and children. 
 > At 1, all different strategies implied by all available memes, $M$, may be used equally. 
 
-Mutation randomly sets all memetic materal to different values. 
+Mutation randomly sets all memetic material to different values. 
 
 ### Evaluating meme performance
 
