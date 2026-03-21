@@ -11,6 +11,6 @@ Different kinds of requirements for different kinds of people:
 - Sharing the system: different users 
 
 - Frequent users: (keyboard) shortcuts
-- First-time users: go through all licks
+- First-time users: go through all clicks
 
 

@@ -305,3 +305,7 @@ Very little guidance provided/taught about how to actually design a user interfa
 
 
 
+
+## Notes for future feedback/course rep
+
+- More in-class tests? University are trying to do away with continuous exam and having less making.
