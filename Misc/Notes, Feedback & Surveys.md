@@ -309,3 +309,7 @@ Very little guidance provided/taught about how to actually design a user interfa
 ## Notes for future feedback/course rep
 
 - More in-class tests? University are trying to do away with continuous exam and having less making.
+
+Wanted to get feedback for an (ADE) class test but all slots are during a busy time (lab/group project meeting/other module feedback slot).
+
+![](../Images/Pasted%20image%2020260320180910.png)
