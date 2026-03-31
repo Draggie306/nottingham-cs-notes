@@ -1,0 +1,473 @@
+Computer Architecture - COMP1056 - University of Nottingham - Year 1, Autumn Semester, School of Computer Science
+
+Dr Steven Bagley: C55, Computer Science building
+
+
+Taught through a) synchronous online lessons through demonstrations and theory, b) pre-recorded videos and c) other things on Moodle
+
+![[Pasted image 20241030091527.png]]
+
+#### Definitions
+von Neumann:  data and instruction in memory.
+
+von Neumann bottleneck: CPU can either fetch an instruction or modify/access data, not both.
+
+To communicate to the CPU, we use the data bus and address bus. 
+
+### Buses
+#### Data Bus
+In the data bus, the CPU will fetch 16-bit/32-bit chunks using it. It is transmitted in parallel. Bits of the bus is not the same as the data bus bits.
+
+It is **bidirectional**: data can be read from/written to at the same time.
+#### Address Bus
+The address bus is used to carry the address for the piece of memory to access (read/write from/to).
+
+> CPU bit length or word size may not be equal to the data bus width.
+
+#### Control Bus
+The control bus is used for control signals to tell the rest of the system what the CPU is doing.
+- Read/write line
+- Address Strobe (AS) - checks validity of address on address bus
+- Data strobe (DS - checks validity of data bus
+
+### Processing Information
+Computers used to be analogue, but it was difficult to distinguish (heat may change value)
+
+We use binary as it is easier to determine the difference between just two values. This enables us to use logic.
+
+Combinatorial logic: output depends only on the current value of the inputs.
+Sequential logic: output depends on the current and previous values of the input.
+
+### Decimal to Binary
+
+1. Initial number: 211
+2. Divide by 2.
+3. Result is:             105 r1
+4. Divide by 2 again. 52 r1
+5. Divide by 2 again. 26 r0
+6. Divide by 2 again. 13 r0
+7. Divide by 2 again. 6 r1
+8. Divide by 2 again. 3 r0
+9. Divide by 2 again. 1 r1
+10. Divide by 2 again. 0 r1
+
+Enumerate the remainders from latest operation to first
+= 11010011
+
+### Boolean arithmetic
+All Boolean functions can be expressed in terms of just AND, OR and NOT applied to the inputs. This is known as the *canonical representation*.
+
+These have their own symbols that can be used to write down logic equations.
+This is similar to how to write mathematical equations (i.e. `x` for multiplication).
+
+![[Pasted image 20241101120639.png]]
+
+XOR can be defined as:
+`NOT A AND B OR A AND NOT B.`
+
+After writing an expression, and producing a working logic circuit, it may work but not necessarily the simplest solution.
+
+Thus, the aim is to use as few gates as possible. This saves money and also reduces propagation delay - of which, there is such a delay of ~10ns for each logic gate.
+
+![[Pasted image 20241106092308.png]]
+A ripple carry adder is known as such as each result "ripples" through into the next full adder. In this case (4\*30ns), the propagation delay will be around 120ns.
+
+A carry occurs when there is a result larger than e.g. 4-bits. This bit is preserved by the CPU with the carry flag.
+
+To subtract, instead of building a separate circuit for handling negative numbers, we can simply add a negative number. To do this, we need to have  way to represent a negative number.
+
+
+- Sign and magnitude
+	- uses the first bit to denote positive or negative
+	- simple to implement, but makes it harder for addition
+- Excess-n
+	- where `n` represents the offset, e.g. Excess-3 would have `0` being `0011`.
+- One's complement
+	- leave all positive bits as-is
+	- for negative, invert the bits of the equivalent positive number
+	- addition can be performed, but leads to two zeroes (a + and a -) and results need tweaking with the carry bit after an adder
+- Two's complement - ***This is the standard used on all CPUs.***
+	- Invert the bits (i.e. perform one's complement) and add `1` to the result.
+> **Note: two's complement is NOT the same as inverting all the bits apart from the least significant. A binary `1` needs to be added to the inverted number.** 
+
+Both Sign & Magnitude and Two's Complements can both quickly be used to determine positive/negative by the most significant bit being 1 or 0, respectively.
+
+Combinatorial logic: output is a combination of the input values, vs sequential logic with a time component. Logic circuits always do the same thing and have a fixed functionality.
+The CPU's heart is the ALU - the CPU is built from combinatorial logic
+
+The ALU is considered to have two outputs usually and one output. They usually take in multiple bits (e.g. 16-bits in both inputs, and outputs)
+The ALU's functionality is dynamic - it can change. Therefore, it needs a mechanism to select what function it performs. This is done by having control pins.
+
+The ALU should be able to perform many functions. To do this, we can reduce the number of operations needed to perform internally by using e.g. de Morgan's to simplify OR to AND, etc.. To minimise the functionality, we require fewer transistors, smaller silicon, cheaper pries, less propagation delay and faster processors
+
+
+The ALU takes in various signals:
+- `zx`
+	- Set `x = 0`
+- `nx`
+	- Set x to `not(x)`
+- `zy`
+	- Set `y = 0`
+- `ny`
+	- Set y to `not(y)`
+- `f`
+	- If is true, out `A + B`, else out `A AND B`
+	- Uses a multiplexor
+- `no`
+	- Invert output
+... and returns (outputs) the result of these operations.
+
+## FLIPFLOPS
+Sequential logic are logic circuits that depend on the sequence of previous inputs and outputs.
+
+Multiple (d-type) flip-flops can be connected to the same clock - this is common in memory and RAM.
+
+
+## State Machines
+
+### Finite state automata
+
+- have exactly 1 start state, but can have many finish/ending states;
+- can have many transitions from one state into another state (or can be the same);
+- can be drawn pictorially.
+
+Once we work out all possible states, we can then design the hardware to accommodate this.
+
+We can build state machines from discrete logic components, but more states will make the logic more and more complex. Therefore, we use programmable logic elements to implement the combinatorial logic. 
+
+We also need to provide logic for unused states that, if the output accidentally transitions into one of these states, it does something sensible - e.g. triggers a stop signal until someone resets the system. *Therefore, we also need some reset logic - to force the system into a known state.*
+
+State machines allow us to develop logic circuits.
+
+**Moore state machine: output depends on the *current state only*** - purely the state we are in. Know exactly when clock changes and the flipflop updates to change the state.
+
+**Mealy state machine - output depends on the *current state and any of the inputs*** - can happen at any point in time. They respond more quickly to change but not as predictable.
+
+### Registers and logic
+
+von Neumann bottleneck: CPU can only access data or instructions, not both
+
+
+
+Registers are used for 2 purposes in the CPU:
+- some are part of programming and accessible via software
+- others used to help sequence the moving around the data path - controlling how data is moved in the CPU (temporarily storing a value in it, using others to )
+
+The program counter stores the address of the current instruction being executed, incrementing after each instruction completes (except branch instructions/changes to R15).
+
+- Data path: series of functional units (ALU etc.)
+- MAR: similar to writing down address on paper so we don't forget it later
+- Control logic enables and disables functional units to control the data path.
+
+
+## Sequential Logic
+### Gates
+#### SR Latch
+There are 2 inputs: R and S. They both go into one NOR gate each. The output of the NOR gate is used as another input to the other NOR gate, and also the outputs Q and not Q.
+
+The use of this gate is that it can be used to store the state of bits!
+
+
+#### 1-bit register
+It has a multiplexer with a flipflop, with the output of the flipflop going into the multiplexor
+
+#### Flipflops
+
+(D-latch)
+![[d-type-latch.png]]
+
+
+# The 6502
+
+Simple 8bit CPU
+
+- A - the Accumulator.
+	- The main register - all arithmetic and logic operations affect and go into the accumulator
+- X and Y
+	- Temporary storage and pointer-arithmetic-type operations
+
+Despite being very simple, it can run on any program
+
+> **Turing** showed there was a very small number of instructions - around 8 - that a CPU needed to run *any* program; if it implemented them, it is Turing complete
+
+
+
+There are 2 parts of machine code: the set of instructions (what the CPU can do) and a binary encoding of those instructions. 
+The set of instructions varies between CPUs but usually they offer similar sorts of instructions. The 6502 offered ~56 instructions. 
+Several instructions support vaious different addressing modes (way to access memory) giving ~150 unique instructions
+
+The 6502 is generally a one-address instruction set - each instruction takes one address. An *address* may be a memory location, register or immediate value.
+A two-address instruction may be source and destination (ADD a,1)
+A three-address (like in ARM) may be destination, source and second source (ADD r0, r0, #1)
+
+
+When building machine code, we can encode and deode instuctions in a simple way for logic:
+- one set of three bits are used to drive the memory address
+- another set of three bits are used for the ...
+
+
+
+
+
+# Optimisations
+
+
+Tricks used by modern computers to be driven faster:
+
+
+
+#### Fetch
+
+
+
+#### Decode
+- CPU hardware analyses the opcode and decides which part of the CPU ED TO BE ENGAGED TO process the instruction and their order.
+
+
+
+#### Execute
+Runs the steps needed for the specific instruction. This could be more than 1 step and may require accessing memory again
+
+FDE cycle - each step is synchronised to the clock. This means 3 cycles per instruction
+
+
+### Pipeline hazards 
+A bubble - stage when some parts of the CPU is not doing anything because a hazard forced the delay of an earlier stage.
+For instance, LDR will fetch data (and cannot also fetch the next instruction).
+
+
+
+
+Data hazard: when an instruction requires a value calculated by a previous function.
+This is a hazard as we may try to execute before the value is actually available.
+
+WE can bypass this problem by forwarding athe rsult to the next instriction when required in the pipeline - this is provided by CPUs.
+
+
+The longest step of a pipeline stage will define the time each step of the pipeline will run.
+
+
+
+
+
+
+## Superscalars
+
+There are still ways to make the CPU faster - we are still limited to the 
+
+Superscalar - CPU fetches, decodes, executes two (or more) instructions in one clock cycle, by e.g. having multiple ALUs. The result is that each instruction takes 0.5 cycles (or less)
+
+> assuming that they do not require the output of one in the next instruction or depend on each other.
+
+CPUs are considered to be **in-order**. This means they are executed in the same order they appear in memory - so instructions will be sequentially executed, line-by-line.
+However, the program needs to be designed to do this - generally it is up to the programmer or compiler to decide how to implement it. 
+
+Some CPUs use out-of-order execution, which automatically reorders instructions to execute them in the fastest way for the specific CPU's design. Although it may sound *crazy* it will reorder instructions as they come into the CPU to be in the best order -- but not change the results or how the program works.
+
+## Limitations of optimisations
+
+These optimisations have all happened at the instruction level, without change from the code.
+This only go so far - clock speed or tweaking clock speed and architecture. And also requires a lot of logic to implement.
+
+Rather than making CPUs faster, we can have multiple separate CPU cores that run the same code in parallel. However, we need to change how the program is written.
+
+> The reason why clock speeds have stagnated is because of power. With higher clocks, the power requirement increases and is dissipated as heat - which we need to take away from the CPU else it will melt. This limit is known as the power wall - the limit of heat we can easily dissipate from it.
+ 
+CPUs are built using a technology called Complimentary Metal-Oxide Semiconductor (CMOS). This means that energy is required when transistors switch state. As we increase the clock speed, we increase the rate of switching and the power used.
+
+We have combated this by reducing the CPU voltages but this has reached a limit now - especially in phones and handheld devices that could not have a fan/cooler.
+
+
+
+## Multiple processors
+We can increase the amount of data that can be processed in each step by reducing the time required to 
+
+
+> Multi-processor system: multiple pieces of silicon (e.g. 2 CPU sockets) in 1 system.
+> Multi-core system: multiple processors on the same socket.
+
+
+
+### Flynn's taxonomy
+
+A processor can have a single or multiple instruction stream, and a single or multiple data stream.
+
+
+Single instrcution/single data stream: the processor goes through each instruction sequentially and executes them on the data, producing a singlular output (e.g. ADD). *This works fine, but there is no parallelism.*
+
+**SIMD**
+Each instruction (e.g. ADD) will act on multiple different values at the same time, executing on multiple data items. Each data item will be updated at the same time. This is on data-level parallelism. *This works well for certain tasks, such as GPUs, e.g. completing the same transformation on world coordinates into the screen coordinates.*
+It allows us to perform the same operation on many data items
+
+
+**MISD**
+Multiple instructions act on a single piece of data - very uncommon
+
+**MIMD**
+Different instructions act on different pieces of data at the same time.
+
+
+
+# Parallel
+
+Modern systems employ so many tricks under the hood (rewrite registers etc., see above) that machine code is an abstraction of the chip implementation. 
+
+MIMD systems can be more efficient: in merge sort, one CPU can execute multiple instructions on different data values.
+
+> Enables us to break the program down into independent chunks to reduce the time it takes to execute.
+
+Both multiprocessor and multicore systems have multiple cores (complete processing units).
+- Multicore have them all on the same chip, often sharing L3 cache between all cores (but separate L1 and L2 caches per core). They appear to the system as e.g. 8 separate processors.
+- Multiprocessor has each processor as its own standalone chip, individually on a motherboard with multiple sockets. Each has its own L1, L2, L3 cache. *These can also be multi-core systems.*
+
+
+
+## Cache
+CPU runs far faster than RAM today. It has to wait a relatively very long time for the RAM to return the value. Although CPU speeds were increasing, RAM would bottleneck the speed, so would appear the same speed. 
+To make things run faster, the CPU has a cache between the CPU and (dynamic) memory. It is a small amount of high-speed RAM.
+
+Why?
+> A program only needs a small amount of instructions on the same amount of data over and over (**locality; spatially and temporally**), so it decides to keep a local copy of it in the fast cache RAM. 
+> Instead of waiting to fetch from RAM it will just go to the cache instead.
+
+## Hardware Multithreading
+
+![[Pasted image 20241129122901.png]]
+
+We can also use hardware multithreaded processors. This is one CPU, but it presents as two cores to the system. Both of those cores share L1/L2 caches. 
+They 
+
+
+There are also big security risks with this: the way multithreading works, programs were able to see ...
+
+
+
+Symmetric multiprocessor - tasks are distributed uniformly across all processors. 
+
+
+
+#### Shared memory
+Most systems today use a shared memory mode: this means that there are many CPU cores, however, they are all connected to the same block of memory with the same memory addresses. *meaning, if accessing address 2, all CPUs will get the same data at this memory address.*
+
+To do this they are all connected to the same system bus. On this bus, memory, I/O devices etc. are connected to it. The **bus arbiter** controls this - to say that only one CPU can access the bus at the same time, although they can have different virtual address spaces.
+
+Processors can communicate with each other by setting values in memory which other processors can read. For instance, once one merge sort is completed by one CPU, it can set some memory to say this was completed and then other CPUs can detect this, 
+
+
+Bus snooping: to prevent #cache-invalidation, we ca
+
+
+
+
+Uniform access system: cannot access memory at same time as other CPU core
+
+
+
+NUMA: each CPU have their own memory block. To access other, need to go over DSM network - however there is a big time penalty to go this so this is minimised as much as possible. 
+
+How to make use of multiple processors?
+We split them into separate pieces that run at the same time
+
+
+- Forking
+Split a program into two, with one side executing one block of code and the other completing a different set.
+
+When we fork, the OS creates a completely new process. However, it will keep e.g. the same files open, network connections. The programs have independent scheduling and can call other programs or be killed individually without affecting the other.
+
+
+In C - fork() function
+- returns twice. A value of 0 tot the child process, and a value of the child process ID to the parent
+
+If (!(fork() != 0))
+{
+     The parent process
+}
+else
+{
+     The child process
+}
+
+Forks are heavy for the operating system to manager increasing its load and uses up a process ID which there may only be a limited number of. 
+
+Threads are an alternative approach. We don't need to make a complete new process. A thread is a path of execution within a process - with it's own registersz program counter and stack frame.
+All process will have 
+
+
+
+We use pthread_create.
+
+
+When the threads function finishes, the thread will end and be cleaned up automatically.
+As soon as the main thread finishes, all the other threads created will be killed. They are bound by the process.
+
+
+
+We cannot control how the instructions are interleaved at the machine code level.
+
+
+We can use a mutex (mutual exclusion) to control 
+
+
+
+
+
+
+# Is a fast CPU needed?
+
+
+Accessing RAM isn't instant; it's fast but not particularly fast. It will take between 10-20ns to access data (the memory latency).
+
+![[Pasted image 20241209131217.png]]
+
+As CPUs have become considerably faster over time (and RAM hasn't). 
+
+
+There is no way to overcome this - the length of the motherboard track from CPU to RAM would take longer than 1 clock cycle for the electrical signal to travel
+
+
+There are different ways of making memory, with each having a different prie and different characteristics, including access latency
+
+
+## Memory types
+
+
+
+Static RAM
+- Set it to have a value, and this value will be remembered until system is turned off/changed.
+- Fastest to access data
+- Very expensive
+Dynamic RAM
+- Constantly have to refresh each value in memory
+- Designed for data density, so relatively cheap for lots
+Flash RAM
+- SD card, SSD drives, USB sticks included
+- Can store data when power is lost
+Hard disks
+- Temporarily copies unused data to the disk until it is needed again
+
+We could use some fast static RAM to hold the program's instructions and some slower dynamic RAM to hold the data
+
+
+### Locality
+Thinking about programs and how they run - if an instruction executes, there is a high chance that the next instruction will also be executed. As we also like having loops, there is a good chance that it will get executed again. We can copy an instruction, and maybe also a few instructions around it in the **program's spatial/temporal locality**, into faster static RAM (or cache) to allow it to execute faster.
+- Spatial locality: if memory location is accessed, nearby memory locations are likely to be referenced toon
+- Temporal locality: if an instruction is executed, it is likely that it will be executed again.
+
+This can be implemented by having memory hierarchy: there is a cache (of SRAM) between the CPU and main memory. We can only acess the slow DRAM when necessary to get the best of both worlds, whilst having fast access from SRAM and having lots of slower but cheaper memory in DRAM.
+
+
+## Memory hierarchy
+Firstly, look in the small fast static RAM cache, if not, look into DRAM and make a copy of the whole lane to copy 
+
+
+
+
+
+To measure cache performance;
+- hit rate
+- miss rate
+- hit time (time required to access the cache and determining if it is a hit or miss)
+- miss penalty
+	- time required to access and fetch a cache line from memory, transmit it and insert into the cache, pass data back to CPU
+
+
