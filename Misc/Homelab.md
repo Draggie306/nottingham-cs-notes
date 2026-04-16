@@ -550,7 +550,7 @@ curl -L -X PUT 'http://192.168.1.3:2283/api/jobs/videoConversion' \
 - Auto-commit uni notes Obsidian changes and update the Git repo with new changes
 	- `0 0 * * * cd /mnt/mega/uni-notes-git/ && /usr/bin/rclone sync --exclude .git/ --exclude .github/ r2:notes . -v && /usr/bin/git add . && /usr/bin/git commit -m "[cron] auto commit: update notes" && /usr/bin/git push &>> /mnt/mega/notes_sync.log`
 
-- iPlayer Download task
+- iPlayer Download task ([iPlayer Script](#iplayer))
 	- `53 19 * * * bash /home/draggie/iplayer.sh > /mnt/mega/ipayer_log.txt`
 
 ### Root
@@ -560,6 +560,94 @@ curl -L -X PUT 'http://192.168.1.3:2283/api/jobs/videoConversion' \
 - Start radio at midday, ready for football matches
 	- `0 12 * * * systemctl start welle-radio.service`
 
+
+
+## Shell Scripts
+
+### iPlayer
+
+> *Note: this script was created with AI*
+
+```sh
+#!/bin/bash
+set -euo pipefail
+
+# ---- Config ----
+LIB_ROOT="/mnt/mega/jellyfin/media/tv"   # Jellyfin TV library root (absolute path)
+SHOWS=(
+  "Look North \(East Yorkshire and Lincolnshire\): Evening News"
+  "Look North \(Yorkshire\): Evening News"
+  "The Weakest Link"
+)
+# How many hours back to consider "new"
+AVAILABLE_HOURS=24
+
+# ---- Helpers ----
+log() { printf '%s %s\n' "$(date '+%Y-%m-%d %H:%M:%S')" "$*"; }
+
+# Sanitize a show name into a safe folder name
+# Removes characters that are awkward for filesystems/metadata
+sanitize() {
+  local s="$1"
+
+  # 1) Remove regex-escape backslashes like '\(' and '\)' etc.
+  s="${s//\\/}"
+
+  # 2) Tidy up punctuation that is awkward in filenames
+  s="${s//:/ -}"   # convert ":" to " -"
+  s="${s//\//-}"   # convert "/" to "-"
+  s="${s//\"/}"    # remove any double quotes just in case
+
+  # 3) Collapse multiple spaces and trim leading/trailing whitespace
+  s="$(echo "$s" | tr -s ' ')"
+  s="$(echo -n "$s" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//')"
+
+  echo "$s"
+}
+
+# ---- Main ----
+log "Script start"
+
+# Some get_iplayer versions accept --quiet/--update; ignore failures
+get_iplayer --update --quiet 2>/dev/null || true
+
+for SHOW in "${SHOWS[@]}"; do
+  log "Processing show: $SHOW"
+
+  # Sanitised folder name and output directory
+  SANITIZED=$(sanitize "$SHOW")
+  OUTDIR="$LIB_ROOT/$SANITIZED/Season $(date +%Y)"
+  mkdir -p "$OUTDIR"
+
+  # Build the expected filename prefix for "today"
+  # e.g. "Look North ... - S2025E244 - 01-09-2025"
+  PREFIX="$SANITIZED - S$(date +%Y)E$(date +%j) - $(date +%d-%m-%Y)"
+
+  # If a file with that prefix already exists, skip downloading
+  if ls "$OUTDIR/$PREFIX"* >/dev/null 2>&1; then
+    log "Already have today's file for '$SHOW' (skipping): $OUTDIR/$PREFIX*"
+    continue
+  fi
+
+  # Attempt to fetch only episodes that became available within AVAILABLE_HOURS
+  log "Searching for new episodes (available-since ${AVAILABLE_HOURS}h) for: $SHOW"
+  if get_iplayer "$SHOW" --available-since "$AVAILABLE_HOURS" --get \
+       --output "$OUTDIR" --fileprefix "$PREFIX"; then
+    log "Download attempted for '$SHOW' -> $OUTDIR (prefix: $PREFIX)"
+  else
+    log "No new episode found (or download failed) for: $SHOW"
+  fi
+
+  # small pause to be polite
+  sleep 2
+done
+
+log "Script end"
+```
+
+### TV Autodelete
+
+`find /path/to/root -type f -mtime +7 -delete`
 
 
 
