@@ -19,6 +19,10 @@ draggie@rpi:~ $ dmesg | egrep -i "error|sdhci|mmc|timeout|I/O"
 [86409.553009] systemd[1]: systemd-journald.service: Failed with result 'timeout'.
 ```
 
+2026-04-17: Added usb storage quirk to attached SSD, which may help. (https://forums.raspberrypi.com/viewtopic.php?f=28&t=245931)
+```
+usb-storage.quirks=152d:0578:u console=serial0,115200 [....] systemd.mask=warp-svc.service systemd.unit=multi-user.target
+```
 
 ## Architecture
 - Server system: Raspberry Pi 5 8GB (Raspberry Pi OS Lite)
@@ -29,7 +33,7 @@ draggie@rpi:~ $ dmesg | egrep -i "error|sdhci|mmc|timeout|I/O"
 - Network:
 	- Pi-hole: DNS + DHCP
 	- Unifi Controller: Wireless access + switching APs
-	- Cloudflare Tunnels
+	- Cloudflare Tunnel for most external access.
 	- SSH password disabled; private key only
 
 ## Docker
