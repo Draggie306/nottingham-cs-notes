@@ -22,7 +22,7 @@ Generally, we classify benchmark functions in terms of continuity: discontinuous
 
 We also have dimensionality: a 3D benchmark function is harder to solve than 2D, etc. The question raised is: can we use the same function on multiple dimensions? If true, the function is known as scalable. 
 
-Separability is a property: given a function p variables, can all p variables be minimised individually \[]. IT helps with delta/incremental evaluation. 
+Separability is a property: given a function p variables, can all p variables be minimised individually \[]. It helps with delta/incremental evaluation. 
 
 Modality: uni-modal means it can contain one local optima or **multimodal** with a few local minima or with an exponential number of local optima. These are not global, as we try to create a "difficult" search landscape that has many local optima points. 
 
@@ -39,8 +39,7 @@ Separable functions allow delta evaluation.
 Here, the sequence represents numbers squared. The delta is simply the difference between the last and the first. 
 
 ### Rastrign's function
-![16](../../../Images/Pasted%20image%2020260312130129.png)
-
+![248](../../../Images/Pasted%20image%2020260312130129.png)
 ### Ackley's function
 It only has 2 variables, x1 and x2, 
 
@@ -58,7 +57,7 @@ Given a chromosome of 30 bits, we can encode the values in x1, x2 and x3 (with 1
 
 ### More options
 
-To handle decimal/real numbers e.g. $-5.12 < x_i \le 5.12$, we cna use the same numbers as above but divide by 100 at the end. 
+To handle decimal/real numbers e.g. $-5.12 < x_i \le 5.12$, we can use the same numbers as above but divide by 100 at the end. 
 
 
 We need to see how the algorithm changes, with a number of bits we increase, we increase the solution size which will also be a larger search space. 
@@ -96,7 +95,7 @@ A bianry representation is not suitable for the TSP, as it can cause illegal tou
 
 ### Partially-mapped crossover (PMX)
 
-This operator builds offspring by choosing a subsequence of a tour from one parent. It uses two randomly-cut points to serve as swapping boundaries, and swaps the segmenets between cut points. **The middle points are swapped, but the other (entrance/exit) points are kept the same.** It preserves the order and position for as many cities as possible from another parent, exploiting similarities in both the value and order.
+This operator builds offspring by choosing a subsequence of a tour from one parent. It uses two randomly-cut points to serve as swapping boundaries, and swaps the segments between cut points. **The middle points are swapped, but the other (entrance/exit) points are kept the same.** It preserves the order and position for as many cities as possible from another parent, exploiting similarities in both the value and order.
 
 
 ### Order crossover ([OX](ox.ac.uk))

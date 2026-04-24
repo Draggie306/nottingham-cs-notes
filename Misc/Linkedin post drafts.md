@@ -1,3 +1,26 @@
+
+## group project
+
+Last week marked the conclusion of our 8-month-long Software Engineering Group Project, NeuroNarratives.
+
+
+
+
+
+Nottingham School of Computer Science, all second years must take part in a year long group project, where we work with an industry or academic partner to develop a product.
+
+For my team and myself, this meant partnering with Intelligent Plant to develop Compression Optimisation - a platform that is capable of taking real industrial plant data from Intelligent Plant's Industrial App Store, and optimally compressing it to store as many data points as possible while keeping file size to a minimum.
+
+Through the year, I've been working as the Team Lead for my team, acting as the Project Manager and Scrum Master of the group! While these roles were completely new for me and a huge learning curve, having such a great team made it effortless. :)
+
+Our application features a frontend built in React and hosted on Azure (provisioned using Terraform and also responsible for backend), and Intelligent Plant's own C# compression algorithm. We wrote our own optimisation algorithm in Python, which uses Grid Search to find the most optimal compression parameters for a passed in dataset - retaining data trends through preserving compression
+
+
+
+
+
+## website promo
+
 1.1 million requests in the last 30 days - a new record! My website, iBaguette, was first made to create and organise my exam revision notes, but with a few adjustments and tactical choices, here's how I built it to scale to survive exam season, all for free.
 
 
