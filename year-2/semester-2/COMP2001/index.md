@@ -29,3 +29,4 @@ These notes may be lecture-specific, include unorganised information and may not
 ### Extras
 - [Coursework Info](Coursework%20Info)
 - [Guest Lecture - COMP4033 (Fuzzy Logic and Fuzzy Systems)](COMP4033%20-%20Fuzzy%20Logic%20and%20Fuzzy%20Systems%20Intro)
+- [Guest Lecture 2 - Language agents, processing and models](Guest%20Lecture%202%20-%20Language%20agents,%20processing%20and%20models)
