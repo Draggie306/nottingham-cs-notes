@@ -233,19 +233,6 @@ Module Assessment Sheet. Is this document available in Moodle and clearly outlin
 (1)
 Strongly Agree
 
-(2)
-Agree
-
-(3)
-Neutral
-
-(4)
-Disagree
-
-(5)
-Strongly Disagree
-Moodle Materials. The module materials are in Moodle and organised well.
-
 Moodle Materials. The module materials are in Moodle and organised well.
 
 (1)
@@ -296,6 +283,38 @@ Good Practice. Is there anything that is working particularly well for you in th
 Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
 Very little guidance provided/taught about how to actually design a user interface with tools like Figma, with requirements for what platform to use to make the coursework being very vague too which all is disappointing. Conflicting messages sent - coursework can be done on paper with sketches but needs to be interactive? 
 
+## SEM Survey for Introduction to Human Computer Interaction
+
+Lecturers: Neelima Sailaja
+
+Please complete your questionnaire. The scores and constructive feedback you submit are valued highly by your school or department and will be used to help improve modules and teaching. Your responses will remain anonymous, but any negative personal or abusive comments will be deleted.
+
+1. The learning activities and resources are well organised and structured 
+- Agree
+
+2. The learning activities and resources are helping me to achieve the learning outcomes
+- Strongly Agree
+
+3. The learning activities and resources have encouraged me to explore the topics further
+- Agree
+
+4. The learning activities and resources are easily accessible
+- Strongly Agree
+
+
+5. I know how and where to get help and support for this module when I need it
+- Agree
+
+6. The criteria for the assessments on this module are transparent and clearly explained
+- Agree
+
+
+7. The workload associated with this module is manageable 
+- Agree
+
+8. Please use the space below for any constructive comments about this module
+
+
 
 
 # Miscellaneous Observations
@@ -313,3 +332,6 @@ Very little guidance provided/taught about how to actually design a user interfa
 Wanted to get feedback for an (ADE) class test but all slots are during a busy time (lab/group project meeting/other module feedback slot).
 
 ![](../Images/Pasted%20image%2020260320180910.png)
+
+
+

@@ -18,9 +18,7 @@ First, you choose a set of heuristics to use - 4 were shown, but more available 
 
 After evaluating them all, we bring all evaluations for each prototype together. Then, we have 4 evaluators (who will give constructive criticism) and 1 developer. Together as a group, we decide on 1 prototype to do the user evaluation. We must justify which particular prototype is used to do the user feedback.
 
-
 Three users outside the own group should be done, and 3 tasks for the user to perform should be done - should be done simple and clear. 
-
 
 Within discussion, refer back too taught design principles and CW1 to obtain higher marks.
 
