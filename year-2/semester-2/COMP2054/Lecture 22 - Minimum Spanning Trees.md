@@ -42,3 +42,6 @@ Until all verticies are in TSFm add the shortest edge from all vertices in TSF, 
 
 
 
+
+
+
