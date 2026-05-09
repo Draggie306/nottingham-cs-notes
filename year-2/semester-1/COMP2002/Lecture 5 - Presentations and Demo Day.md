@@ -14,7 +14,7 @@ Every project is allocated a 20-minute slot. There is a session "chair" - if you
 
 The structure is suggested to be:
 - An inventive introduction lasting ~1 minute.
-- Live presentation of 8-10 minutes - what has been done, why others should care, who did each part, and how it went.
+- Live presentation of 8-10 minutes - what has been done, why others should care, who did each part, and how it went. Not necessary to include everybody - this can be confusing; having 1/2 people on the side for controlling pacing/slides is ideal
 - A live demo, lasting 3-5 minutes. 
 - Q&A - 5 minutes maximum (fixed)
 

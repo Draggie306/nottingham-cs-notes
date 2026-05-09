@@ -38,3 +38,15 @@ Previously, the productions `E -> E + T`, or `T -> T * F` define the non-termina
 To resolve this
 
 
+For example, defining in Lean:
+
+`(union, [inl union, inr plus, inl concat])`
+
+becomes;
+
+`(union, [inl concat, inl union']),`
+`(union', [inr plus, inl concat, inl union']),`
+`(union', [])`
+
+## Turing machines
+
