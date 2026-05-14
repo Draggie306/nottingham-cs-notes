@@ -241,7 +241,7 @@ All other queries e.g. building dripping/power outage: estates - 011595 16666
 ## Laptop Loan and Repair
 - Only for students.
 - Open from 10am-4pm
-- Appointment-only service next to Subway in Trent - nott.ac.uk/llr
+- Appointment-only service next to Subway in Portland Building - nott.ac.uk/llr
 - Offers short-term loan and repair service for devices.
 - Refer them to link not the office if someone's laptop is broken - wait time at peak time can be up to 6 weeks.
 - All loans are free, up to 30 days, can be extended up to 120 days
@@ -351,6 +351,14 @@ TO debug:
 
 - document name too long, document not in right format, document is scanned in/not actual writing of at least 20 words, too big file
 - https://nottshelp.atlassian.net/wiki/spaces/StudentMoodle/pages/10682372/Turnitin+and+Moodle+assignment+submission+checklist
+
+
+### MS Office
+
+- If the user has old Office/Word credentials saved from a previous school/work/6th form, use the license removal tool and sign in with new uni credentials: https://go.microsoft.com/fwlink/?linkid=849815
+
+
+
 
 
 
