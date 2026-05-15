@@ -1,19 +1,19 @@
 
-## group project
+## Group project
 
-Last week marked the conclusion of our 8-month-long Software Engineering Group Project, NeuroNarratives.
+Wednesday marked the conclusion and  of our 8-month-long Software Engineering Group Project, NeuroNarratives, sponsored by Mendi.
 
+In the University of Nottingham School of Computer Science, second year students must take part in a year-long group project.
 
+We 
 
+Over the year, I worked as Team Admin for my team. This meant writing the vast majority of the group’s 17,000-word reports over the year, in addition to being only full-time developer across the back-end and AI/ML sub-teams. 
 
+Our application, written in Python with the Flet framework, communicates with the Mendi fNIRS headband over Bluetooth Low Energy, processing data from the brain’s prefrontal cortex as a proxy for focus levels. This is sent to my back-end system, built with Cloudflare Workers, to ingesting focus data and create user sessions. By using an LLM, we are able to use changes in neural activity to write a story that changes and branches depending on if the user becomes more or less focused, relative to a sliding window.
 
-Nottingham School of Computer Science, all second years must take part in a year long group project, where we work with an industry or academic partner to develop a product.
+A massive thank you to Mendi themselves and sponsor Mustafa Hamada, leaders in neurotechnology, and supervision by the legendary Horia Maior. It was fantastic to see all 47 groups showing off their creations on Demo Day.
 
-For my team and myself, this meant partnering with Intelligent Plant to develop Compression Optimisation - a platform that is capable of taking real industrial plant data from Intelligent Plant's Industrial App Store, and optimally compressing it to store as many data points as possible while keeping file size to a minimum.
-
-Through the year, I've been working as the Team Lead for my team, acting as the Project Manager and Scrum Master of the group! While these roles were completely new for me and a huge learning curve, having such a great team made it effortless. :)
-
-Our application features a frontend built in React and hosted on Azure (provisioned using Terraform and also responsible for backend), and Intelligent Plant's own C# compression algorithm. We wrote our own optimisation algorithm in Python, which uses Grid Search to find the most optimal compression parameters for a passed in dataset - retaining data trends through preserving compression
+I am also grateful to have worked with such proactive and hard-working teammates, particularly Ronan Berridge and Roy Ramlugon
 
 
 
