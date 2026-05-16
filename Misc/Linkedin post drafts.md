@@ -1,20 +1,15 @@
 
 ## Group project
 
-Wednesday marked the conclusion and  of our 8-month-long Software Engineering Group Project, NeuroNarratives, sponsored by Mendi.
+Wednesday was Demo Day, marking the conclusion of our 8-month-long Software Engineering Group Project, NeuroNarratives: "Stories that read your mind".
 
-In the University of Nottingham School of Computer Science, second year students must take part in a year-long group project.
+In the [University of Nottingham School of Computer Science](https://www.linkedin.com/feed/#), all second-year students must complete a year-long group project. Throughout, I worked as Group Admin for my team of 8. This meant writing the vast majority of the 17,000-word reports, in addition to being the lead and only full-time developer in the backend and AI/ML sub-teams, writing code for the "Narrative Engine", persistent data storage, and designing the API. I even performed the live demonstration to other groups and examiners on Demo Day, which went almost flawlessly!
 
-We 
+Our application, written in Python with the Flet framework, communicates with the [Mendi](https://www.linkedin.com/feed/#) fNIRS headband over Bluetooth Low Energy, reading and processing data from the brain’s prefrontal cortex. We derived a focus proxy from this data based on neuroscience research by comparing new activity readings with users' baselines, ingested by the backend system built on the [Cloudflare](https://www.linkedin.com/feed/#) Workers Platform. By then using an LLM, the story users read responds in near-real-time to focus levels: being distracted makes the story take a negative twist, whilst heightened focus leads to positive advances!
 
-Over the year, I worked as Team Admin for my team. This meant writing the vast majority of the group’s 17,000-word reports over the year, in addition to being only full-time developer across the back-end and AI/ML sub-teams. 
+A massive thank you to Mendi themselves and sponsor [Mustafa S. Hamada, PhD](https://www.linkedin.com/feed/#), and the supervision by the legendary [Horia Alexandru Maior, PhD](https://www.linkedin.com/feed/#). It was fantastic to see all 49 groups showing off their creations on Demo Day, which was very well organised by the module coordinators.
 
-Our application, written in Python with the Flet framework, communicates with the Mendi fNIRS headband over Bluetooth Low Energy, processing data from the brain’s prefrontal cortex as a proxy for focus levels. This is sent to my back-end system, built with Cloudflare Workers, to ingesting focus data and create user sessions. By using an LLM, we are able to use changes in neural activity to write a story that changes and branches depending on if the user becomes more or less focused, relative to a sliding window.
-
-A massive thank you to Mendi themselves and sponsor Mustafa Hamada, leaders in neurotechnology, and supervision by the legendary Horia Maior. It was fantastic to see all 47 groups showing off their creations on Demo Day.
-
-I am also grateful to have worked with such proactive and hard-working teammates, particularly Ronan Berridge and Roy Ramlugon
-
+I am also grateful to have worked with such proactive and continuously hard-working teammates, particularly [Ronan Berridge](https://www.linkedin.com/feed/#) and Roy Ramlugon, in addition to [James R.](https://www.linkedin.com/feed/#) and [Pooja Shah](https://www.linkedin.com/feed/#).
 
 
 

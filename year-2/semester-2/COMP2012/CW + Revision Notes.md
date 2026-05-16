@@ -35,7 +35,7 @@ the grammar sees: `a + b ⬝ c` as: `left side + right side`, or: `a + <somethin
 
 Previously, the productions `E -> E + T`, or `T -> T * F` define the non-terminal being as being the **leftmost symbol on the right-hand side**. This is "**left recursion**". It prevents parsing from terminating: evaluating `E -> E + T`, it immediately reads the leftmost symbol on the right, `E`, and evaluates this, which is (again) `E -> E + T`, causing an endless loop.
 
-To resolve this
+%% To resolve this %%
 
 
 For example, defining in Lean:
