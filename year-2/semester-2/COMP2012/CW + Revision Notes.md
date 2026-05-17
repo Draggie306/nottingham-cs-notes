@@ -50,3 +50,15 @@ becomes;
 
 ## Turing machines
 
+
+## Chomsky hierarchy
+
+- Type 3: regular languages; finite state automaton.
+	- $L = \{ a^n \space | \space n > 0 \}$
+- Type 2: context-free languages; non-deterministic pushdown automaton. 
+	- $L = \{a^n b^n \space | \space n > 0\}$
+- Type 1: context-sensitive languages; linearly-bounded non-deterministic Turing Machines.
+	- $L = \{ a^nb^nc^n \space | \space n > 0\}$
+- Type 0: recursively enumerable langauges; Turing machines.
+	- $L = \{w | w$ describing a terminating turing machine $\}$
+	
