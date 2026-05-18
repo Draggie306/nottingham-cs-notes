@@ -1,5 +1,6 @@
 
-## Group project
+## 2026 end of A/Y
+### Group project
 
 Wednesday was Demo Day, marking the conclusion of our 8-month-long Software Engineering Group Project, NeuroNarratives: "Stories that read your mind".
 
@@ -12,9 +13,26 @@ A massive thank you to Mendi themselves and sponsor [Mustafa S. Hamada, PhD](htt
 I am also grateful to have worked with such proactive and continuously hard-working teammates, particularly [Ronan Berridge](https://www.linkedin.com/feed/#) and Roy Ramlugon, in addition to [James R.](https://www.linkedin.com/feed/#) and [Pooja Shah](https://www.linkedin.com/feed/#).
 
 
+### End of the year reflection
 
 
-## website promo
+### Senior Mentor application
+
+
+### Lego Society Treasurer and Publicity
+
+
+### Website new record 15k users
+
+
+
+
+
+
+
+## misc drafts
+
+### website promo
 
 1.1 million requests in the last 30 days - a new record! My website, iBaguette, was first made to create and organise my exam revision notes, but with a few adjustments and tactical choices, here's how I built it to scale to survive exam season, all for free.
 

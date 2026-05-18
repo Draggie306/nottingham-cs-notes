@@ -1,6 +1,9 @@
 
 ## ex6
 
+GOOD SLIDE: slide 133 on https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/lectures/02/Slides02.pdf
+
+
 Grammar: a way to generate valid strings.
 
 These strings can be strings of regular expressions: `a`, `a + b`, `a + b ⬝ c*`; it is the grammar's job to determine which symbols in the string are valid regular expressions. 
@@ -55,10 +58,20 @@ becomes;
 
 - Type 3: regular languages; finite state automaton.
 	- $L = \{ a^n \space | \space n > 0 \}$
+	- Formalism: $G = (V, \sum, R, S)$ - (non-terminals, terminals, production rules, and start symbol(s))
+		- Rules: $A \rightarrow a$, $A \rightarrow aB$ for right-regular, or $A \rightarrow Ba$ for left-regular.
+	- Examples: empty language; ”any number of $a$’s followed by any number of $b$’s”
 - Type 2: context-free languages; non-deterministic pushdown automaton. 
-	- $L = \{a^n b^n \space | \space n > 0\}$
+	- Language: $L = \{a^n b^n \space | \space n > 0\}$, also $L = \{a^n ++ b^n | n \ge 1\}$
+	- Formalism: $G = (V, \Sigma, R, S)$ - (non-terminals, terminals, production rules, and start symbol(s))
+		- Rule: $A \rightarrow \alpha$ 
+	- Example: all palindromes, balanced parentheses
 - Type 1: context-sensitive languages; linearly-bounded non-deterministic Turing Machines.
-	- $L = \{ a^nb^nc^n \space | \space n > 0\}$
+	- Language: $L = \{ a^nb^nc^n \space | \space n > 0\}$
+	- Formalism: $\alpha \rightarrow \beta$ satisfying $|\alpha| \le |\beta|$ - the rhs is never shorter than the lhs.
+	- Example: $anbncn$ 
 - Type 0: recursively enumerable langauges; Turing machines.
-	- $L = \{w | w$ describing a terminating turing machine $\}$
-	
+	- Language: $L = \{w | w$ describing a terminating turing machine $\}$
+	- Formalism: $\alpha \rightarrow \beta$  where both are arbitrary strings of terminals or non-terminals.
+	- (Undecidable) Example: the halting problem.
+

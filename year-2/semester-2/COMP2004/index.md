@@ -1,12 +1,8 @@
 
-All notes for Introduction to Human Computer Interaction (COMP2004) at the University of Nottingham School of Computer Science. Taught by Neelima Sailaja.
+All notes for Introduction to Human Computer Interaction (COMP2004) at the University of Nottingham School of Computer Science. Taught by Nikhil Deshpande Neelima Sailaja.
 
-Notes for this module are currently not complete.
+Notes for this module are currently **85% complete**.
 
-## Main document
-These are more finished, cover multiple lectures, and have better explanations.
-
-- Unavailable.
 
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.

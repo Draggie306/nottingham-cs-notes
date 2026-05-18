@@ -4,6 +4,18 @@
 
 ### Year 2 (Part I)
 
+#### Semester 2
+
+> *Grades are currently estimated where italicised*
+
+| code      | module                           | credit | mark % |
+| --------- | -------------------------------- | ------ | ------ |
+| COMP 2001 | Artificial Intelligence Methods  | 20     | *65*   |
+| COMP 2004 | Intro to Human Computer Inter    | 10     | *74*   |
+| COMP 2012 | Languages and Computation        | 10     | *55*   |
+| COMP 2054 | Algorithms Data Structures Eff’y | 10     | *55*   |
+
+
 #### Semester 1
 
 | code      | module                         | credit | mark % |

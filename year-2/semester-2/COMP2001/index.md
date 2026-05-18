@@ -1,4 +1,4 @@
-All notes for Artificial Intelligence Methods (COMP2001) at the University of Nottingham School of Computer Science.
+All notes for Artificial Intelligence Methods (20 credits) (COMP2001) at the University of Nottingham School of Computer Science. Taught by Ender Ozcan and Warren Jackson.
 
 Notes for this module are not complete.
 

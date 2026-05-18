@@ -2,7 +2,7 @@
 
 
 # Year 1
-
+%% TODO: add notes here from screenshots/saved forms from year 1%%
 
 # Year 2
 
@@ -221,7 +221,7 @@ Additional Comments. Please give any comments and suggestions on improvements in
 
 Some more exercises that explain and walk though topics, particularly the mathematics and rearranging equations and explaining the process behind calculating/proving the different Big-Oh proofs would be appreciated. I have enjoyed doing lots of calculations on paper but when it came to the exam, it felt much more difficult than tutorial questions, despite completing even the algebraically challenging sections. More focus on working out Little-Oh, big-theta and big-omega in the computing lab sessions on paper, as opposed to counting primitive operations - whilst these are done in the tutorials, it is not enough.
 
-## Early Module Feedback: Human-Computer Interaction 
+### Early Module Feedback: Human-Computer Interaction 
 
 Overall Quality. The module is overall organised and delivered well.(Required field)
 
@@ -283,7 +283,7 @@ Good Practice. Is there anything that is working particularly well for you in th
 Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
 Very little guidance provided/taught about how to actually design a user interface with tools like Figma, with requirements for what platform to use to make the coursework being very vague too which all is disappointing. Conflicting messages sent - coursework can be done on paper with sketches but needs to be interactive? 
 
-## SEM Survey for Introduction to Human Computer Interaction
+### SEM Survey for Introduction to Human Computer Interaction
 
 Lecturers: Neelima Sailaja
 

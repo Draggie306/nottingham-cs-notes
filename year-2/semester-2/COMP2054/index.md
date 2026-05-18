@@ -1,7 +1,7 @@
 
-All notes for Algorithms, Data Structures, and Efficiency (COMP2054) at the University of Nottingham School of Computer Science. Taught by Andrew Parkes
+All notes for Algorithms, Data Structures, and Efficiency (COMP2054) at the University of Nottingham School of Computer Science. Taught by Andrew Parkes.
 
-Notes for this module are currently not complete.
+Notes for this module are currently **not complete**.
 
 ## Main document
 These are more finished, cover multiple lectures, and have better explanations.
@@ -17,6 +17,4 @@ These notes may be lecture-specific, include unorganised information and may not
 
 ## Full Module Revision
 Full notes for the module have not been made yet.
-
-> This module is 100% coursework. Coursework notes are hidden from public browser pages.
 
