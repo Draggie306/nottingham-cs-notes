@@ -53,6 +53,8 @@ becomes;
 
 ## Turing machines
 
+At Level 2 (context-free), pushdown automata add to finite automaton (level 3) by including a stack. A Turing Machine (level 0) adds to this by having a tape 
+
 
 ## Chomsky hierarchy
 
@@ -70,6 +72,7 @@ becomes;
 	- Language: $L = \{ a^nb^nc^n \space | \space n > 0\}$
 	- Formalism: $\alpha \rightarrow \beta$ satisfying $|\alpha| \le |\beta|$ - the rhs is never shorter than the lhs.
 	- Example: $anbncn$ 
+		- $anbncn$ is NOT context-free as the stack it contains can only push and pop states. This works for $anbn$ but not for three or more symbols. It requires a tape  
 - Type 0: recursively enumerable langauges; Turing machines.
 	- Language: $L = \{w | w$ describing a terminating turing machine $\}$
 	- Formalism: $\alpha \rightarrow \beta$  where both are arbitrary strings of terminals or non-terminals.

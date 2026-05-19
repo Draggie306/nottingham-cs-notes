@@ -327,11 +327,11 @@ Please complete your questionnaire. The scores and constructive feedback you sub
 
 ## Notes for future feedback/course rep
 
-- More in-class tests? University are trying to do away with continuous exam and having less making.
+- More in-class tests? *University are trying to do away with continuous exam and having less making.*
 
-Wanted to get feedback for an (ADE) class test but all slots are during a busy time (lab/group project meeting/other module feedback slot).
-
+- Wanted to get feedback for an (ADE) class test but all slots are during a busy time (lab/group project meeting/other module feedback slot).:
 ![](../Images/Pasted%20image%2020260320180910.png)
 
 
+- Resources and documents should all be available as PDFs, not just word documents or powerpoints.
 
