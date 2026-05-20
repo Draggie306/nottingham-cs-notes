@@ -322,9 +322,6 @@ Please complete your questionnaire. The scores and constructive feedback you sub
 - Lecturer trying to help student with resource access, but no response via email for over a week, and in-person visit to the responsible person's office revealed nobody was there.
 
 
-
-
-
 ## Notes for future feedback/course rep
 
 - More in-class tests? *University are trying to do away with continuous exam and having less making.*

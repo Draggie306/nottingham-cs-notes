@@ -45,7 +45,7 @@ The **global optimum** is better than all other solutions.
 
 The **local optimum** is better than all other solutions in a given neighbourhood.
 
-> In most cases, there is not a single optimia, especially for local optima.
+> In most cases, there is not a single optima, especially for local optima.
 
 Algorithms should not stop at local optimums. It is common to get stuck at locally optimum locations.
 
@@ -54,7 +54,7 @@ Algorithms should not stop at local optimums. It is common to get stuck at local
 
 ### Continuous vs Discrete Search Spaces
 
-Continuous search space: find the optimium setting for the wing of a racecar for the best performance. 
+Continuous search space: find the optimum setting for the wing of a race car for the best performance. 
 
 Discrete search space: assign tourist groups to buses to produce the optimum number of 70-seater tour buses for given tourist group sizes. All bus configurations are discrete.
 

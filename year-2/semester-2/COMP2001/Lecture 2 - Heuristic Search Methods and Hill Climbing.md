@@ -31,7 +31,7 @@ $$( \lor ) \land ( \lor ) \land ( \lor )$$
 
 ![Pasted image 20260203162441](../../../Images/Pasted%20image%2020260203162441.png)
 
-Decision problems can be turned into combinatorial optimisation problems by saying "can the truth assignment that maximises the number of satisfied clauses". A simple yes/no is not sufficient.
+Decision problems can be turned into combinatorial optimisation problems by saying "can there be a truth assignment that maximises the number of satisfied clauses". A simple yes/no is not sufficient.
 
 ## Components of meta & hyper-heuristic search
 
@@ -87,7 +87,7 @@ A bit flip operator flips a bit in a solution.
 
 The **hamming distance** is the number of different bits. For example, `HD(00110, 00111) = 1`. 
 
-For a binary string of length $n$, the neighbourhood size is $n$ and the hammering distance is 1. 
+For a binary string of length $n$, the neighbourhood size is $n$ and the hamming distance is 1. 
 
 ### Integer-represented solutions
 A random operator replaces a discrete value with another, from a given alphabet $\Sigma$. For example, $\Sigma = { 0,1,2,3 }$ and  $X = 0023$ -> $2023$.
