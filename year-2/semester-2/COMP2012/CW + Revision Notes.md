@@ -1,10 +1,20 @@
 
+**Determinism**. At every step, there is exactly one possible move.
+
+## Pumping Lemma
+
+Example: *Prove that the language of words that contain the same number of `b`s and `c`s is not regular. Let this be $L_1$.*
+
+1. Suppose that $L_1$ is indeed regular. We can choose the word: $w = b^p c^p$, where $p$ represents the pumping length. $W \in L_1$ as it requires equal numbers of bs and cs.
+2. **For any valid split**, $w = xyz$, where $|xy| \le p$ and $|y| > 0$. This means that both $x$ and $y$ must appear within the first $p$ symbols of the word.
+3. As an example, we can *pump up* with a pumping length of 2. This creates a new word $xy^2z$. For $k \gt 0$, this word becomes $b^{(p+k)} c^p$. As $p + k$ will always be greater than $p$, this means there will always be greater amounts of $b$s than $c$s, resulting in a contradiction: $xy^2z \notin L_1$ and is thus irregular.
+
 ## ex6
 
 GOOD SLIDE: slide 133 on https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/lectures/02/Slides02.pdf
 
 
-Grammar: a way to generate valid strings.
+**Grammar**: a way to generate valid strings.
 
 These strings can be strings of regular expressions: `a`, `a + b`, `a + b ⬝ c*`; it is the grammar's job to determine which symbols in the string are valid regular expressions. 
 
@@ -30,16 +40,27 @@ By mapping precedence levels as:
 		- star
 			- parenthesis
 
+
 the grammar sees: `a + b ⬝ c` as: `left side + right side`, or: `a + <something else>`. The right side `<something else>` is only parsed at the next level when concatenation is allowed. This means the only possible parse tree is `a + (b ⬝ c)`.
 
 **Parenthesis.** At the lowest level, a parenthesised thing should be allowed to contain a full, independent regular expression.
 
+
+Remember **ETF**:
+- `E -> E + T | T`  - expression handles the union
+- `T -> T · F | F`  - term handles concat
+- `F -> A * | A` - factor handles Kleene star
+- `A -> a | b | c | ε | ∅ | (E)` - atom handles symbols or parentheses
+
 ### LL(1) condition
 
-Previously, the productions `E -> E + T`, or `T -> T * F` define the non-terminal being as being the **leftmost symbol on the right-hand side**. This is "**left recursion**". It prevents parsing from terminating: evaluating `E -> E + T`, it immediately reads the leftmost symbol on the right, `E`, and evaluates this, which is (again) `E -> E + T`, causing an endless loop.
+Previously, the productions `E -> E + T`, or `T -> T · F` define the non-terminal being as being the **leftmost symbol on the right-hand side**. This is "**left recursion**". It prevents top-down parsers from terminating: evaluating `E -> E + T`, it immediately reads the leftmost symbol on the right, `E`, and evaluates this, which is (again) `E -> E + T`, causing an endless loop.
 
-%% To resolve this %%
+To resolve this, we rewrite the production to remove left recursion:
 
+`E -> E + T | T`  becomes:
+- `E -> T E'`
+- `E' -> + T E' | ε`
 
 For example, defining in Lean:
 
@@ -53,6 +74,12 @@ becomes;
 
 ## Turing machines
 
+**Decidable**. If there exists a Turing machine that accepts every word in the language, rejects words not in the language, and always halts.
+
+**Semi-decidable (recursively enumerable).** The TM accepts words in the language, but may get stuck (infinitely loop) for words that are not in the language. Halting is not guaranteed.
+
+Therefore, all decidable languages are recursively enumerable, but not the other way around. 
+
 At Level 2 (context-free), pushdown automata add to finite automaton (level 3) by including a stack. A Turing Machine (level 0) adds to this by having a tape 
 
 
@@ -60,7 +87,7 @@ At Level 2 (context-free), pushdown automata add to finite automaton (level 3) b
 
 - Type 3: regular languages; finite state automaton.
 	- $L = \{ a^n \space | \space n > 0 \}$
-	- Formalism: $G = (V, \sum, R, S)$ - (non-terminals, terminals, production rules, and start symbol(s))
+	- Formalism: $G = (V, \sum, R, S)$ - (non-terminals, terminals, production rules, and start symbol
 		- Rules: $A \rightarrow a$, $A \rightarrow aB$ for right-regular, or $A \rightarrow Ba$ for left-regular.
 	- Examples: empty language; ”any number of $a$’s followed by any number of $b$’s”
 - Type 2: context-free languages; non-deterministic pushdown automaton. 
@@ -73,7 +100,7 @@ At Level 2 (context-free), pushdown automata add to finite automaton (level 3) b
 	- Formalism: $\alpha \rightarrow \beta$ satisfying $|\alpha| \le |\beta|$ - the rhs is never shorter than the lhs.
 	- Example: $anbncn$ 
 		- $anbncn$ is NOT context-free as the stack it contains can only push and pop states. This works for $anbn$ but not for three or more symbols. It requires a tape  
-- Type 0: recursively enumerable langauges; Turing machines.
+- Type 0: recursively enumerable languages; Turing machines.
 	- Language: $L = \{w | w$ describing a terminating turing machine $\}$
 	- Formalism: $\alpha \rightarrow \beta$  where both are arbitrary strings of terminals or non-terminals.
 	- (Undecidable) Example: the halting problem.

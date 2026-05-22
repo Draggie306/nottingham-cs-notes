@@ -9,6 +9,7 @@ Notes for this module are currently **not complete**.
 ## Resources
 - [2024 exam old-paper.pdf](old-paper.pdf)
 - [Old lecture notes](g52lac-notes)
+- [Practice pack PDF - 4 targeted mocks](lac_practice_pack.pdf)
 
 
 

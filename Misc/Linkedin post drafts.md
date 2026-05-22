@@ -1,4 +1,14 @@
 
+Generally, people hear "investing" and imagine: "I need to pick Tesla, Apple, Nvidia, watch charts every day, or lose everything." This sounds like gambling (and it broadly is), so people avoid it. This is not investing, this is **trading**.
+
+However, **investing** is more like: "every month, buy a boring diversified global fund automatically for 40 years." This is how pension funds, sovereign wealth funds, investment banks etc. work. For pensions, you simply see "pension contribution" on the payslip - much less scary - and not "you now indirectly own 0.00000004% of Microsoft, Shell, Apple, Tesla, Lloyds Bank, etc.".
+
+Many people believe that risk equates to total loss. Let's say you invest in the S&P 500 or the FTSE 100. For total loss to occur, all 500 of the U.S.'s largest companies and the UK's 100 largest companies would all simultaneously have to go insolvent. 
+
+Holding cash in a bank account is mathematically guaranteed to lose value due to inflation. Whilst this can be mitigated against with savings accounts with rates that beat inflation, it is uncommon for these to be any better than 1-2% above inflation per year. In contrast, over the last 50 years, the S&P 500 has delivered an annual rate of return of around 8%, and the FTSE 100 around 7%.
+
+Applying this to real life, on £1,000, this difference is not life-changing - let's say an extra £50 per year. The real benefits come from time and compounding. This is why pension funds are able to give huge lump sums and monthly payouts - over a working lifetime (let's say 40 years), this is not 50 x 40 = an £800 bonus. It is a £20,000+ bonus. Applying this to *several thousands* of pounds over a full career, and the numbers become quite staggering. 
+
 ## 2026 end of A/Y
 ### Group project
 
