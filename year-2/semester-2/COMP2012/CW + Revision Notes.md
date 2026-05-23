@@ -87,8 +87,8 @@ At Level 2 (context-free), pushdown automata add to finite automaton (level 3) b
 
 - Type 3: regular languages; finite state automaton.
 	- $L = \{ a^n \space | \space n > 0 \}$
-	- Formalism: $G = (V, \sum, R, S)$ - (non-terminals, terminals, production rules, and start symbol
-		- Rules: $A \rightarrow a$, $A \rightarrow aB$ for right-regular, or $A \rightarrow Ba$ for left-regular.
+	- Formalism: $G = (N, \sum, P, S)$ - (non-terminals, terminals, production rules, and start symbol
+		- Rules: $A \rightarrow a$, $A \rightarrow \epsilon$, $A \rightarrow aB$ for right-regular, or $A \rightarrow Ba$ for left-regular.
 	- Examples: empty language; ”any number of $a$’s followed by any number of $b$’s”
 - Type 2: context-free languages; non-deterministic pushdown automaton. 
 	- Language: $L = \{a^n b^n \space | \space n > 0\}$, also $L = \{a^n ++ b^n | n \ge 1\}$
@@ -97,7 +97,8 @@ At Level 2 (context-free), pushdown automata add to finite automaton (level 3) b
 	- Example: all palindromes, balanced parentheses
 - Type 1: context-sensitive languages; linearly-bounded non-deterministic Turing Machines.
 	- Language: $L = \{ a^nb^nc^n \space | \space n > 0\}$
-	- Formalism: $\alpha \rightarrow \beta$ satisfying $|\alpha| \le |\beta|$ - the rhs is never shorter than the lhs.
+	- Formalism: $\alpha \rightarrow \beta$ satisfying $|\alpha| \le |\beta|$ - the rhs is never shorter than the lhs
+		- Rule: $aA\beta$ -> $a\gamma\beta$ 
 	- Example: $anbncn$ 
 		- $anbncn$ is NOT context-free as the stack it contains can only push and pop states. This works for $anbn$ but not for three or more symbols. It requires a tape  
 - Type 0: recursively enumerable languages; Turing machines.
