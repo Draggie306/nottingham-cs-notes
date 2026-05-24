@@ -1,4 +1,6 @@
 
+
+## invest
 Generally, people hear "investing" and imagine: "I need to pick Tesla, Apple, Nvidia, watch charts every day, or lose everything." This sounds like gambling (and it broadly is), so people avoid it. This is not investing, this is **trading**.
 
 However, **investing** is more like: "every month, buy a boring diversified global fund automatically for 40 years." This is how pension funds, sovereign wealth funds, investment banks etc. work. For pensions, you simply see "pension contribution" on the payslip - much less scary - and not "you now indirectly own 0.00000004% of Microsoft, Shell, Apple, Tesla, Lloyds Bank, etc.".
@@ -9,7 +11,29 @@ Holding cash in a bank account is mathematically guaranteed to lose value due to
 
 Applying this to real life, on £1,000, this difference is not life-changing - let's say an extra £50 per year. The real benefits come from time and compounding. This is why pension funds are able to give huge lump sums and monthly payouts - over a working lifetime (let's say 40 years), this is not 50 x 40 = an £800 bonus. It is a £20,000+ bonus. Applying this to *several thousands* of pounds over a full career, and the numbers become quite staggering. 
 
-## 2026 end of A/Y
+## Placement hunt
+
+1. Headhunted on LinkedIn
+2. Passed CV/assessment stage
+3. Passed hour-long real interview #1
+4. Passed 4-hour-long series of interviews #2, #3 and #4 (and had great chats with all the devs)
+5. Passed hiring manager interview #5 (and had great chats!)
+	- Also called by recruiters throughout these stages
+6. Name and email thread CC'd to onboarding team
+7. Sent 3x placement forms required by my uni and paid for academic transcript
+8. Asked for 3x references and phone called my tutor for 30mins
+9. Completed background checks, previous employment experience, and passport uploaded
+10. Called twice by recruiter who finally said "another candidate has slightly more direct experience in the specific field".
+
+Total damage: 34 + 5 emails, 6 hours of interviews, 5 recruiter calls, 3 headhunter calls, and 3 uni visits cancelled
+
+Never give up!
+
+
+
+# LinkedIn
+### 2026 end of A/Y
+
 ### Group project
 
 Wednesday was Demo Day, marking the conclusion of our 8-month-long Software Engineering Group Project, NeuroNarratives: "Stories that read your mind".
