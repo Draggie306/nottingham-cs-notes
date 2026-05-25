@@ -5,8 +5,7 @@ Notes for this module are not complete.
 ## Main document
 These are more finished, cover multiple lectures, and have better explanations.
 
-- Full notes for the module have not been made yet.
-
+- [AIM Cheat Sheet](AIM%20Cheat%20Sheet)
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 

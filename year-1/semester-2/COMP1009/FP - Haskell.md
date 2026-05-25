@@ -383,7 +383,7 @@ getLine = do x <- getChar
 putStr :: String -> IO ()
 putStr []  = return ()
 putStr (x:xs) = do putChar x
-				   putChar xs
+				   putStr xs
 ```
 
 ![Pasted image 20250313112341](../../../Images/Pasted%20image%2020250313112341.png)
