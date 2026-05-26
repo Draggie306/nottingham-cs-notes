@@ -6,6 +6,8 @@ Notes for this module are not complete.
 These are more finished, cover multiple lectures, and have better explanations.
 
 - [AIM Cheat Sheet](AIM%20Cheat%20Sheet)
+
+
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
 
@@ -20,7 +22,7 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Lecture 1 - Introduction](Lecture%201%20-%20Introduction)
 
 ### Labs
-- [Lab 1](Lab%20%1)
+- [Lab 1](Lab%201)
 - [Lab 2 - Hill-climbing](Lab%202%20-%20Hill%20Climbing)
 - [Lab 3 - Metaheuristics](Lab%203%20-%20Metaheuristics)
 - [Lab 8 - Metaheuristics and HyFlex](Lab%208%20-%20Metaheuristics%20and%20HyFlex)

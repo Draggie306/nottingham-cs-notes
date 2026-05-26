@@ -10,7 +10,7 @@ Based on experience, memetic algorithms perform very well. Even with the same po
 
 A genetic algorithm in 1 iteration creates 2 solutions, iterates and evaluates them. With a memetic algorithm, we do not just mutate and evaluate: we mutate *and* apply hill climbing to evaluate a candidate solution. 
 
-We may also benefit from combining several memes, and if this makes a difference to the \[] algorithm.
+We may also benefit from combining several memes, and see if this makes a difference to the memetic algorithm.
 
 ## Benchmark functions
 Benchmark functions are used to test performance comparison for any given search algorithm designed for optimisation. 
@@ -148,7 +148,7 @@ Mutation randomly sets all memetic material to different values.
 
 The concentration of a meme is the total number of individuals that carry the meme $i$ (a certain value) at a given generation of population.
 
-The evolutionary activity of a meme is the accumulation of a meme conenctration until a given generation (how many times a meme has been used in a population). The slope in a plot represents the rate of meme concentration increase.
+The evolutionary activity of a meme is the accumulation of a meme concentration until a given generation (how many times a meme has been used in a population). The slope in a plot represents the rate of meme concentration increase.
 
 ![Pasted image 20260303174808](../../../Images/Pasted%20image%2020260303174808.png)
 

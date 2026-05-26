@@ -64,6 +64,6 @@ where `/mnt/mega` refers to the mount point of the external drive mounted in `/e
 
 
 ## Star History
-A few people have found this useful so far, so here is a nice graph to visualise stars since these notes were open-sourced in August 2025.
+A few people have found this useful so far, so here is a nice graph to visualise stars, from when these notes were open-sourced in August 2025.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Draggie306/nottingham-cs-notes&type=date&legend=top-left)](https://www.star-history.com/#Draggie306/nottingham-cs-notes&type=date&legend=top-left)

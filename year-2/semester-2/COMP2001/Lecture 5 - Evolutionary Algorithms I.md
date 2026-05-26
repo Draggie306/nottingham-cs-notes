@@ -7,7 +7,7 @@
 Many researchers believe that nature is a great problem-solver: complexity can be achieved in a short time. Can we simulate nature to solve complex problems on a computer?
 
 ### How evolution works
-**Heritable characteristics or hertiable traits** are passed from one generation to the next via DNA. 
+**Heritable characteristics or heritable traits** are passed from one generation to the next via DNA. 
 
 Change, or genetic variation, comes from **mutation** (changes in DNA) and **crossover** (reshuffling of genes via sexual reproduction and migration between populations).
 
@@ -20,7 +20,7 @@ Genetic variations that enhance survival and reproduction become more common in 
 ## Evolutionary algorithms: background
 
 
-Evolutionary algoritms simulate natural evolution (Darwinian evolution) by using survival of the fittest, with selection, mutation and reproduction (recombination).
+Evolutionary algorithms simulate natural evolution (Darwinian evolution) by using survival of the fittest, with selection, mutation and reproduction (recombination).
 
 To carry out the search process, we do not use a single candidate solution: we use a population (set of individuals/chromosomes "alive"). Depending on the fitness of an individual (how close it is to the optimal solution), it may evolve from one generation to another.  The hope is that the last generation will contain the best solution.
 

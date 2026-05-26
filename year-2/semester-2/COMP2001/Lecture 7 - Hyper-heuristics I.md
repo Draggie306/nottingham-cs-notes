@@ -6,9 +6,9 @@ Hyperheuristics raise the generality of the solution, introducing a level of abs
 
 - Heuristics are problem-specific methods to define the neighbourhood of a solution: how objective values are defined, the neighbourhood, etc. **Key point: if we need to solve a slightly different problem, we may need to significantly change the heuristics.** They have a high development cost & time. 
 
-- Metaheurisitcs provide definitions for how we can design methods for solving multiple problems. However, we must design e.g. mutation operator, hill-climbing operatiots, which often require domain expertise. 
+- Metaheurisitcs provide definitions for how we can design methods for solving multiple problems. However, we must design e.g. mutation operator, hill-climbing operations, which often require domain expertise. 
 
-- A single search method can be used to solve different types of problems - that are unknown, problems that have not been designed yer. They do not require problem-specific informaiton. The idea: if we have a general solver, we can solve a new problem without needing any more information. 
+- A single search method can be used to solve different types of problems - that are unknown, problems that have not been designed yet. They do not require problem-specific information. The idea: if we have a general solver, we can solve a new problem without needing any more information. 
 
 
 ### Definition
@@ -19,11 +19,11 @@ Hyperheuristic research is motivated by raising the level of generality of searc
 
 ## Selection hyper-heuristics
 
-There exists a problem domain barrier that hides low-level heuristics tgat affect the problem domain. We initialise a solution, and select a heuristic below the problem-domain barrier, identifiable by an ID. All that is known about the heuristic is its name and ID. 
+There exists a problem domain barrier that hides low-level heuristics that affect the problem domain. We initialise a solution, and select a heuristic below the problem-domain barrier, identifiable by an ID. All that is known about the heuristic is its name and ID. 
 
 They select from a predefined set of available heuristics - not deciding which bit to flip, etc. 
 
-The size, difficulty, optimality of different heuristics affect which solution is the most advantageous. Generally, hyperheuristics are easy to implement and design: we just need to define a problem domain of heuristics. Metaheuristics can be embedded within the heuristics (ILS says purturbation then hill climbing for local search)
+The size, difficulty, optimality of different heuristics affect which solution is the most advantageous. Generally, hyperheuristics are easy to implement and design: we just need to define a problem domain of heuristics. Metaheuristics can be embedded within the heuristics (ILS says perturbation then hill climbing for local search)
 
 Hyperheuristics can learn or not. 
 - No learning: predefined series/random selection of variables. 

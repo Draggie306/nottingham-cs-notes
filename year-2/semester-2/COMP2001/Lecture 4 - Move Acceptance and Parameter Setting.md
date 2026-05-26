@@ -22,7 +22,7 @@ When deploying any algorithm to a deployment, we have to determine what paramete
 ### Algorithmic parameter settings
 
 Many parameters can be used: the way they are set/controlled varies based on the categorisations:
-- Static methods - behave the same during the search. Given p = x, then its behaviour will not change from bein p = x at any points
+- Static methods - behave the same during the search. Given p = x, then its behaviour will not change from being p = x at any points
 - Dynamic methods - we may want to start with a high value of p, but on each iteration, we may decrement it by a certain amount. We can deterministically say whether it has been accepted/rejected at a given iteration.
 - Adaptive - different, based on history and memory, and will try to change the parameters to attempt to move into a different search landscape. 
 

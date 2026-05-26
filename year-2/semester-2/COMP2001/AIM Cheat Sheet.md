@@ -28,7 +28,7 @@ The search space may be **continuous** or **discrete**.
 - Discrete search spaces have a series of specific variables. For example, a series of backpacks with fixed capacities need to carry as many items with specific weights as possible. (Knapsack problem)
 
 
-NP-complete problems have a yes/no answer. Solutions of NP-hard problems grow exponentially with instance size. **Most real-world problems are both NP-complete and NP-hard**. Combinatorial optimisation problems require finding the optimal solution from a finite solution set - is both NP-complete ("is \[representation\] the best solution") and NP-hard (by definition).
+NP-complete problems have a yes/no answer. Solutions of NP-hard problems grow exponentially with instance size. **Most real-world problems are both NP-complete and NP-hard**. Combinatorial optimisation problems require finding the optimal solution from a finite solution set - is both NP-complete (asks "is \[representation\] the best solution?") and NP-hard (by definition).
 
 Search methods can be either **exact** or **inexact**.
 
@@ -160,11 +160,10 @@ It does the same as the template above, but moving to a new neighbouring solutio
 	- *Generally, it is best to stay in regions close to the initial region, unless the search is stuck.*
 - **Depth of search (hill climbing)** attempts to immediately improve upon the mutation by refining it. For example, if the search is perturbed onto a valley side, the hill-climbing operation will move it closer to the valley floor (for minimisation).
 
-![Pasted image 20260210164334|339](../../../Images/Pasted%20image%2020260210164334.png)
+![Pasted image 20260210164334339](../../../Images/Pasted%20image%2020260210164334.png)
 
 
-The local search must be fast and effective; as this will be carried out several times during the search, choosing something like Davis's bit is much faster than steepest descent. The choice of perturbation should also be such that it is not easily undone by the local search - if the perturbation attempts to go up a hill, and hill climbing wants to go down, nothing happens. **Parameter control methods** from earlier can also be used to adapt perturbation strength if the state is determined to be stuck in a local optima.
-
+The local search must be fast and effective; as this will be carried out several times during the search, choosing something like Davis's bit is much faster than steepest descent. The choice of perturbation should also be such that it is not easily undone by the local search - if the perturbation attempts to go up a hill, and hill climbing wants to go down, nothing happens. **Parameter control methods** from earlier can also be used to adapt perturbation strength if the search is determined to be stuck in a local optima.
 
 ### Tabu search 
 
@@ -172,7 +171,7 @@ This search method keeps a memory list of prohibited moved to avoid cycles.
 
 It contains a **forbidding strategy** to determine which moves to forbid, a **freeing strategy** (tenure) to remove (old) moves from the tabu list, and a **short-term strategy** to balance these.
 
-Over a series of neighbourhood solutions, find the best one, and check if it is not in the tabu list. If it is, then choose the next-best one until one is available. Then, replace the current solution with it.
+The general idea: "Over a series of neighbourhood solutions, find the best one, and check if it is not in the tabu list. If it is, then choose the next-best one until one is available. Then, replace the current solution with it."
 
 An example is below. Starting from `x0`, the search moves to `x2`. Crucially, after moving here, `x0` is added to the tabu list. This means that, despite `x0` having a better objective value than `x2`, it cannot be moved back to. As the only other element `x3` is in the neighbourhood, the search is forced to move in a worsening direction - but still closer to the global optimum. 
 
@@ -184,18 +183,210 @@ It is important to find a good value for tabu tenure (how long a search is on th
 
 ### Statistical Testing
 
-- Comparing two algorithms with matched data: one-tailed Wilcoxon Signed-Rank Test.
-- Comparing two algorithms with **unmatched** data: Mann-Whitney U Test
-- 
+Generally, a confidence interval of 95% is used to determine statistical significance.
+
+- **One-tailed test**: if one (improvement/decrease) results in a corresponding change in the other. **Two-tailed test**: if one change in one affects another, either positively or negatively way.
+- Comparing two algorithms with matched data: **one-tailed Wilcoxon Signed-Rank Test.**
+- Comparing two algorithms with **unmatched** data: **Mann-Whitney U Test**
+- Results can be compared with (notched) boxplots; if the notches/IQR does not overlap, the difference can be concluded to be statistically significant. 
 
 
 ## 4. Move Acceptance
 
+There are many ways to accept moves, including **stochastic** decisions (randomly accept a percent of non-accepting moves), or non-stochastic methods that are based on **known values** **(basic)** or **calculated values** **(threshold)** - often based on a combination of a small offset and the current best found in the search - before deciding to accept.
+
+### Acceptance configuration
+
+Acceptance methods can are often parameterised - allowing for configurations to control whether moves are accepted. There are three main parameter settings:
+- **static** - behave the same throughout the search. They have a fixed value: "accept worsening solutions if below 𝜀"
+- **dynamic** - behave differently, based on a predetermined value e.g. interval/time/iterations. 𝜀 often decreases over time - allowing more changes at the start and "refining" the search later on.
+- **adaptive** - behave differently, based on the current search conditions or memory. Adapts 𝜀 based on time AND also memory/state, often to create a threshold "target" value.
+
+Examples of solution acceptance can are: comparing its objective value to pre-existing values (non-stochastic basic), or a chosen "better" value (non-stochastic threshold), or a random value is created at the start based on the known solution values (stochastic static), or a random probability is updated as the search finds better solutions over time (stochastic adaptive).
+
+For example, accepting all non-worsening moves would be classified as static, non-stochastic basic acceptance: it behaves the same and does not change criteria during the search, does not use a randomisation element, and is based on known values (previous/current objective function value).
+
+Late acceptance is a **non-stochastic basic adaptive** method as it accepts worsening moves if not worse than the move accepted a number of moves ago, configured at the start but changes based on the search state.
+
+Moves acceptance can made in groups for single-stage search methods, with multiple acceptance methods deciding on a consensus. For multi-stage search methods, different move acceptance methods can be made dependent on the current search stage. 
+
+### Example algorithms
+
+#### Great Deluges
+
+Great Deluge is a **dynamic, non-stochastic threshold** acceptance method that only accepts worsening moves if not worse than a water level that decreases based on a "decay rate" over time. 
+
+Extended Great Deluge is an **adaptive, non-stochastic threshold** method that uses the similar decay rate from Great Deluge, but allows restarts based on when the search is deemed to be stuck (after a certain number of non-improving iterations)
+
+#### Simulated Annealing
+
+Simulated Annealing is a **dynamic, stochastic** method that accepts worsening moves based on a probability that decreases over time and a "Boltzmann probability". 
+
+Accepting a move is defined as: `Δ < 0 || 𝑟 < 𝑃 Δ, 𝑇`. If the delta (change from previous -> current solution) is better (`< 0`), it is always accepted. 
+
+The Boltzmann probability: $P(Δ,T)=e^{\frac{−Δ}T}$. If the delta is 0 (equal cost), `e` becomes 1, so it is always accepted. 
+
+Cooling schedules are very important and can have a big effect on the performance. They usually consider an initial $T_0$ and final $T_f$ temperature, mechanism to decrease the temperature, and the number of iterations per temperature. $T_0$ should start "hot" to allow must but not all worsening moves and can be set statically or dynamically. The final temperature should be close to 0. Example schedules include:
+
+- **Linear** cooling - fixed reduction each iteration
+- **Geometric cooling** - multiplies temperature by 𝛼 - around 0.99 every iteration, cooling quickly initially but slowing down later.
+- **Lundy and Mees** uses a parameter 𝛽 close to 0.0001 similar to geometric cooling. Current iteration/1 + 𝛽\*iteration.
+
+Simulated Annealing with Reheating extends this to be an **adaptive, stochastic** method, by increasing the temperature at certain points depending on e.g. if the search has not improved after a given number of iterations. 
+
+
+### Parameter configuration
+
+
+Parameters tuning occurs before the search process - such as changing mutation intensity in ILS or the starting temperature in SA. Parameter control adapts the parameters during the search process, such as increasing mutation intensity when the search is stale.
+
+This can be done **arbitrarily** - randomly picking 𝛼 or 𝛽 values, or by **trial and error**, or **sequentially** going through a series of 𝛼 and 𝛽 to find the best combination.
+
+### Experiment design
+
+To help find the best parameters, there are three main sampling methods: **random** "m" number of configurations, use a **Latin hypercube** to not pick similar settings, or use an **orthogonal grid** to divide a search space into subspaces to explore. 
+
+
+![](../../../Images/Pasted%20image%2020260526145247.png)
+
 
 ## 5. Evolutionary Algorithms
 
+EAs simulate Darwinian evolution and the idea of "survival of the fittest" via selection, mutation and recombination. 
+
+An **individual/chromosome** is a candidate solution for a problem. A set of individuals is the **population**. This population can **evolve** from one **generation** to the next (every iteration of the GA) depending on individuals' **fitness** (objective values) within the population. The last generation should contain the best solution.
+
+**Evolutionary programming** evolves the parameters of a program with a fixed structure over time. **Genetic programming** evolves programs themselves, if represented in tree form. 
+
+### Genetic algorithms
+
+A genetic algorithm should have the components of (meta)heuristics: **representation** for candidate solutions, objective function (now **fitness function**), perturbation (**mutation**) and termination criteria. Additionally, GAs have an **initialisation scheme** to generate the first set of candidate solutions, a scheme for **selecting parents** and a way to **combine genes between parents** to **construct new child solutions** in the next generation. Additionally, values such as crossover rates, population sizes, number of generations/iterations etc. are used. 
+
+#### Genetic algorithm template
+Generally, GAs do the following:
+
+- Initialise a population
+- Calculate fitness of all individuals in the population
+- While termination conditions are **not** satisfied:
+	- Select parents and reproduce
+	- Recombine parent genes by crossover
+	- Mutate the new child genes
+	- Calculate fitness values of all children
+	- Replace the population with the new children
+
+### GA components
+
+The **fitness value** indicates how fit (and, by extension, how likely) it is to survive and reproduce to the next iteration. The fitness value is calculated from applying the fitness function to the chromosome (candidate solution).
+
+- The genotype is the solution representation - e.g. 010101.
+- The phenotype is the "decoded" result of applying the genotype. For example if 010101 results in there being 1 unsolved solution in a MAX-SAT problem then the phenotype is 1.
+	- *This is similar to biology; the phenotype is the observable "result" of the encoded genotype*
+
+The **reproduction** process requires the selection of (typically 2) parent candidate solutions. **Selection pressure** determines how strongly the selection process is "elitist": high pressure means greater chance of choosing fittest individuals. This is often done by:
+
+- a **tournament selection** process: where a number of "tournaments" is conducted over a random number of individuals (tour size). The fittest individual is chosen at the end, and is repeated for both parents (and can choose the same parent!).
+- a **roulette wheel selection** process - where the whole population's fitness is evaluated, and the probability of selecting any given individual is based on its "slice" of the overall population's fitness. (*A simplified version of this is sorting and ranking from best to worst fitness.*)
+
+Recombination is applied with a crossover probability: $p_c$ which is often close to 1. If this probability is reached, **one point crossover** splits the parent chromosomes at a random point, and exchanges one "segment" from one parent with the segment of the other parent, creating two new individuals. *If the crossover probability is not reached, the parents can be copied into the next generation anyway.*  Other crossovers exist, such as **uniform crossover** (considering each bit in the parent strings, and having a half chance to copy each). 
+
+**Mutation** is then **applied to the children**, with a small chance $p_m$ of occurring for each gene in the chromosome - `1/chromosomeLength` gives an average of 1 gene mutation per individual. This allows for some **diversity** and allows the search space to explore different regions and, again, balance exploration and exploitation. 
+
+Finally, the **population is replaced**.  The **generation gap** (𝛼) refers to the percentage of population to be replaced. As the population size must stay fixed, a value of 𝛼=0.02 over a population of 100 results in 2 offspring being produced. A value 𝛼 = 1 over the same population size means 100 new offspring will be created, all replacing the previous generation.
+
+**Transgenerational generic algorithms** produce 𝛼N offspring. Therefore, we temporarily have `N + 𝛼N` individuals. This must be reduced back to N, so we often replace the worst 𝛼 individuals from the old population. 
+
+**Convergence** is the progression towards uniformity between individuals. When 95% of a population have the same gene, it is converged. When all genes have converged, this is **genotypic** convergence. When all fitnesses approach the best individual in the population, this is phenotypic convergence.
+
+The evolutionary algorithm will continue until **termination criteria** are satisfied. This could be genotypic convergence, a static number of generations, or a combination of termination criteria.
+
+
+### Memetic algorithms
+
+Memes can change over time with different rules, compared to genes. A meme is essentially a local search heuristic, that explicitly balances exploitation and exploration. Compared to GA, MAs apply the local search operator after offspring have been mutated - such as DBHC - before being added to the next generation.
+
+### Benchmark functions
+
+Benchmark functions are pre-existing search spaces that have been searched extensively already. This allows meta- and hyper- heuristics to be tested on them. They have a known global minimum and can be easily computed, potentially representing existing real-world problems. They also have several characteristics that allow us to determine how well they perform ***and*** how likely they are to fail/get stuck.
+
+- Generally, we classify benchmark functions in terms of **continuity**: continuous vs discontinuous.
+- **Dimensionality** also generally increases the difficulty of a benchmark function. 
+- **Separability** affects difficulty, with separable functions being much easier to solve a each variable is independent of other variables (and calculating for delta evaluation is more efficient) - and each can be tuned/controlled independently.
+- **Modality** also has an influence: **unimodal** means it contains one optimum, whereas **multimodal** means the solution can have a few local minima or a huge number of local minima.
+
+> To work out if something is separable (**and can be delta-evaluated**), ask if the equation permits writing each term with only one variable. For example: $f(x_1,x_2,x_3)=x_1^2+\sin(x_2)+x_3^4$ IS separable because each term only uses one variable. However: $f(x_1,x_2)=x_1x_2$ is NOT because one term uses two coupled variables.
+
+### Optimisation representation
+
+We use encoding and decoding to represent different scenarios. For example, to represent $-512 < x \le 512$, we can use 10 bits. 
+
+- -511 would be `00000 00000`
+- -510 would be `00000 00001`
+
+First, convert the binary number to decimal, and subtract 511 to obtain its encoding.
+
+Given a chromosome of 30 bits, we can encode the values in x1, x2 and x3 (with 10 bits each). We then decode it by adding (the squares of) each 3 values to compute the overall fitness value. 
+
+Encoding representations in binary can also be challenging. A **hamming wall** can be reached when it is unlikely that the genetic algorithm will mutate in a way to produce a better fitness value: e.g. changing `011` to `100` requires all bits to flip for a change in value of just one. To solve this, we can use **gray encoding**: adjacent numbers always have a single-digit difference.
+
+![](../../../Images/Pasted%20image%2020260526195941.png)
+
+### Genetic permutation operators
+
+Partially-mapped crossover creates new offspring by choosing a subsequence from one parent, choosing two "cut points", and swapping the segment between the cut points. The other (entrance/exit) points are kept the same, keeping the order and position for cities from the other parent.
+
+Order crossover exploits the property that the order, not the location, is what is important. It chooses a subsequence of a tour from one parent and copies the cities in the same order for one parent into the other.
+
+Cycle crossover selects a starting point in the first parent, and copies the corresponding city in the second parent at the index, into the offspring. This corresponding city is then found back in the first parent, and then the corresponding parent is indexed at the same location, copying into the offspring. This is copied until a cycle is found, and the complement is then the other offspring.
+
+### Multi-meme memetic algorithms 
+
+MMAs give each individual in the population two types of information. This allows for the co-evolution of both genes and memes in an individual:
+
+- **genetic material** - chromosome; the solution encoding itself,
+- **memetic material** - instructions for how that individual should self-improve. 
+
+A meme encodes how to apply a local search operator: where (before/after mutation), when (iteration limit, acceptance criteria), how to apply it (by using DBHC/SDHC) and how frequently to apply it (always/1 in `n` iterations). We can combine multiple memes into a **memeplex** that each individual can choose from.
+
+Memes are mutated based on their **innovation rate**. Mutation affects parameters like mutation probability, crossover probability, where to apply hill climbing, the number of iterations for the hill climbing step, etc. This is typically encoded alongside the solution representation (genetic material). 
+
+![Pasted image 20260303173843](../../../Images/Pasted%20image%2020260303173843.png)
+
+An innovation rate of 0 means there is no innovation, and memetic material does not change in children. With an innovation rate of 1, all available memes and all available strategies may be used equally. This can also be used in the benchmark function.
+
+Memes can be evaluated by their **concentration** in the generation ($c_i(t)$) or by their **evolutionary activity** - a slope that accumulates that shows rate of meme concentration increase.
+
+MMAs help to identify the best memes within a memeplex, and can also help to find "synergy between memes" to find even better solutions more quickly. If there are many different memes and meme operators, then experiment design should be used to reduce the number of options for a more optimal performance of the MMA.
 
 ## 6. Hyperheuristics
+
+Hyperheuristics are high-level search methods and learning mechanisms that **select or generate heuristics** to solve problems. They operate **on the search space of lower-level (meta)heuristics, not the search space of solutions** themselves. Because of this, they are more "general" and aim to be useful for a broader range of problems "general-purpose solver", by taking advantage of the heuristics that perform well and avoiding the weaker ones. It does not use any problem-specific knowledge - there is a **domain barrier**.
+
+
+### Selection hyperheuristics
+
+The size, difficulty and optimality of different heuristics affect which solution is the most advantageous. Generally, hyperheuristics are easy to implement and design: we just need to define a problem domain of heuristics, which will then be evaluated based on the selection mechanism. **All the hyperheuristic knows is the name and ID of the heuristic below the problem-domain barrier.** 
+
+Hyperheuristics can learn or not. 
+- No learning: predefined series/random selection of variables. 
+- Offline: tune in advance based on a training set, but the parameters do not adapt over time
+- Online: takes in feedback during the search to affect parameters.
+
+#### Selection hyperheuristics template
+Generally, Selection HHs do the following:
+
+- Generate initial solution
+- Set current solution as initial solution
+- While termination conditions are **not** satisfied:
+	- Select heuristic(s) to apply
+	- Generate a temp solution by applying heuristic to current solution
+	- Decide to accept or reject the temp solution
+	- If accept, replace current solution with temp solution
+- Return current solution as the best solution
+
+
+
+
+
 
 
 ## 7. (Bonus) Fuzzy Systems
