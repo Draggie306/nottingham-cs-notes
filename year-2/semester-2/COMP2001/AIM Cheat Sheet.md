@@ -366,7 +366,7 @@ Hyperheuristics are high-level search methods and learning mechanisms that **sel
 
 The size, difficulty and optimality of different heuristics affect which solution is the most advantageous. Generally, hyperheuristics are easy to implement and design: we just need to define a problem domain of heuristics, which will then be evaluated based on the selection mechanism. **All the hyperheuristic knows is the name and ID of the heuristic below the problem-domain barrier.** 
 
-Hyperheuristics can learn or not. 
+Hyperheuristics can **learn**, not. 
 - No learning: predefined series/random selection of variables. 
 - Offline: tune in advance based on a training set, but the parameters do not adapt over time
 - Online: takes in feedback during the search to affect parameters.
