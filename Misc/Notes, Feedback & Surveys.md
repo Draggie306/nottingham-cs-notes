@@ -316,6 +316,148 @@ Please complete your questionnaire. The scores and constructive feedback you sub
 
 
 
+## Accommodation Survey
+
+5. **Are you the first person in your family to attend university?***
+No, one or both of my parents/guardians attended university
+
+6. **Do you work while studying at university?***
+Yes, part time
+
+7. **On average, how many hours do you work per week?**
+10–19 hours
+
+8. Please put the below criteria in order of how important they are when choosing student accommodation*
+
+![](../Images/Pasted%20image%2020260528121624.png)
+
+
+16. **In my experience, accommodation staff are knowledgeable***
+3/10
+
+17. **I feel my living environment facilitates a good social life in my accommodation***
+4/10
+
+18. **I am easily able to inform accommodation staff of any issues or concerns I have***
+5/10
+
+19. **It is easy for me to resolve issues I have with my accommodation***
+6/10
+
+20. **It is easy for me to make friends and integrate with the community in my accommodation***
+6/10
+
+21. **What (if anything), could your accommodation do to help you make friends more easily?***
+Improved facilities that allow students to meet and chat as opposed to restricted/dingy kitchens, more interactive and welcoming events for everyone, campus-wide well-promoted and encouraged/mandated events to bring a sense of community, more publicised access to common rooms, more checking in and engagement.
+
+
+22. **The accommodation facilities are as good as I expected***
+4/10 
+
+23. **Accommodation staff understand what is important in creating a positive living experience for me**
+5/10
+
+
+24. **What (if anything), could staff do differently to better support your living experience?***
+On-ground in-person staff are broadly excellent and understand, but higher-up contacts via emails and online communications have continually promised things that were never delivered, and unrealistic and useless messages that answer one question with a lack of information, leaving enquirers more confused and needing to continually follow up. In-person staff could check in with students while online staff should be more open and explanatory.
+
+25. **Accommodation staff have a good idea of the advice and support students need**
+5/10
+
+26. **Accommodation staff look after their students**
+3/10
+
+
+27. **If my needs aren't being met, accommodation staff have ways to recognise this and assist as far as they can**
+2/10
+
+
+28. **I get any information I need, when I need it**
+7/10
+
+29. **Communications to me from accommodation staff are clear and straightforward**
+2/10
+
+30. **Accommodation staff have been prepared to go the extra step to help me from the outset**
+1/10
+
+
+31. **I believe accommodation staff play an active role in building a strong community within my accommodation**
+3/10
+
+32. **The social facilities and services here are very good in my experience**
+7/10
+
+33. **What do you like or dislike about the social facilities that contribute to this score?**
+Common rooms are generally excellent - pool table, tennis table, and a space on each floor for interaction. Comfy seats and television that mostly works depending on eduroam, and the replacement of a remote was appreciated. Kitchen space works to discuss and chat with flatmates and this is adequate but could be meaningfully better.
+
+
+34. **Accommodation staff make sure things happen for me when they say they will happen**
+6/10
+
+35. **Staff are friendly, willing to help and keep me informed**
+8/10
+
+36. **It is a pleasure living in my accommodation**
+3/10
+
+37. **Accommodation staff care about my wellbeing**
+5/10
+
+38. **Accommodation staff behave with fairness, integrity and honesty**
+5/10
+
+39. **I feel that my accommodation experience supports my mental health**
+2/10
+
+40. **In what ways does your accommodation experience support or impact your mental health?**
+Before moving in, myself and friends had all coordinated to be living on the same corridor in another accommodation. We were all subsequently moved to the current hall of residence. However, the room organisation we had agreed and had discussed with the accommodation staff was not upheld, even though multiple people in the group emailed and used the "live chat" function and were promised we would all be in the same area. Not only was this not the case (r.e. honesty above), but multiple of the group were placed on a completely different floor than the rest, and I was placed on the opposite end of the hall compared to 3 of my friends, resulting in a 2-minute trip to see them. Not catastrophic but the kind of friction we deliberately foresaw and tried to resolve, as moving a group of organised students should be easier than moving everyone individually. Also, a negative effect has been the removal of facilities, notably Ethernet, and the replacement with a sub-standard alternative (Eduroam wifi) which was extremely unreliable and often took 15+ minutes to connect for everyone in the accommodation for months at a time, in addition to being slower. The "next generation network" access points were not installed across the hall, including the one(s) closest to my room, and the 3 that were installed in the common room areas are still dysfunctional and cannot be connected to. Further, kitchens around the hall have been improved and upgraded whereas my kitchen seems to be the only one with a grimy, poor old induction hob which has been disappointing. Positively, there have been significantly fewer fire alarms and the view is good, and the room is slightly larger. At the beginning, I reported an issue with my tap to on-ground welcome point staff and it was fixed before I even got back to my room which was excellent. The kitchen space feels adequate but the table and chairs feel more makeshift and not a permanent installation or feature which is what it could be. Food trucks are very appreciated with free food, but this is at the same time of day on the same weekday, which is very unfortunate for people like myself who have weekly planned work/events during that time. There is also a poor level of integration and lack of being kept in the loop concerning new students moving in, when and where they are, so I cannot say hello to them or know that someone may be using my fridge space in advance. There should be greater integration with international students, who are often very secluded and do not speak much, compared to home students. Planning next year's accommodation has been extremely stressful and damaging to mental health with information about returner offers being sent out in late May (when students typically begin looking in October/November) and there is a severe lack of adjustment/acknowledgement/coordination between faculty and accommodation concerning some degrees, particularly those with a Year-in-Industry (placement) who may need accommodation as backup but cannot sign a year-long several-thousand-pound contract, with both university-owned halls and third-party providers, which is a shame.
+
+
+41. **I feel at home in my accommodation**
+3/10
+
+42. **Whenever I need advice and support, staff have been helpful and friendly**
+6/10
+
+
+43. **The accommodation team values its students as people rather than numbers**
+1/10
+
+
+44. **My accommodation offers a great range of events**
+7/10
+
+
+45. **I believe living in this accommodation has helped me achieve my academic objectives this year**
+3/10
+
+46. **I believe my accommodation is good value for money**
+7/10
+
+
+47. **The accommodation systems I use make everything as straightforward as possible**
+2/10
+
+
+48. **I feel part of a community here**
+3/10
+
+49. **I am likely to recommend my accommodation to other students**
+7/10
+
+50. **Please tell us what could have been done better to improve your accommodation experience**
+
+- Firstly, see my other responses and messages
+- More communication and shared knowledge between IT, different accommodation teams, and a proactive approach to informing students who want to live together
+- Better offers e.g. to return next year for the same price
+- More communication and encouragement to do events, e.g. there was a Birds of Prey experience that was poorly advertised only by ResX and not in communal facilities/there could be a "weekly [Jubilee]" roundup sent by Welcome Point
+- More diverse times for food trucks and other events - more stuff during the day
+- Better and more events with sports/bubble football that occur on other halls
+
+51. **Is there a member of staff you would like to give a special mention to?**
+Sam Rice, the man in-person at Welcome Point Jubilee, and the cleaners for their humour and chats. SPECIFICALLY NOT Ellena Kenny.
+
 
 # Miscellaneous Observations
 

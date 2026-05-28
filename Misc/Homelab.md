@@ -24,6 +24,14 @@ draggie@rpi:~ $ dmesg | egrep -i "error|sdhci|mmc|timeout|I/O"
 usb-storage.quirks=152d:0578:u console=serial0,115200 [....] systemd.mask=warp-svc.service systemd.unit=multi-user.target
 ```
 
+2026-05-28: Added cgroups to enforce docker resource limits:
+```sh
+$ cat /boot/firmware/cmdline.txt
+[...] cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1
+```
+
+
+
 ## Architecture
 - Server system: Raspberry Pi 5 8GB (Raspberry Pi OS Lite)
 - Storage:
