@@ -148,38 +148,28 @@ Whilst the workload for this module on its own is manageable, the way it is time
 
 Mode: Anonymous
 
-Overall Quality. The module is overall organised and delivered well.(Required field)
+1. Overall Quality. The module is overall organised and delivered well.(Required field)
+- (2) Agree
 
-(2)Agree
+2. Module Assessment Sheet. Is this document available in Moodle and clearly outlines assessment and feedback in this module?(Required field)
+- (2)Agree
 
-Module Assessment Sheet. Is this document available in Moodle and clearly outlines assessment and feedback in this module?(Required field)
+3. Moodle Materials. The module materials are in Moodle and organised well.
+- (2)Agree
 
-(2)Agree
+4. Pace of Delivery. How do you find the pace of the module?
+- (2)Too fast
 
+5. Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
+- (2)Agree
 
-Moodle Materials. The module materials are in Moodle and organised well.
-
-(2)Agree
-
-Pace of Delivery. How do you find the pace of the module?
-
-(2)Too fast
-
-Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
-
-(2)Agree
-
-Practical Sessions. Are computing/seminar/tutorial sessions delivered well to complement your learning? Are you happy with delivery methods overall?
-
+- Practical Sessions. Are computing/seminar/tutorial sessions delivered well to complement your learning? Are you happy with delivery methods overall?
 (3)Neutral
 
-
-Good Practice. Is there anything that is working particularly well for you in this module?
-
+- Good Practice. Is there anything that is working particularly well for you in this module?
 N/A
 
-
-Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others
+- Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others
 
 Very challenging concepts that take a while to learn and time is never given. Assessment sheets need to be revised and looked at properly to make sure it is fully accurate. The use of the whiteboard should be minimised or significantly reduced - instead, display it on the screen, draw it there, and share a link to the drawing would be much better. My tutorial introduces new concepts and then it is clarified that they are not actually needed? Comments such as "you can use every tactic to complete the proofs" are not very helpful, as we have not been taught many tactics or the actual syntax of the Lean language really. More Cas lectures would be appreciated!
 
@@ -188,100 +178,53 @@ Very challenging concepts that take a while to learn and time is never given. As
 
 Mode: Anonymous
 
-Overall Quality. The module is overall organised and delivered well.(Required field)
-
+- Overall Quality. The module is overall organised and delivered well.(Required field)
 (2)Agree
 
-Module Assessment Sheet. Is this document available in Moodle and clearly outlines assessment and feedback in this module?(Required field)
-
+- Module Assessment Sheet. Is this document available in Moodle and clearly outlines assessment and feedback in this module?(Required field)
 (1)Strongly Agree
 
-Moodle Materials. The module materials are in Moodle and organised well.
-
+- Moodle Materials. The module materials are in Moodle and organised well.
 (2)Agree
 
-Pace of Delivery. How do you find the pace of the module?
-
+- Pace of Delivery. How do you find the pace of the module?
 (2)Too fast
 
-
-Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
-
+- Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
 (2)Agree
 
-Practical Sessions. Are computing/seminar/tutorial sessions delivered well to complement your learning? Are you happy with delivery methods overall?
-
+- Practical Sessions. Are computing/seminar/tutorial sessions delivered well to complement your learning? Are you happy with delivery methods overall?
 (2)Agree
 
-Good Practice. Is there anything that is working particularly well for you in this module?
-
+- Good Practice. Is there anything that is working particularly well for you in this module?
 I have enjoyed working out proofs on paper and improving my maths skills. It is very refreshing and much appreciated to have lecturers proactively discussing topics and the work with you in the lab/computing sessions!
 
-Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
-
+- Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
 Some more exercises that explain and walk though topics, particularly the mathematics and rearranging equations and explaining the process behind calculating/proving the different Big-Oh proofs would be appreciated. I have enjoyed doing lots of calculations on paper but when it came to the exam, it felt much more difficult than tutorial questions, despite completing even the algebraically challenging sections. More focus on working out Little-Oh, big-theta and big-omega in the computing lab sessions on paper, as opposed to counting primitive operations - whilst these are done in the tutorials, it is not enough.
 
 ### Early Module Feedback: Human-Computer Interaction 
 
-Overall Quality. The module is overall organised and delivered well.(Required field)
+%%check this matches the screenshots%%
 
-(2)
-Agree
+1. Overall Quality. The module is overall organised and delivered well.(Required field)
+- (2) Agree
 
-Module Assessment Sheet. Is this document available in Moodle and clearly outlines assessment and feedback in this module?(Required field)
+2. Module Assessment Sheet. Is this document available in Moodle and clearly outlines assessment and feedback in this module?(Required field)
+- (1) Strongly Agree
 
-(1)
-Strongly Agree
+3. Moodle Materials. The module materials are in Moodle and organised well.
+- (2) Agree
 
-Moodle Materials. The module materials are in Moodle and organised well.
+4. Pace of Delivery. How do you find the pace of the module?
+- (1) About right
 
-(1)
-Strongly Agree
+5. Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
+- (2) Agree
 
-(2)
-Agree
+6. Good Practice. Is there anything that is working particularly well for you in this module?
 
-(3)
-Neutral
-
-(4)
-Disagree
-
-(5)
-Strongly Disagree
-Pace of Delivery. How do you find the pace of the module?
-
-Pace of Delivery. How do you find the pace of the module?
-
-(1)
-About right
-
-(2)
-Too fast
-
-(3)
-Too slow
-Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
-
-Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
-
-(1)
-Strongly Agree
-
-(2)
-Agree
-
-(3)
-Neutral
-
-(4)
-Disagree
-
-(5)
-Strongly Disagree
-Good Practice. Is there anything that is working particularly well for you in this module?
-Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
-Very little guidance provided/taught about how to actually design a user interface with tools like Figma, with requirements for what platform to use to make the coursework being very vague too which all is disappointing. Conflicting messages sent - coursework can be done on paper with sketches but needs to be interactive? 
+7. Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
+- Very little guidance provided/taught about how to actually design a user interface with tools like Figma, with requirements for what platform to use to make the coursework being very vague too which all is disappointing. Conflicting messages sent - coursework can be done on paper with sketches but needs to be interactive? 
 
 ### SEM Survey for Introduction to Human Computer Interaction
 
@@ -474,3 +417,4 @@ Sam Rice, the man in-person at Welcome Point Jubilee, and the cleaners for their
 
 - Resources and documents should all be available as PDFs, not just word documents or powerpoints.
 
+- After having to come off the YII track (due to being unable to find a placement), and filling out + submitting the transfer request and change of circumstances form, I was told by the Operations Manager of the School of Computer Science (Jasmine Hickman) the following: "As you have missed the deadline (do not worry), please you can submit the alternative enrolment form. ([Get help with module enrolment](https://forms.office.com/pages/responsepage.aspx?id=7qe9Z4D970GskTWEGCkKHhBL3bv2YO5FpiXNwz-0wx5URE5BUjg2WTBUQk43S0lDR01XSTg2R0lVTyQlQCNjPTEkJUAjdD1n&route=shorturl "https://forms.office.com/pages/responsepage.aspx?id=7qe9Z4D970GskTWEGCkKHhBL3bv2YO5FpiXNwz-0wx5URE5BUjg2WTBUQk43S0lDR01XSTg2R0lVTyQlQCNjPTEkJUAjdD1n&route=shorturl")), once you have submitted the attached form to the Change of Circs team.". However, student services said that my module choices for next year can no longer be applied and there was nothing I can do (contradicting the operations manager "do not worry") message, as I submitted the alternative enrolment form 1 working day after the module enrolment deadline (having sent the transfer request form the working day before). This means I cannot change my module choices and apply for the external out-of-school modules until teaching begins in late September, and may result in overlapping timetables/poor schedules etc. 
