@@ -258,6 +258,47 @@ Please complete your questionnaire. The scores and constructive feedback you sub
 8. Please use the space below for any constructive comments about this module
 
 
+### SEM Survey for Artificial Intelligence Methods
+
+Lecturers: Ender Ozcan
+
+Please complete your questionnaire. The scores and constructive feedback you submit are valued highly by your school or department and will be used to help improve modules and teaching. Your responses will remain anonymous, but any negative personal or abusive comments will be deleted.
+
+Please answer the following questions. Questions marked with a "\*" are mandatory.
+
+Survey Notes:
+
+1) The learning activities and resources are well organised and structured *
+- Strongly Agree
+
+2) The learning activities and resources are helping me to achieve the learning outcomes *
+ - Neutral
+
+3) The learning activities and resources have encouraged me to explore the topics further *
+ - Strongly Agree
+
+4) The learning activities and resources are easily accessible *
+ - Agree
+
+5) I know how and where to get help and support for this module when I need it *
+ - Strongly Agree
+
+6) The criteria for the assessments on this module are transparent and clearly explained *
+ - Agree
+
+7) The workload associated with this module is manageable *
+ - Agree
+
+8) Please use the space below for any constructive comments about this module
+
+The module is genuinely interesting and there are many examples where things suddenly "click" or make sense, which is appreciated. The weekly formative assessments are useful and make you think. This prepared me well for the first in-class test worth 20% of the module. However, when it came to the final 50% exam, I did not feel like the questions particularly assessed me on what I knew, which was disappointing, and that the questions asked in the exam did not feel remotely linked to the level of questions asked during the formative assessments, nor the 20% in-class exam. Although I got a first-class mark in the in-class exam, I left the final exam feeling very confused as many questions seemed like they could have multiple correct answers even if only one was correct. It would be appreciated if e.g. a past paper was made available, or questions more aligned with the complexity and the wording of the final exam were provided. Additionally, some exam questions felt poorly designed - for example, a calculation and method question to work out the average weighted tardiness was given 10 marks (5-10% of the entire module), and no (partial) mark was given for working out, as it purely rode on on single integer input. (I will not speak further about the question that was incorrect - I appreciate this was a mistake and I hope an adequate solution to the error is found, considering people like myself who spent the majority of the exam time on that one question due to the extra rules and "hints" provided in it.)
+
+Module convener office hour availability could be improved - as this year this was only 1 hour immediately before the lab/lecture, which is not useful for people who may not be able to attend the lab/lecture that week anyway. Timetabling was an issue too, which contributed to low attendance: having the lecture from 4-6pm on a Tuesday is unproductive and prevents students attending society events/sports: on its own can be worked around, but the lab session from 4-6pm on a Friday arguably is even worse and could be moved around. The labs themselves were fairly useful and it contributed to the feeling of really knowing and understanding the contents of the lectures. 
+
+Furthermore, there is an abundance of cheating throughout the module. Many people in the lab during the 30% coursework submission were discussing their implementations, I heard someone saying "wait, we had to implement our own one" and another saying "no, I just got Claude to do it all" and "fully switched to vibe-coding at this point". Whilst the use of AI was allowed in the coursework for hyperheuristic design and not for code, it seems like many students did not know about this boundary. It was also disappointing to learn that others' solutions were significantly better than mine, when others simply used an AI tool to generate an extremely advanced hyperheuristic and lower-level heuristics and move acceptance operators in minutes, whereas I spent over a week implementing this from scratch and achieved a comparably poor score, even though I quite enjoyed thinking and testing new algorithms. The coursework framework also felt well-designed but poorly implemented, with having to implement code for 70+ stub methods to even begin to see results; whilst I was able to do this in a few days, I felt like lots of the code was very much boilerplate and did not do much of testing "AI Methods", instead more like a Java maintenance class. I could have saved over 20 hours on the HyFlex implementation if some of the boilerplate was given already, and used this time to really think about how to best use and combine the lecture content to make an effective hyperheuristic. 
+
+
+
 
 ## Accommodation Survey
 
