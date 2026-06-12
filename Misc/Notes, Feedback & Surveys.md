@@ -226,6 +226,39 @@ Some more exercises that explain and walk though topics, particularly the mathem
 7. Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
 - Very little guidance provided/taught about how to actually design a user interface with tools like Figma, with requirements for what platform to use to make the coursework being very vague too which all is disappointing. Conflicting messages sent - coursework can be done on paper with sketches but needs to be interactive? 
 
+### SEM Survey for Algorithms Data Structures and Efficiency
+
+1. The learning activities and resources are well organised and structured *
+- Agree
+
+2. The learning activities and resources are helping me to achieve the learning outcomes *
+- Neutral
+
+3. The learning activities and resources have encouraged me to explore the topics further *
+- Disagree
+
+4. The learning activities and resources are easily accessible *
+- Strongly Agree
+
+5. I know how and where to get help and support for this module when I need it *
+- Agree
+
+6. The criteria for the assessments on this module are transparent and clearly explained *
+- Agree
+
+7. The workload associated with this module is manageable *
+- Neutral
+
+8. Please use the space below for any constructive comments about this module
+
+As someone who did not take A-level Maths, I found the module to be fairly flexible and a good basis for learning. Although I found the class tests difficult, because of balancing all other modules (particularly the heavy workload associated with GRP) by the end I was able to understand and reason fairly well about algorithmic behaviours and efficiency. The way content was explained, such as sorting algorithms, was much more clear and intuitive than how I had previously been taught and learnt, so don't underestimate having to unlearn and relearn information! In particular, I had a "eureka" moment when realising how and why merge sort is O(n log n). I did find it slightly demoralising and difficult when my friends and others on the course exclaimed how easy the in-class tests were (mostly due to previous examples of knowing how to work out induction/exact values and lacking the intuition for Big-Oh variables and values) however. I think that being told that this module was "basically A Level computer science" was a gross understatement and did have a negative impact on my self-confidence as I knew that others were finding it significantly easier as they had prior knowledge. Despite all of these, the idea of the in-class tests I believe is good for the module as it attempts to (and is generally successful in) making sure students are kept up to date with the module's contents and that it does not become insurmountable, but having a third in-class test after Easter feels a little mean, though the contents of it felt much more manageable and more aligned with the overall module title. For example one coursework also could have included basic searching/sorting algorithms (bubble/insertion/merge etc) as this was specified as a possible inclusion, but only included 
+
+Some of the lecture material can feel slightly ambiguous and weirdly spaced and with odd formatting/annotations (such as repeated ^ in equations rather than just superscripted numbers) and the spacing of lectures, e.g. splitting one lecture into 2 PowerPoints, then ending the next PowerPoint halfway through, could be refined. The availability of past papers that helped explain and demonstrate the level of knowledge and comprehension required for the exam was also very appreciated.
+
+I really appreciate Andrew Parkes' availability in lab hours and his engaging and proactive nature of approaching students, this is something that many other faculty members should learn from as it not only helps with struggling students but also helps to build a good staff to student rapport and community. The review sessions for each coursework however was poorly timed and I did not have a chance or time that overlapped with Parkes', as there were only 3 available slots to review coursework 1, which were all 1 day before the next day's coursework 2, and also during a time when there were GRP timetabled events? Though I hope he does take time off as I have often seen him working late at night in the CS building!
+
+
+
 ### SEM Survey for Introduction to Human Computer Interaction
 
 Lecturers: Neelima Sailaja
@@ -256,6 +289,14 @@ Please complete your questionnaire. The scores and constructive feedback you sub
 - Agree
 
 8. Please use the space below for any constructive comments about this module
+I really enjoyed the module content throughout the teaching and I was sad when it ended! The content is very coherent and cohesive both individually and when combined with all the other content holistically. The lecturers may be the most passionate out of any second-year lecture and engaging and I hope other academics take some notes on this.
+
+The first coursework felt very good and a natural extension of the lecture contents, despite taking a very long time to do properly and manually without external assistance, and the video felt slightly superfluous and unnecessary - I'd rather write a report with citations. The second coursework felt more forced with slightly peculiar tasks and a fairly ambiguous mark scheme (it said the word limit could be met or exceeded for all levels of the rubric?). I feel like the same learning outcomes could be achieved with a significantly reduced group work load, or even none at all. I also expected there to be more iterative refinement with feedback (from conveners? Other students? Lab sessions?) to create a better prototype.
+
+One part I felt really disappointed by was the lack of teaching regarding *how* to prototype, and what platform to use. It seemed to be that you could choose any platform, including pen and paper, but it was only after speaking to mentors and students who had previously taken the module that this idea was realised to be silly as coursework marks and the 2nd coursework relied on interactivity. There was no support or guidance for e.g. HOW to best use Figma, so most of my time for making the first coursework was learning the Figma fundamentals which felt very disadvantageous compared to many people who chose the module because they already knew and had much experience with this tool.
+
+Mandating that students share edit history (which is provided by platforms like Figma) would be good, as I have heard and independently validated numberous other students' Figma prototypes with CW1 which were labelled with "Created with Figma AI" and a full prompt history of 60+ chats involved in creating the prototype. This prototype, for example, was given the same marks as mine, despite mine taking over a week to create with iOS's latest design and genuinely coherent and consistent UI and UX, compared to the other prototype which was clearly created with AI's inconsistencies and errors across the prototype. 
+
 
 
 ### SEM Survey for Artificial Intelligence Methods
@@ -265,8 +306,6 @@ Lecturers: Ender Ozcan
 Please complete your questionnaire. The scores and constructive feedback you submit are valued highly by your school or department and will be used to help improve modules and teaching. Your responses will remain anonymous, but any negative personal or abusive comments will be deleted.
 
 Please answer the following questions. Questions marked with a "\*" are mandatory.
-
-Survey Notes:
 
 1) The learning activities and resources are well organised and structured *
 - Strongly Agree
@@ -297,8 +336,54 @@ Module convener office hour availability could be improved - as this year this w
 
 Furthermore, there is an abundance of cheating throughout the module. Many people in the lab during the 30% coursework submission were discussing their implementations, I heard someone saying "wait, we had to implement our own one" and another saying "no, I just got Claude to do it all" and "fully switched to vibe-coding at this point". Whilst the use of AI was allowed in the coursework for hyperheuristic design and not for code, it seems like many students did not know about this boundary. It was also disappointing to learn that others' solutions were significantly better than mine, when others simply used an AI tool to generate an extremely advanced hyperheuristic and lower-level heuristics and move acceptance operators in minutes, whereas I spent over a week implementing this from scratch and achieved a comparably poor score, even though I quite enjoyed thinking and testing new algorithms. The coursework framework also felt well-designed but poorly implemented, with having to implement code for 70+ stub methods to even begin to see results; whilst I was able to do this in a few days, I felt like lots of the code was very much boilerplate and did not do much of testing "AI Methods", instead more like a Java maintenance class. I could have saved over 20 hours on the HyFlex implementation if some of the boilerplate was given already, and used this time to really think about how to best use and combine the lecture content to make an effective hyperheuristic. 
 
+### SEM Survey for Languages and Computation
+Lecturers: Thorsten Altenkirch
+
+Please complete your questionnaire. The scores and constructive feedback you submit are valued highly by your school or department and will be used to help improve modules and teaching. Your responses will remain anonymous, but any negative personal or abusive comments will be deleted.
+
+Survey Notes:
+
+Please answer the following questions. Questions marked with a "\*" are mandatory.
+
+1. The learning activities and resources are well organised and structured *
+- Disagree
+
+2. The learning activities and resources are helping me to achieve the learning outcomes *
+- Disagree
+
+3. The learning activities and resources have encouraged me to explore the topics further *
+- Disagree
+
+4. The learning activities and resources are easily accessible *
+- Strongly Disagree
+
+4a. You selected 'disagree' or 'strongly disagree' with this statement. Please tell us why.
+The lecture contents and courseworks are updated via a git repo. Whilst this is a good idea, the repo was very broken and often failed to build the required 400+ Lean files resulting in significant time completely wasted trying to figure out and remove the erroneous dependencies just to get the lean server to actually work. It was mitigated against with English written coursework in lean comments, but this felt reactive rather than proactive, and was marked incorrectly. Because of this continued failure over months during the term, I cannot say the activities were easily accessible at all. 
 
 
+5. I know how and where to get help and support for this module when I need it *
+- Disagree
+
+5. The criteria for the assessments on this module are transparent and clearly explained *
+- Strongly Disagree
+
+7. The workload associated with this module is manageable *
+- Neutral
+
+
+8. Please use the space below for any constructive comments about this module
+This module is weirdly placed. It felt like the content was being made up as it went along some of the time and the incomplete lecture notes made it very difficult to learn and understand how to complete the coursework. As a result of this many people resorted to using other people to understand how to begin to even start to write answers for the coursework. Also coursework marks are very ambiguous in that there was never a distribution provided for which question would result in which mark and if there was any extra weighting to different questions. My tutorials were also poorly delivered with a seemingly new lecturer whose first time was our tutorial, which was very difficult to understand and also did not provide the same content as other tutorial teachers, for example Cas. In his tutorials it would seem like other students were given template structures to understand how to do the written English proofs and also much more intuitive designs. Whereas my tutorial teacher reiterated that Lean was not her main language and that she much preferred Agda. Additionally the delivery of lectures was also difficult to understand and difficult to comprehend why and how it linked to even the previous lecture, which was slightly jarring to try and understand and to bridge gaps between topics.
+
+Also for such an engaging and hands-on module, it felt very weird that lab sessions, unlike IFR, were not present, which further hindered understanding and genuine comprehension. I feel like additional questions that were more related to the 75% exam could have been released, although the past paper that was released was fairly useful. 
+
+SEM Survey for Software Engineering Group Project
+Lecturers: Dan Marsden
+
+Please complete your questionnaire. The scores and constructive feedback you submit are valued highly by your school or department and will be used to help improve modules and teaching. Your responses will remain anonymous, but any negative personal or abusive comments will be deleted.
+
+Survey Notes:
+
+Please answer the following questions. Questions marked with a "\*" are mandatory.
 
 ## Accommodation Survey
 
