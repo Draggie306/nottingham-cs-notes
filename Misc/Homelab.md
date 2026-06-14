@@ -30,7 +30,7 @@ $ cat /boot/firmware/cmdline.txt
 [...] cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1
 ```
 
-
+2026-06-13: Added `mem_swappiness: 0` in `docker-compose.yml` files for various programs, particularly focusing on those with `db`, `redis`, `valkey` and `mariadb`.
 
 ## Architecture
 - Server system: Raspberry Pi 5 8GB (Raspberry Pi OS Lite)
