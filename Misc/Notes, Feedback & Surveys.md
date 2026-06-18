@@ -527,6 +527,45 @@ Before moving in, myself and friends had all coordinated to be living on the sam
 51. **Is there a member of staff you would like to give a special mention to?**
 Sam Rice, the man in-person at Welcome Point Jubilee, and the cleaners for their humour and chats. SPECIFICALLY NOT Ellena Kenny.
 
+## Just Play 25-26 Survey
+
+**The Just Play 25-26 Survey closes at 11.59pm on Sunday 5th July 2026.** Every survey entry will be entered into a prize draw and the draw will be picked at random. Only successful winners will be contacted via email. 
+
+
+5. Please tick all of the Just Play sessions which you have attended this academic year:
+
+- Badminton - Jubilee
+
+
+6. How much would you recommend Just Play to a friend? 1 = not at all recommend, 2 = wouldn't recommend, 3 = would recommend, 4 = would recommend a lot
+- 4
+
+5. How much did you enjoy your experience of Just Play?  1 = didn't enjoy at all, 2 = didn't enjoy, 3 = enjoyed, 4 = enjoyed a lot 
+- 3
+
+8. Has attending Just Play encouraged you to be more physically active?
+- Yes
+
+9. What prompted you to attend a Just Play session?
+- Prior knowledge, emails from Just Play, posters around faculty advertising halls events, friends
+
+
+10. What were the 3 highlights of your Just Play session(s)? 
+- Being a regular event that could be scheduled into the academic calendar, getting shuttlecocks stuck in the nettings, smashing the shuttles as fast as possible to test friends
+
+
+11. If you attended the same session more than once, what made you want to go back?  If you didn't, could you tell us a little about why?
+- I went back multiple times because it was an excellent way to destress at a predictable time during the academic week and year. This allowed friends to know when and where it would be, weekly for the whole term, so everyone could enjoy it. Because the date changed every term, this allowed for a better variety of times. The staff and in-person people running it were also very friendly. There was no need to set up or tear down the courts or bring your own equipment which was great during a busy day - I could come in with for an hour friends and then immediately have dinner/study, so thank you!
+
+
+12. What do you feel could have improved your Just Play session(s)?    Please be specific to the sessions that you attended, rather than the whole programme
+- Often, there seemed to be very professional players using all the courts, which made it difficult to find space to play with friends as simple practice/at the same skill level. Including other students who are not in halls for free would also be a good idea, “bring a friend along for free” or something similar, as charging for it feels odd particularly as there is no guarantee that there will be a court available - I could pay £3.50 and the event wouldn’t be on due to low numbers which happened once, or it would be extremely busy I would be able to find a space.
+
+13. RETURNING STUDENTS ONLY - Are you more likely to be involved in UoN Sport next year after participating in Just Play this year? 
+- Yes
+
+14. Any other comments for the Just Play Team?
+- A great initiative! Possibly collaborating more with faculty/posters/information that could be sent to Schools (e.g. business/CS on Jubilee, geography/law/english on UP) to encourage activity. There are online spaces/community/student channels in these Schools that would be happy to advertise and promote university events. Working more with ResX for a better range of events at different times would be appreciated. 
 
 # Miscellaneous Observations
 
