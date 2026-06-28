@@ -3,7 +3,7 @@
 
 ### Known Issues
 
-#### OOM/system freezes
+#### OOM/system freezes on 8GB Pi
 Currently diagnosing and mitigating
 
 ```sh
@@ -33,16 +33,24 @@ $ cat /boot/firmware/cmdline.txt
 2026-06-13: Added `mem_swappiness: 0` in `docker-compose.yml` files for various programs, particularly focusing on those with `db`, `redis`, `valkey` and `mariadb`.
 
 ## Architecture
-- Server system: Raspberry Pi 5 8GB (Raspberry Pi OS Lite)
-- Storage:
-	- SD card: boot/system/text only (e.g. `/services`).
-	- USB3->SATA-attached SSD - `/dev/sda` - (WD Green 256GB): cache, thumbnails, databases, Docker root (images, containers), temporary files, some configs in `/services`
-	- USB3-attached HDD - `/dev/sdb` - (WD Elements 20TB): bulk storage (Immich photos + videos), films, music, backups.
-- Network:
-	- Pi-hole: DNS + DHCP
-	- Unifi Controller: Wireless access + switching APs
-	- Cloudflare Tunnel for most external access.
-	- SSH password disabled; private key only
+- Server system: 1x Raspberry Pi 5 8GB; 1x Raspberry Pi 5 4GB (both Raspberry Pi OS Lite)
+
+- 8GB Pi:
+	- Storage:
+		- SD card: boot/system/text only (e.g. `/services`).
+		- USB3->SATA-attached SSD - `/dev/sda` - (Samsung 860 EVO 1TB): cache, thumbnails, databases, Docker root (images, containers), temporary files, most container configs in `/services`
+		- USB3-attached HDD - `/dev/sdb` - (WD Elements 20TB): bulk storage (Immich photos + videos), films, music, backups.
+	- Network:
+		- Cloudflare Tunnel for most services and external access.
+		- SSH password disabled; private key only (same on both Pis)
+- 4GB Pi:
+	- Storage:
+		- SD card: boot/system/text only (e.g. `/services`).
+		- USB3->SATA-attached SSD - `/dev/sda` - (Samsung 860 EVO 1TB): logs, databases, Docker root (images, containers), temporary files, most container configs in `/services`
+	- Network:
+		- Pi-hole: DNS + DHCP
+		- Unifi Controller: Wireless access + switching APs
+		- SSH password disabled; private key only (same on both Pis)
 
 ## Docker
 - Update all containers in current directory with docker compose:
@@ -57,7 +65,7 @@ $ cat /boot/firmware/cmdline.txt
 	- `docker image prune -a --filter "until=24h"`
 
 Settings:
-- /etc/docker/daemon.json
+- Located in `/etc/docker/daemon.json`
 
 ```json
 {
@@ -75,6 +83,16 @@ Settings:
 - Get hard drive temperatures:
 	- `sudo smartctl -a /dev/sdb | grep "194"`
 	- `sudo smartctl -a /dev/sdb` *(all SMART data)*
+
+Update IP address (uses local DNS server for resolving queries)
+```sh
+sudo nmcli connection modify "Wired connection 1" \
+  ipv4.addresses 192.168.1.2/24 \
+  ipv4.gateway 192.168.1.254 \
+  ipv4.dns "127.0.0.1" \
+  ipv4.ignore-auto-dns yes \
+  ipv4.method manual
+```
 
 ## System
 ### Commands
@@ -105,7 +123,7 @@ cd ~/services/immich-app && sudo docker compose pull && sudo docker compose up -
 	- `CONF_SWAPFILE=/mnt/ssd1/swap`
 	- `CONF_SWAPSIZE=2048`
 - Swappiness config: `sudo nano /etc/sysctl.conf`, at the bottom:
-	- `vm.swappiness = 15`
+	- `vm.swappiness = 1`
 		- Else, the swap eventually fills up with data while ram is left over.
 	- apply with `sudo sysctl -p`
 
