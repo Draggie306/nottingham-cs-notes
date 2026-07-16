@@ -6,14 +6,13 @@
 
 #### Semester 2
 
-> *Grades are currently estimated where italicised*
-
-| code      | module                           | credit | mark % |
-| --------- | -------------------------------- | ------ | ------ |
-| COMP 2001 | Artificial Intelligence Methods  | 20     | *65*   |
-| COMP 2004 | Intro to Human Computer Inter    | 10     | *69*   |
-| COMP 2012 | Languages and Computation        | 10     | *55*   |
-| COMP 2054 | Algorithms Data Structures Eff’y | 10     | *55*   |
+| code      | module                         | credit | mark % |
+| --------- | ------------------------------ | ------ | ------ |
+| COMP 2001 | AI Methods                     | 20     | 55     |
+| COMP 2004 | Intro:Human Computer Interact  | 10     | 69     |
+| COMP 2012 | Languages and Computation      | 10     | 59     |
+| COMP 2054 | Algor'ms Data Struct and Eff'y | 10     | 69     |
+| COMP 2002 | Software Engnrg Group Proj     | 20     | 80     |
 
 
 #### Semester 1
