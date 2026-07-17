@@ -10,7 +10,7 @@
 | --------- | ------------------------------ | ------ | ------ |
 | COMP 2001 | AI Methods                     | 20     | 55     |
 | COMP 2004 | Intro:Human Computer Interact  | 10     | 69     |
-| COMP 2012 | Languages and Computation      | 10     | 59     |
+| COMP 2012 | Languages and Computation      | 10     | 63     |
 | COMP 2054 | Algor'ms Data Struct and Eff'y | 10     | 69     |
 | COMP 2002 | Software Engnrg Group Proj     | 20     | 80     |
 
