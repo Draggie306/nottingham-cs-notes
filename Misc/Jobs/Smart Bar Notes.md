@@ -15,42 +15,22 @@ Unicore timesheets login (if 2x jobs, must submit both at the same time, cannot 
 Software installation library: [https://uniofnottm.sharepoint.com/sites/SoftwareLibrary/Lists/Library/AllItems.aspx](https://uniofnottm.sharepoint.com/sites/SoftwareLibrary/Lists/Library/AllItems.aspx)
 
 
-## Training notes
+# Training notes
 - Don't be shy of helping others around
 - Can be challenging, can be rewarding; each interaction helps someone else be connected
 - Jeremie's favourite things are doing the covering letters and references for Smart Bar future workers and seeing LinkedIn popups
 
-- Smart Bar service defintion: is face-to-face peer to peer support service for the student community, mostly undergraduates.
+- Smart Bar service definition: is face-to-face peer to peer support service for the student community, mostly undergraduates.
 - Former name: IT Support Tutor, but new branding reflects the role much better.
 
-- University is very data driven; everything doing now is SaaS which goes into a dashboard somewhere. Smart Bar is not one of those with dashboards, but uses M365 to collect data. 
-- If something goes down and stops working, service manager usually has a big red button that appears. If there's a slight issue, it shows up with people coming to the Smart Bar. 
 
-- Can be unnerving to be a student when the technology doesn't work properly so can be a "life saver" to go to a peer on campus.
+## Laptop Loan and Repair (LLR)
 
+- Room B09 in Portland
+- Loans laptop for 30 days
+- Software repairs are free; hardware repair will be charged to cover ordering the part
+- Appointment-only service - if people ask for help, we say only front-of-house support but no Smart Bar offered there.
 
-
-- KMC is a 70s insurance block, different energy vs a campus where you can literally feel the energy by helping students.
-
-
-
-# Where do we work?
-Everywhere:
-
-- Start of session: blend of online Team site and on-campus support. Will reopen on Thursday 18th, returners only. Looking in to other ways of supporting people online.
-
-- Roaming teams across campuses and in different halls and locations
-
-- First 4 weeks of term: operated from different popups outside student service centres
-- From Monday 22 Sept: will be fronting Laptop Loan and Repair service
-- From Monday 20 Oct: fall back to business-as-usual locations
-- Virtual-only Teams shifts for the first 2 weeks only
-- When access to Sling: pop-ups in school-specific events
-- POS desks 10am-4pm in areas with high student footfall
-
-## Online
-- My IT Smart Bar: like the query when someone requests to let others know that you are working on it
-- Can give direct chat option not online
 
 ## TOP QUERIES
 - 2fa (setting it up, "new phone over the summer, but..."
@@ -65,101 +45,149 @@ Everywhere:
 - Malware
 - long tail of things that can happen...
 
-## Laptop Loan and Repair
 
-- Room B09 in Portland
-- Loans laptop for 30 days
-- Software repairs are free; hardware parts are charged for cost of part
-- Appointment-only service - if people ask for help, we say front-of-house for very busy service, go to Smart Bar instead
 
 ## Tools
+Associate accounts will be used for Teams and chats.
 
-- Teams is the main communication channel to port questions, keep up to date with issues, colleagues, documentation, and to leave feedback.
-- Best way to deal with things (once dealing with everyday things like wifi) is to give peer social support - often someone knows the answer already
+- **Teams** is the main communication channel to post questions, keep up with issues, colleagues, access documentation, and to leave comments/feedback.
+	- New service/disruptions/changes are posted at least weekly.
+	- The schedule channel is important if people are not able to attend a shift.
+	- Hoping to use more specialist channels, such as UX support. 
+	- Best way to deal with things (after dealing with everyday things like wifi) is to give peer social support - often someone knows the answer already
 
-## Sling
-- Put Teams and Sling accounts with pictures!
-- Sling app is used for scheduling, don't use anything other than clocking in/out and scheduling
-- Will be invited once registered on unicore
+### Sling
+- Used for scheduling, don't use anything other than clocking in/out and scheduling
 - Clocking in and out is geolocated and can only be done at that location, else is fraud
-- Clocking can be edited very easily by Jeremie so message him on teams if e.g. forgot, alongside the time.
+- Clocking can be edited very easily by Jeremie so message him on teams if e.g. forgot to clock in/out in the right location, alongside the time.
 
 - Shedule is managed on Sling - email invitation to join UON Smart Bar on Sling as soon as Unitemps confirms employment status.
 
-## Pay dates
-- Is the penultimate working day of the month
+## Pay dates and deadlines
 
---- Below dates will be confirmed soon due to uni confusing times ---
-- Timesheet approval is midday on the 16th of each month (or Friday before if not a working week)
-- for example, deadline for September is Tuesday 16th for timesheets up to and including Sunday 14th, and all work between September 15th and 12th Oct will not be paid until October 30.
-- then, hours worked between Oct 13 and Nov 9 will be paid on Nov 27.
+Pay is the penultimate working day of the month. Cutoff for the month is 5pm on the Tuesday of teh second fill week of the month, for timesheets to the preceding Sunday. For example, the deadline for September is Tuesday 15th for all timesheets up to Sunday 13th.
 
-- unfortunately, many issues with associate accounts for Sling, so everything except unicore will still be on the student account. Still no stability and nowhere near ready to have segregated 
+![](../../Images/Pasted%20image%2020260907104310.png)
 
 
-## Unicore
-- error saying having no access to unicore -> because you need to not be signed in to student account (xxyxx@nott) then that means check (use different browser to sign in to associate account with SSO)
 
 ## The Job
 
-- Uni is very data-driven: important part is to run survey data
-- Uni has not been in the best financial situation so there is pressure that every pound the uni spends, it is spent well - so surveys ensure the service keeps running. We are in the position to capture data that nobody else can
-- THere are 2 surveys:
- - Service Activity Survey for every transaction we make: short, where we work, who was being served, and the type of issue with resolution/unresolved. takes 20 seconds but can be hard to do at the start of session. It is a core part of the day, and to justify the budget. Quality management information. If interaction is not recorded, it did not happen
- - Customer satisfaction survey: ask each user to fill a survey about how they used the service; at each location there are QR codes and flyers
- 
- 
-- Role of senior smart bar assistant: small team (8) who support data collection (most important part of the role), talk between IT Service Desk and Smart Bar teams, technical point of elevation, knowledge support and schedule assistance.
+The goal is to provide consistent, face-to-face peer-to-peer IT support to the entire University community.
+
+![](../../Images/Pasted%20image%2020260907101047.png)
+
+> Smart Bar/ITSD may be rebranded over the next months 
+
+- University is very data driven; everything doing now is SaaS which goes into a dashboard somewhere. Smart Bar is not one of those with dashboards, but uses M365 to collect data. 
+
+Can be unnerving to be a student when the technology doesn't work properly so can be a "life saver" to go to a peer on campus. Sometimes cannot do much more than reassurance e.g. if they have an issue with a registration, so flagging this to the right people is all that can be done. Therefore being friendly etc. is massively important.
+
+Senior SBA: Data collection is very important - senior management use data collection, and the University as a whole are very reliant on metrics and data. Can pass things directly to the Service Desk temporary assistants directly.
+
+## Where do we work?
+Everywhere!
+
+Start of session: In-person registration and arrival support on the 17th. Halls arrival from 18th September. Pop-up locations will additionally be added when shifts are made available
+
+The first 4 weeks of term until the 16th October: operated from different popups outside student service centres. There will be up to 4 people at each section; after this, there will be one Assistant per shift with a roaming Senior SBA.
+
+![](../../Images/Pasted%20image%2020260907102203.png)
+
+Early arrival and Halls will have support available from 10am-6pm.
+
+![](../../Images/Pasted%20image%2020260907102422.png)
+
+Queue Walking: someone with a role to organise the queue and to make sure everyone is in the right queue - give people quick triage before they get to the front of the queue to save time and chaos. Trialling this year; feedback will be used to evolve this in real-time. 
+
+There are 2 Smart Bar surveys. **It is very important to do this to justify every pound the University spends.**
+ - **Service Activity Survey**: for every transaction made my a SBA: short, where working, who was being served, and the type of issue with resolution/unresolved. *Takes just 20 seconds but can be hard to do at the start of session. It is a core part of the day, and to justify the budget.*
+	 - If an interaction wasn't recorded, it didn't happen!
+ - **Customer Satisfaction Survey**: ask each user to fill a form on their device, about how they used the service; at each location there are QR codes.
+
+Most queries advice and guidance that is scattered around the uni websites/Microsoft docs/etc. that cannot be easily found. Training information and most queries are on the website already.
+
+The main asset is **social support**: someone is in a situation that doesn't make sense, or if they are following a guideline on the website that doesn't quite match up with what it shows today. For example "tile has changed on Nottingham Hub"
+
+Everyone has experienced impostor syndrome, but to bring good support it is just being ahead of the curve of the customer. Experts support you, but you do not need to be the expert.
+
+- This year, IT Service Desk Knowledge Base SharePoint with a lot of good stuff on will be shared to all SBAs.
+- All SBAs will be able to reset MFAs this year.
+- Copilot ITSD knowledge agent to access the SharePoint and University website with sources it uses
 
 
-Most queries are not "x is broken, need admin rights" but advice and guidance that is scattered around the websites that cannot be easily found. Training information and most queries are on the website already.
+## Good customer service
 
-The main support is social support: message on teams asking a question and people off shift can help and almost always know the answer. 
+Representing DTS and UoN. Possibly the first UoN employee that students meet! Therefore it is important to give students a good experience and treat customers respectfully. Relating to the user's experience, think about not just resolving the problem but giving them a good experience.  
 
-All matters is being ahead of the curve, which we have been for ahead by a year of most students who will be asking for help.
+### Going the extra mile
 
-In teams there is a knowledge share channel for things that might change - e.g. "new product X you need to know Y"
+![](../../Images/Pasted%20image%2020260907110346.png)
 
-## Customer service
+Student comes with Wi-Fi not working -> make them aware that "so now you will have completed online registration". If they come with non-technical support, let them know where they need to go as opposed to saying "oh we can't help you with that".
 
-Representing DTS and UoN.
-- Treat customers respecfully
-- Understanding not just what they want but what they need, not not just fixing 1 problem but every future problem
-- Exceed customer expectations and go out of your way to help them
+Being approachable: wear uniform, be welcoming, don't have big headphones on and look down etc.
 
+## Compliance Training
+With such a large campus and student body, we see it all - and it isn't always the most glamourous.
 
-Smart Bar Uniform is a requirement of the role.
+### Safeguarding
+The uni has a responsibility to provide a safe and welcoming environment for all. Some people are children and some are at-risk adults. 
 
+Safeguarding protects individuals and actively prevents them from harm, harassment, bullying, abuse, neglect and radicalisation. Students may disclose that something has happened to them, with concerning or illegal material on a device when dealing with an IT issue, or may express abusive views when discussing with them, or reveal something concerning.
 
-#### ITSD help
-- Use Moodle login
-- Will send a response to "ServiceDesk" - only on university computers
-
-
-
-## Safeguarding
-- Can discuss with Rob/Jeremie, or faculty lead, or DTS lead
-
-Focus risk areas include domestic abuse, sexual violence and exploitation (threats, in exchange for money/drugs), bullying, hate crime (violence directed by someone to someone else who is perceived to have some characteristics), harassment, modern slavery, criminal exploitation (county lines etc)
-
-- All Smart Bar assistance have a duty under counterterrorism and security act 2015 to prevent being drawn into terrorism - this includes reporting extremist material. This is referred to Report and Support.
-Students may say that something has happened to them or a friend, illegal/concerning material found on a device, concerning and illegal behaviour might be observed, or the person being helped may appear to be distressed, injured, fearful for no apparent reason, or give racist, abusive or extremist views. 
-
-In all situations, approach every situation with empathy, ause Report and Support where appropriate (it is not our responsibility to judge whether something is wrong or right). Respect right to privacy and consult with Rob/Jeremie or DTS safeguarding lead instead of jumping to conclusions, gossip about something, ignore dangerous behaviour or try to fix the problem ourselves. Smart Bar role is not to come up with a solution out of scope.
+For immediate risks on campus, **0115 951 8888** should be called. Call security before emergency services.
+For non-urgent concerns, use [Report and Support](https://reportandsupport.nottingham.ac.uk/) and/or the line manager, alongside detail including names, locations and times.
 
 
-## Respond to concerns
 
-- Nottingham Urgent Security/Non-Emergency security in phone contacts (NOT 999 due to difficult campus)
-
-SafeZone will be the new way to alert security and first aiders. Can also clock in/out from different locations e.g. if studying late at night or going out, if not, then security can contact them.
+![](../../Images/Pasted%20image%2020260907111829.png)
 
 
-## Violece/aggression
+![](../../Images/Pasted%20image%2020260907111638.png)
 
-Do not confront customers - just walk way if being rude or aggressive. If this happens, remember people are frustrated with the university, not you. Won't be in trouble for prioritising own safety, even if could be handled differently. 
+### Data Protection
+Data protection related to the processing of personal data. GDPR governs how personal data should be used, processed and stored.
 
-If complaint or talk to a manager, give Jeremie's email
+Personal data relates to information that relates to and identified a living individual - whether it be electronic or manual. 
+
+Responsibility is to protect data while we have access to it. Keep confidential information private, keep an eye on if anyone is looking over your shoulder, ask for permission before doing screenshots, and more.
+
+
+### Corporate Manslaughter
+When someone dies as a result of serious failings on the part of that organisation. Organisations are liable but individuals can still be prosecuted
+
+### Modern Slavery
+
+Responsibilities include avoiding any activity that may lead to or suggest a breach of the university's policy. Concerns should be raised to the line manager or business support team - they are interested in any sign of this, don't ignore this.
+
+
+![](../../Images/Pasted%20image%2020260907121003.png)
+
+![](../../Images/Pasted%20image%2020260907121202.png)
+
+
+### Bribery
+
+Don't make payments to anyone or favour them in some way which involves them misusing their permission or your own permission related to payments.
+
+![](../../Images/Pasted%20image%2020260907121825.png)
+
+### Dignity at Nottingham
+
+Adopts definitions from the Equality Act 2010: everyone has a role in creating a culture of responsibility, accountability and tolerance. Staff and students when in positions of authority have a particular responsibility to lead by good example and to guide others to do the same.
+
+![](../../Images/Pasted%20image%2020260907122250.png)
+
+Dignity: treating someone as being of worth, in a way that is respectful of them as valued individuals.
+
+![](../../Images/Pasted%20image%2020260907124337.png)
+
+
+When dealing with violence and aggression, it's important to remain polite and cautious at all times. Do not confront customers if they are rude or aggressive, just walk away. 
+
+
+
 
 # Day 2
 
