@@ -189,21 +189,32 @@ When dealing with violence and aggression, it's important to remain polite and c
 
 
 
-# Day 2
+# Part 2
 
-RAA - Registry and Academic Affairs (student services). Deliver:
+Student Registry (formerly RAA/student services):
 - Registration for all students
-- Visa/immigration docs
-- Student finance and bursaries
-- Tuition fees
-- Module choices
-- Timetables
+- Visa/immigration docs for international students
+- Student finance and bursaries, tuition fees
+- Module choices, enrolment, timetabling and curriculum
 - Assessments and resits
-- Letters and documents
-- Replacement uni card
-- Signposting
+- Letters and documents, replacement uni card
+- Graduation 
+- SEAtS and student engagement and attendance
 
-Are found in Central, East, Jubilee exchange and SB Barn
+They are available online (https://www.nottingham.ac.uk/studentservices/index.aspx) with a live chat from 10-4 on the bottom right. Available in UP Central, East, plus Jubilee exchange and SB Barn.
+
+![](../../Images/Pasted%20image%2020260908101921.png)
+
+To register:
+- International: physical check to see documents, book an appointment with student registry
+- British/Irish: sign in to Eduroam
+
+University cards:
+
+![](../../Images/Pasted%20image%2020260908102559.png)
+
+Card printer on UPC and Exchange
+
 
 ## SEAtS
 
@@ -212,90 +223,108 @@ A new engagements system to allow students to record engagement with QR codes in
 It is primarily used as a welfare tool - wellbeing team will offer support if there has not been engagement in a while. Also used for requirements of UK visas and immigration.
 
 ## Registration
-Deadline is within 3 weeks of course start (Oct 13). Simply connect to UoN eduroam (NOTHING ELSE!) with xxyxx@nottingham.ac.uk and password. Confirmation sent within 24 working hours (not weekends). - https://www.nottingham.ac.uk/studentservices/servicedetails/registration/registration.aspx
+Deadline is within 3 weeks of course start (Oct 12, for undergrad + postgrad; different for PGCE/CELE). Simply connect to UoN eduroam (NOTHING ELSE!) with xxyxx@nottingham.ac.uk and password. Confirmation sent within **24 working hours** (not weekends, except from arrivals weekend), ran twice a day - https://www.nottingham.ac.uk/studentservices/servicedetails/registration/registration.aspx 
 
-Returning students - only need to complete online registration by 6 Oct 2025. 
+Returning students - only need to complete online registration by 5 Oct 2025 (with same above confirmation sends).
+
+> Student finance will take up to 5 days from approval process
 
 Registration tile disappears after 24hrs. But if they are told they need to register - NottinghamHub issues mean that tile might not always show and needs to escalate.
 
 Ensure they also do not use applicant credentials - actual xxyxx credentials.
 
-- Medical students: NHS broadcast their own eduroam. Go across the bridge, forget eduroam, and connect in UoN. 
-- For EU settlement scheme permission: need a share code given to student services. Send to student services
-- All other students, non British/Irish/EU Settled/EU Pre-Settled: within 3 weeks to go to in-person registration event with form on registration webpage.
+![](../../Images/Pasted%20image%2020260908104641.png)
+
+Anyone else ("international" students): must di in-person registration including booking an appointment with passport, then checked, scanned and confirmed. This should be booked an event over the arrival weekend.
 
 Extra info:
 - 2 parts to registration: online and in-person (online for all, in-person for first year; email comms when done)
-- Email comms when done runs 2x per day, so come back later
+- Email comms when done runs 2x per day, so come back later 
 - Can't register with Student ID or any other number, must be xxyxx format.
-- Network work over summer may have caused issues but don't know just yet, so guidance on what counts for registration may change.
+- If someone has odd behaviour for a term/year from China or Malaysia students, flag to Rob.
+- If in med school with registration issues, go over the bridge and stay on UP for 10 mins, disconnecting and reconnecting to Eduroam.
+
+
 
 
 ## Libraries
 
 Staff wear blue or rainbow lanyard and friendly.
+- Library spaces can be booked from 1 week in advance: [https://nottingham.libcal.com/r](https://nottingham.libcal.com/r/)
+	- Choosing Search by Time/Space, then selecting the space with Username/Password
+	- Check-in space online within 30 mins of the booking period start, with code from email
 - If can't solve library issue/is more complex: live chat 10-4 online on website: /library/help/index.aspx
-- Library entrance open for first 4 weeks, then need uni card to get in/out. If no card, can use the username in MyNottingham app. If no app, use photo ID.
-- Library tours running every 30mins can be booked on `/library/using/libraries/tour.aspx` from 10-4 in every major libary
-- Library spaces can be booked from 1 week in advance: https://nottingham.libcal.com/r
+- Sometimes library rooms cannot be booked, this is likely because it is an Enhanced Support or Assistive Technology room.
 - Usually open from 8am-10pm and moved to 24/7 later in November.
+- Library Tours are available at all libraries on the hour starting at 10am ending 3pm. 
 - Laptop lockers are available to borrow library laptops for up to 24 hours. Need to log in on campus first.
 
+![](../../Images/Pasted%20image%2020260908110043.png)
+
 ## IT service desk
-Is the central point of contact for IT requests and faults.
+Is the central point of contact for IT requests and faults. Based in the Geospatial Building, moved from King's Meadow.
 
-Preferred way to contact is selfservice.nottingham.ac.uk. No email support.
+10 permanent staff (Service Desk Analysists)
 
-Open 8am-5pm when the uni is open. 
+Preferred way to contact is the Self Service Portal: https://selfservice.nottingham.ac.uk with no email support. They can be phoned (ideally for urgent) with options: 1) Printing, 2) All other student enquiries and 4) All other issues
+
+![](../../Images/Pasted%20image%2020260908111433.png)
 
 ## Support for SBA
 
 - Senior SBAs are first point of contact. 
-- FOr e.g. Password reset,  Call 01159516677, option 3, explain Smart Bar assistant. MUST give phone to student (unless English not very good), ready to give 3 security checks (key detail: IT username)
+- For a password reset,  Call 01159516677, option 2, explain Smart Bar assistant. MUST give phone to student (unless English not very good), ready to give 3 security checks (**key detail: IT username perpared** or ID number)
 
 To request MFA reset from Senior SBA or ITSD Student Line:
 - Check photo ID (student card, passport/national ID, driving license)
 - Give request with username, full name and confirmation the ID check has been done
 
+> Cannot do the reset even on behalf of another due to GDPR and data breach
+
 ## Digital Campus Services (DCS)
 
-- Formerly walk-in but now by appointment only.
-- Now remote-first support
-- Name changed from Campus IT Support/CITS 
+Provide remote-first support - will try and remote in to the device. 
 
-To report IT/AV issues with rooms: call 011574 87777
+> Their name has recently changed from Campus IT/IT Support 
+
+For urgent room requests, e.g. "middle of lecture and room is broken", call 0115 748 7777. ETA is 8 minutes but can be longer if working on a task somewhere else.
+
 All other queries e.g. building dripping/power outage: estates - 011595 16666
 
 ## Laptop Loan and Repair
-- Only for students.
-- Open from 10am-4pm
-- Appointment-only service next to Subway in Portland Building - nott.ac.uk/llr
+Only for students. Open from 10am-4pm, appointment-only service next to Subway in Portland Building - nott.ac.uk/llr in B09
+
 - Offers short-term loan and repair service for devices.
 - Refer them to link not the office if someone's laptop is broken - wait time at peak time can be up to 6 weeks.
+### Loan service
+
 - All loans are free, up to 30 days, can be extended up to 120 days
 - 7 day cooling off period between loans
 - Laptops run Win11 with full admin rights
 
-
-Repair services:
-- All personal laptops and desktops
-- Data recovery service offered too
+### Repair service
+- All **personal** laptops and desktops - *not uni-owned devices, or mobile devices like phones/tablets*
+- Data recovery service offered too - even if device is not powering on
 - Software repairs are free (reinstall/software)
 - If parts required (screen broken), student will get a quote
 - Hardware repairs/replacements, screens, water damage, board-level repairs (cheaper for student)
 
+### The role
+
+![](../../Images/Pasted%20image%2020260908112716.png)
+
 
 ## Cybersecurity
 
-- M&S, Coop attacked by asking for password reset for an admin user
+Uni blocks several thousand phishing emails per day. Use the official "report phishing" button within Outlook to help with this.
 
 ## Software
 
-- Sharepoint
-- See more
-- Search "SPSS Statistics"
-- Open the app and see more
-- Follow install instructions
+Course-specific software can be accessed by the UoN Applications folder in the start menu on any Uni desktop or virtually - based on the username
+
+Course-specific software can be downloaded from the Software Library on Sharepoint (https://uniofnottm.sharepoint.com/sites/SoftwareLibrary)
+
+> For example, Search "SPSS Statistics", open the app and see more, and follow install instructions
 
 ## MFA
 
@@ -326,7 +355,7 @@ Repair services:
 https://www-web.nottingham.ac.uk/is/usercheck/usercheck.php
 
 - 4 separate databases in sync 
-- At start of service desync occurrs and password reset might be requried to force sync
+- At start of service desync occurs and password reset might be required to force sync
 - Checks the username and password and says if it works 
 
 
@@ -335,38 +364,49 @@ https://www.nottingham.ac.uk/studentservices/welcome/get-started/new-starter-che
 
 
 ### Print services
-The print service uses Multifunctional Devices to print, copy and scan. Have 24 hours after sending to print from any device.
+The print service uses Multifunctional Devices to print, copy and scan. Users can release the print job at any printer within 24 hours.
 
 To activate the printing account:
 - Send a print job from a Uni PC or the virtual desktop
 - Swipe uni card on the card reader and login with username (UoN user ID) and password.
-- Can also set up 2ndary print PIN on myprint.nottingham.ac.uk
+- Can also set up a print PIN on myprint.nottingham.ac.uk
 - Only then you can begin printing
 - Need enough credit to print AND to scan (4p balance)
 
-- Send documents to mobileprint@nottingham.ac.uk via outlook - as an attachment. The limit is 10MB. Delay can be up to 45 mins. Any errors will be appear 
-- There are some issues with the mobileprint service, and it should only be used when cannot print from a university computer.
+- Send documents to mobileprint@nottingham.ac.uk via outlook - as an attachment. The limit is 10MB. Delay can be up to 45 mins, particularly in deadline periods (and architecture students).
+- There are some issues with the mobileprint service, and it is very much a black box.
 - Scanning with Onedrive will scan to "My Scans" on onedrive, OR just use the email option to get it emailed.
 
 - Printing is managed by Xeroz 0115 9516677 Option 1
 
-TO debug:
+![](../../Images/Pasted%20image%2020260908122006.png)
+
+To debug:
 1. Make sure users have activated the account
 2. If a document shows in the list but fails, check if it has a price associated with it. If zero, document is in a size the printer doesn't recognise. Makes sure it is A4/A3 and from the desktop NOT the browser if issue.
 3. Self-service portal: if the user requests an issue/refund, be as precise as possible (times, etc)
 
+![](../../Images/Pasted%20image%2020260908122144.png)
+
+
 ### Network services
 
 #### Eduroam
-- Use the geteduroam app - https://geteduroam.app for Android devices.
-- For https://cat.eduroam.org
+
+Enter the University email address, university and password, and accepting the certificate.
+
+
+- For Android devices, use the geteduroam app - https://geteduroam.app
+- The Uni recommends using the CAT tool to automatically set it up https://cat.eduroam.org
 - Check: DNS being set to DHCP check
 
+- In Halls, use UoN-Halls that cannot use eduroam. *Has been changed recently.* Portal creates a QR code and password to connect to the network. `nottingham.campuswifi.net`
 
-- UoN-halls: only registered devices - DNS reset to use DHCP
- - Next Generation Network: open nottingham.campuswifi.net
- - read Ts and Cs then generate password, inputting it on the device
-- Wired network - only a dozen connections per year
+Wired network - only in Florence Boot, likely not anywhere else. "Lots of complicated reasons", if you find one that works, then "keep it quiet"
+
+#### Third-party halls
+
+![](../../Images/Pasted%20image%2020260908123117.png)
 
 ### Moodle
 
@@ -375,28 +415,55 @@ TO debug:
 - can't see module - not enrolled or may be hidden; can take days/a week for manual checks to be performed; maybe module convener hasn't made it public yet
 - check if filter is "all" not in progress/future
 
+
+![](../../Images/Pasted%20image%2020260908123344.png)
+
 ### Turnitin
 
-- document name too long, document not in right format, document is scanned in/not actual writing of at least 20 words, too big file
+Issues with submissions are mostly to do with the document name being too long, document not in right format, document is scanned in/not actual writing of at least 20 words, too big file
 - https://nottshelp.atlassian.net/wiki/spaces/StudentMoodle/pages/10682372/Turnitin+and+Moodle+assignment+submission+checklist
 
 
+## UoN Software and Apps
+
 ### MS Office
 
-- If the user has old Office/Word credentials saved from a previous school/work/6th form, use the license removal tool and sign in with new uni credentials: https://go.microsoft.com/fwlink/?linkid=849815
+Collection of experiences and apps known as M365, signed in using the university IT account. Users can download apps onto 5 devices at maximum.
+
+Strongly advised: MS Edge if Safari doesn't work (especially for things like Echo360), and OneDrive
+
+If students want to use another email provider, this is not supported by the uni. Additionally, personal email is blocked on desktop apps while on the university network.
+
+- (MAC) If the user has old Office/Word credentials saved from a previous school/work/6th form, use the license removal tool and sign in with new uni credentials: https://go.microsoft.com/fwlink/?linkid=849815
+
+### Specialist software
+
+Diosabled students and those with a specific learning diffucullty -> https://www.nottingham.ac.uk/library/help/accessibility/assistive-technology/assistivetechnology.aspx
+
+Engineering students should use the Windows Virtual Desktop to access a more powerful machine with specialist software instead of directly on the machine.
+
+Prism/SPSS are available on the software library; some of these have some kind of quirk, e.g. activation servers being on the UoN network.
+
+### UoN Apps
+![](../../Images/Pasted%20image%2020260908125041.png)
++ Sports app will be developed
++ Moves+ app
+
+Can say: "sorry we do not provide support for this app, need to go to X for them". As there may be potentially up to 30 apps that schools are "cooking" for students this is becoming more fragmented.
+
+![](../../Images/Pasted%20image%2020260908125339.png)
+
+> A very common error is saying "no tenant identifying information \[on this device\]", **manually type in the email**.
 
 
+### SEAtS
+
+May take up to 3 days to sync and log into SEAtS. Quick fix guide: https://www.nottingham.ac.uk/studentservices/documents/seats/seats-student-quick-fixes.pdf
 
 
+### MealPass
 
-
-
-
-
-
-
-
-
+Should now be username@nottingham.ac.uk - NOT `exmail@.nott...`!
 
 
 
