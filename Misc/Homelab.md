@@ -202,15 +202,12 @@ Access: http://192.168.1.3:8989/
 Purpose: TV series management & episode automation.  
 Depends on: qBittorrent, Prowlarr.  
 
+![](../Images/Pasted%20image%2020260913215939.png)
+
 ### Radarr  
 Access: http://192.168.1.3:7878/  
 Purpose: Movie management & automation.  
 Depends on: qBittorrent, Prowlarr.  
-
-### Bazarr  
-Access: http://192.168.1.3:6767/  
-Purpose: Subtitle downloads & sync.  
-Depends on: Sonarr, Radarr.  
 
 ### Prowlarr  
 Access: http://192.168.1.3:9696/  
