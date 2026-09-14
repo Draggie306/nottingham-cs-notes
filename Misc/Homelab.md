@@ -1,4 +1,3 @@
-
 # Cheat Sheet
 
 ### Known Issues
@@ -33,6 +32,13 @@ $ cat /boot/firmware/cmdline.txt
 2026-06-13: Added `mem_swappiness: 0` in `docker-compose.yml` files for various programs, particularly focusing on those with `db`, `redis`, `valkey` and `mariadb`.
 
 ## Architecture
+
+
+### Overview diagram
+
+![](homelab-architecture.png)
+
+### Description
 - Server system: 1x Raspberry Pi 5 8GB; 1x Raspberry Pi 5 4GB (both Raspberry Pi OS Lite)
 
 - 8GB Pi:
@@ -46,10 +52,9 @@ $ cat /boot/firmware/cmdline.txt
 - 4GB Pi:
 	- Storage:
 		- SD card: boot/system/text only (e.g. `/services`).
-		- USB3->SATA-attached SSD - `/dev/sda` - (Samsung 860 EVO 1TB): logs, databases, Docker root (images, containers), temporary files, most container configs in `/services`
+		- USB3->SATA-attached SSD - `/dev/extssd` - (WD Green 240gb): logs, databases, Docker root (images, containers), temporary files, most container configs in `/services`
 	- Network:
 		- Pi-hole: DNS + DHCP
-		- Unifi Controller: Wireless access + switching APs
 		- SSH password disabled; private key only (same on both Pis)
 
 ## Docker
