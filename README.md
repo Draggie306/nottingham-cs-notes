@@ -1,9 +1,18 @@
 # nottingham-cs-notes
-All my notes for the University of Nottingham's BSc Hons Computer Science with Artificial Intelligence (UCAS Code G4G7; UoN Programme Code U6UCMPAI). Files are automatically updated and deployed at midnight UK time every day via a [cron job](#crontab-expression) and CI/CD pipeline. Visible on [notes.oling.dev](https://notes.oling.dev) and open-sourced on [GitHub](https://github.com/Draggie306/nottingham-cs-notes).
+All my notes for the University of Nottingham's BSc Hons Computer Science with Artificial Intelligence (UCAS Code G4G7; UoN Programme Code U6UCMPAI). Files are automatically updated and deployed at midnight UK time every day via [cron job](#crontab-expression) and CI/CD pipeline. Visible on [notes.oling.dev](https://notes.oling.dev) and open-sourced on [GitHub](https://github.com/Draggie306/nottingham-cs-notes).
 
 These notes are intended as a "spiritual successor" to my [Cheat Sheets on iBaguette](https://ibaguette.com/cheatsheets); they are nowhere near as polished, but should remain useful to an extent. Maintenance and availability is on a “best-effort” basis with no guarantee of completeness.
 
-## View notes
+## Notes index
+
+### [Year 3 - All Notes](/year-3/)
+- [Semester 1 modules](/year-3/semester-1/), including:
+	- COMP3020 - Professional Ethics in Computing
+	- COMP3074 - Human-AI Interaction
+	- LANG2011 - Inter Facutly Italian 2A
+- All-year modules, including:
+	- COMP3003 - Individual Dissertation
+
 
 ### [Year 2 - All Notes](/year-2/)
 - [Semester 1 modules](/year-2/semester-1/), including:
@@ -64,6 +73,6 @@ where `/mnt/mega` refers to the mount point of the external drive mounted in `/e
 
 
 ## Star History
-A few people have found this useful so far, so here is a nice graph to visualise stars, from when these notes were open-sourced in August 2025.
+A few people have found this useful so far, so here is a nice graph to visualise stars, from when these notes were open-sourced in August 2025. If you find this useful, feel free add a star on the [linked GitHub repository](https://github.com/Draggie306/nottingham-cs-notes)!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Draggie306/nottingham-cs-notes&type=date&legend=top-left)](https://www.star-history.com/#Draggie306/nottingham-cs-notes&type=date&legend=top-left)
