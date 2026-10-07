@@ -1,4 +1,4 @@
-	In each lecture, there will be **homework** set, t
+In each lecture, there will be **homework** set, t
 
 
 ### Assessments
