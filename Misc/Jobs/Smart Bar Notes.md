@@ -30,7 +30,8 @@ Software installation library: [https://uniofnottm.sharepoint.com/sites/Software
 - Loans laptop for 30 days
 - Software repairs are free; hardware repair will be charged to cover ordering the part
 - Appointment-only service - if people ask for help, we say only front-of-house support but no Smart Bar offered there.
-
+- To book an appointment, the link is: [https://forms.office.com/e/8WvKSXWPTV](https://forms.office.com/e/8WvKSXWPTV) or the below QR code:
+![](../../Images/laptop_loan_repair.svg)
 
 ## TOP QUERIES
 - 2fa (setting it up, "new phone over the summer, but..."
