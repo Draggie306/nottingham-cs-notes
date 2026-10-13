@@ -13,7 +13,7 @@ These notes may be lecture-specific, include unorganised information and may not
 ### Module intro
 - [Introduction 1](Lecture%201)
 - [Introduction 2 - Hardware and Address Spaces](Lecture%202%20-%20Hardware%20and%20Address%20Spaces)
-- [Introduction 3 - Kernel and user space](Lecture%203)
+- [Introduction 3 - Kernel and user space](../../../year-3/semester-1/COMP3020/Lecture%203%20-%20Social%20Harms%20in%20Innovation.md)
 
 ### Processes
 - [Processes 1](Processes%201)
