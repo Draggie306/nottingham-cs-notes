@@ -41,7 +41,8 @@ Run these commands in Terminal to reset DNS to defaults:
 > tags: uon guest, guest network, halls network, UoN-Halls
 
 
-- You can register devices that cannot connect to Eduroam via the UoN-Halls network: https://nottingham.campuswifi.net/accounts/Nottingham/device/ 
+- You can register devices that cannot connect to Eduroam via the UoN-Halls network: https://nottingham.campuswifi.net/accounts/Nottingham/device/ or scan the qr code below:
+
 ![](../../Images/campus_wifi_uon_halls.svg)
 
 
@@ -73,6 +74,20 @@ A Microsoft certificate expired in July 2026 so symptoms include previously work
 3. Go to Word -> Help -> Check for Updates
 	- Look in `/Library/Application Support/Microsoft/MAU2.0/` for the Microsoft AutoUpdate app and run it.
 	- If installed via the App Store, check the App Store and update from there.
-4. Use the [Office License Removal Tool](https://go.microsoft.com/fwlink/?linkid=849815) to eradicate any and all records. Signing in again regenerates the local records. 
+4. Use the [Office License Removal Tool on https://go.microsoft.com/fwlink/?linkid=849815](https://go.microsoft.com/fwlink/?linkid=849815) to eradicate any and all records. Signing in again regenerates the local records. 
 5. Should be resolved by now, but stale records can be removed in Spotlight -> Keychain Access -> search for "Office" and removal of: `Microsoft Office Identities Cache 3`, `Microsoft Office Identities Settings 3`, `Microsoft Office Ticket Cache`.
 6. Reinstall Office via https://support.microsoft.com/en-us/office/lifecycle/officeinstall/uninstall-office-for-mac
+
+
+
+## Tools
+
+
+### Usercheck
+#### Novell (Nottingham tree) - user not found
+If everything else passes but this shows not found, then the student started their studies in China or Malaysia. Should not be an issue.
+
+### Raise a ticket
+This can be done on https://uniofnottm.saasiteu.com/ or by scanning the QR code below.
+
+![QR preview](https://public-api.qr-code-generator.com/v1/create/extended?image_format=PNG&image_width=300&qr_code_text=https%3A%2F%2Funiofnottm.saasiteu.com%2F&foreground_color=%23000000&background_color=%23FFFFFF&frame_name=no-frame)
