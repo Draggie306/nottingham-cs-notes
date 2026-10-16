@@ -41,7 +41,7 @@ The time estimation for coding is very difficult. A small prototype that is extr
 ### Components of a good proposal
 
 - Good technical writing style
-- Appropriteness of the aim and objectives
+- Appropriateness of the aim and objectives
 - Indication of knowledge on the subject area and topic
 - Indication of critical thinking, e.g. comparing multiple papers.
 

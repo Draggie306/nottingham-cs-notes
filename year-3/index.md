@@ -18,7 +18,7 @@ Semester 2 modules have not been created yet, as they have not been taken.
 Go directly to:
 - [COMP3003 - Individual Dissertation](/year-3/semester-1/COMP3003/)
 
-> To align with the Computer Science Mentor Scheme, COMP3003 (Individual Dissertation) is contained within the "Semester 1" category. 
+> Despite being and all-year module, COMP3003 (Individual Dissertation) is canonically contained within the "Semester 1" category as this is when it started.
 
 # Extras
 ## Misc Lectures

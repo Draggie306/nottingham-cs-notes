@@ -58,7 +58,7 @@ Hyperparameters: parameters external to the training process, and are not modifi
 
 
 
-### Neural networks
+### (Traditional) neural networks
 
 If the output is an error, we can go backwards and modify the weights of each layer to resolve the error.
 
@@ -79,6 +79,8 @@ Current technique examples, amongst those being actively researched, also includ
 - data augmentation: creating noisy, synthetic data through invariance-preserving transforms
 - drop-out: randomly "disabling" neural units or whole layers during training
 - mix-up: creating noisy synthetic data through interpolation.
+
+Batch learning is when the model is trained on the full dataset all at once. Training happens offline and the model does not update automatically with new data. This differs to online learning, where the model's parameters are continually updated with each new data input. However, online learning models can be sensitive to noisy or corrupted live data, and generally have to be smaller and do not have time to be rigourously optimised for higher accuracy on stable datasets like in batch learning models.
 
 ### Coursework
 
