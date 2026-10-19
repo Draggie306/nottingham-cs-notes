@@ -34,7 +34,16 @@ Related work includes where the tool is related in relation to other software (f
 
 ![](../../../Images/Pasted%20image%2020261016173106.png)
 
-There must be an update on the project management section: 
+There must be an update on the project management section: resources, reviewing tasks, explaining changes to the work plan, and LSEPI consideration.
+
+![](../../../Images/Pasted%20image%2020261016173453.png)
+
+![](../../../Images/Pasted%20image%2020261016173741.png)
+
+> ideas: storing all personal data in a RAM buffer, not saved to disk, which is automatically discarded.
+
+
+
 
 
 
