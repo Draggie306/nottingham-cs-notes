@@ -2,7 +2,39 @@
 
 
 # Year 1
-%% TODO: add notes here from screenshots/saved forms from year 1%%
+
+## Mathematics for Computer Scientists 1
+
+7a) You selected 'disagree' or 'strongly disagree' with this statement. Please tell us why.
+There is such a sheer amount of (incomprehensible) content to get through, each lecture feels like a speedrun. There is no time to write notes or explain formulas/equations, leading to having to rewatch the content 2/3 times to make just adequate notes. Practicing the content is another "equation" (see what I did there) completely. Punishing content and weekly quizzes that have to be done, without much time between other modules and their respective assignments which require considerable time too, leading to an unmanageable workload that quickly spirals out of control.
+8) Please use the space below for any constructive comments about this module
+Would be good to fully explain topics in lectures. Tutorials generally good but can sometimes be overwhelming when blitzing through the more complex content. Weekly assignments and content started very difficult but were somewhat manageable, towards the end becoming too difficult and barely understandable. Felt disadvantaged not having done A-level maths so would be good to have this gap bridged in a more accessible way and refresher on the specific way of thinking required for maths.
+
+![Pasted image 20241206225313](../Images/Pasted%20image%2020241206225313.png)
+
+## Assembly Language Programming
+
+![Pasted image 20241206225454](../Images/Pasted%20image%2020241206225454.png)
+
+Fascinating and very precise way of thought for assembly that feels good to learn and master with the challenging but equally rewarding (maybe not quite 'fun' or 'enjoyable') when they are completed
+
+
+
+## Networks
+
+
+![Pasted image 20241206225715](../Images/Pasted%20image%2020241206225715.png)
+
+feels weird not getting coursework for a few months when started, would be good to have some (very small value but longer deadline) pieces during this time so we know what is generally likely to be with the bigger courseworks and exam. 
+
+
+## Computer Architecture
+
+![Pasted image 20241206230000](../Images/Pasted%20image%2020241206230000.png)
+
+felt very surprised when doing the first coursework, like it was nothing I had been predicting/thinking about/working through when watching and making notes on the lectures. Little extra material supplied for nand2tetris and difficult to find online, unlike with the COMP1054 instruction sheet. Also forgot to mention the following about the maths survey: felt like dropping out a few times trying to understand the maths.
+
+\[No feedback was saved for Year 1, Semester 2 unfortunately.\]
 
 # Year 2
 
@@ -567,6 +599,11 @@ Sam Rice, the man in-person at Welcome Point Jubilee, and the cleaners for their
 14. Any other comments for the Just Play Team?
 - A great initiative! Possibly collaborating more with faculty/posters/information that could be sent to Schools (e.g. business/CS on Jubilee, geography/law/english on UP) to encourage activity. There are online spaces/community/student channels in these Schools that would be happy to advertise and promote university events. Working more with ResX for a better range of events at different times would be appreciated. 
 
+
+# Year 3
+
+
+
 # Miscellaneous Observations
 
 - Lecturer trying to help student with resource access, but no response via email for over a week, and in-person visit to the responsible person's office revealed nobody was there.
@@ -574,9 +611,9 @@ Sam Rice, the man in-person at Welcome Point Jubilee, and the cleaners for their
 
 ## Notes for future feedback/course rep
 
-- More in-class tests? *University are trying to do away with continuous exam and having less making.*
+- More in-class tests? *University are trying to do away with continuous exam to have less marking.*
 
-- Wanted to get feedback for an (ADE) class test but all slots are during a busy time (lab/group project meeting/other module feedback slot).:
+- Wanted to get feedback for an (ADE) class test but all slots are during a busy time (lab/group project meeting/other module feedback slot). See screenshot below:
 ![](../Images/Pasted%20image%2020260320180910.png)
 
 

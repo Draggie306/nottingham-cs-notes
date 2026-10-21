@@ -14,7 +14,7 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Lecture 1 - CVs, module breakdown and project information](Lecture%201)
 - [Lecture 2 - EoI and Pitch Submission](Lecture%202%20-%20EoI%20and%20Pitch%20Submission)
 - [Lecture 3 - Scrum and Info session](Scrum%20and%20Info%20session)
-- [Lecture 4 - ??????](Lecture%204)
+- [Lecture 4 - ??????](Lecture%204.md)
 - [Lecture 5 - Presentations and Demo Day](Lecture%205%20-%20Presentations%20and%20Demo%20Day)
 
 ## Extras
