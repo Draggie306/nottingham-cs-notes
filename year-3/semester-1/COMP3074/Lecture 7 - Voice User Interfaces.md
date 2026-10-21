@@ -4,7 +4,7 @@ Coursework: chatbot released tomorrow
 Formative feedback: done for the core architecture point of the coursework. If you complete the checkpoint, you are well on the way to completing the coursework. 
 
 1. Produce a working command-line demo
-2. Implement simialrity-based intent matching
+2. Implement similarity-based intent matching
 3. Identity management 
 	- (ask user what name is, store it, use it when referring back to them)
 4. Question-answering
@@ -30,7 +30,7 @@ CUI ("cooey") is a conversational user interface. Can refer to text-based chatbo
 
 UX = user experience. It is a broader term encompassing experience, that can evolve over time, that involves how the ecosystem of information is structured: it is not just design of interfaces and information. UX design is a profession encompassing web design, app design, game design, graphics design and more. HCI research is largely an academic discipline, but there is an overlap.
 
-There are many conversational interfaces: robototics, conversational robots, domestic robots - but the uptake is very low. 
+There are many conversational interfaces: robotics, conversational robots, domestic robots - but the uptake is very low. 
 
 With hands-free environments, such as cars, it makes make more sense to have a voice interface than with a graphical touchscreen.
 
