@@ -1,23 +1,34 @@
+# (Senior) Smart Bar Cheat Sheet
+
 DISCLAIMER: This was made before other SB info sheets were shared. I know there are others being shared but this one is an adaptation of my [original notes](https://notes.oling.dev/Misc/Jobs/Smart%20Bar%20Notes) from last year.
 
 This is designed to be completely searchable with CTRL + F, and shareable with other SBAs.
 
-### Admin
+## Admin
 Fill in after each interaction: [SB staff page](https://forms.cloud.microsoft/pages/responsepage.aspx?id=7qe9Z4D970GskTWEGCkKHrD7NcXXkf9CvFlZEZD7gIVUM0lRVklGODQ4OExFUko2TzRINTBVWjdORCQlQCN0PWcu)
 
-Customer survey: [Customer survey](https://forms.office.com/pages/responsepage.aspx?id=7qe9Z4D970GskTWEGCkKHrD7NcXXkf9CvFlZEZD7gIVUNkZYUDdZV0dVUTQ4WVhUTzVKOTNZS0NQMyQlQCN0PWcu)
+### Complete the Smart Bar Customer Survey below!
+[Customer survey](https://forms.office.com/pages/responsepage.aspx?id=7qe9Z4D970GskTWEGCkKHrD7NcXXkf9CvFlZEZD7gIVUNkZYUDdZV0dVUTQ4WVhUTzVKOTNZS0NQMyQlQCN0PWcu)
 ![Pasted image 20251210134426](../../Images/Pasted%20image%2020251210134426.png)
+Rate us 5 stars!!
+---
 
+### Quick Links
 
-IT Service Desk: https://www.nottingham.ac.uk/dts/help/it-support.aspx
-
-https://uniofnottm.saasiteu.com/Modules/SelfService/
-
-
+- IT Service Desk Info Page: https://www.nottingham.ac.uk/dts/help/it-support.aspx
+	- Phone number: **0115 95 16677**
+		- Option 1 for **anything to do with printing**/Xerox.
+		- Option 2 for general student/other inquiries.
+		- Option 4 for staff and associates.
+	- For room assistance:  **0115 74 87777**
+- Raise a ticket: https://uniofnottm.saasiteu.com/Modules/SelfService/
+- SEAtS Online: https://uon.seats.cloud/ (attendance)
+- Halls WiFi for unsupported devices: https://nottingham.campuswifi.net/
+- Resource Booker for rooms: https://resourcebooker.nottingham.ac.uk/
 
 ## Internet access
 
-### Eduroam
+### Wireless/eduroam
 > tags: connection, wifi, wi-fi, internet, signal, strength, disconnecting, Chromebook 
 
 - Eduroam needs the **full university account email address** (not username) and password.
@@ -40,7 +51,7 @@ https://uniofnottm.saasiteu.com/Modules/SelfService/
 Linux commands:
 - nmcli -f IP4 device show \<wlp-whatever\>
 
-##### Some websites work but others don't?
+##### Some websites work but others don't on Mac?
 > tags: error code, `DNS_PROBE_FINISHED_NXDOMAIN`, `ERR_NAME_NOT_RESOLVED` `DNS_PROBE_FINISHED_BAD_CONFIG`.
 
 This is likely an issue with **DNS being changed from default**, or **VPN active** even if none appear open (check background processes).
@@ -53,11 +64,14 @@ Run these commands in Terminal to reset DNS to defaults:
 3. `sudo dscacheutil -flushcache`
 4. `sudo killall -HUP mDNSResponder
 
-#### In halls
+### In halls
 > tags: uon guest, guest network, halls network, UoN-Halls
 
+eduroam/wireless in halls can be unreliable due to distance from the AP, interference, and there being many other devices nearby. 
 
-- You can register devices that cannot connect to Eduroam via the UoN-Halls network: https://nottingham.campuswifi.net/accounts/Nottingham/device/ or scan the qr code below:
+
+#### For devices that don't support Eduroam
+You can register devices that cannot connect to Eduroam via the UoN-Halls network: https://nottingham.campuswifi.net/accounts/Nottingham/device/ or by scanning the qr code below:
 
 ![](../../Images/campus_wifi_uon_halls.svg)
 
@@ -67,15 +81,18 @@ Ethernet is not supported, even though there may be ports present, and support w
 
 If some rooms work but others do not, this is unintended (and keep this quiet!).
 
-## Office Application Suite
-> tags: word, excel, access, powerpoint, pptx, docx, xlsx, ms365, copilot
+## Office & MS Application Suite
+> tags: word, excel, access, powerpoint, pptx, docx, xlsx, ms365, copilot, sharepoint
 
+
+### Online services
+#### SharePoint
+If users cannot access a SharePoint (Access Denied) for their department, the Software Library, or any other SharePoint site **that they should have access to**, they should submit a ticket with a link to the site. (User groups, especially after recent changes in course/transition from UG to PGT or PGR/campus switch may cause this).
 
 
 ### MacOS
 
-Utilities:
-- Office License Removal Tool: https://go.microsoft.com/fwlink/?linkid=849815
+- Mac Office License Removal Tool: https://go.microsoft.com/fwlink/?linkid=849815
 
 #### 0x0 unknown error
 > tags: 0x0, unknown error, excel, word, edit access, reduced functionality, open documents, editing documents, activate office, doesn't allow editing, contact your administrator
@@ -95,13 +112,39 @@ A Microsoft certificate expired in July 2026 so symptoms include previously work
 6. Reinstall Office via https://support.microsoft.com/en-us/office/lifecycle/officeinstall/uninstall-office-for-mac
 
 
+## University Services
 
-## Tools
+### MFA
+> tags: 2fa, reset, new phone
+
+MFA can be reset by following these steps:
+1. Confirming their identity. This can be done with a physical document - passport, driving license, or student ID card.
+2. Verify the full name, student ID number and username.
+3. Ask a Senior SBA confirming an ID check has been done alongside these 3 details 
+
+### SEAtS
+> tags: attendance, qr, seats, monitoring
+
+After completing all registration steps, the SEAtS system may take up to 3 (working) days to sync and allow login/timetable/etc.
+
+Escalation with niche SEAtS queries can be done by contacting SSBA/ITSD with the ID of the student and asking if it can be checked.
+
+#### Error: access_denied
+This is a common error, particularly at the start of session when students have just joined. There are 2 reason:
+1. The system takes 3 working days to sync.
+2. Students have not completed their online AND in-person registration. **Many students believe they have completed this, particularly online registration, but haven't.** Before advancing with this issue, check the Online Registration tile in NottinghamHub (campus.nottingham.ac.uk) and help them complete this. (then wait for the 3 days to elapse.)
 
 
+#### Error: no tenant identifying information found
+This is a common issue when **students autofill their email and password**. Manually typing it out will fix this!
+
+
+## SBA Tools
 ### Usercheck
 #### Novell (Nottingham tree) - user not found
-If everything else passes but this shows not found, then the student started their studies in China or Malaysia. Should not be an issue.
+If everything else passes but this shows not found, then the student (likely) started their studies in China or Malaysia and should not be an issue in isolation.
+
+If there are other issues, e.g. accessing Outlook, with this present, then raising a ticket (http://selfservice.nottingham.ac.uk/) should be done. 
 
 ### Raise a ticket
 This can be done on https://uniofnottm.saasiteu.com/ or by scanning the QR code below.
@@ -109,6 +152,8 @@ This can be done on https://uniofnottm.saasiteu.com/ or by scanning the QR code 
 ![QR preview](https://public-api.qr-code-generator.com/v1/create/extended?image_format=PNG&image_width=300&qr_code_text=https%3A%2F%2Funiofnottm.saasiteu.com%2F&foreground_color=%23000000&background_color=%23FFFFFF&frame_name=no-frame)
 
 
+### List of OS given help to
+(this is just a personal list and not the officially supported OS list)
 - Windows
 - MacOS
 - Linux/Ubuntu
