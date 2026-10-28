@@ -91,7 +91,6 @@ If users cannot access a SharePoint (Access Denied) for their department, the So
 
 
 ### MacOS
-
 - Mac Office License Removal Tool: https://go.microsoft.com/fwlink/?linkid=849815
 
 #### 0x0 unknown error
@@ -113,6 +112,9 @@ A Microsoft certificate expired in July 2026 so symptoms include previously work
 
 
 ## University Services
+
+### LLR
+All laptops have full admin rights. There is a laminated sheet on the LLR laptop bag loan that contains the user account password. 
 
 ### MFA
 > tags: 2fa, reset, new phone
