@@ -1,5 +1,7 @@
 
 
+Build, design and evaluate a chatbot. 
+
 
 Lab is designed to frontload work, and also to help with the exam.
 
