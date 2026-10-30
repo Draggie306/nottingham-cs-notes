@@ -24,8 +24,14 @@ Instead of word filtering or naive blacklists, Schlesinger et al. suggested an a
 To create better responses, there are 3 pillars of chatbot architecture required to be improved: **data corpora, language understanding** and **learning**.
 
 #### Data corpora
-A corpus of data could be continuously growing, and trained to anticipate raec talsk 
+A corpus of data could be continuously growing, and trained to anticipate inappropriate or sensitive discussions. This could be collected and used in later datasets or corpa to steer the model in a "better" direction. 
 
+A representative and diverse representation of data is also needed within the system scope: general-purpose chatbots must be trained with diverse ethnic backgrounds, languages, mannerisms, cultural contexts, and use different media to give it a broader understanding of different artists, public figures, books, music and more.
+
+Today, LLMs have behavioural riles such as OpenAI's Model Spec, with a hierarchy of instructions from root to system to developer to user, designed to maximise helpfulness and minimise harm
+
+#### Language comprehension
+NLPs focus on probabilistic language models: based on sequential next-token prediction (autoregressive).
 
 
 

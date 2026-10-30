@@ -143,7 +143,7 @@ Thinking about how well information about the mental wellbeing and support servi
 Survey complete, Response ID: cml2wt4bv007902jshh3gj8qw
 
 
-## SEM Surveys
+## Module Surveys
 
 
 ### SEM Survey: IFR
@@ -602,6 +602,36 @@ Sam Rice, the man in-person at Welcome Point Jubilee, and the cleaners for their
 
 # Year 3
 
+## Module Surveys
+
+
+### Early Module Feedback: Human-AI Interaction COMP3074 
+
+1. Overall Quality. The module is overall organised and delivered well.
+Agree
+
+2. Module Assessment Sheet. Available in Moodle (\$@PLUGINFILEBYCONTEXT\*11849953@$/mod_resource/content/6/COMP3074_assessment_sheet.pdf) - does it clearly outline assessment and feedback in this module?
+Strongly Agree
+
+3. Moodle Materials. The module materials are in Moodle and organised well.
+Agree
+
+4. Pace of Delivery. How do you find the pace of the module?
+About right
+
+5. Lecture Content (Face to Face or Video). Is the content delivered clearly and in a structured way? Are you happy with delivery methods overall?
+Agree
+
+6. Practical Sessions. Are computing/seminar/tutorial sessions delivered well to complement your learning? Are you happy with delivery methods overall?
+Agree
+
+7. Good Practice. Is there anything that is working particularly well for you in this module?
+Lab tasks are well structured. Resources, including lecture material, have a clear flow throughout which is easy to understand and learn from, though sometimes the content is spoken faster than I can summarise it! I like the factoring of report quality e.g. Latex use as a grading component, as this is usefull cross-curriculum with dissertation students (and generally for reports or more academic stuff).
+
+8. Additional Comments. Please give any comments and suggestions on improvements in relation to the above points or any others.
+Some lab tasks are outdated and the methods used have been replaced (spent a long time debugging one until finding the same questions as the lab on a worked NLTK book example solution online), and they don't always seem fully followable. I have noticed people tend to "complete" the lab tasks quickly as the numbered and worked examples say, for example, "# your query processing comes here" and people working through the lab never actually implement the code to do the query processing. A recommended or guide implementation released 1/2 weeks after the lab might help this, and let students check if there is a more efficient implementation, or if there was another more creative way of solving a task.
+
+Further, I appreciate the labs are front loaded, but the amount of content to get through seems like a lot, especially when cross-checking with lecture notes and exploring the functionality and experimenting with the NLTK/other libraries. I have spent over 6 hours on Lab 1 to understand this and am not near completion of the numbered tasks yet, let alone completing the exercises.
 
 
 # Miscellaneous Observations
