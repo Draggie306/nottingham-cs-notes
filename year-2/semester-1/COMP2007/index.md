@@ -1,9 +1,9 @@
 All notes for Operating Systems and Concurrency (COMP2007) at the University of Nottingham School of Computer Science.
 
-Notes for this module are not complete.
+Notes for this module are largely complete.
 
 ## Main document
-These are more finished, cover multiple lectures, and have better explanations.
+These are more finished, cover multiple topics with much better explanations, typically combined from all lecture notes and extra independent study.
 
 - [Operating Systems and Concurrency Cheat Sheet](Operating%20Systems%20and%20Concurrency%20Cheat%20Sheet)
 
@@ -43,6 +43,8 @@ These notes may be lecture-specific, include unorganised information and may not
 - [File Systems 4](File%20Systems%204)
 - [File Systems 5](File%20Systems%205)
 
-
+## Resources
+- [Coursework Specification - 2025/26](specification.pdf)
+- [Coursework Specification - 2026/27](specification-26.pdf)
 
 

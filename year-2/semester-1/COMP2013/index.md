@@ -3,9 +3,9 @@ All notes for Developing Maintainable Software (COMP2013) at the University of N
 Notes for this module are not complete.
 
 ## Main document
-These are more finished, cover multiple lectures, and have better explanations.
+These are more finished, cover multiple topics with much better explanations, typically combined from all lecture notes and extra independent study.
 
-- Unavailable.
+- This module is 100% coursework and, as such, does not have a full module summary document.
 
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.
@@ -26,11 +26,7 @@ These notes may be lecture-specific, include unorganised information and may not
 - [Lecture 10.1 - Docker and Containerisation](Lecture%2010.1%20-%20Docker%20and%20Containerisation)
 
 
-
-
-
-## Full Module Revision
-Full notes for the module have not been made yet.
-
-> This module is 100% coursework. Coursework notes are hidden from public browser pages.
+## Resources
+- [2025/26 Coursework Specification](COMP2013%20Coursework%202025.pdf)
+- [2026/27 Coursework Specification](COMP2013%20-%202627%20-%20CW Specification.pdf)
 

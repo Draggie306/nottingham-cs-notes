@@ -4,9 +4,9 @@ All notes for Algorithms, Data Structures, and Efficiency (COMP2054) at the Univ
 Notes for this module are currently **not complete**.
 
 ## Main document
-These are more finished, cover multiple lectures, and have better explanations.
+These are more finished, cover multiple topics with much better explanations, typically combined from all lecture notes and extra independent study.
 
-- Unavailable.
+- Unavailable
 
 ## All Draft/Lecture Notes
 These notes may be lecture-specific, include unorganised information and may not polished or finalised.

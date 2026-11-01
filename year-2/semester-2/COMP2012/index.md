@@ -2,6 +2,11 @@ All notes for Languages and Computation (COMP2012) at the University of Nottingh
 
 Notes for this module are currently **not complete**.
 
+## Main document
+These are more finished, cover multiple topics with much better explanations, typically combined from all lecture notes and extra independent study.
+
+- Unavailable.
+
 ## Notes
 - [CW + Revision Notes](CW%20+%20Revision%20Notes)
 - [Revision Lectures](Revision%20Lectures)

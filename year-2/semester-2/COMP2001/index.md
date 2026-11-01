@@ -1,9 +1,9 @@
 All notes for Artificial Intelligence Methods (20 credits) (COMP2001) at the University of Nottingham School of Computer Science. Taught by Ender Özcan and Warren Jackson.
 
-Notes for this module are not complete.
+Notes for this module are largely complete.
 
 ## Main document
-These are more finished, cover multiple lectures, and have better explanations.
+These are more finished, cover multiple topics with much better explanations, typically combined from all lecture notes and extra independent study.
 
 - [AIM Cheat Sheet](AIM%20Cheat%20Sheet)
 

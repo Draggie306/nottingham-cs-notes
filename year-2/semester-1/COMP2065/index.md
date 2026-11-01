@@ -3,7 +3,7 @@ All notes for Introduction to Formal Reasoning (COMP2065) at the University of N
 Notes for this module are not complete.
 
 ## Main document
-These are more finished, cover multiple lectures, and have better explanations.
+These are more finished, cover multiple topics with much better explanations, typically combined from all lecture notes and extra independent study.
 
 - Unavailable.
 
