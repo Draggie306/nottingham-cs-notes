@@ -196,6 +196,12 @@ This is a common error, particularly at the start of session when students have 
 #### Error: no tenant identifying information found
 This is a common issue when **students autofill their email and password**. Manually typing it out will fix this!
 
+### Virtual Desktop
+> tags: windows app, remote connection, vpn
+
+The Windows Virtual Desktop can be accessed via the Windows App, or on https://windows.cloud.microsoft/
+
+
 ### GitLab
 The CS department has 2 gitlab instances: `git` and `projects` as subdomains on `cs.nott.ac.uk`. The `git.cs.nott.ac.uk` can only be accessed by staff HOWEVER is the one that appears when searching for UoN gitlab. Once a sign in is attempted on `git`, students will not be able to sign in to `projects` without clearing **BOTH** caches and cookies for `login.microsoftonline.com` and `*.cs.nott.ac.uk`!
 
