@@ -1,8 +1,10 @@
 # (Senior) Smart Bar Cheat Sheet
 
-DISCLAIMER: This was made before other SB info sheets were shared. I know there are others being shared but this one is an adaptation of my [original notes](https://notes.oling.dev/Misc/Jobs/Smart%20Bar%20Notes) from last year.
+This Cheat Sheet is a continuation of my [original notes](https://notes.oling.dev/Misc/Jobs/Smart%20Bar%20Notes) from working on the Smart Bar last year, combined with new knowledge as a Senior and also combining all sorts of chat and in-person queries that have continuously shown up over time.
 
 This is designed to be completely searchable with CTRL + F, and shareable with other SBAs.
+
+Mirrored to [Google Docs](https://docs.google.com/document/d/1Razwo_BDnBvz5fmmE7kBiAZ0pktMj8RdzSSjwNPeEm8/edit?usp=sharing).
 
 ## Admin
 Fill in after each interaction: [SB staff page](https://forms.cloud.microsoft/pages/responsepage.aspx?id=7qe9Z4D970GskTWEGCkKHrD7NcXXkf9CvFlZEZD7gIVUM0lRVklGODQ4OExFUko2TzRINTBVWjdORCQlQCN0PWcu)
@@ -21,10 +23,19 @@ Rate us 5 stars!!
 		- Option 2 for general student/other inquiries.
 		- Option 4 for staff and associates.
 	- For room assistance:  **0115 74 87777**
-- Raise a ticket: https://uniofnottm.saasiteu.com/Modules/SelfService/
-- SEAtS Online: https://uon.seats.cloud/ (attendance)
+- Raise a ticket: [selfservice.nottingham.ac.uk](https://selfservice.nottingham.ac.uk) (redirects to https://uniofnottm.saasiteu.com/Modules/SelfService/)
+- SEAtS Online: [uon.seats.cloud](https://uon.seats.cloud) (attendance)
 - Halls WiFi for unsupported devices: https://nottingham.campuswifi.net/
 - Resource Booker for rooms: https://resourcebooker.nottingham.ac.uk/
+
+---
+
+### Sling
+Clocking in and out is geolocated. You can clock in/out of the 100m radius but this not
+
+#### Senior notes
+
+
 
 ## Internet access
 
@@ -46,7 +57,7 @@ Different Android devices have different ways of connecting and expose different
 
 - EAP method: PEAP
 - Phase 2 authentication: MSCHAPv2
-- CA Certifcates: Use system certificates (*n.b. would also recommend **Trust on first use** for stubborn devices.*)
+- CA Certificates: Use system certificates (*n.b. would also recommend **Trust on first use** for stubborn devices.*)
 - Domain: `nottingham.ac.uk` (old `radius.nott...` no longer works)
 - Identity: `username@nottingham.ac.uk`
 	- If users have other emails e.g. `firstname.lastname@nottingham.ac.uk` these may not always work; so always use the short `username` first. Exceptions: staff and postgrads who were not here for undergraduate.
@@ -66,12 +77,14 @@ Unfortunately I have not been able to diagnose why aside from that the device do
 - Biggest issue is users not typing password correctly. Using the usercheck tool to make sure they are inputting this correctly, or cut and paste from password manager/temp document is a good diagnosis step (**be aware of security implications**).
 - CAT Tool is highly recommended to connect users on MacOS, use either the guest network or hotspot: https://cat.eduroam.org/
 	- Accounts **should have local MacOS/Apple Account administrator permissions** otherwise this may not work. When installing, look carefully for the **macOS account/email/password versus the University account/email/password**.
-
-- Can internet be accessed with the current network DNS? Run `dig google.com`. Failures point to DNS issues/incorrectly configured/changed eduroam settings
+- To check if Internet can be accessed with the current network DNS, use `dig google.com`. Failures point to DNS issues/incorrectly configured/changed eduroam settings.
 - Can internet be accessed at all? Run `dig @1.1.1.1 google.com`. Failures point to authentication, connection, VPN/tunnel overrides, or MDM policy. 
 
 Linux commands:
 - `nmcli -f IP4 device show <wlp-whatever>`
+
+##### Password field disappears
+For some reason, some Mac devices have a disappearing input field when connecting to eduroam. This makes it very difficult to type in the user's full university email and password before the window vanishes. I honestly have no idea why this happens, but the best recommendation I can give is to copy and paste the password into the field before it vanishes.
 
 ##### Some websites work but others don't on Mac?
 > tags: error code, `DNS_PROBE_FINISHED_NXDOMAIN`, `ERR_NAME_NOT_RESOLVED` `DNS_PROBE_FINISHED_BAD_CONFIG`.
@@ -94,14 +107,14 @@ Run these commands in Terminal to reset DNS to defaults:
 1. `sudo networksetup -setdnsservers Wi-Fi Empty`
 2. `sudo ipconfig set en0 DHCP`
 3. `sudo dscacheutil -flushcache`
-4. `sudo killall -HUP mDNSResponder
+4. `sudo killall -HUP mDNSResponder`
 
 ### Wired/Ethernet connection
 Ethernet is not supported, even though there may be ports present, and support was removed from halls of residence (**EXCEPT Florence Boot Hall, where Ethernet may work completely fine across all rooms**) during the summer of 2025.
 
 If some rooms work but others do not, this is unintended (and "keep this quiet" - manger's words not mine!!).
 
-For use in teaching buildings, ethernet is not universally "plug and play". Requests must be sent by a professor to authorise a specific NIC's MAC address at a given port via the selfservice portal (there are exceptions to this, and Ethernet may work fine in some buildings with any device or cable, but this is the official recommndation.)
+For use in teaching buildings, ethernet is not universally "plug and play". Requests must be sent by a professor to authorise a specific NIC's MAC address at a given port via the selfservice portal (there are exceptions to this, and Ethernet may work fine in some buildings with any device or cable, but this is the official recommendation.)
 
 ### In halls
 > tags: uon guest, guest network, halls network, UoN-Halls, eduroam in halls, halls eduroam, halls connection
@@ -110,10 +123,21 @@ eduroam/wireless in halls can be unreliable due to distance from the AP, interfe
 
 ==Ethernet/wired connection: is unfortunately **NOT SUPPORTED IN HALLS except for Florence Boot**; see the Ethernet section above for more details.==
 
+
+#### Jubilee Halls
+> tags: ASK4, ask 4 signup, ask 4 resident
+
+Background: Newark, Southwell and Melton halls were sold under long-term lease to a private company (Aspire Student Living) in (April/May?) 2026, with this becoming official news in August for new students. (this is unofficial communication and is not the official uni narrative.)
+
+On an email sent 2026-10-23, users in these halls are instructed to:
+1. Connect to the "ASK4 Signup" ssid and complete the captive portal registration steps
+2. The Wi-Fi passphrase will appear on screen; screenshot/copy this down
+3. Connect to the "ASK4 Resident" network using this passphrase 
+
 #### For devices that don't support Eduroam
 You can register devices that cannot connect to Eduroam via the UoN-Halls network: https://nottingham.campuswifi.net/accounts/Nottingham/device/ or by scanning the qr code below:
 
-![](../../Images/campus_wifi_uon_halls.svg)
+![](../../Images/Pasted%20image%2020261106233234.png)
 
 
 ## Office & MS Application Suite
@@ -180,6 +204,11 @@ MFA can be reset by following these steps:
 
 It is recommended to use Microsoft Authenticator, but other authenticator apps can be used with such as KeePassXC, Bitwarden, Authy etc.
 
+#### Senior steps
+1. Forward or reformulate the message to the ITSD student line/SSBA liaison chat and wait for confirmation before relaying back
+
+TODO: update later once actual entra ID rights & training given
+
 ### SEAtS
 > tags: attendance, qr, seats, monitoring
 
@@ -188,13 +217,13 @@ After completing all registration steps, the SEAtS system may take up to 3 (work
 Escalation with niche SEAtS queries can be done by contacting SSBA/ITSD with the ID of the student and asking if it can be checked.
 
 #### Error: access_denied
-This is a common error, particularly at the start of session when students have just joined. There are 2 reason:
+This is a common error, particularly at the start of session when students have just joined. There are 2 reasons:
 1. The system takes 3 working days to sync.
 2. Students have not completed their online AND in-person registration. **Many students believe they have completed this, particularly online registration, but haven't.** Before advancing with this issue, check the Online Registration tile in NottinghamHub (campus.nottingham.ac.uk) and help them complete this. (then wait for the 3 days to elapse.)
 
 
 #### Error: no tenant identifying information found
-This is a common issue when **students autofill their email and password**. Manually typing it out will fix this!
+This is a common issue when **students autofill their email and password**, even on the `microsoftonline.com` signin page. Manually typing it out will fix this!
 
 ### Virtual Desktop
 > tags: windows app, remote connection, vpn
@@ -203,7 +232,12 @@ The Windows Virtual Desktop can be accessed via the Windows App, or on https://w
 
 
 ### GitLab
-The CS department has 2 gitlab instances: `git` and `projects` as subdomains on `cs.nott.ac.uk`. The `git.cs.nott.ac.uk` can only be accessed by staff HOWEVER is the one that appears when searching for UoN gitlab. Once a sign in is attempted on `git`, students will not be able to sign in to `projects` without clearing **BOTH** caches and cookies for `login.microsoftonline.com` and `*.cs.nott.ac.uk`!
+The CS department has 2 gitlab instances: `git` and `projects` as subdomains on `cs.nott.ac.uk`. The `git.cs.nott.ac.uk` can only be accessed by staff, HOWEVER, this is the one that appears when searching for "UoN gitlab". Once a sign in is attempted on `git`, students will not be able to sign in to `projects` without clearing **BOTH** caches and cookies for `login.microsoftonline.com` and `*.cs.nott.ac.uk`! Advise students to bookmark `project.cs.nott.ac.uk` so browsers autocomplete this domain, not `git.`.
+
+### Omnissa
+> tags: vmware, vmware horizon, horizon client, omnissa horizon, utopia, linux, ubuntu, planitia 
+
+The CS department provides https://utopia.cs.nott.ac.uk/ for students to complete Linux tasks in over a remote connection to the uni mainframe servers. To login, use "AD" with just the username (NOT email) and university password. 
 
 
 ### ExamSys
@@ -223,6 +257,9 @@ If the user is getting "Access denied" with a message saying "Authentication wit
 
 An account lock means there has been suspicious activity (most commonly, password inputted wrong a lot on sensitive pages e.g. itaccounts). To resolve this, an valid ID check must be carried out, with the same details as an MFA reset (confirming Student ID, username, full name) and message a Senior SBA/ITSD to clear the lockout. 
 
+##### Senior notes
+If received, formulate security clearing request to ITSD Student Line/SSBA liaison chat
+
 ## SBA Tools
 ### Usercheck
 #### Novell (Nottingham tree) - user not found
@@ -236,7 +273,7 @@ If you are inputting in the user password into the usercheck and **some, but not
 ### Raise a ticket
 This can be done on https://uniofnottm.saasiteu.com/ or by scanning the QR code below.
 
-![QR preview](https://public-api.qr-code-generator.com/v1/create/extended?image_format=PNG&image_width=300&qr_code_text=https%3A%2F%2Funiofnottm.saasiteu.com%2F&foreground_color=%23000000&background_color=%23FFFFFF&frame_name=no-frame)
+![](../../Images/Pasted%20image%2020261106233309.png)
 
 
 ### List of OS given help to
