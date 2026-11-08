@@ -31,10 +31,15 @@ Rate us 5 stars!!
 ---
 
 ### Sling
-Clocking in and out is geolocated. You can clock in/out of the 100m radius but this not
+Clocking in and out is geolocated on the app. You can clock in/out of the 100m radius, but this notifies managers who will review your locations, so try not to. 
 
 #### Senior notes
-
+When on shift, check the roster on the webapp; all SBAs should be clocked in within 5-10mins of shift start. **The following excludes LLR SBAs.** If SBAs forget to clock in and do not respond by 15-20mins into the shift, attempt to provide cover at this location until they arrive. If they do not respond:
+- click on their menu after the shift status and mark as no-show/sick as appropriate
+- in "Mark as a no show" select "Make available"
+- in "Smart Bar Assistants" -> "Schedule" Teams channel, create a new @channel tag with the location/time to notify everyone
+- in Sling, check the available shifts, and for the newly available shift, select "Choose applicant" and choose the earliest applicant
+- continue to provide cover until SBA arrives or for the remainder of the shift.
 
 
 ## Internet access
@@ -47,10 +52,16 @@ Clocking in and out is geolocated. You can clock in/out of the 100m radius but t
 
 #### Windows
 - Many devices say "Couldn't connect to this network". A typical fix is to forget the network and sign in again.
-- When signing in (and credentials are correct), Windows will prompt with a certificate for eduroam, which must be trusted. If you do not get to the certificate stage, make sure they are typing their password correctly - this can be done by having the user write it in plaintext in e.g. a notes app or Word, and cutting/pasting this into the login field (**please take security seriously when doing this**).
+- When signing in (and credentials are correct), Windows will prompt with a certificate for eduroam, which must be trusted. If you do not get to the certificate stage, make sure they are typing their password correctly - this can be done by having the user write it in plaintext in e.g. browser URL bar, or Notepad without saving, and cutting/pasting this into the login field (**please take security seriously when doing this**).
 - If there are still issues, ensure a usercheck is carried out. Another reasonable way to debug this is to sign in to your own account (**remembering to forget immediately afterwards**) to determine if this is a laptop/hardware issue, or an account issue.
 	- If there are further issues, ITSD (via a Senior or Manager) can be asked with the MAC address to determine an issue. 
 	- There are a small number of known NIC incompatibilities with particularly older Intel devices, drivers may need to be updated.
+#### iOS and iPadOS
+
+To remove stuck/old configuration profiles for eduroam:
+- Settings -> General -> VPN & Device Management
+
+DNS issues, diagnosable by some websites working while others aren't, are often caused by iCloud Private Relay being enabled for eduroam, or on-demand VPNs being enabled in Settings -> VPN
 
 #### Android
 Different Android devices have different ways of connecting and expose different fields when connecting. However, the most common way to resolve any issue is by using the following configuration:
@@ -74,7 +85,7 @@ Unfortunately I have not been able to diagnose why aside from that the device do
 
 #### MacOS (and Linux)
 
-- Biggest issue is users not typing password correctly. Using the usercheck tool to make sure they are inputting this correctly, or cut and paste from password manager/temp document is a good diagnosis step (**be aware of security implications**).
+- Biggest issue is users not typing password correctly. Using the usercheck tool to make sure they are inputting this correctly, or cut and paste from password manager/browser URL bar/Notepad without saving (**be aware of security implications**).
 - CAT Tool is highly recommended to connect users on MacOS, use either the guest network or hotspot: https://cat.eduroam.org/
 	- Accounts **should have local MacOS/Apple Account administrator permissions** otherwise this may not work. When installing, look carefully for the **macOS account/email/password versus the University account/email/password**.
 - To check if Internet can be accessed with the current network DNS, use `dig google.com`. Failures point to DNS issues/incorrectly configured/changed eduroam settings.
@@ -204,10 +215,13 @@ MFA can be reset by following these steps:
 
 It is recommended to use Microsoft Authenticator, but other authenticator apps can be used with such as KeePassXC, Bitwarden, Authy etc.
 
+
 #### Senior steps
 1. Forward or reformulate the message to the ITSD student line/SSBA liaison chat and wait for confirmation before relaying back
+	- Template: “Can I have a MFA reset for Name: X | Student ID: Y | Username: Z | ID checked.”
 
-TODO: update later once actual entra ID rights & training given
+ TODO: update later once actual entra ID rights & training given
+
 
 ### SEAtS
 > tags: attendance, qr, seats, monitoring
@@ -232,13 +246,24 @@ The Windows Virtual Desktop can be accessed via the Windows App, or on https://w
 
 
 ### GitLab
-The CS department has 2 gitlab instances: `git` and `projects` as subdomains on `cs.nott.ac.uk`. The `git.cs.nott.ac.uk` can only be accessed by staff, HOWEVER, this is the one that appears when searching for "UoN gitlab". Once a sign in is attempted on `git`, students will not be able to sign in to `projects` without clearing **BOTH** caches and cookies for `login.microsoftonline.com` and `*.cs.nott.ac.uk`! Advise students to bookmark `project.cs.nott.ac.uk` so browsers autocomplete this domain, not `git.`.
+The CS department has 2 gitlab instances: `git` and `projects` as subdomains on `cs.nott.ac.uk`. The `git.cs.nott.ac.uk` can only be accessed by staff, HOWEVER, this is the one that appears when searching for "UoN gitlab". Once a sign in is attempted on `git`, students will not be able to sign in to `projects` without clearing **BOTH** caches and cookies for `login.microsoftonline.com` and `*.cs.nott.ac.uk`! Advise students to bookmark `projects.cs.nott.ac.uk` so browsers autocomplete this domain, not `git.`.
 
 ### Omnissa
 > tags: vmware, vmware horizon, horizon client, omnissa horizon, utopia, linux, ubuntu, planitia 
 
 The CS department provides https://utopia.cs.nott.ac.uk/ for students to complete Linux tasks in over a remote connection to the uni mainframe servers. To login, use "AD" with just the username (NOT email) and university password. 
 
+### Printing
+The print service uses Multifunctional Devices to print, copy and scan. Printing must be done by emailing `mobileprint@nottingham.ac.uk` (or `ui-mobileprint@nottingham.ac.uk`) with the document sent as an attachment. The limit is 10MB. Delay can be up to 45 mins, particularly in deadline periods (and architecture students). Users can release the print job at any printer within 24 hours.
+
+To activate the printing account:
+- Send a print job from a Uni PC or the virtual desktop
+- Swipe uni card on the card reader and login with username (UoN user ID) and password.
+- Can also set up a print PIN on [myprint.nottingham.ac.uk](https://myprint.nottingham.ac.uk/EQWebClient/UserDashboard)
+
+Notes:
+- There are some issues with the mobileprint service, and it is very much a black box.
+- Scanning with Onedrive will scan to "My Scans" on onedrive, or just use the email option to get it emailed.
 
 ### ExamSys
 
