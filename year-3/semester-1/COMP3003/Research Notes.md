@@ -3,12 +3,6 @@
 ## Overview
 
 
-Agenda items:
-- Progress update since last week - research focus
-- Questions concerning research conduct/best practices
-- Plan for the week ahead
-- Update on my health
-
 
 ## AI model
 
@@ -21,3 +15,11 @@ Next Semantic Scale Prediction via Hierarchical Diffusion Language Models - http
 - Builds a more generalised/coarse structure: lower-level tokens with detailed semantics are mapped to higher level tokens with less detailed semantics. 
 - Basic masking as used with discrete diffusion models are binary with no semantics between the layers, whereas intermediate steps 
 - Not too sure how this could link to the current idea? 
+
+
+Structured denoising diffusion models in discrete state-spaces: https://arxiv.org/pdf/2107.03006, implemented in https://github.com/cloneofsimo/d3pm .
+
+
+
+
+https://github.com/uclaml/DNDM/tree/main/discrete_diffusion/discrete_diffusions
