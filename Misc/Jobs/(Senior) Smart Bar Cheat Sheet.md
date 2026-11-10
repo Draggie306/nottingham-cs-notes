@@ -195,6 +195,11 @@ A Microsoft certificate expired in July 2026 so symptoms include previously work
 5. Should be resolved by now, but stale records can be removed in Spotlight -> Keychain Access -> search for "Office" and removal of: `Microsoft Office Identities Cache 3`, `Microsoft Office Identities Settings 3`, `Microsoft Office Ticket Cache`.
 6. Reinstall Office via https://support.microsoft.com/en-us/office/lifecycle/officeinstall/uninstall-office-for-mac
 
+For really old macbooks, check if they support Big Sur 12.7.6: this is the last version that supports a fix for the 0x0 error. Some Macs may have an issue with using the built-in software update tool. To fix this and start updating, the following commands may be useful:
+- Restart the Software Update daemon and process: `sudo launchctl kickstart -k system/com.apple.softwareupdated`
+- List available software updates: `softwareupdate —list`
+- Force install (on compatible devices) a compatible build of MacOS: `softwareupdate —fetch-full-installer —full-installer-version 12.7.6` - where 12.7.6 is the target version.
+
 
 ## University Services
 
@@ -220,8 +225,16 @@ It is recommended to use Microsoft Authenticator, but other authenticator apps c
 1. Forward or reformulate the message to the ITSD student line/SSBA liaison chat and wait for confirmation before relaying back
 	- Template: “Can I have a MFA reset for Name: X | Student ID: Y | Username: Z | ID checked.”
 
+Accepted forms of ID are Student ID, Driving License, Passport. Do not accept photos of ID. For now, digital ID documents issued by other governments are not accepted.
+
+**Do not reset staff and associate accounts.** These have extra rights; direct SBA to call `0115 951 6677` for option 4 instead. 
+
  TODO: update later once actual entra ID rights & training given
 
+### Student Living @ UoN App
+> tags: student living app, resx app, residential, residents app
+
+Student Living @ UoN uses the user's **accommodation portal email address and password, NOT the University's login account**. Why? I don't know. (It was developed with little-to-no oversight from DTS...)
 
 ### SEAtS
 > tags: attendance, qr, seats, monitoring
