@@ -27,6 +27,9 @@ Rate us 5 stars!!
 - SEAtS Online: [uon.seats.cloud](https://uon.seats.cloud) (attendance)
 - Halls WiFi for unsupported devices: https://nottingham.campuswifi.net/
 - Resource Booker for rooms: https://resourcebooker.nottingham.ac.uk/
+- The UoN Software Library is available at: https://uniofnottm.sharepoint.com/sites/SoftwareLibrary/
+	- Make sure to select the correct UK/China/Malaysia campus when using this.
+	- Use the "Search in site" top search bar instead of browser CTRL + F to search this SharePoint site.
 
 ---
 
@@ -210,6 +213,7 @@ All laptops loaned come with full admin rights. There is a laminated sheet on th
 
 Repairs: need to be booked; software repairs free; hardware repairs charged at-cost based on the component(s) that need replacing.
 
+
 ### MFA
 > tags: 2fa, reset, new phone
 
@@ -250,16 +254,24 @@ This is a common error, particularly at the start of session when students have 
 
 
 #### Error: no tenant identifying information found
+> tags: AADST90019, having trouble signing you in, tenant-identifying, implied by any provided credentials
+
 This is a common issue when **students autofill their email and password**, even on the `microsoftonline.com` signin page. Manually typing it out will fix this!
 
 ### Virtual Desktop
 > tags: windows app, remote connection, vpn
 
-The Windows Virtual Desktop can be accessed via the Windows App, or on https://windows.cloud.microsoft/
+The Windows Virtual Desktop can be accessed via the Windows App, or on https://windows.cloud.microsoft
 
+### EndNote
+> tags: end note, reference manager, openurl, url resolver, OpenURL Resolvers, library lookup
+
+To link a reference manager that uses OpenURL resolvers, such as EndNote, Zotero, etc, the University supports linking and looking up paper details on NUSearch or similar via the "Full Text URL" feature. The URL to add is  `https://nusearch.nottingham.ac.uk/openurl/44notuk/44notuk"`. (This is mentioned on [Zotero]((https://www.zotero.org/openurl_resolvers "https://www.zotero.org/openurl_resolvers") but I've not found any internal info referencing this).
+
+Product key can be found on the [Software Library](https://uniofnottm.sharepoint.com/sites/SoftwareLibrary/SitePages/All-UK-Software.aspx).
 
 ### GitLab
-The CS department has 2 gitlab instances: `git` and `projects` as subdomains on `cs.nott.ac.uk`. The `git.cs.nott.ac.uk` can only be accessed by staff, HOWEVER, this is the one that appears when searching for "UoN gitlab". Once a sign in is attempted on `git`, students will not be able to sign in to `projects` without clearing **BOTH** caches and cookies for `login.microsoftonline.com` and `*.cs.nott.ac.uk`! Advise students to bookmark `projects.cs.nott.ac.uk` so browsers autocomplete this domain, not `git.`.
+The CS department has 2 GitLab instances: `git` and `projects`, as subdomains on `cs.nott.ac.uk`. The `git.cs.nott.ac.uk` can only be accessed by staff, HOWEVER, this is the one that appears when searching for "UoN gitlab". Once a sign in is attempted on `git`, students will not be able to sign in to `projects` without clearing **BOTH** caches and cookies for `login.microsoftonline.com` and `*.cs.nott.ac.uk`! Advise students to bookmark `projects.cs.nott.ac.uk` so browsers autocomplete this domain, not `git`.
 
 ### Omnissa
 > tags: vmware, vmware horizon, horizon client, omnissa horizon, utopia, linux, ubuntu, planitia 
@@ -289,6 +301,11 @@ If the user is getting "Access denied" with a message saying "Authentication wit
 
 
 ### Account
+
+#### The endpoint only accepts POST requests. Received a GET request.
+This is a classic Microsoft login issue when users use the back button/bookmark signin pages etc. when logging into University accounts. To fix this, ask the user to return to the page *before* signing in and any autocomplete/bookmarks/saved links to `login.microsoftonline.com`.
+
+If issues still arise, clear caches and try on a different browser - Safari is particularly bad for this. 
 
 #### Security lockout
 > tags: security lockout, locked, lock, account locked
