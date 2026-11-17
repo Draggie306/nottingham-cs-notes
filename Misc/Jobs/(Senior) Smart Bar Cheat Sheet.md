@@ -13,6 +13,14 @@ Fill in after each interaction: [SB staff page](https://forms.cloud.microsoft/pa
 [Customer survey](https://forms.office.com/pages/responsepage.aspx?id=7qe9Z4D970GskTWEGCkKHrD7NcXXkf9CvFlZEZD7gIVUNkZYUDdZV0dVUTQ4WVhUTzVKOTNZS0NQMyQlQCN0PWcu)
 ![Pasted image 20251210134426](../../Images/Pasted%20image%2020251210134426.png)
 Rate us 5 stars!!
+
+
+
+## Laptop Loan and Repair Service: Repair form
+
+![QR preview](https://public-api.qr-code-generator.com/v1/create/extended?image_format=PNG&image_width=300&qr_code_text=https%3A%2F%2Fforms.office.com%2Fe%2F8WvKSXWPTV&foreground_color=%23000000&background_color=%23FFFFFF&frame_name=no-frame)
+
+
 ---
 
 ### Quick Links
