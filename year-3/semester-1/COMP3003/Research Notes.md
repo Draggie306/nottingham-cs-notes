@@ -18,8 +18,13 @@ Next Semantic Scale Prediction via Hierarchical Diffusion Language Models - http
 
 
 Structured denoising diffusion models in discrete state-spaces: https://arxiv.org/pdf/2107.03006, implemented in https://github.com/cloneofsimo/d3pm .
+- Implements the ideas from: https://github.com/uclaml/DNDM/tree/main/discrete_diffusion/discrete_diffusions
 
+Research findings:
+- The D3PM model supports conditional embedding, used to influence the model.
+	- This could change based on difficulty or - more interestingly - focus or other derived brain data. 
+- Training example remains hard
+- Game space itself is modified by how players experience it.
+- Inpainting; repairing or modifying an existing state, can be done by 
 
-
-
-https://github.com/uclaml/DNDM/tree/main/discrete_diffusion/discrete_diffusions
+- Hierarchical model stages 
