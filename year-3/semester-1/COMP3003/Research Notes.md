@@ -1,4 +1,4 @@
-m
+
 
 ## Overview
 
@@ -27,4 +27,21 @@ Research findings:
 - Game space itself is modified by how players experience it.
 - Inpainting; repairing or modifying an existing state, can be done by 
 
-- Hierarchical model stages 
+- Hierarchical model stages.
+
+
+Question: not clear how brain data feeds into this. Might be worth diagram/explaining how brain data. Comment: what does game layouts mean and why game layouts - are you making it more difficult which sets up requirements about comparability vs different. 
+
+- Warrants further development: can be contrived: barriers to exploration, what actually has an effect on the player's brain. Don't just come at this from a technical POV; what will users experience that is fun that has an effect on their cognitive state/brain activity.
+- Literature on "what actually makes a game": game flow; constant task feedback; not easy but appropriate for the layer.
+- Tracy Fullaton (?): players, goals and objectives; procedures Jesse Schell Art of Game Design: do not forget the **what** and build understanding of how the model makes game good. 
+
+2 different systems: may be a disconnect. May be best to focus on diffusion generation: what does it mean to generate level depending on focus level. 
+
+L brain activity/right: regression or some sort of analysis; script to analyse the data to inform: different features including dips and normalised levels can be used to define what should manifest in the game.
+
+Look at brain data end; look at game end; do some prototyping of both.
+
+Interim report: detailed sections/headings
+
+Could be better to start with another game example e.g. the Mario paper; may be more difficult task to create a game;

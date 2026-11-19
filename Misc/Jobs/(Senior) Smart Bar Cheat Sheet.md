@@ -168,7 +168,7 @@ You can register devices that cannot connect to Eduroam via the UoN-Halls networ
 
 ### Online services
 #### SharePoint
-If users cannot access a SharePoint (Access Denied) for their department, the Software Library, or any other SharePoint site **that they should have access to**, they should submit a ticket with a link to the site. (User groups, especially after recent changes in course/transition from UG to PGT or PGR/campus switch may cause this).
+If users cannot access a SharePoint (Access Denied) for their department, the Software Library, or any other SharePoint site **that they should have access to such as the Software Lib**, they should submit a ticket with a link to the site. (User groups, especially after recent changes in course/transition from UG to PGT or PGR/campus switch may cause this).
 
 
 
