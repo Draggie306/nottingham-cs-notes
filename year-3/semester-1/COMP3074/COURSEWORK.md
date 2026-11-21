@@ -91,6 +91,7 @@ Result likelihood is 0.19174695333023395
 
 
 
-
+### Offensive language classification
+2026-11-20: Both the Twitter and the Reddit data models had false positive rates of 47% for deliberately ambiguous inputs. By unifying the models and normalising the classification score across both - combining the Twitter model's "offensive" and "hateful" categories into one binary classification as used by the Reddit model, resulted in the false positive rate dropping to 15.4%.
 
 
